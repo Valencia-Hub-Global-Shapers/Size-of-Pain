@@ -1,15 +1,36 @@
-# Birkenau, to scale
+# Size of Pain
 
-An interactive map that overlays the true footprint of Auschwitz II–Birkenau
-— its real perimeter, sub-camp fences, barrack and ruin foundations, and
-watchtowers — onto anywhere in the world, at true physical size, so the
-scale of the camp can be felt against a place you actually know.
+Developed by the Valencia Hub in collaboration with the Kraków Hub —
+both part of the World Economic Forum's [Global Shapers
+Community](https://www.globalshapers.org/).
+
+## Why this exists
+
+Almost everyone knows the concentration camps existed. Very few people
+have any real sense of how big they were. "1.69 km²" or "the size of
+236 football pitches" is a fact you can read and immediately forget —
+it doesn't land, because it has nothing to compare itself to inside
+your own head. That's the gap this project tries to close: not a lack
+of awareness that it happened, but a lack of *tools* to make the scale
+of it felt rather than just stated.
+
+This site closes that gap the only way that reliably works: it takes
+the real, surveyed footprint of the camp and drops it — at true
+physical size — onto a place you already know. Your city. Your
+neighbourhood. The block you grew up on. Drag it around, watch it
+swallow streets you can picture, and the number stops being a number.
 
 Built the way [thetruesize.com](https://thetruesize.com) handles country
 outlines: shapes are stored as true meter offsets from a fixed point, then
 re-projected around whatever latitude you drop them at, so they stay
 correctly sized instead of stretching the way a naively-dragged map shape
 would.
+
+Currently the site ships with one camp, Auschwitz II–Birkenau — its real
+perimeter, sub-camp fences, barrack and ruin foundations, and
+watchtowers. The data pipeline and layer format were built from the
+start to hold more than one camp; see [Adding another camp](#adding-another-camp)
+below.
 
 ## Quick start
 
@@ -65,15 +86,86 @@ the stat card on the page — if the data changes, update those numbers in
 
 ## Extending
 
-- **Add the BIII "Mexico" sector**: see `data/raw/OVERPASS_QUERY.md`.
-- **Add another camp/site entirely**: pull its own Overpass export, run
-  it through the same two scripts to get its own `origin` + `features`,
-  and either swap `data/birkenau.geojson` or add a second dataset and a
-  way to switch between them in `main.js`.
-- **Feature kinds**: the data format is deliberately small —
-  `{k: 'boundary'|'sector'|'tower'|'building', n: name, pts: [[east,north],...]}`.
-  Add a new `k` and a matching case in `styleFor()` in `campLayer.js` to
-  render it differently.
+### Add the BIII "Mexico" sector
+
+See `data/raw/OVERPASS_QUERY.md`.
+
+### The data format
+
+Every camp on this site, whatever its source, ends up as one small
+GeoJSON-like file with the same shape:
+
+```jsonc
+{
+  "origin": [lat, lng],          // the point every feature's [east, north] offset is measured from
+  "features": [
+    { "k": "boundary", "n": "name", "pts": [[east, north], ...] },
+    { "k": "sector",   "n": "BIIa", "pts": [[east, north], ...] },
+    { "k": "tower",    "n": "",     "pts": [[east, north], ...] },
+    { "k": "building", "n": "",     "pts": [[east, north], ...] }
+  ]
+}
+```
+
+`pts` are meter offsets, not lat/lng — that's what makes the shape
+reproject correctly at true size anywhere it's dropped. `k` is the kind
+of feature; exactly one feature per file should be `k: "boundary"`
+(the site uses it to fit the initial view and as the thing everything
+else is styled relative to). `sector`, `tower`, and `building` are
+rendered with the styles in `styleFor()` in `src/campLayer.js` — add a
+new `k` there (and a matching `case`) if a camp needs a feature type
+these don't cover.
+
+You never write this file by hand — `scripts/build_data.py` generates
+it from a filtered Overpass GeoJSON export (see below).
+
+### Adding another camp
+
+Every camp goes through the same three-step pipeline that produced
+`data/birkenau.geojson`. To add, say, Mauthausen or Auschwitz I:
+
+1. **Pull the source geometry from OpenStreetMap.** Write an Overpass
+   query for that camp's bounding box, modeled on
+   `data/raw/OVERPASS_QUERY.md` (which documents the exact query used
+   for Birkenau, including how the box was chosen). Run it at
+   [overpass-turbo.eu](https://overpass-turbo.eu) and export as GeoJSON
+   to `data/raw/<camp>-overpass-export-full.geojson`.
+
+2. **Filter it down to camp-relevant features.** Raw Overpass exports
+   are dominated by unrelated modern buildings near the site. Copy
+   `scripts/filter_data.py` to a camp-specific version (or add a
+   `--camp` flag) and adjust the `keep()` rules — the current rules
+   are hand-tuned to how Birkenau happens to be tagged in OSM
+   (`historic=*`, `ruins=*`, `building=barrack`, watchtowers,
+   `BI`/`BII` sector fences); another site may use different tags for
+   the same real-world things, so treat these as a starting point, not
+   a universal ruleset. Run it:
+
+   ```
+   python3 scripts/filter_data.py data/raw/<camp>-overpass-export-full.geojson data/raw/<camp>-overpass-export.geojson
+   ```
+
+3. **Build the true-size dataset.** `scripts/build_data.py` picks one
+   feature as the boundary via a hardcoded OSM way id (`BOUNDARY_ID`)
+   — set that constant to the new camp's boundary way, then run:
+
+   ```
+   python3 scripts/build_data.py data/raw/<camp>-overpass-export.geojson data/<camp>.geojson
+   ```
+
+   This also prints the area/perimeter/comparison stats for the stat
+   card.
+
+That gives you a `data/<camp>.geojson` in the same format Birkenau
+uses. The one piece of application code involved: `src/main.js`
+currently hardcodes `DATA_URL` to `data/birkenau.geojson` and the page
+title/copy in `index.html` are Birkenau-specific. To ship a second
+camp, either point `DATA_URL` at the new file for a single-camp build,
+or — if you want both selectable in one page — add a small picker that
+sets `DATA_URL` before `main()` runs and swap in the matching stat-card
+text; `createCampLayer()` in `src/campLayer.js` already takes the
+dataset as a plain argument, so nothing else in the render/drag/search
+pipeline needs to know how many camps exist.
 
 ## Data & attribution
 
