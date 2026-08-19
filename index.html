@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="description" content="Place the documented footprint of Auschwitz-Birkenau over any city to understand its physical scale.">
 <title>Size of Pain</title>
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -15,29 +15,66 @@
 
 <div id="map"></div>
 
-<div class="chrome">
-  <header class="topbar">
-    <h1>Size of Pain</h1>
-    <p>This is the real footprint of Auschwitz&nbsp;II&ndash;Birkenau &mdash; every barrack, watchtower and ruin traced from surveyed site data, not a simplified box. Drag it, or click the map, to lay it over a place you know.</p>
-    <form class="search" id="searchForm">
-      <input id="searchInput" type="text" placeholder="Search a place&hellip;" autocomplete="off" />
-      <button type="submit">Go</button>
-    </form>
-  </header>
+<!-- Top bar: search + reset -->
+<header id="topbar">
+  <h1>Size of Pain</h1>
+  <form id="searchForm" autocomplete="off">
+    <label for="searchInput" class="sr-only">Search a place</label>
+    <input id="searchInput" type="text"
+           placeholder="Search a city or address&hellip;"
+           aria-label="Search a city or address"
+           aria-describedby="searchStatus"
+           aria-autocomplete="list"
+           aria-controls="searchResults" />
+    <button type="submit">Go</button>
+  </form>
+  <button id="resetBtn" type="button" title="Reset to actual site">Actual site</button>
+  <div id="searchResults" role="listbox" aria-label="Search results"></div>
+  <div id="searchStatus" role="status" aria-live="polite"></div>
+</header>
 
-  <section class="stat-card" aria-label="Camp statistics">
-    <div class="stat-row"><span class="stat-num">1.69 km&sup2;</span><span class="stat-label">enclosed area</span></div>
-    <div class="stat-row"><span class="stat-num">~236</span><span class="stat-label">football pitches</span></div>
-    <div class="stat-row"><span class="stat-num">~67 min</span><span class="stat-label">to walk the fence line</span></div>
-    <div class="stat-row"><span class="stat-num">~1.1 million</span><span class="stat-label">people murdered here</span></div>
-    <p class="location-label" id="locationLabel">Shown here: the actual site, O&#347;wi&#281;cim, Poland</p>
-    <div class="actions">
-      <button id="resetBtn" type="button">Reset to actual site</button>
+<!-- Info panel: bottom-left, collapsible -->
+<section id="infoPanel" aria-label="Site information">
+  <div id="infoPeek">
+    <p id="locationLabel" class="accent">Shown here: the actual site, O&#347;wi&#281;cim, Poland</p>
+    <p id="primaryStat">The documented footprint covers approximately 1.69 km&sup2;.</p>
+    <button id="detailsBtn" type="button" aria-expanded="false" aria-controls="infoDetails">
+      Show details
+    </button>
+  </div>
+  <div id="infoDetails" hidden>
+    <div class="stats">
+      <p id="statArea">The documented site footprint covers approximately 1.69 km&sup2;.</p>
+      <p id="statPitches">That is roughly the area of 236 football pitches.</p>
+      <p id="statWalk">Walking the perimeter would take about 67 minutes at a typical pace.</p>
+      <p class="stat-victims">Approximately 1.1 million people were murdered at Auschwitz.</p>
+      <p class="scope-notice">Scale cannot describe the human loss. This map is an educational spatial comparison and cannot represent the lives, suffering, and histories of the people persecuted and murdered by Nazi Germany.</p>
     </div>
-    <p class="footnote">Perimeter, sub-camp fences, barrack and ruin footprints, and watchtowers traced from OpenStreetMap's survey of the site. Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors (ODbL). Historical context: <a href="https://www.auschwitz.org/en/history/auschwitz-ii/" target="_blank" rel="noopener">Auschwitz-Birkenau Memorial and Museum</a>.</p>
-    <p class="footnote">Developed by the Valencia Hub in collaboration with the Krak&oacute;w Hub, both part of the <a href="https://www.globalshapers.org/" target="_blank" rel="noopener">World Economic Forum's Global Shapers Community</a>.</p>
-  </section>
-</div>
+    <h2>Map layers</h2>
+    <fieldset id="layerControls">
+      <legend class="sr-only">Map layers</legend>
+      <label class="layer-row"><input type="checkbox" data-layer="all" checked> <span>All documented structures</span></label>
+      <label class="layer-row"><input type="checkbox" data-layer="boundary" checked> <span>Camp boundary</span></label>
+      <label class="layer-row"><input type="checkbox" data-layer="barracks" checked> <span>Barracks</span></label>
+      <label class="layer-row"><input type="checkbox" data-layer="watchtower" checked> <span>Watchtowers</span></label>
+      <label class="layer-row"><input type="checkbox" data-layer="crematoria" checked> <span>Crematoria ruins</span></label>
+      <label class="layer-row"><input type="checkbox" data-layer="railway" checked> <span>Railway and arrival area</span></label>
+      <label class="layer-row"><input type="checkbox" data-layer="other" checked> <span>Other structures</span></label>
+    </fieldset>
+    <h2>How this map was made</h2>
+    <p>The overlay is based on documented site data from OpenStreetMap. Area, walking time, and familiar-unit comparisons are estimates designed to communicate physical scale.</p>
+    <p><strong>Area:</strong> Derived from the documented perimeter of Auschwitz II&ndash;Birkenau. It represents the enclosed area within the BI and BII sectors.</p>
+    <p><strong>Football pitches:</strong> A standard pitch is 105 m &times; 68 m (7,140 m&sup2;).</p>
+    <p><strong>Walking time:</strong> Perimeter divided at 5 km/h.</p>
+    <p><strong>Victim figure:</strong> Based on research by the Auschwitz-Birkenau Memorial and Museum.</p>
+    <footer class="sources">
+      <p>Building, fence, and boundary geometry: &copy; OpenStreetMap contributors, ODbL.</p>
+      <p>Basemap: CARTO / OpenStreetMap. Geocoding: Nominatim.</p>
+      <p>Historical context: <a href="https://www.auschwitz.org/en/history/auschwitz-ii/" target="_blank" rel="noopener">Auschwitz-Birkenau Memorial and Museum</a>.</p>
+      <p>Developed by the Valencia Hub and Krak&oacute;w Hub, <a href="https://www.globalshapers.org/" target="_blank" rel="noopener">Global Shapers Community</a>.</p>
+    </footer>
+  </div>
+</section>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script type="module" src="src/main.js"></script>

@@ -18,6 +18,7 @@ Keep rules (a feature is kept if ANY of these match):
   - building == gate
   - man_made == tower AND tower:type == watchtower
   - barrier == fence AND ref starts with "BI" or "BII" (sub-camp sector fences)
+  - railway is present (any value) — arrival tracks and spurs
 
 Everything else (houses, retail, service/substation buildings, modern
 addresses, roads, etc.) is dropped.
@@ -47,6 +48,8 @@ def keep(props):
         return True
     ref = str(props.get('ref', ''))
     if props.get('barrier') == 'fence' and (ref.startswith('BI') or ref.startswith('BII')):
+        return True
+    if props.get('railway') is not None:
         return True
     return False
 

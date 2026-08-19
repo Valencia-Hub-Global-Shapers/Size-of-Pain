@@ -29,13 +29,20 @@ def to_meters(lng, lat, origin_lat, origin_lng):
 
 
 def classify(props):
+    name = (props.get('name') or props.get('name:en') or '').lower()
     if props.get('@id') == BOUNDARY_ID:
         return 'boundary'
-    if props.get('man_made') == 'tower':
-        return 'tower'
+    if props.get('railway') is not None:
+        return 'railway'
+    if props.get('man_made') == 'tower' and props.get('tower:type') == 'watchtower':
+        return 'watchtower'
     if props.get('barrier') == 'fence' and 'ref' in props:
         return 'sector'
-    return 'building'
+    if 'krematorium' in name or 'crematorium' in name or 'komora gazowa' in name:
+        return 'crematoria'
+    if props.get('building') == 'barrack' or name.startswith('blok ') or 'barak' in name:
+        return 'barracks'
+    return 'other'
 
 
 def polygon_area_and_perimeter(points):
@@ -75,15 +82,32 @@ def main():
     out_features = []
     for feat in feats:
         props = feat['properties']
-        ring = feat['geometry']['coordinates'][0]
+        geom = feat['geometry']
+        if geom['type'] == 'Polygon':
+            ring = geom['coordinates'][0]
+            geom_type = 'polygon'
+        elif geom['type'] == 'LineString':
+            ring = geom['coordinates']
+            geom_type = 'line'
+        else:
+            continue
         pts = [to_meters(lng, lat, origin_lat, origin_lng) for lng, lat in ring]
         name = props.get('name') or props.get('name:en') or ''
-        out_features.append({'k': classify(props), 'n': name, 'pts': pts})
+        out_features.append({'k': classify(props), 'n': name, 't': geom_type, 'pts': pts})
 
     boundary_pts = next(f['pts'] for f in out_features if f['k'] == 'boundary')
     area_m2, perim_m = polygon_area_and_perimeter(boundary_pts)
 
-    out = {'origin': [origin_lat, origin_lng], 'features': out_features}
+    out = {
+        'origin': [origin_lat, origin_lng],
+        'stats': {
+            'area_km2': round(area_m2 / 1e6, 2),
+            'perimeter_km': round(perim_m / 1000, 2),
+            'pitches': int(round(area_m2 / FOOTBALL_PITCH_M2)),
+            'walk_min': int(round(perim_m / 1000 / 5 * 60)),
+        },
+        'features': out_features,
+    }
     with open(dst, 'w', encoding='utf-8') as f:
         json.dump(out, f, separators=(',', ':'), ensure_ascii=False)
 
