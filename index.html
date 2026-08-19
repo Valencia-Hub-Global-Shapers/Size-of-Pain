@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Birkenau, to scale</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+<div id="map"></div>
+
+<div class="chrome">
+  <header class="topbar">
+    <h1>Birkenau, to scale</h1>
+    <p>This is the real footprint of Auschwitz&nbsp;II&ndash;Birkenau &mdash; every barrack, watchtower and ruin traced from surveyed site data, not a simplified box. Drag it, or click the map, to lay it over a place you know.</p>
+    <form class="search" id="searchForm">
+      <input id="searchInput" type="text" placeholder="Search a place&hellip;" autocomplete="off" />
+      <button type="submit">Go</button>
+    </form>
+  </header>
+
+  <section class="stat-card" aria-label="Camp statistics">
+    <div class="stat-row"><span class="stat-num">1.69 km&sup2;</span><span class="stat-label">enclosed area</span></div>
+    <div class="stat-row"><span class="stat-num">~236</span><span class="stat-label">football pitches</span></div>
+    <div class="stat-row"><span class="stat-num">~67 min</span><span class="stat-label">to walk the fence line</span></div>
+    <div class="stat-row"><span class="stat-num">~1.1 million</span><span class="stat-label">people murdered here</span></div>
+    <p class="location-label" id="locationLabel">Shown here: the actual site, O&#347;wi&#281;cim, Poland</p>
+    <div class="actions">
+      <button id="resetBtn" type="button">Reset to actual site</button>
+    </div>
+    <p class="footnote">Perimeter, sub-camp fences, barrack and ruin footprints, and watchtowers traced from OpenStreetMap's survey of the site. Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors (ODbL). Historical context: <a href="https://www.auschwitz.org/en/history/auschwitz-ii/" target="_blank" rel="noopener">Auschwitz-Birkenau Memorial and Museum</a>.</p>
+  </section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
