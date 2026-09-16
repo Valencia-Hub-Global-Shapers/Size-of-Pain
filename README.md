@@ -1,8 +1,8 @@
 # Size of Pain
 
-Developed by the Valencia Hub in collaboration with the Kraków Hub —
-both part of the World Economic Forum's [Global Shapers
-Community](https://www.globalshapers.org/).
+Developed by the [Valencia Hub](https://valencia-hub-global-shapers.github.io/?lang=en)
+in collaboration with the Kraków Hub — both part of the World Economic
+Forum's [Global Shapers Community](https://www.globalshapers.org/).
 
 ## Why this exists
 
