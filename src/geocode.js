@@ -42,31 +42,30 @@ export async function searchPlace(query) {
   return results[0];
 }
 
+const SEARCH_CACHE = new Map();
+const SEARCH_CACHE_LIMIT = 100;
+
 /** @returns {Promise<Array<{lat:number, lng:number, label:string, name:string}>>} */
 export async function searchPlaces(query, limit = 5) {
+  const cacheKey = `${limit}:${query.toLowerCase()}`;
+  const cached = SEARCH_CACHE.get(cacheKey);
+  if (cached) return cached;
+
   const url = `${NOMINATIM_BASE}/search?format=json&limit=${limit}&q=${encodeURIComponent(query)}`;
   const res = await fetch(url, { headers: NOMINATIM_HEADERS });
   if (!res.ok) throw new Error('search failed');
   const data = await res.json();
-  return data.map((item) => ({
+  const results = data.map((item) => ({
     lat: parseFloat(item.lat),
     lng: parseFloat(item.lon),
     label: shortName(item.display_name),
     name: item.display_name,
   }));
-}
 
-/** Request the user's location with explicit opt-in. */
-export function getUserPosition() {
-  return new Promise((resolve, reject) => {
-    if (!navigator.geolocation) {
-      reject(new Error('geolocation not supported'));
-      return;
-    }
-    navigator.geolocation.getCurrentPosition(
-      (pos) => resolve({ lat: pos.coords.latitude, lng: pos.coords.longitude }),
-      (err) => reject(err),
-      { enableHighAccuracy: false, timeout: 10000, maximumAge: 60000 }
-    );
-  });
+  // Cap cache size, discarding the oldest entry first (Map preserves insertion order).
+  if (SEARCH_CACHE.size >= SEARCH_CACHE_LIMIT) {
+    SEARCH_CACHE.delete(SEARCH_CACHE.keys().next().value);
+  }
+  SEARCH_CACHE.set(cacheKey, results);
+  return results;
 }

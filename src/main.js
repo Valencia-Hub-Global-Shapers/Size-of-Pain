@@ -1,5 +1,5 @@
 import { createCampLayer } from './campLayer.js';
-import { reverseGeocode, searchPlaces, getUserPosition } from './geocode.js';
+import { reverseGeocode, searchPlaces } from './geocode.js';
 import { load, save } from './storage.js';
 
 const DATA_URL = new URL('../data/birkenau.geojson', import.meta.url);
@@ -26,7 +26,6 @@ async function main() {
   // --- State ---
   let currentLat = data.origin[0];
   let currentLng = data.origin[1];
-  let isActualSite = true;
   let searching = false;
 
   // --- DOM refs ---
@@ -61,10 +60,9 @@ async function main() {
     }
   }
 
-  function moveTo(lat, lng, actualSite = false) {
+  function moveTo(lat, lng) {
     currentLat = lat;
     currentLng = lng;
-    isActualSite = actualSite;
     camp.moveAllTo(lat, lng);
     writeHash();
     updateLocationLabel(lat, lng);
@@ -131,7 +129,7 @@ async function main() {
 
   // --- Reset ---
   resetBtn.addEventListener('click', () => {
-    moveTo(data.origin[0], data.origin[1], true);
+    moveTo(data.origin[0], data.origin[1]);
     map.flyTo([data.origin[0], data.origin[1]], 15, { duration: 1.1 });
     locationLabel.textContent = `Shown here: ${ORIGIN_LABEL}`;
     searchInput.value = '';
@@ -243,7 +241,6 @@ async function main() {
     map.setView([hash.lat, hash.lng], hash.zoom ?? 15);
     currentLat = hash.lat;
     currentLng = hash.lng;
-    isActualSite = false;
     updateLocationLabel(hash.lat, hash.lng);
   } else {
     map.fitBounds(camp.boundary.poly.getBounds(), { padding: [60, 60], maxZoom: 17 });
