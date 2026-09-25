@@ -181,7 +181,7 @@ pipeline needs to know how many camps exist.
 - Building, fence, and boundary geometry: © OpenStreetMap contributors,
   [ODbL](https://www.openstreetmap.org/copyright). Keep that attribution
   visible if you fork or redeploy this.
-- Basemap tiles: [CARTO](https://carto.com/attribution/) / OpenStreetMap.
+- Basemap tiles: [OpenStreetMap](https://www.openstreetmap.org/copyright).
 - Geocoding: [Nominatim](https://nominatim.org/) (OpenStreetMap). Please
   keep usage light — this project fires one request per user action, not
   per keystroke.

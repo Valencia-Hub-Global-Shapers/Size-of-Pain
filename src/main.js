@@ -15,9 +15,9 @@ async function main() {
   // --- Map setup ---
   const map = L.map('map', { zoomControl: false }).setView([data.origin[0], data.origin[1]], 15);
   L.control.zoom({ position: 'topright' }).addTo(map);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: 'abcd',
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    subdomains: 'abc',
     maxZoom: 19,
   }).addTo(map);
 
