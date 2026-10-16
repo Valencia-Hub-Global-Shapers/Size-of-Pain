@@ -159,15 +159,10 @@ a:hover { color: var(--ink); }
 .swatch { width: 28px; height: 18px; flex-shrink: 0; background: var(--paper); border-radius: 4px; }
 
 /* About */
-.about { display: grid; grid-template-columns: 1.5fr 1fr; gap: 40px; align-items: start; }
+.about-text { max-width: 46em; }
 .about p { color: var(--ink-dim); }
 .about h3 { margin: 24px 0 8px; font-size: 16px; }
 .scope-notice { padding: 14px 16px; background: var(--raise); border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; font-size: 15px; }
-.credit-card { padding: 24px; background: var(--raise); border: 1px solid var(--border); border-radius: 18px; text-align: center; }
-.credit-card img { display: block; width: 180px; max-width: 100%; height: auto; margin: 0 auto 14px; }
-.credit-card p { margin: 0; color: var(--ink-dim); font-size: 14px; }
-.credit-card a { color: var(--accent-hover); }
-.logo-link { display: inline-block; }
 
 /* Footer */
 .site-footer {
@@ -189,7 +184,6 @@ a:hover { color: var(--ink); }
   .hero { grid-template-columns: 1fr; gap: 32px; padding-top: 40px; }
   .hero-figure { max-width: 440px; }
   .steps { grid-template-columns: 1fr; }
-  .about { grid-template-columns: 1fr; }
   .site-header nav { display: none; }
   .site-header .btn-small { margin-left: auto; }
 }
