@@ -42,7 +42,7 @@ RELEVANT_KEYS = ['historic', 'ruins', 'building', 'barrier', 'railway', 'memoria
 def overpass(query):
     body = urllib.parse.urlencode({'data': query}).encode()
     last_err = None
-    for attempt in range(3):
+    for attempt in range(6):
         for url in ENDPOINTS:
             req = urllib.request.Request(url, data=body, headers={'User-Agent': USER_AGENT})
             try:
@@ -51,7 +51,7 @@ def overpass(query):
             except Exception as err:  # noqa: BLE001 - try the next mirror
                 last_err = err
                 print(f'  {url} failed: {err}', file=sys.stderr)
-        time.sleep(10 * (attempt + 1))
+        time.sleep(15 * (attempt + 1))
     raise RuntimeError(f'all Overpass endpoints failed: {last_err}')
 
 
@@ -78,7 +78,11 @@ def discover(sources, out_path):
 );
 out tags bb;"""
         print(f'discover {camp_id}', file=sys.stderr)
-        data = overpass(q)
+        try:
+            data = overpass(q)
+        except RuntimeError as err:
+            lines += [f'### {camp_id}', f'FAILED: {err}', '']
+            continue
         rows = []
         for el in data.get('elements', []):
             b = el.get('bounds')
@@ -216,43 +220,50 @@ def fetch(sources, only):
         if isinstance(boundary_ids, str):
             boundary_ids = [boundary_ids]
         print(f'fetch {camp_id}', file=sys.stderr)
-        sel = ''.join(f'{b.split("/")[0]}({b.split("/")[1]});' for b in boundary_ids)
-        bdata = overpass(f'[out:json][timeout:120];({sel});out geom;')
-        boundary_feats = []
-        for el in bdata['elements']:
-            boundary_feats += element_to_features(el)
-        if not boundary_feats:
-            print(f'  no boundary geometry for {camp_id}', file=sys.stderr)
-            continue
-        rings = [f['geometry']['coordinates'][0] for f in boundary_feats
-                 if f['geometry']['type'] == 'Polygon']
-        if not rings:
-            rings = [f['geometry']['coordinates'] for f in boundary_feats]
-        lons = [c[0] for r in rings for c in r]
-        lats = [c[1] for r in rings for c in r]
-        pad = 0.003
-        bbox = f'{min(lats) - pad},{min(lons) - pad},{max(lats) + pad},{max(lons) + pad}'
-        parts = ''.join(f'way({bbox})["{k}"];relation({bbox})["{k}"]["type"="multipolygon"];'
-                        for k in RELEVANT_KEYS)
-        data = overpass(f'[out:json][timeout:180];({parts});out geom;')
-        buffer_m = cfg.get('buffer_m', 30)
-        seen = set(f['properties']['@id'] for f in boundary_feats)
-        out = list(boundary_feats)
-        for el in data['elements']:
-            for feat in element_to_features(el):
-                pid = feat['properties']['@id']
-                if pid in seen or is_modern_noise(feat['properties']):
-                    continue
-                g = feat['geometry']
-                coords = g['coordinates'][0] if g['type'] == 'Polygon' else g['coordinates']
-                if near_boundary(coords, rings, buffer_m):
-                    seen.add(pid)
-                    out.append(feat)
-        path = f'data/raw/{camp_id}-overpass-export.geojson'
-        with open(path, 'w', encoding='utf-8') as f:
-            json.dump({'type': 'FeatureCollection', 'features': out}, f, ensure_ascii=False, indent=1)
-        print(f'  wrote {len(out)} features -> {path}', file=sys.stderr)
+        try:
+            fetch_one(camp_id, cfg, boundary_ids)
+        except RuntimeError as err:
+            print(f'  FAILED {camp_id}: {err}', file=sys.stderr)
         time.sleep(5)
+
+
+def fetch_one(camp_id, cfg, boundary_ids):
+    sel = ''.join(f'{b.split("/")[0]}({b.split("/")[1]});' for b in boundary_ids)
+    bdata = overpass(f'[out:json][timeout:120];({sel});out geom;')
+    boundary_feats = []
+    for el in bdata['elements']:
+        boundary_feats += element_to_features(el)
+    if not boundary_feats:
+        print(f'  no boundary geometry for {camp_id}', file=sys.stderr)
+        return
+    rings = [f['geometry']['coordinates'][0] for f in boundary_feats
+             if f['geometry']['type'] == 'Polygon']
+    if not rings:
+        rings = [f['geometry']['coordinates'] for f in boundary_feats]
+    lons = [c[0] for r in rings for c in r]
+    lats = [c[1] for r in rings for c in r]
+    pad = 0.003
+    bbox = f'{min(lats) - pad},{min(lons) - pad},{max(lats) + pad},{max(lons) + pad}'
+    parts = ''.join(f'way({bbox})["{k}"];relation({bbox})["{k}"]["type"="multipolygon"];'
+                    for k in RELEVANT_KEYS)
+    data = overpass(f'[out:json][timeout:180];({parts});out geom;')
+    buffer_m = cfg.get('buffer_m', 30)
+    seen = set(f['properties']['@id'] for f in boundary_feats)
+    out = list(boundary_feats)
+    for el in data['elements']:
+        for feat in element_to_features(el):
+            pid = feat['properties']['@id']
+            if pid in seen or is_modern_noise(feat['properties']):
+                continue
+            g = feat['geometry']
+            coords = g['coordinates'][0] if g['type'] == 'Polygon' else g['coordinates']
+            if near_boundary(coords, rings, buffer_m):
+                seen.add(pid)
+                out.append(feat)
+    path = f'data/raw/{camp_id}-overpass-export.geojson'
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump({'type': 'FeatureCollection', 'features': out}, f, ensure_ascii=False, indent=1)
+    print(f'  wrote {len(out)} features -> {path}', file=sys.stderr)
 
 
 def main():
