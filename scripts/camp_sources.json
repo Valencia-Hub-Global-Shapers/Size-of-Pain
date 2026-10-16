@@ -1,0 +1,23 @@
+{
+  "auschwitz-i": {"center": [50.0268, 19.2035], "search_radius_m": 1200},
+  "majdanek": {"center": [51.2205, 22.6000], "search_radius_m": 1500},
+  "treblinka": {"center": [52.6313, 22.0520], "search_radius_m": 2500},
+  "sobibor": {"center": [51.4470, 23.5935], "search_radius_m": 2000},
+  "belzec": {"center": [50.3717, 23.4573], "search_radius_m": 1200},
+  "stutthof": {"center": [54.3283, 19.1535], "search_radius_m": 1500},
+  "plaszow": {"center": [50.0330, 19.9665], "search_radius_m": 1200},
+  "gross-rosen": {"center": [50.9965, 16.2800], "search_radius_m": 1500},
+  "dachau": {"center": [48.2700, 11.4680], "search_radius_m": 1500},
+  "buchenwald": {"center": [51.0220, 11.2480], "search_radius_m": 2000},
+  "sachsenhausen": {"center": [52.7660, 13.2640], "search_radius_m": 1500},
+  "bergen-belsen": {"center": [52.7580, 9.9080], "search_radius_m": 2500},
+  "ravensbrueck": {"center": [53.1905, 13.1700], "search_radius_m": 1500},
+  "flossenbuerg": {"center": [49.7353, 12.3560], "search_radius_m": 1200},
+  "neuengamme": {"center": [53.4300, 10.2300], "search_radius_m": 1500},
+  "mauthausen": {"center": [48.2570, 14.5010], "search_radius_m": 1500},
+  "natzweiler": {"center": [48.4550, 7.2540], "search_radius_m": 1200},
+  "theresienstadt": {"center": [50.5135, 14.1685], "search_radius_m": 1500},
+  "mittelbau-dora": {"center": [51.5355, 10.7485], "search_radius_m": 1500},
+  "westerbork": {"center": [52.9175, 6.6075], "search_radius_m": 1500},
+  "jasenovac": {"center": [45.2715, 16.9360], "search_radius_m": 2000}
+}

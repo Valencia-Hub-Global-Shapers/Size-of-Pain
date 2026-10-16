@@ -1,0 +1,34 @@
+name: Fetch camp data from OpenStreetMap
+
+# Runs the Overpass pipeline on a GitHub runner (which can reach the
+# Overpass API) and commits the results back to the same branch.
+# Trigger it by hand, or by pushing a change to scripts/camp_sources.json.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/camp_sources.json
+      - .github/workflows/fetch-camp-data.yml
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Discover candidate boundaries
+        run: python3 scripts/fetch_osm.py discover scripts/camp_sources.json data/raw/DISCOVERY.txt
+      - name: Fetch camps with a known boundary
+        run: python3 scripts/fetch_osm.py fetch scripts/camp_sources.json
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/raw
+          git diff --cached --quiet || git commit -m "Update camp data from OpenStreetMap"
+          git push
