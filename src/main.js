@@ -224,7 +224,7 @@ async function main() {
         closeDialog($('campDialog'));
         if (c.id === entry.id) return;
         await showCamp(c, { keepPosition: true });
-        if (atRealSite) map.flyToBounds(camp.getBounds(), { padding: fitPadding(), maxZoom: 16, duration: 1.1 });
+        map.flyToBounds(camp.getBounds(), { padding: fitPadding(), maxZoom: 17, duration: 1.1 });
       });
       list.appendChild(btn);
     });
@@ -500,8 +500,8 @@ async function main() {
   window.addEventListener('resize', () => map.invalidateSize());
 
   // --- Initial view ---
-  await showCamp(entry);
   const hash = readHash();
+  await showCamp(entry);
   const q = params.get('q');
   if (hash) {
     camp.moveAllTo(hash.lat, hash.lng);

@@ -17,9 +17,11 @@ Usage:
     python3 scripts/build_data.py --all
 
     # Explicit paths (boundary ids default to the camp's sources entry)
-    python3 scripts/build_data.py data/raw/overpass-export.geojson data/birkenau.geojson \\
+    python3 scripts/build_data.py \\
+        data/raw/overpass-export.geojson data/birkenau.geojson \\
         --boundary way/53908378
 """
+
 import argparse
 import json
 import math
@@ -32,38 +34,138 @@ FOOTBALL_PITCH_M2 = 7140  # standard 105m x 68m pitch
 SOURCES = os.path.join(os.path.dirname(__file__), 'camp_sources.json')
 
 CREMATORIA_RE = re.compile(
-    r'krematori|cremato|komora gazow|gaskammer|gas chamber|chambre [àa] gaz|vergasung|'
-    r'gas van|death pit|komory gazowe', re.I)
-WATCHTOWER_RE = re.compile(r'watch ?tower|wachturm|wieża strażnicza|wartownicza|mirador|stra[žz]n', re.I)
-BARRACKS_RE = re.compile(r'^(blok|block|baracke|barak|barrack|baraque)\b|\bbara(ck|k|cke)\b|\bbarrack', re.I)
+    r'krematori|cremato|komora gazow|gaskammer|gas chamber|'
+    r'chambre [àa] gaz|vergasung|'
+    r'gas van|death pit|komory gazowe',
+    re.I,
+)
+WATCHTOWER_RE = re.compile(
+    r'watch ?tower|wachturm|wieża strażnicza|wartownicza|mirador|stra[žz]n',
+    re.I,
+)
+BARRACKS_RE = re.compile(
+    r'^(blok|block|baracke|barak|barrack|baraque)\b|bara(ck|k|cke|que)|'
+    r'\bblock \d|\bblok \d|häftlingsblock',
+    re.I,
+)
 
 
 def to_meters(lng, lat, origin_lat, origin_lng):
     north = (lat - origin_lat) * M_PER_DEG_LAT
-    east = (lng - origin_lng) * M_PER_DEG_LAT * math.cos(math.radians(origin_lat))
+    east = (
+        (lng - origin_lng) * M_PER_DEG_LAT * math.cos(math.radians(origin_lat))
+    )
     return [round(east, 2), round(north, 2)]
 
 
-def classify(props, boundary_ids):
-    name = (props.get('name') or props.get('name:en') or '').lower()
+MUSEUM_NAME_RE = re.compile(
+    r'muzeum|museum|informationszentrum|visitor|besucher|'
+    r'obsługi zwiedzających',
+    re.I,
+)
+
+
+def is_noise(props, area_m2, boundary_area_m2):
+    """Modern or irrelevant features that end up inside memorial grounds."""
+    if props.get('man_made') in (
+        'telescope',
+        'monitoring_station',
+        'embankment',
+        'wastewater_plant',
+    ):
+        return True
+    if props.get('barrier') in ('hedge', 'kerb', 'retaining_wall'):
+        return True
+    if props.get('building') in (
+        'semidetached_house',
+        'greenhouse',
+        'bungalow',
+        'electricity',
+    ):
+        return True
+    if props.get('landuse') in ('industrial', 'commercial', 'residential'):
+        return True
+    if props.get('amenity') in ('reception_desk', 'parking'):
+        return True
+    name = ' '.join(filter(None, [props.get('name'), props.get('name:en')]))
+    if 'JVA' in name:  # post-war prison built on the Neuengamme site
+        return True
+    if (
+        props.get('tourism') in ('museum', 'information')
+        and not props.get('historic')
+        and MUSEUM_NAME_RE.search(name)
+    ):
+        return True
+    # Memorial areas as large as the camp itself are just the grounds again.
+    if area_m2 and boundary_area_m2 and area_m2 > 0.5 * boundary_area_m2:
+        return True
+    return False
+
+
+def classify(
+    props, boundary_ids, geom_type='polygon', area_m2=0.0, aspect=1.0
+):
+    name = ' '.join(
+        filter(None, [props.get('name'), props.get('name:en')])
+    ).lower()
     if props.get('@id') in boundary_ids:
         return 'boundary'
     if props.get('railway') is not None:
         return 'railway'
-    if props.get('man_made') == 'tower' and props.get('tower:type') in ('watchtower', 'observation', None):
+    if props.get('man_made') == 'tower' and props.get('tower:type') in (
+        'watchtower',
+        'observation',
+        None,
+    ):
         return 'watchtower'
     if WATCHTOWER_RE.search(name):
         return 'watchtower'
-    if props.get('barrier') in ('fence', 'wall', 'wire_fence'):
+    if props.get('barrier') in ('fence', 'wall', 'wire_fence', 'ditch'):
+        if geom_type == 'polygon' and props.get('barrier') == 'wall':
+            # Closed walls are mostly foundations marking where a building
+            # stood (Dachau, Majdanek, Neuengamme, Westerbork...).
+            if props.get('ruins') == 'barrack' or BARRACKS_RE.search(name):
+                return 'barracks'
+            if not name and 150 <= area_m2 <= 3000 and aspect >= 2.5:
+                return 'barracks'
+            if name or area_m2 <= 3000:
+                return 'crematoria' if CREMATORIA_RE.search(name) else 'other'
         return 'sector' if 'ref' in props else 'fence'
     if CREMATORIA_RE.search(name):
         return 'crematoria'
-    if props.get('building') in ('barrack', 'barracks', 'hut') or BARRACKS_RE.search(name):
+    if props.get('building') in (
+        'barrack',
+        'barracks',
+        'hut',
+    ) or BARRACKS_RE.search(name):
         return 'barracks'
-    if (props.get('historic') == 'memorial' or props.get('memorial') is not None
-            or props.get('historic') == 'monument' or props.get('historic') == 'tomb'):
+    if (
+        props.get('historic') in ('memorial', 'monument', 'tomb')
+        or props.get('memorial') is not None
+        or props.get('amenity') == 'place_of_worship'
+    ):
         return 'memorial'
     return 'other'
+
+
+def shape_metrics(points):
+    """Area and length/width ratio of a ring of [east, north] meter points."""
+    area, _ = polygon_area_and_perimeter(points)
+    best = None
+    n = len(points)
+    for i in range(n - 1):
+        dx = points[i + 1][0] - points[i][0]
+        dy = points[i + 1][1] - points[i][1]
+        length = math.hypot(dx, dy)
+        if length == 0:
+            continue
+        ux, uy = dx / length, dy / length
+        along = [x * ux + y * uy for x, y in points]
+        across = [-x * uy + y * ux for x, y in points]
+        w, h = max(along) - min(along), max(across) - min(across)
+        if best is None or w * h < best[0]:
+            best = (w * h, max(w, h) / max(min(w, h), 0.1))
+    return area, (best[1] if best else 1.0)
 
 
 def polygon_area_and_perimeter(points):
@@ -84,16 +186,45 @@ def build(src, dst, boundary_ids):
         data = json.load(f)
 
     feats = data['features']
-    boundaries = [f for f in feats if f['properties'].get('@id') in boundary_ids
-                  and f['geometry']['type'] == 'Polygon']
+    # A boundary traced as a closed fence line is still an area.
+    for f in feats:
+        g = f['geometry']
+        if (
+            f['properties'].get('@id') in boundary_ids
+            and g['type'] == 'LineString'
+            and len(g['coordinates']) >= 4
+            and g['coordinates'][0] == g['coordinates'][-1]
+        ):
+            f['geometry'] = {
+                'type': 'Polygon',
+                'coordinates': [g['coordinates']],
+            }
+    boundaries = [
+        f
+        for f in feats
+        if f['properties'].get('@id') in boundary_ids
+        and f['geometry']['type'] == 'Polygon'
+    ]
     if not boundaries:
-        print(f'error: boundary {boundary_ids} not found in {src}', file=sys.stderr)
+        print(
+            f'error: boundary {boundary_ids} not found in {src}',
+            file=sys.stderr,
+        )
         sys.exit(1)
 
     lons = [p[0] for b in boundaries for p in b['geometry']['coordinates'][0]]
     lats = [p[1] for b in boundaries for p in b['geometry']['coordinates'][0]]
     origin_lat = (min(lats) + max(lats)) / 2
     origin_lng = (min(lons) + max(lons)) / 2
+    boundary_area = sum(
+        polygon_area_and_perimeter(
+            [
+                to_meters(lng, lat, origin_lat, origin_lng)
+                for lng, lat in b['geometry']['coordinates'][0]
+            ]
+        )[0]
+        for b in boundaries
+    )
 
     out_features = []
     for feat in feats:
@@ -105,12 +236,24 @@ def build(src, dst, boundary_ids):
         elif geom['type'] == 'LineString':
             ring = geom['coordinates']
             geom_type = 'line'
+            closed = len(ring) >= 4 and ring[0] == ring[-1]
+            if closed and props.get('barrier') == 'wall':
+                geom_type = 'polygon'
         else:
             continue
-        kind = classify(props, boundary_ids)
+        pts = [
+            to_meters(lng, lat, origin_lat, origin_lng) for lng, lat in ring
+        ]
+        area, aspect = (
+            shape_metrics(pts) if geom_type == 'polygon' else (0.0, 1.0)
+        )
+        if props.get('@id') not in boundary_ids and is_noise(
+            props, area, boundary_area
+        ):
+            continue
+        kind = classify(props, boundary_ids, geom_type, area, aspect)
         if kind == 'boundary' and geom_type != 'polygon':
             continue
-        pts = [to_meters(lng, lat, origin_lat, origin_lng) for lng, lat in ring]
         name = props.get('name:en') or props.get('name') or ''
         out_features.append({'k': kind, 'n': name, 't': geom_type, 'pts': pts})
 
@@ -125,7 +268,11 @@ def build(src, dst, boundary_ids):
     out = {
         'origin': [origin_lat, origin_lng],
         'stats': {
-            'area_km2': round(area_m2 / 1e6, 2) if area_m2 >= 1e5 else round(area_m2 / 1e6, 3),
+            'area_km2': (
+                round(area_m2 / 1e6, 2)
+                if area_m2 >= 1e5
+                else round(area_m2 / 1e6, 3)
+            ),
             'area_ha': round(area_m2 / 1e4, 1),
             'perimeter_km': round(perim_m / 1000, 2),
             'pitches': int(round(area_m2 / FOOTBALL_PITCH_M2)),
@@ -140,9 +287,12 @@ def build(src, dst, boundary_ids):
     for f in out_features:
         counts[f['k']] = counts.get(f['k'], 0) + 1
     print(f'{dst}: {len(out_features)} features {counts}')
-    print(f'  area {area_m2 / 1e6:.3f} km^2 ({area_m2 / 10000:.1f} ha), '
-          f'perimeter {perim_m / 1000:.2f} km, ~{area_m2 / FOOTBALL_PITCH_M2:.0f} pitches, '
-          f'~{perim_m / 1000 / 5 * 60:.0f} min walk')
+    print(
+        f'  area {area_m2 / 1e6:.3f} km^2 ({area_m2 / 10000:.1f} ha), '
+        f'perimeter {perim_m / 1000:.2f} km, '
+        f'~{area_m2 / FOOTBALL_PITCH_M2:.0f} pitches, '
+        f'~{perim_m / 1000 / 5 * 60:.0f} min walk'
+    )
 
 
 def as_list(value):
@@ -150,12 +300,23 @@ def as_list(value):
 
 
 def main():
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap = argparse.ArgumentParser(
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
     ap.add_argument('src', nargs='?')
     ap.add_argument('dst', nargs='?')
-    ap.add_argument('--boundary', nargs='+', help='OSM id(s) of the boundary, e.g. way/53908378')
+    ap.add_argument(
+        '--boundary',
+        nargs='+',
+        help='OSM id(s) of the boundary, e.g. way/53908378',
+    )
     ap.add_argument('--camp', help='camp id from scripts/camp_sources.json')
-    ap.add_argument('--all', action='store_true', help='build every camp that has a raw export')
+    ap.add_argument(
+        '--all',
+        action='store_true',
+        help='build every camp that has a raw export',
+    )
     args = ap.parse_args()
 
     with open(SOURCES, encoding='utf-8') as f:
@@ -168,10 +329,15 @@ def main():
             src = cfg.get('raw', f'data/raw/{camp_id}-overpass-export.geojson')
             if not cfg.get('boundary') or not os.path.exists(src):
                 if args.camp:
-                    print(f'error: {camp_id} has no boundary or no {src}', file=sys.stderr)
+                    print(
+                        f'error: {camp_id} has no boundary or no {src}',
+                        file=sys.stderr,
+                    )
                     sys.exit(1)
                 continue
-            build(src, f'data/{camp_id}.geojson', set(as_list(cfg['boundary'])))
+            build(
+                src, f'data/{camp_id}.geojson', set(as_list(cfg['boundary']))
+            )
         return
 
     if not (args.src and args.dst and args.boundary):

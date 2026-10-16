@@ -13,8 +13,14 @@
       "victims_short": "At least 1.1 million murdered at Auschwitz",
       "boundary_note": "Outline: the fenced perimeter of sectors BI and BII. The unfinished BIII sector (“Mexico”) to the west would make the camp larger still.",
       "sources": [
-        {"label": "Auschwitz-Birkenau Memorial and Museum: Auschwitz II-Birkenau", "url": "https://www.auschwitz.org/en/history/auschwitz-ii/"},
-        {"label": "Auschwitz-Birkenau Memorial and Museum: number of victims", "url": "https://www.auschwitz.org/en/history/the-number-of-victims/"}
+        {
+          "label": "Auschwitz-Birkenau Memorial and Museum: Auschwitz II-Birkenau",
+          "url": "https://www.auschwitz.org/en/history/auschwitz-ii/"
+        },
+        {
+          "label": "Auschwitz-Birkenau Memorial and Museum: number of victims",
+          "url": "https://www.auschwitz.org/en/history/the-number-of-victims/"
+        }
       ],
       "layers": {
         "boundary": "The perimeter of sectors BI and BII, the built-up core of Birkenau, enclosed by electrified barbed wire. The SS planned an even larger camp: the third sector, BIII, was under construction when the camp was evacuated and is not drawn here.",
@@ -25,6 +31,485 @@
         "railway": "In spring 1944 the railway line was extended through the main gate to a ramp inside the camp, between sectors BI and BII and close to crematoria II and III. Hundreds of thousands of Hungarian Jews deported that year arrived here, where SS doctors selected the few judged fit for work. The rest were sent directly to the gas chambers.",
         "other": "Buildings that kept the camp running: the “Sauna” where new arrivals were shaved, disinfected and registered, the “Kanada” warehouses where stolen belongings were sorted, kitchens, latrines, washrooms and guard buildings.",
         "memorial": "The International Monument to the Victims of the camp, unveiled in 1967, stands at the end of the railway ramp between the ruins of crematoria II and III."
+      }
+    },
+    {
+      "id": "auschwitz-i",
+      "name": "Auschwitz I (main camp)",
+      "short": "Auschwitz I",
+      "place": "Oświęcim, Poland",
+      "years": "1940–1945",
+      "type": "Concentration camp",
+      "data": "data/auschwitz-i.geojson",
+      "summary": "The first and main camp of the Auschwitz complex, set up in former Polish army barracks. Its first prisoners were Polish political prisoners; it later held people from across Europe and was the administrative centre for Birkenau and dozens of sub-camps. The first experiments with Zyklon B gas were carried out here in 1941.",
+      "victims": "Part of the Auschwitz complex, where at least 1.1 million people were murdered, about 1 million of them Jews.",
+      "victims_short": "Part of Auschwitz, where at least 1.1 million were murdered",
+      "boundary_note": "Outline: the fenced prisoner compound as mapped today. The wider camp, with SS buildings, workshops and the zone around it, was considerably larger.",
+      "sources": [
+        {
+          "label": "Auschwitz-Birkenau Memorial and Museum: Auschwitz I",
+          "url": "https://www.auschwitz.org/en/history/auschwitz-i/"
+        },
+        {
+          "label": "Auschwitz-Birkenau Memorial and Museum: number of victims",
+          "url": "https://www.auschwitz.org/en/history/the-number-of-victims/"
+        }
+      ],
+      "layers": {
+        "boundary": "The double fence of electrified barbed wire around the prisoner blocks, with a concrete wall along part of it.",
+        "fence": "The surviving fence lines and walls. Between Blocks 10 and 11 a walled courtyard enclosed the “Death Wall”, where the SS shot thousands of prisoners.",
+        "barracks": "Two- and three-storey brick blocks, originally Polish army barracks. Each held hundreds of prisoners. Some had special functions: Block 10 was used for medical experiments on women and Block 11 was the camp prison. Most blocks now house exhibitions, including national exhibitions about the victims.",
+        "watchtower": "Guard towers along the perimeter fence.",
+        "other": "Buildings that served the camp and the SS: the camp kitchen, the guardhouse, the SS hospital, administration and the commandant's office. Crematorium I, with the first gas chamber, stood just outside the prisoner compound."
+      }
+    },
+    {
+      "id": "majdanek",
+      "name": "Majdanek",
+      "short": "Majdanek",
+      "place": "Lublin, Poland",
+      "years": "1941–1944",
+      "type": "Concentration and extermination camp",
+      "data": "data/majdanek.geojson",
+      "summary": "Built on the edge of Lublin, Majdanek held prisoners from about 30 countries and was also used to murder Jews during “Aktion Reinhardt”. On 3 November 1943, in the operation the SS called “Harvest Festival”, about 18,000 Jews were shot here in a single day. The Red Army reached the camp in July 1944, and it survives in large part.",
+      "victims": "At least 78,000 people were killed at Majdanek, about 60,000 of them Jews, according to the State Museum at Majdanek.",
+      "victims_short": "At least 78,000 people killed",
+      "boundary_note": "Outline: the present memorial grounds, which cover most of the historical camp.",
+      "sources": [
+        {
+          "label": "State Museum at Majdanek",
+          "url": "https://www.majdanek.eu/"
+        }
+      ],
+      "layers": {
+        "boundary": "The memorial grounds, which include the prisoner fields, the SS area and the site of the mass shootings.",
+        "fence": "The camp was divided into five prisoner “fields”, each fenced with barbed wire and separated by guard corridors. Parts of the fences have been reconstructed.",
+        "barracks": "Wooden barracks, many of a prefabricated stable design, stood in rows in each field. Some survive or were rebuilt; elsewhere their foundations are marked.",
+        "watchtower": "Watchtowers along the double fence and between the fields.",
+        "crematoria": "The gas chambers next to the bathhouse, the old crematorium of 1942 and the new crematorium of 1943. Behind the new crematorium were the execution trenches used in November 1943.",
+        "memorial": "The Monument to Struggle and Martyrdom at the entrance and the domed Mausoleum, built in 1969 over a mound of human ashes.",
+        "other": "Bathhouses and disinfection chambers, kitchens, guard houses and SS buildings. Several barracks now hold exhibitions, including thousands of shoes taken from victims."
+      }
+    },
+    {
+      "id": "treblinka",
+      "name": "Treblinka II",
+      "short": "Treblinka",
+      "place": "near Małkinia, Poland",
+      "years": "1942–1943",
+      "type": "Extermination camp",
+      "data": "data/treblinka.geojson",
+      "summary": "Treblinka II was built for one purpose: to murder Jews, above all from the Warsaw ghetto, as part of “Aktion Reinhardt”. Almost everyone who arrived was killed within hours. Prisoners revolted on 2 August 1943. The SS then dismantled the camp, ploughed the land and built a farm on it to hide what had happened.",
+      "victims": "Around 870,000 to 925,000 Jews were murdered at Treblinka, as well as an unknown number of Roma and Sinti.",
+      "victims_short": "About 870,000 to 925,000 people murdered",
+      "boundary_note": "Outline: the memorial site over the former extermination camp. Almost nothing of the original camp survives; the memorial marks its layout symbolically.",
+      "sources": [
+        {
+          "label": "USHMM Holocaust Encyclopedia: Treblinka",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/treblinka"
+        },
+        {
+          "label": "Treblinka Museum",
+          "url": "https://treblinka-muzeum.eu/"
+        }
+      ],
+      "layers": {
+        "boundary": "The area of the extermination camp as marked by the memorial. The camp itself was small: the SS needed little space because people were not kept alive.",
+        "railway": "A railway spur led from the main line into the camp, where a fake station was built to deceive arriving deportees. Concrete sleepers now mark the line.",
+        "crematoria": "The memorial stands where the gas chambers were. Bodies were first buried in pits, then from 1943 exhumed and burned on open-air pyres.",
+        "memorial": "The memorial by Franciszek Duszeńko and Adam Haupt, unveiled in 1964: about 17,000 stones, many bearing the names of towns and countries from which Jews were deported, around a central monument and a symbolic cremation pit."
+      }
+    },
+    {
+      "id": "sobibor",
+      "name": "Sobibór",
+      "short": "Sobibór",
+      "place": "Sobibór, Poland",
+      "years": "1942–1943",
+      "type": "Extermination camp",
+      "data": "data/sobibor.geojson",
+      "summary": "Sobibór was one of the three “Aktion Reinhardt” extermination camps. Jews were deported here from Poland, the Netherlands, Slovakia, France and elsewhere, and most were murdered on arrival. On 14 October 1943 prisoners rose up and about 300 escaped. The SS then closed and erased the camp.",
+      "victims": "At least 167,000 people were murdered at Sobibór, almost all of them Jews, including more than 34,000 deported from the Netherlands. Some estimates are considerably higher.",
+      "victims_short": "At least 167,000 people murdered",
+      "boundary_note": "Outline: the present memorial site over the former camp.",
+      "sources": [
+        {
+          "label": "USHMM Holocaust Encyclopedia: Operation Reinhard",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/operation-reinhard-einsatz-reinhard"
+        },
+        {
+          "label": "State Museum at Majdanek (Sobibór branch)",
+          "url": "https://www.majdanek.eu/"
+        }
+      ],
+      "layers": {
+        "boundary": "The area of the former camp as marked by the memorial site.",
+        "fence": "Fences and walls of the memorial site, including the Wall of Memory.",
+        "crematoria": "The remains of the gas chambers, located by archaeologists in 2014.",
+        "memorial": "The Glade of Graves (mass graves) with the mound of ashes, part of the memorial site.",
+        "other": "Other structures on the site, including memorial and museum buildings."
+      }
+    },
+    {
+      "id": "belzec",
+      "name": "Bełżec",
+      "short": "Bełżec",
+      "place": "Bełżec, Poland",
+      "years": "1942",
+      "type": "Extermination camp",
+      "data": "data/belzec.geojson",
+      "summary": "Bełżec was the first of the “Aktion Reinhardt” extermination camps. In about nine months it was used to murder the Jews of southern and eastern Poland, including much of Lviv and Kraków. Very few people survived it. The SS dismantled the camp in 1943 and planted trees over the site.",
+      "victims": "At least 434,000 Jews were murdered at Bełżec, according to German records, and possibly more.",
+      "victims_short": "At least 434,000 people murdered",
+      "boundary_note": "Outline: the memorial site created in 2004, which covers the area of the former camp.",
+      "sources": [
+        {
+          "label": "USHMM Holocaust Encyclopedia: Belzec",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/belzec"
+        },
+        {
+          "label": "Bełżec Museum and Memorial Site",
+          "url": "https://www.belzec.eu/"
+        }
+      ],
+      "layers": {
+        "boundary": "The area of the former camp. Today the whole of it is covered by the memorial: a field of dark slag over the mass graves, crossed by a path cut into the ground.",
+        "fence": "Fences and walls of the memorial site.",
+        "railway": "The railway line from which deportation trains were shunted into the camp."
+      }
+    },
+    {
+      "id": "stutthof",
+      "name": "Stutthof",
+      "short": "Stutthof",
+      "place": "Sztutowo, Poland",
+      "years": "1939–1945",
+      "type": "Concentration camp",
+      "data": "data/stutthof.geojson",
+      "summary": "Stutthof, near Gdańsk, was set up the day after the German invasion of Poland and was the first camp outside Germany's pre-war borders. It first held Polish civilians; from 1944 tens of thousands of Jews, many of them women from the Baltic states and Hungary, were brought here. Many died on the evacuation marches of 1945.",
+      "victims": "Of about 110,000 prisoners, around 65,000 died, including about 28,000 Jews.",
+      "victims_short": "About 65,000 prisoners died",
+      "boundary_note": "Outline: the present museum grounds, centred on the original “old camp”.",
+      "sources": [
+        {
+          "label": "Stutthof Museum",
+          "url": "https://stutthof.org/"
+        }
+      ],
+      "layers": {
+        "boundary": "The museum grounds, covering the original camp and part of the later “new camp”.",
+        "fence": "Fence lines of the camp and its compounds.",
+        "watchtower": "Guard towers along the perimeter.",
+        "crematoria": "The small gas chamber, in use from 1944, and the crematorium next to it.",
+        "railway": "The narrow-gauge railway that brought prisoners and supplies.",
+        "other": "Other camp buildings: the commandant's villa, kitchen, barracks remains and the factory halls of the German armaments works where prisoners were forced to work."
+      }
+    },
+    {
+      "id": "gross-rosen",
+      "name": "Gross-Rosen",
+      "short": "Gross-Rosen",
+      "place": "Rogoźnica, Poland",
+      "years": "1940–1945",
+      "type": "Concentration camp",
+      "data": "data/gross-rosen.geojson",
+      "summary": "Gross-Rosen was established next to a granite quarry owned by the SS company DEST, where prisoners were worked to death. It grew into a network of around 100 sub-camps across Lower Silesia, many of them for Jewish women and men forced to work for German industry.",
+      "victims": "About 125,000 people passed through Gross-Rosen and its sub-camps; an estimated 40,000 of them died.",
+      "victims_short": "An estimated 40,000 prisoners died",
+      "boundary_note": "Outline: the present museum grounds over the main camp.",
+      "sources": [
+        {
+          "label": "Gross-Rosen Museum",
+          "url": "https://www.gross-rosen.eu/"
+        }
+      ],
+      "layers": {
+        "boundary": "The museum grounds, covering the main camp.",
+        "fence": "Fence and wall lines of the camp.",
+        "barracks": "Prisoner blocks, now mostly marked by their foundations. Block 7 has been reconstructed.",
+        "watchtower": "Guard tower.",
+        "crematoria": "The ruins of the crematorium.",
+        "railway": "A narrow-gauge line used for transporting stone and materials.",
+        "memorial": "The prisoners' mausoleum and other memorials.",
+        "other": "Ruins of storerooms, the bathhouse, workshops of the Siemens company and other camp buildings."
+      }
+    },
+    {
+      "id": "dachau",
+      "name": "Dachau",
+      "short": "Dachau",
+      "place": "Dachau, Germany",
+      "years": "1933–1945",
+      "type": "Concentration camp",
+      "data": "data/dachau.geojson",
+      "summary": "Opened in March 1933, weeks after Hitler came to power, Dachau was the first regular concentration camp and the model for the camp system that followed. It held political opponents, Jews, Roma and Sinti, clergy, homosexual men and people from across occupied Europe. US troops liberated it on 29 April 1945.",
+      "victims": "More than 200,000 people from over 40 countries were imprisoned in Dachau and its sub-camps; at least 41,500 died.",
+      "victims_short": "At least 41,500 prisoners died",
+      "boundary_note": "Outline: the memorial site, which covers the former prisoner camp. The SS area next to it was larger still and is not included.",
+      "sources": [
+        {
+          "label": "Dachau Concentration Camp Memorial Site",
+          "url": "https://www.kz-gedenkstaette-dachau.de/"
+        }
+      ],
+      "layers": {
+        "boundary": "The prisoner camp, enclosed by a ditch, an electrified fence and a wall. Prisoners had to pass through the gate of the Jourhaus, with its slogan “Arbeit macht frei”.",
+        "barracks": "Thirty-four barracks lined the camp road, built for about 200 people each and later crammed with many more. Their foundations are marked in concrete; two have been reconstructed.",
+        "watchtower": "Watchtowers along the perimeter, from which guards fired on prisoners near the fence.",
+        "fence": "The perimeter ditch, fences and walls.",
+        "memorial": "The International Monument (1968) on the roll-call square and the Catholic, Protestant, Jewish and Russian Orthodox memorials at the north end of the camp.",
+        "other": "The maintenance building (now the main exhibition), the camp prison known as the “Bunker”, and other camp buildings. The crematorium area lies to the north-west of the prisoner camp."
+      }
+    },
+    {
+      "id": "sachsenhausen",
+      "name": "Sachsenhausen",
+      "short": "Sachsenhausen",
+      "place": "Oranienburg, Germany",
+      "years": "1936–1945",
+      "type": "Concentration camp",
+      "data": "data/sachsenhausen.geojson",
+      "summary": "Built near Berlin and designed by SS architects as a “model” camp, Sachsenhausen was laid out as a triangle so that guards in Tower A could watch the whole roll-call area. It was also the training centre for SS camp guards. In autumn 1941 more than 10,000 Soviet prisoners of war were shot here.",
+      "victims": "More than 200,000 people were imprisoned in Sachsenhausen; tens of thousands of them died from hunger, disease, forced labour, mistreatment or were murdered.",
+      "victims_short": "Tens of thousands of prisoners died",
+      "boundary_note": "Outline: the present memorial grounds, which cover the triangular prisoner camp.",
+      "sources": [
+        {
+          "label": "Sachsenhausen Memorial and Museum",
+          "url": "https://www.sachsenhausen-sbg.de/"
+        }
+      ],
+      "layers": {
+        "boundary": "The memorial grounds around the triangular prisoner camp.",
+        "barracks": "The barracks were arranged in a fan around the semicircular roll-call square, so that all could be seen from Tower A. Most were demolished; some survive, including the infirmary barracks.",
+        "fence": "Perimeter walls and fences. A strip of gravel inside the fence was a “neutral zone” where guards shot anyone who stepped onto it.",
+        "watchtower": "Tower A at the entrance and the other towers (B to H) along the wall.",
+        "memorial": "The obelisk of the National Memorial, inaugurated in 1961.",
+        "other": "The camp prison (Zellenbau), kitchen and laundry, the commandant's house and other buildings. Outside the triangle was “Station Z”, the execution site with a gas chamber and crematorium."
+      }
+    },
+    {
+      "id": "buchenwald",
+      "name": "Buchenwald",
+      "short": "Buchenwald",
+      "place": "near Weimar, Germany",
+      "years": "1937–1945",
+      "type": "Concentration camp",
+      "data": "data/buchenwald.geojson",
+      "summary": "Buchenwald was built on the Ettersberg hill above Weimar. It held political prisoners, Jews, Roma and Sinti, Jehovah's Witnesses, homosexual men and many others, and from 1942 grew into one of the largest camps with more than 130 sub-camps. US troops reached it on 11 April 1945.",
+      "victims": "Nearly 280,000 people were imprisoned in Buchenwald and its sub-camps; about 56,000 of them died.",
+      "victims_short": "About 56,000 prisoners died",
+      "boundary_note": "Outline: the memorial grounds, covering the prisoner camp, part of the SS area and the site of the later Soviet special camp.",
+      "sources": [
+        {
+          "label": "Buchenwald Memorial",
+          "url": "https://www.buchenwald.de/"
+        }
+      ],
+      "layers": {
+        "boundary": "The memorial grounds on the Ettersberg, including the prisoner camp and part of the SS zone.",
+        "barracks": "The prisoner barracks stood in rows on the slope. Today their places are marked by fields of black stones. The “Little Camp” in the north, with stable barracks, was the most overcrowded and deadly part of the camp in 1944 and 1945.",
+        "fence": "The electrified fence and walls of the camp.",
+        "watchtower": "Watchtowers along the fence, some of which survive.",
+        "crematoria": "The crematorium, where bodies were burned and where prisoners were also murdered.",
+        "railway": "The railway line built by prisoners in 1943 to link the camp with Weimar; deportation trains arrived at the camp station.",
+        "memorial": "Memorials to the victims, including the memorial to Sinti and Roma and the memorial on the site of the Little Camp.",
+        "other": "The gate building, the depot where prisoners' belongings were stored, the disinfection building, the canteen and ruins of SS facilities."
+      }
+    },
+    {
+      "id": "ravensbrueck",
+      "name": "Ravensbrück",
+      "short": "Ravensbrück",
+      "place": "Fürstenberg/Havel, Germany",
+      "years": "1939–1945",
+      "type": "Concentration camp for women",
+      "data": "data/ravensbrueck.geojson",
+      "summary": "Ravensbrück was the largest concentration camp for women in the German Reich. Women from more than 30 countries were held here; a men's camp and a camp for girls and young women were added later. Prisoners were forced to work, among others for Siemens, and many were subjected to medical experiments. In early 1945 the SS built a gas chamber here.",
+      "victims": "About 120,000 women, 20,000 men and 1,200 girls and young women were imprisoned here. Tens of thousands died or were murdered; because records were destroyed, estimates vary widely.",
+      "victims_short": "Tens of thousands of prisoners died",
+      "boundary_note": "Outline: the memorial grounds, covering the former camp, the SS housing area and the Siemens camp.",
+      "sources": [
+        {
+          "label": "Ravensbrück Memorial",
+          "url": "https://www.ravensbrueck-sbg.de/"
+        }
+      ],
+      "layers": {
+        "boundary": "The memorial grounds, including the former prisoner camp, the SS area and the Siemens camp.",
+        "fence": "Walls and fences of the camp.",
+        "railway": "Railway lines that served the camp and its industrial area.",
+        "other": "Remaining camp buildings, including the houses where SS women overseers lived (today a youth hostel and meeting centre), the commandant's headquarters and the ruins of the Siemens camp where prisoners built electrical parts."
+      }
+    },
+    {
+      "id": "mauthausen",
+      "name": "Mauthausen",
+      "short": "Mauthausen",
+      "place": "Mauthausen, Austria",
+      "years": "1938–1945",
+      "type": "Concentration camp",
+      "data": "data/mauthausen.geojson",
+      "summary": "Mauthausen was set up after the annexation of Austria, next to the Wiener Graben granite quarry. Prisoners had to carry heavy stones up the 186 steps from the quarry, known as the “Stairs of Death”. It was the centre of a network of about 40 sub-camps, among them Gusen.",
+      "victims": "At least 190,000 people were imprisoned in Mauthausen and its sub-camps; more than 90,000 of them died.",
+      "victims_short": "More than 90,000 prisoners died",
+      "boundary_note": "Outline: the memorial grounds around the fortress-like main camp. The quarry and the sub-camps are not included.",
+      "sources": [
+        {
+          "label": "Mauthausen Memorial",
+          "url": "https://www.mauthausen-memorial.org/"
+        }
+      ],
+      "layers": {
+        "boundary": "The memorial grounds around the main camp, whose granite walls made it look like a fortress.",
+        "barracks": "Wooden barracks inside the walls; a few survive, including the laundry barrack.",
+        "fence": "The stone walls and fences of the camp.",
+        "memorial": "The Wailing Wall and the national memorials in the former SS area, erected by survivors' countries after the war.",
+        "other": "The camp prison, the infirmary and other buildings. The gas chamber and crematoria were in the basement of the infirmary building."
+      }
+    },
+    {
+      "id": "flossenbuerg",
+      "name": "Flossenbürg",
+      "short": "Flossenbürg",
+      "place": "Flossenbürg, Germany",
+      "years": "1938–1945",
+      "type": "Concentration camp",
+      "data": "data/flossenbuerg.geojson",
+      "summary": "Flossenbürg, in the Upper Palatinate forest, was built next to granite quarries where prisoners were forced to work. From 1943 it grew into a network of around 80 sub-camps supplying forced labour to the armaments industry. Resistance figures, among them Dietrich Bonhoeffer, were executed here in April 1945.",
+      "victims": "About 100,000 people were imprisoned in Flossenbürg and its sub-camps; at least 30,000 died.",
+      "victims_short": "At least 30,000 prisoners died",
+      "boundary_note": "Outline: the present memorial site. Much of the former camp was built over after the war.",
+      "sources": [
+        {
+          "label": "Flossenbürg Concentration Camp Memorial",
+          "url": "https://www.gedenkstaette-flossenbuerg.de/"
+        }
+      ],
+      "layers": {
+        "boundary": "The memorial site, a part of the former camp.",
+        "fence": "Fence and wall lines.",
+        "watchtower": "Surviving guard towers.",
+        "memorial": "The Pyramid of Ashes, the chapel built from the stones of demolished watchtowers in 1946 to 1947, and the Jewish memorial.",
+        "other": "Remaining camp buildings, including the laundry, the kitchen and the camp gate."
+      }
+    },
+    {
+      "id": "neuengamme",
+      "name": "Neuengamme",
+      "short": "Neuengamme",
+      "place": "Hamburg, Germany",
+      "years": "1938–1945",
+      "type": "Concentration camp",
+      "data": "data/neuengamme.geojson",
+      "summary": "Neuengamme, on the south-eastern edge of Hamburg, was built around a brickworks run by the SS company DEST. It became the largest concentration camp in north-western Germany, with more than 80 sub-camps. After the war, prisons were built on the site; they were only removed in the 2000s.",
+      "victims": "More than 100,000 people were imprisoned in Neuengamme and its sub-camps; more than 42,900 of them died.",
+      "victims_short": "More than 42,900 prisoners died",
+      "boundary_note": "Outline: the memorial site, which covers the prisoner camp, the brickworks and the SS area.",
+      "sources": [
+        {
+          "label": "Neuengamme Concentration Camp Memorial",
+          "url": "https://www.kz-gedenkstaette-neuengamme.de/"
+        }
+      ],
+      "layers": {
+        "boundary": "The memorial site, including the prisoner camp, the brickworks and the clay pits where prisoners were forced to work.",
+        "barracks": "The wooden prisoner blocks, whose outlines are now marked with stone-filled frames, and the two surviving brick blocks.",
+        "fence": "Fence and wall lines.",
+        "watchtower": "Former watchtowers, marked on the site.",
+        "crematoria": "The site of the crematorium.",
+        "railway": "Sidings and the canal harbour connection used to move bricks and materials.",
+        "memorial": "The House of Remembrance with the names of the dead, and other memorials.",
+        "other": "The brickworks, the Walther arms factory halls, SS garages and other buildings."
+      }
+    },
+    {
+      "id": "natzweiler",
+      "name": "Natzweiler-Struthof",
+      "short": "Natzweiler",
+      "place": "Natzwiller, France",
+      "years": "1941–1944",
+      "type": "Concentration camp",
+      "data": "data/natzweiler.geojson",
+      "summary": "Natzweiler-Struthof, in the Vosges mountains of annexed Alsace, was the only concentration camp on present-day French territory. Many of its prisoners were resistance fighters from across Europe held under the “Night and Fog” decree. In its gas chamber, 86 Jewish men and women were murdered in 1943 for a skeleton collection at Strasbourg University.",
+      "victims": "About 52,000 people were deported to Natzweiler and its sub-camps; around 20,000 of them died.",
+      "victims_short": "Around 20,000 prisoners died",
+      "boundary_note": "Outline: the present memorial site over the main camp. The sub-camps on both sides of the Rhine are not included.",
+      "sources": [
+        {
+          "label": "European Centre of Deported Resistance Members (Struthof)",
+          "url": "https://www.struthof.fr/"
+        },
+        {
+          "label": "USHMM Holocaust Encyclopedia: Natzweiler-Struthof",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/natzweiler-struthof"
+        }
+      ],
+      "layers": {
+        "boundary": "The memorial site on the mountainside.",
+        "barracks": "Prisoner barracks stood on terraces cut into the slope. Their outlines are marked; a few remain.",
+        "fence": "The double barbed-wire fence and walls.",
+        "watchtower": "Watchtowers along the fence.",
+        "memorial": "The Memorial to the Heroes and Martyrs of the Deportation (1960) and the ash pit.",
+        "other": "The kitchen, the cell block, the crematorium block and the museum. The gas chamber was outside the camp, in a former hotel building below it."
+      }
+    },
+    {
+      "id": "mittelbau-dora",
+      "name": "Mittelbau-Dora",
+      "short": "Mittelbau-Dora",
+      "place": "Nordhausen, Germany",
+      "years": "1943–1945",
+      "type": "Concentration camp",
+      "data": "data/mittelbau-dora.geojson",
+      "summary": "Mittelbau-Dora was set up to provide forced labour for the underground production of V-2 rockets in tunnels under the Kohnstein hill. In the first months prisoners lived inside the tunnels themselves, in darkness and dust. It became an independent camp in 1944 with dozens of sub-camps.",
+      "victims": "More than 60,000 people were imprisoned in the Mittelbau-Dora camp complex; around one in three died.",
+      "victims_short": "Around one in three prisoners died",
+      "boundary_note": "Outline: the memorial grounds, covering the prisoner camp. The tunnel system inside the hill is not shown.",
+      "sources": [
+        {
+          "label": "Mittelbau-Dora Concentration Camp Memorial",
+          "url": "https://www.dora.de/"
+        },
+        {
+          "label": "USHMM Holocaust Encyclopedia: Mittelbau-Dora",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/mittelbau-main-camp-in-depth"
+        }
+      ],
+      "layers": {
+        "boundary": "The memorial grounds at the foot of the Kohnstein, around the former prisoner camp.",
+        "barracks": "Prisoner barracks, now marked by their foundations; one barrack has been reconstructed.",
+        "fence": "Walls and fence lines of the camp.",
+        "crematoria": "The crematorium, which survives.",
+        "railway": "Sidings into the tunnel entrances, used to move rocket parts and material.",
+        "memorial": "The memorial square with its sculpture.",
+        "other": "Other buildings, including the fire station, the camp prison and the camp station."
+      }
+    },
+    {
+      "id": "westerbork",
+      "name": "Westerbork",
+      "short": "Westerbork",
+      "place": "Hooghalen, Netherlands",
+      "years": "1942–1945",
+      "type": "Transit camp",
+      "data": "data/westerbork.geojson",
+      "summary": "Westerbork had been a camp for Jewish refugees from Germany before the occupation authorities turned it into the main transit camp in the Netherlands. Every week, usually on a Tuesday, a train left for Auschwitz, Sobibór, Theresienstadt or Bergen-Belsen. Anne Frank and her family were deported from here in September 1944.",
+      "victims": "Almost 107,000 Jews and around 250 Sinti and Roma were deported from Westerbork. Only about 5,000 of them survived.",
+      "victims_short": "Almost 107,000 people deported",
+      "boundary_note": "Outline: the former camp grounds as mapped today.",
+      "sources": [
+        {
+          "label": "Herinneringscentrum Kamp Westerbork",
+          "url": "https://kampwesterbork.nl/"
+        }
+      ],
+      "layers": {
+        "boundary": "The former camp grounds.",
+        "barracks": "Living barracks, the punishment barracks and other buildings, marked today by their raised outlines.",
+        "fence": "Fence lines of the camp.",
+        "railway": "The railway line built into the camp in 1942, from which the deportation trains left. The end of the track is now a memorial.",
+        "other": "Other camp structures, including the commandant's house."
       }
     }
   ]

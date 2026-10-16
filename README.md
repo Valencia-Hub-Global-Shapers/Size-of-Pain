@@ -26,6 +26,11 @@ re-projected around whatever latitude you drop them at, so they stay
 correctly sized instead of stretching the way a naively-dragged map shape
 would.
 
+The site currently includes 18 camps: Auschwitz II–Birkenau, Auschwitz I,
+Majdanek, Treblinka II, Sobibór, Bełżec, Stutthof, Gross-Rosen, Dachau,
+Sachsenhausen, Buchenwald, Ravensbrück, Mauthausen, Flossenbürg,
+Neuengamme, Natzweiler-Struthof, Mittelbau-Dora and Westerbork.
+
 The site opens on a landing page that explains the idea and shows every
 camp side by side at the same scale. From there, the map lets you pick a
 camp, drop it over any place, switch its layers (perimeter, sub-camp

@@ -20,6 +20,7 @@ Two modes:
 Only the standard library is used, so this runs anywhere Python 3 does,
 including a bare GitHub Actions runner.
 """
+
 import json
 import math
 import sys
@@ -32,11 +33,22 @@ ENDPOINTS = [
     'https://overpass.kumi.systems/api/interpreter',
     'https://overpass.private.coffee/api/interpreter',
 ]
-USER_AGENT = 'size-of-pain-data-pipeline (github.com/valencia-hub-global-shapers/size-of-pain)'
+USER_AGENT = (
+    'size-of-pain-data-pipeline '
+    '(github.com/valencia-hub-global-shapers/size-of-pain)'
+)
 M_PER_DEG_LAT = 111320.0
 
 # Tags that make a feature worth looking at inside a camp boundary.
-RELEVANT_KEYS = ['historic', 'ruins', 'building', 'barrier', 'railway', 'memorial', 'man_made']
+RELEVANT_KEYS = [
+    'historic',
+    'ruins',
+    'building',
+    'barrier',
+    'railway',
+    'memorial',
+    'man_made',
+]
 
 
 def overpass(query):
@@ -44,7 +56,9 @@ def overpass(query):
     last_err = None
     for attempt in range(6):
         for url in ENDPOINTS:
-            req = urllib.request.Request(url, data=body, headers={'User-Agent': USER_AGENT})
+            req = urllib.request.Request(
+                url, data=body, headers={'User-Agent': USER_AGENT}
+            )
             try:
                 with urllib.request.urlopen(req, timeout=180) as res:
                     return json.loads(res.read().decode('utf-8'))
@@ -58,7 +72,11 @@ def overpass(query):
 def bbox_area_m2(bounds):
     mid_lat = (bounds['minlat'] + bounds['maxlat']) / 2
     h = (bounds['maxlat'] - bounds['minlat']) * M_PER_DEG_LAT
-    w = (bounds['maxlon'] - bounds['minlon']) * M_PER_DEG_LAT * math.cos(math.radians(mid_lat))
+    w = (
+        (bounds['maxlon'] - bounds['minlon'])
+        * M_PER_DEG_LAT
+        * math.cos(math.radians(mid_lat))
+    )
     return w * h
 
 
@@ -98,19 +116,42 @@ out tags bb;"""
         lines.append(f'### {camp_id}')
         for area, el in rows[:40]:
             tags = el.get('tags', {})
-            keep = {k: v for k, v in tags.items()
-                    if k in ('name', 'name:en', 'historic', 'memorial', 'landuse',
-                             'barrier', 'ref', 'tourism', 'site_type', 'wikidata')}
-            lines.append(f"{el['type']}/{el['id']}\tbbox~{area / 1e6:.3f}km2\t{json.dumps(keep, ensure_ascii=False)}")
+            keep = {
+                k: v
+                for k, v in tags.items()
+                if k
+                in (
+                    'name',
+                    'name:en',
+                    'historic',
+                    'memorial',
+                    'landuse',
+                    'barrier',
+                    'ref',
+                    'tourism',
+                    'site_type',
+                    'wikidata',
+                )
+            }
+            lines.append(
+                f"{el['type']}/{el['id']}\tbbox~{area / 1e6:.3f}km2\t"
+                + json.dumps(keep, ensure_ascii=False)
+            )
         lines.append('')
         time.sleep(5)
+    if not lines:
+        print(
+            'every camp already has a boundary; nothing to discover',
+            file=sys.stderr,
+        )
+        return
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines))
     print(f'wrote {out_path}', file=sys.stderr)
 
 
 def assemble_rings(ways):
-    """Join a list of way geometries (lists of (lon, lat)) into closed rings."""
+    """Join way geometries (lists of (lon, lat)) into closed rings."""
     segments = [list(w) for w in ways if len(w) >= 2]
     rings = []
     while segments:
@@ -147,20 +188,50 @@ def element_to_features(el):
         if len(coords) < 2:
             return feats
         closed = coords[0] == coords[-1] and len(coords) >= 4
-        is_line = (not closed) or tags.get('railway') or (
-            tags.get('barrier') in ('fence', 'wall') and not tags.get('area'))
+        is_line = (
+            (not closed)
+            or tags.get('railway')
+            or (
+                tags.get('barrier') in ('fence', 'wall')
+                and not tags.get('area')
+                and not tags.get('historic')
+                and not tags.get('landuse')
+                and not tags.get('name')
+            )
+        )
         if closed and not is_line:
-            geom = {'type': 'Polygon', 'coordinates': [[list(c) for c in coords]]}
+            geom = {
+                'type': 'Polygon',
+                'coordinates': [[list(c) for c in coords]],
+            }
         else:
-            geom = {'type': 'LineString', 'coordinates': [list(c) for c in coords]}
+            geom = {
+                'type': 'LineString',
+                'coordinates': [list(c) for c in coords],
+            }
         feats.append({'type': 'Feature', 'properties': tags, 'geometry': geom})
-    elif el['type'] == 'relation' and tags.get('type') in ('multipolygon', 'boundary'):
-        outers = [[(p['lon'], p['lat']) for p in m['geometry'] if p]
-                  for m in el.get('members', [])
-                  if m.get('type') == 'way' and m.get('role') in ('outer', '') and m.get('geometry')]
+    elif el['type'] == 'relation' and tags.get('type') in (
+        'multipolygon',
+        'boundary',
+    ):
+        outers = [
+            [(p['lon'], p['lat']) for p in m['geometry'] if p]
+            for m in el.get('members', [])
+            if m.get('type') == 'way'
+            and m.get('role') in ('outer', '')
+            and m.get('geometry')
+        ]
         for ring in assemble_rings(outers):
-            feats.append({'type': 'Feature', 'properties': dict(tags),
-                          'geometry': {'type': 'Polygon', 'coordinates': [[list(c) for c in ring]]}})
+            feats.append(
+                {
+                    'type': 'Feature',
+                    'properties': dict(tags),
+                    'geometry': {
+                        'type': 'Polygon',
+                        'coordinates': [[list(c) for c in ring]],
+                    },
+                }
+            )
     return feats
 
 
@@ -186,7 +257,11 @@ def dist_to_ring_m(lon, lat, ring):
         bx, by = (ring[i + 1][0] - lon) * kx, (ring[i + 1][1] - lat) * ky
         dx, dy = bx - ax, by - ay
         seg_len2 = dx * dx + dy * dy
-        t = 0.0 if seg_len2 == 0 else max(0.0, min(1.0, -(ax * dx + ay * dy) / seg_len2))
+        t = (
+            0.0
+            if seg_len2 == 0
+            else max(0.0, min(1.0, -(ax * dx + ay * dy) / seg_len2))
+        )
         best = min(best, math.hypot(ax + t * dx, ay + t * dy))
     return best
 
@@ -195,19 +270,37 @@ def near_boundary(coords, rings, buffer_m):
     lon = sum(c[0] for c in coords) / len(coords)
     lat = sum(c[1] for c in coords) / len(coords)
     for ring in rings:
-        if point_in_ring(lon, lat, ring) or dist_to_ring_m(lon, lat, ring) <= buffer_m:
+        if (
+            point_in_ring(lon, lat, ring)
+            or dist_to_ring_m(lon, lat, ring) <= buffer_m
+        ):
             return True
     return False
 
 
 def is_modern_noise(tags):
     """Obvious modern features that sit inside some memorial grounds."""
-    if tags.get('building') in ('house', 'detached', 'garage', 'garages', 'apartments',
-                                'residential', 'retail', 'commercial', 'shed', 'carport'):
+    if tags.get('building') in (
+        'house',
+        'detached',
+        'garage',
+        'garages',
+        'apartments',
+        'residential',
+        'retail',
+        'commercial',
+        'shed',
+        'carport',
+    ):
         return True
     if tags.get('amenity') in ('parking', 'toilets', 'cafe', 'restaurant'):
         return True
-    if tags.get('railway') in ('platform', 'station', 'halt', 'level_crossing') and not tags.get('historic'):
+    if tags.get('railway') in (
+        'platform',
+        'station',
+        'halt',
+        'level_crossing',
+    ) and not tags.get('historic'):
         return True
     return False
 
@@ -230,7 +323,9 @@ def fetch(sources, only):
 
 
 def fetch_one(camp_id, cfg, boundary_ids):
-    sel = ''.join(f'{b.split("/")[0]}({b.split("/")[1]});' for b in boundary_ids)
+    sel = ''.join(
+        f'{b.split("/")[0]}({b.split("/")[1]});' for b in boundary_ids
+    )
     bdata = overpass(f'[out:json][timeout:120];({sel});out geom;')
     boundary_feats = []
     for el in bdata['elements']:
@@ -238,16 +333,24 @@ def fetch_one(camp_id, cfg, boundary_ids):
     if not boundary_feats:
         print(f'  no boundary geometry for {camp_id}', file=sys.stderr)
         return
-    rings = [f['geometry']['coordinates'][0] for f in boundary_feats
-             if f['geometry']['type'] == 'Polygon']
+    rings = [
+        f['geometry']['coordinates'][0]
+        for f in boundary_feats
+        if f['geometry']['type'] == 'Polygon'
+    ]
     if not rings:
         rings = [f['geometry']['coordinates'] for f in boundary_feats]
     lons = [c[0] for r in rings for c in r]
     lats = [c[1] for r in rings for c in r]
     pad = 0.003
-    bbox = f'{min(lats) - pad},{min(lons) - pad},{max(lats) + pad},{max(lons) + pad}'
-    parts = ''.join(f'way({bbox})["{k}"];relation({bbox})["{k}"]["type"="multipolygon"];'
-                    for k in RELEVANT_KEYS)
+    bbox = (
+        f'{min(lats) - pad},{min(lons) - pad},'
+        f'{max(lats) + pad},{max(lons) + pad}'
+    )
+    parts = ''.join(
+        f'way({bbox})["{k}"];relation({bbox})["{k}"]["type"="multipolygon"];'
+        for k in RELEVANT_KEYS
+    )
     data = overpass(f'[out:json][timeout:180];({parts});out geom;')
     buffer_m = cfg.get('buffer_m', 30)
     seen = set(f['properties']['@id'] for f in boundary_feats)
@@ -258,13 +361,22 @@ def fetch_one(camp_id, cfg, boundary_ids):
             if pid in seen or is_modern_noise(feat['properties']):
                 continue
             g = feat['geometry']
-            coords = g['coordinates'][0] if g['type'] == 'Polygon' else g['coordinates']
+            coords = (
+                g['coordinates'][0]
+                if g['type'] == 'Polygon'
+                else g['coordinates']
+            )
             if near_boundary(coords, rings, buffer_m):
                 seen.add(pid)
                 out.append(feat)
     path = f'data/raw/{camp_id}-overpass-export.geojson'
     with open(path, 'w', encoding='utf-8') as f:
-        json.dump({'type': 'FeatureCollection', 'features': out}, f, ensure_ascii=False, indent=1)
+        json.dump(
+            {'type': 'FeatureCollection', 'features': out},
+            f,
+            ensure_ascii=False,
+            indent=1,
+        )
     print(f'  wrote {len(out)} features -> {path}', file=sys.stderr)
 
 
@@ -275,7 +387,9 @@ def main():
     with open(sys.argv[2], encoding='utf-8') as f:
         sources = json.load(f)
     if sys.argv[1] == 'discover':
-        discover(sources, sys.argv[3] if len(sys.argv) > 3 else 'discovery.txt')
+        discover(
+            sources, sys.argv[3] if len(sys.argv) > 3 else 'discovery.txt'
+        )
     else:
         fetch(sources, set(sys.argv[3:]))
 
