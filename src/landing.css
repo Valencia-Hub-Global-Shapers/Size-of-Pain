@@ -83,7 +83,9 @@ a:hover { color: var(--ink); }
   margin: 0 auto;
   padding: 72px 20px 56px;
 }
-.kicker { margin: 0 0 14px; font-size: 13px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--ink-muted); font-weight: 600; }
+.kicker { margin: 0 0 14px; font-size: 15px; color: var(--ink-dim); }
+.kicker a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+.kicker a:hover { color: var(--accent-hover); }
 .hero h1 { margin: 0 0 20px; font-family: var(--font-display); font-weight: 500; font-size: clamp(34px, 4.6vw, 52px); line-height: 1.12; }
 .lede { margin: 0 0 16px; font-size: 18px; color: var(--ink-dim); max-width: 36em; }
 .hero-notice { margin: 0 0 28px; padding-left: 14px; border-left: 2px solid var(--border-strong); font-size: 15px; color: var(--ink-muted); max-width: 38em; }
