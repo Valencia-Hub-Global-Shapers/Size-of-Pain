@@ -1,0 +1,3322 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:amenity": "prison_camp",
+    "alt_name:cs": "KT Dachau",
+    "concentration_camp": "nazism",
+    "fence_type": "barbed_wire",
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "KZ-Gedenkstätte Dachau",
+    "name:cs": "Koncentrační tábor Dachau",
+    "name:de": "KZ-Gedenkstätte Dachau",
+    "name:en": "Dachau Concentration Camp Memorial Site",
+    "name:es": "Memorial del Campo de Concentración de Dachau",
+    "name:fr": "Mémorial du camp de Dachau",
+    "name:hu": "Dachaui koncentrációs tábor",
+    "name:it": "Memoriale di Dachau",
+    "name:pt": "Memorial do Campo de Concentração Dachau",
+    "name:sk": "Koncentračný tábor Dachau",
+    "name:zh": "达豪集中营",
+    "prison_camp": "labor_camp",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.kz-gedenkstaette-dachau.de/",
+    "wheelchair": "limited",
+    "wikidata": "Q1532094",
+    "wikimedia_commons": "Category:Dachau concentration camp memorial site",
+    "wikipedia": "de:KZ-Gedenkstätte Dachau",
+    "wikipedia:fr": "Camp de concentration de Dachau",
+    "@id": "way/25503679"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4659779,
+       48.2724117
+      ],
+      [
+       11.4676693,
+       48.2726013
+      ],
+      [
+       11.4696721,
+       48.2728302
+      ],
+      [
+       11.4702991,
+       48.2696284
+      ],
+      [
+       11.4704614,
+       48.2688062
+      ],
+      [
+       11.4704697,
+       48.2687707
+      ],
+      [
+       11.4704727,
+       48.2687554
+      ],
+      [
+       11.4706886,
+       48.2676421
+      ],
+      [
+       11.4706013,
+       48.2676349
+      ],
+      [
+       11.4676548,
+       48.2673121
+      ],
+      [
+       11.4672323,
+       48.2672302
+      ],
+      [
+       11.4669564,
+       48.2683443
+      ],
+      [
+       11.4669264,
+       48.2684652
+      ],
+      [
+       11.4662536,
+       48.2712402
+      ],
+      [
+       11.4661108,
+       48.2718291
+      ],
+      [
+       11.466102,
+       48.2718654
+      ],
+      [
+       11.4660909,
+       48.2719108
+      ],
+      [
+       11.4659779,
+       48.2724117
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052861"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4695977,
+      48.2709591
+     ],
+     [
+      11.4696153,
+      48.2708843
+     ],
+     [
+      11.4683784,
+      48.2707557
+     ],
+     [
+      11.4683608,
+      48.270831
+     ],
+     [
+      11.4695977,
+      48.2709591
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052863"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4696342,
+      48.2708032
+     ],
+     [
+      11.4696528,
+      48.2707237
+     ],
+     [
+      11.4684162,
+      48.2705955
+     ],
+     [
+      11.4683975,
+      48.270675
+     ],
+     [
+      11.4696342,
+      48.2708032
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052865"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4695239,
+      48.2712736
+     ],
+     [
+      11.4695418,
+      48.2711973
+     ],
+     [
+      11.468305,
+      48.2710688
+     ],
+     [
+      11.4682871,
+      48.2711451
+     ],
+     [
+      11.4695239,
+      48.2712736
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052867"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4679142,
+      48.2707807
+     ],
+     [
+      11.4679318,
+      48.2707058
+     ],
+     [
+      11.4667111,
+      48.2705789
+     ],
+     [
+      11.4666935,
+      48.2706538
+     ],
+     [
+      11.4679142,
+      48.2707807
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052871"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4678048,
+      48.2712472
+     ],
+     [
+      11.4678248,
+      48.2711616
+     ],
+     [
+      11.4666042,
+      48.2710347
+     ],
+     [
+      11.4665841,
+      48.2711203
+     ],
+     [
+      11.4678048,
+      48.2712472
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052874"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4693793,
+      48.2718901
+     ],
+     [
+      11.4693979,
+      48.2718108
+     ],
+     [
+      11.468161,
+      48.2716823
+     ],
+     [
+      11.4681424,
+      48.2717615
+     ],
+     [
+      11.4693793,
+      48.2718901
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052876"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4664751,
+      48.2715847
+     ],
+     [
+      11.4676958,
+      48.2717116
+     ],
+     [
+      11.4677144,
+      48.2716324
+     ],
+     [
+      11.4664937,
+      48.2715055
+     ],
+     [
+      11.4664751,
+      48.2715847
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052877"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4667652,
+      48.2703484
+     ],
+     [
+      11.466785,
+      48.2702638
+     ],
+     [
+      11.4680062,
+      48.2703907
+     ],
+     [
+      11.4679862,
+      48.2704753
+     ],
+     [
+      11.4667652,
+      48.2703484
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052878"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4694883,
+      48.2714256
+     ],
+     [
+      11.4695083,
+      48.27134
+     ],
+     [
+      11.4682715,
+      48.2712114
+     ],
+     [
+      11.4682514,
+      48.2712971
+     ],
+     [
+      11.4694883,
+      48.2714256
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052880"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4677701,
+      48.2713949
+     ],
+     [
+      11.4677885,
+      48.2713165
+     ],
+     [
+      11.4665678,
+      48.2711896
+     ],
+     [
+      11.4665494,
+      48.271268
+     ],
+     [
+      11.4677701,
+      48.2713949
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052881"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4696692,
+      48.2706537
+     ],
+     [
+      11.4696889,
+      48.2705691
+     ],
+     [
+      11.4684526,
+      48.270441
+     ],
+     [
+      11.4684327,
+      48.2705256
+     ],
+     [
+      11.4696692,
+      48.2706537
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052882"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4667301,
+      48.2704979
+     ],
+     [
+      11.4667488,
+      48.2704183
+     ],
+     [
+      11.4679697,
+      48.2705453
+     ],
+     [
+      11.467951,
+      48.2706248
+     ],
+     [
+      11.4667301,
+      48.2704979
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052884"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4694536,
+      48.2715734
+     ],
+     [
+      11.469472,
+      48.2714949
+     ],
+     [
+      11.4682352,
+      48.2713663
+     ],
+     [
+      11.4682167,
+      48.2714448
+     ],
+     [
+      11.4694536,
+      48.2715734
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052886"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.467731,
+      48.2715614
+     ],
+     [
+      11.4677503,
+      48.2714795
+     ],
+     [
+      11.4665296,
+      48.2713526
+     ],
+     [
+      11.4665103,
+      48.2714345
+     ],
+     [
+      11.467731,
+      48.2715614
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052887"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4678764,
+      48.2709417
+     ],
+     [
+      11.4678945,
+      48.2708646
+     ],
+     [
+      11.4666738,
+      48.2707378
+     ],
+     [
+      11.4666557,
+      48.2708148
+     ],
+     [
+      11.4678764,
+      48.2709417
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Dachau",
+    "addr:housenumber": "75",
+    "addr:postcode": "85221",
+    "addr:street": "Alte Römerstraße",
+    "building": "yes",
+    "email": "info@kz-gedenkstaette-dachau.de",
+    "emergency": "fire_detection_system",
+    "fee": "no",
+    "historic": "building",
+    "image": "https://commons.wikimedia.org/wiki/File:KZ_Dachau_Bunker_Gang.JPG",
+    "museum": "history",
+    "name": "Ehemaliges Lagergefängnis (\"Bunker\")",
+    "name:en": "Former camp prison (\"Bunker\")",
+    "name:fr": "L’ancienne Prison (\"Bunker\")",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "operator": "KZ-Gedenkstätte Dachau",
+    "operator:type": "public",
+    "phone": "+49 8131 66997-0",
+    "short_name": "Ehemaliges Lagergefängnis",
+    "tourism": "museum",
+    "website": "https://www.kz-gedenkstaette-dachau.de/historischer-ort/virtueller-rundgang/lagergefaengnis/",
+    "@id": "way/124052888"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4676118,
+       48.2674395
+      ],
+      [
+       11.4675907,
+       48.2675269
+      ],
+      [
+       11.4687986,
+       48.2676566
+      ],
+      [
+       11.4687924,
+       48.2676821
+      ],
+      [
+       11.4689909,
+       48.2677035
+      ],
+      [
+       11.4689978,
+       48.267675
+      ],
+      [
+       11.4702035,
+       48.2678047
+      ],
+      [
+       11.470224,
+       48.2677202
+      ],
+      [
+       11.4690156,
+       48.2675901
+      ],
+      [
+       11.4690184,
+       48.2675787
+      ],
+      [
+       11.4688248,
+       48.2675579
+      ],
+      [
+       11.468822,
+       48.2675695
+      ],
+      [
+       11.4676118,
+       48.2674395
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052889"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4694145,
+      48.2717398
+     ],
+     [
+      11.4694338,
+      48.2716579
+     ],
+     [
+      11.4681969,
+      48.2715293
+     ],
+     [
+      11.4681777,
+      48.2716112
+     ],
+     [
+      11.4694145,
+      48.2717398
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052890"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4678404,
+      48.2710952
+     ],
+     [
+      11.4678583,
+      48.2710189
+     ],
+     [
+      11.4666376,
+      48.270892
+     ],
+     [
+      11.4666197,
+      48.2709683
+     ],
+     [
+      11.4678404,
+      48.2710952
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124052894"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4695599,
+      48.2711202
+     ],
+     [
+      11.469578,
+      48.2710431
+     ],
+     [
+      11.4683412,
+      48.2709145
+     ],
+     [
+      11.4683231,
+      48.2709916
+     ],
+     [
+      11.4695599,
+      48.2711202
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124054854"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4670227,
+      48.2692509
+     ],
+     [
+      11.4670428,
+      48.2691653
+     ],
+     [
+      11.4682651,
+      48.2692924
+     ],
+     [
+      11.4682449,
+      48.269378
+     ],
+     [
+      11.4670227,
+      48.2692509
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124054855"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.469779,
+      48.2701839
+     ],
+     [
+      11.4697985,
+      48.2701006
+     ],
+     [
+      11.4685628,
+      48.2699725
+     ],
+     [
+      11.4685432,
+      48.2700559
+     ],
+     [
+      11.469779,
+      48.2701839
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124054856"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.468691,
+      48.2694282
+     ],
+     [
+      11.4687111,
+      48.2693426
+     ],
+     [
+      11.4699459,
+      48.2694706
+     ],
+     [
+      11.4699259,
+      48.2695561
+     ],
+     [
+      11.468691,
+      48.2694282
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124054857"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4698164,
+      48.2700243
+     ],
+     [
+      11.4698376,
+      48.2699336
+     ],
+     [
+      11.4686021,
+      48.2698056
+     ],
+     [
+      11.4685808,
+      48.2698963
+     ],
+     [
+      11.4698164,
+      48.2700243
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124054858"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4669129,
+      48.269719
+     ],
+     [
+      11.4681346,
+      48.269846
+     ],
+     [
+      11.468156,
+      48.2697554
+     ],
+     [
+      11.4669341,
+      48.2696283
+     ],
+     [
+      11.4669129,
+      48.269719
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124054861"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4697061,
+      48.2704957
+     ],
+     [
+      11.4697254,
+      48.2704134
+     ],
+     [
+      11.4684892,
+      48.2702853
+     ],
+     [
+      11.4684698,
+      48.2703676
+     ],
+     [
+      11.4697061,
+      48.2704957
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124054865"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.466839,
+      48.2700338
+     ],
+     [
+      11.4668579,
+      48.2699534
+     ],
+     [
+      11.4680793,
+      48.2700803
+     ],
+     [
+      11.4680604,
+      48.2701608
+     ],
+     [
+      11.466839,
+      48.2700338
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124054866"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4669508,
+      48.2695573
+     ],
+     [
+      11.4669692,
+      48.2694789
+     ],
+     [
+      11.4681912,
+      48.2696059
+     ],
+     [
+      11.4681727,
+      48.2696843
+     ],
+     [
+      11.4669508,
+      48.2695573
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124054867"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4697427,
+      48.2703391
+     ],
+     [
+      11.4697615,
+      48.2702586
+     ],
+     [
+      11.4685256,
+      48.2701306
+     ],
+     [
+      11.4685067,
+      48.270211
+     ],
+     [
+      11.4697427,
+      48.2703391
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124054868"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4669869,
+      48.2694036
+     ],
+     [
+      11.4670068,
+      48.2693187
+     ],
+     [
+      11.4682289,
+      48.2694458
+     ],
+     [
+      11.4682089,
+      48.2695306
+     ],
+     [
+      11.4669869,
+      48.2694036
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124054869"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4668754,
+      48.2698787
+     ],
+     [
+      11.466895,
+      48.2697953
+     ],
+     [
+      11.4681166,
+      48.2699223
+     ],
+     [
+      11.4680969,
+      48.2700056
+     ],
+     [
+      11.4668754,
+      48.2698787
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124054873"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4668022,
+      48.2701904
+     ],
+     [
+      11.4668216,
+      48.2701081
+     ],
+     [
+      11.4680429,
+      48.270235
+     ],
+     [
+      11.4680234,
+      48.2703174
+     ],
+     [
+      11.4668022,
+      48.2701904
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124054876"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4686551,
+      48.2695808
+     ],
+     [
+      11.468675,
+      48.269496
+     ],
+     [
+      11.46991,
+      48.269624
+     ],
+     [
+      11.4698901,
+      48.2697088
+     ],
+     [
+      11.4686551,
+      48.2695808
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/124054879"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4698542,
+      48.2698625
+     ],
+     [
+      11.4698725,
+      48.2697842
+     ],
+     [
+      11.4686373,
+      48.2696562
+     ],
+     [
+      11.4686189,
+      48.2697345
+     ],
+     [
+      11.4698542,
+      48.2698625
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Dachau",
+    "addr:country": "DE",
+    "addr:housenumber": "75",
+    "addr:postcode": "85221",
+    "addr:street": "Alte Römerstraße",
+    "building": "yes",
+    "emergency": "fire_detection_system",
+    "fee": "no",
+    "historic": "yes",
+    "museum": "history",
+    "name": "Ehemaliges Wirtschaftsgebäude",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "wheelchair": "yes",
+    "wikidata": "Q1236532",
+    "wikipedia": "de:Wirtschaftsgebäude des KZ Dachau",
+    "@id": "way/124057103"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4687744,
+       48.2679303
+      ],
+      [
+       11.4687636,
+       48.2679745
+      ],
+      [
+       11.4689051,
+       48.2679899
+      ],
+      [
+       11.468916,
+       48.2679457
+      ],
+      [
+       11.4690352,
+       48.2679587
+      ],
+      [
+       11.4692803,
+       48.2679855
+      ],
+      [
+       11.4698875,
+       48.268052
+      ],
+      [
+       11.4699415,
+       48.2680579
+      ],
+      [
+       11.4698944,
+       48.2682544
+      ],
+      [
+       11.4698432,
+       48.2684559
+      ],
+      [
+       11.4698279,
+       48.268518
+      ],
+      [
+       11.4700428,
+       48.2685415
+      ],
+      [
+       11.4701945,
+       48.2679274
+      ],
+      [
+       11.467588,
+       48.2676421
+      ],
+      [
+       11.4675156,
+       48.2679351
+      ],
+      [
+       11.4674521,
+       48.2681924
+      ],
+      [
+       11.4674386,
+       48.268247
+      ],
+      [
+       11.4676501,
+       48.2682701
+      ],
+      [
+       11.4676662,
+       48.268205
+      ],
+      [
+       11.4677615,
+       48.2678194
+      ],
+      [
+       11.4679033,
+       48.2678349
+      ],
+      [
+       11.4682422,
+       48.267872
+      ],
+      [
+       11.4686323,
+       48.2679147
+      ],
+      [
+       11.4687744,
+       48.2679303
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Wachturm",
+    "name:en": "Watchtower",
+    "name:fr": "Mirador",
+    "tower:type": "watchtower",
+    "wikidata": "Q98742513",
+    "@id": "way/124058275"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4704614,
+       48.2688062
+      ],
+      [
+       11.4704697,
+       48.2687707
+      ],
+      [
+       11.4704182,
+       48.2687654
+      ],
+      [
+       11.47041,
+       48.268801
+      ],
+      [
+       11.4704614,
+       48.2688062
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Wachturm",
+    "name:en": "Watchtower",
+    "name:fr": "Mirador",
+    "tower:type": "watchtower",
+    "wikidata": "Q98742514",
+    "@id": "way/166493500"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4700188,
+       48.2709321
+      ],
+      [
+       11.4700305,
+       48.2708802
+      ],
+      [
+       11.470086,
+       48.2708857
+      ],
+      [
+       11.4701026,
+       48.2708873
+      ],
+      [
+       11.4700909,
+       48.2709392
+      ],
+      [
+       11.4700737,
+       48.2709375
+      ],
+      [
+       11.4700188,
+       48.2709321
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "yes",
+    "image": "https://commons.wikimedia.org/wiki/File:Prisoner%27s_barracks_dachau.jpg",
+    "name": "Rekonstruierte Baracke",
+    "name:en": "Reconstructed Barrack",
+    "name:fr": "Baraque reconstruite",
+    "ref": "A",
+    "roof:shape": "gabled",
+    "subject:wikidata": "Q1520659",
+    "website": "https://www.kz-gedenkstaette-dachau.de/historischer-ort/virtueller-rundgang/baracken/",
+    "@id": "way/172536185"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4687135,
+       48.2692783
+      ],
+      [
+       11.4687336,
+       48.2691927
+      ],
+      [
+       11.4699684,
+       48.2693207
+      ],
+      [
+       11.4699484,
+       48.2694062
+      ],
+      [
+       11.4687135,
+       48.2692783
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "yes",
+    "name": "Rekonstruierte Baracke",
+    "name:en": "Reconstructed Barrack",
+    "name:fr": "Baraque reconstruite",
+    "ref": "B",
+    "roof:shape": "gabled",
+    "subject:wikidata": "Q1520659",
+    "@id": "way/172536204"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4670466,
+       48.2690915
+      ],
+      [
+       11.4670667,
+       48.2690059
+      ],
+      [
+       11.4683015,
+       48.2691339
+      ],
+      [
+       11.4682815,
+       48.2692194
+      ],
+      [
+       11.4670466,
+       48.2690915
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Wachturm",
+    "name:en": "Watchtower",
+    "name:fr": "Mirador",
+    "tower:type": "watchtower",
+    "wikidata": "Q98742512",
+    "@id": "way/172912164"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4706653,
+       48.2675857
+      ],
+      [
+       11.4706522,
+       48.2676352
+      ],
+      [
+       11.4707206,
+       48.2676433
+      ],
+      [
+       11.4707338,
+       48.2675938
+      ],
+      [
+       11.47073,
+       48.2675934
+      ],
+      [
+       11.4706653,
+       48.2675857
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Dachau",
+    "addr:country": "DE",
+    "addr:housenumber": "87",
+    "addr:postcode": "85221",
+    "addr:street": "Alte Römerstraße",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "protestant",
+    "email": "info@versoehnungskirche-dachau.de",
+    "name": "Versöhnungskirche",
+    "name:en": "Protestant Church of Reconcilation",
+    "name:fr": "Église protestante de la réconciliation",
+    "phone": "+49 8131 13644",
+    "religion": "christian",
+    "start_date": "1967",
+    "website": "https://www.versoehnungskirche-dachau.de/",
+    "wheelchair": "yes",
+    "wikidata": "Q1557273",
+    "wikimedia_commons": "Category:Versöhnungskirche (Dachau)",
+    "wikipedia": "de:Versöhnungskirche (Dachau)",
+    "@id": "way/174271927"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4665134,
+       48.2721334
+      ],
+      [
+       11.4665003,
+       48.2721426
+      ],
+      [
+       11.4664856,
+       48.2721529
+      ],
+      [
+       11.4664857,
+       48.2721662
+      ],
+      [
+       11.4664962,
+       48.2721796
+      ],
+      [
+       11.4665132,
+       48.2721856
+      ],
+      [
+       11.4665265,
+       48.2721982
+      ],
+      [
+       11.4666879,
+       48.272215
+      ],
+      [
+       11.4667111,
+       48.2722079
+      ],
+      [
+       11.4667228,
+       48.2721927
+      ],
+      [
+       11.4667381,
+       48.2721269
+      ],
+      [
+       11.4667371,
+       48.2721104
+      ],
+      [
+       11.4668643,
+       48.272125
+      ],
+      [
+       11.4668597,
+       48.2721529
+      ],
+      [
+       11.4668565,
+       48.2721718
+      ],
+      [
+       11.4668712,
+       48.2721727
+      ],
+      [
+       11.46687,
+       48.2721878
+      ],
+      [
+       11.4668524,
+       48.272192
+      ],
+      [
+       11.4668513,
+       48.2721957
+      ],
+      [
+       11.4669166,
+       48.2722034
+      ],
+      [
+       11.4670068,
+       48.2721974
+      ],
+      [
+       11.4670147,
+       48.2721916
+      ],
+      [
+       11.4670105,
+       48.2721478
+      ],
+      [
+       11.4669804,
+       48.2721377
+      ],
+      [
+       11.4669803,
+       48.2721136
+      ],
+      [
+       11.4669113,
+       48.2721031
+      ],
+      [
+       11.4669105,
+       48.2720898
+      ],
+      [
+       11.4667503,
+       48.2720672
+      ],
+      [
+       11.4667336,
+       48.2720815
+      ],
+      [
+       11.4666406,
+       48.2720711
+      ],
+      [
+       11.4666129,
+       48.2720722
+      ],
+      [
+       11.4665841,
+       48.2720779
+      ],
+      [
+       11.46657,
+       48.272086
+      ],
+      [
+       11.4665782,
+       48.272145
+      ],
+      [
+       11.4665948,
+       48.2721554
+      ],
+      [
+       11.4665943,
+       48.2721588
+      ],
+      [
+       11.4665609,
+       48.2721587
+      ],
+      [
+       11.4665134,
+       48.2721334
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "image": "https://commons.wikimedia.org/wiki/File:2492_-_KZ_Dachau_-_Jewish_Monument.JPG",
+    "name": "Jüdische Gedenkstätte",
+    "name:en": "Jewish memorial",
+    "name:fr": "Mémorial juif",
+    "religion": "jewish",
+    "start_date": "1967",
+    "website": "https://www.kz-gedenkstaette-dachau.de/historischer-ort/virtueller-rundgang/juedische-gedenkstaette/",
+    "wheelchair": "yes",
+    "wikidata": "Q41241430",
+    "wikimedia_commons": "Category:Jewish Memorial (Dachau)",
+    "@id": "way/174271928"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4686297,
+       48.2722988
+      ],
+      [
+       11.4686783,
+       48.2723025
+      ],
+      [
+       11.4687211,
+       48.2723057
+      ],
+      [
+       11.4687035,
+       48.2723998
+      ],
+      [
+       11.468694,
+       48.2724153
+      ],
+      [
+       11.4686794,
+       48.2724272
+      ],
+      [
+       11.4686526,
+       48.2724334
+      ],
+      [
+       11.4686278,
+       48.2724202
+      ],
+      [
+       11.4686198,
+       48.2724048
+      ],
+      [
+       11.468616,
+       48.2723909
+      ],
+      [
+       11.4686297,
+       48.2722988
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "amenity": "place_of_worship",
+    "building": "chapel",
+    "denomination": "catholic",
+    "name": "Todesangst-Christi-Kapelle",
+    "name:en": "Catholic Mortal Agony of Christ chapel",
+    "name:fr": "Chapelle de l'Agonie du Christ",
+    "religion": "christian",
+    "start_date": "1960",
+    "wheelchair": "yes",
+    "wikidata": "Q1300735",
+    "wikimedia_commons": "Category:Todesangst-Christi-Kapelle (Dachau)",
+    "wikipedia": "de:Todesangst-Christi-Kapelle (Dachau)",
+    "@id": "way/174271929"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4678631,
+       48.2721482
+      ],
+      [
+       11.4678873,
+       48.2721394
+      ],
+      [
+       11.467906,
+       48.2721258
+      ],
+      [
+       11.4679173,
+       48.272109
+      ],
+      [
+       11.4679199,
+       48.2720907
+      ],
+      [
+       11.4679135,
+       48.2720727
+      ],
+      [
+       11.467899,
+       48.2720571
+      ],
+      [
+       11.4678777,
+       48.2720454
+      ],
+      [
+       11.4678519,
+       48.2720387
+      ],
+      [
+       11.4678231,
+       48.272038
+      ],
+      [
+       11.4677957,
+       48.2720437
+      ],
+      [
+       11.4677725,
+       48.2720551
+      ],
+      [
+       11.4677564,
+       48.272071
+      ],
+      [
+       11.4677491,
+       48.2720895
+      ],
+      [
+       11.4677515,
+       48.2721086
+      ],
+      [
+       11.4677632,
+       48.2721261
+      ],
+      [
+       11.4677829,
+       48.2721401
+      ],
+      [
+       11.4678085,
+       48.2721488
+      ],
+      [
+       11.4678359,
+       48.2721515
+      ],
+      [
+       11.4678631,
+       48.2721482
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "historic": "building",
+    "image": "https://commons.wikimedia.org/wiki/File:2439_-_KZ_Dachau_-_Jourhaus.JPG",
+    "name": "Jourhaus",
+    "name:en": "Guardhouse (Jourhaus)",
+    "name:fr": "Poste de garde (Jourhaus)",
+    "website": "https://www.kz-gedenkstaette-dachau.de/historischer-ort/virtueller-rundgang/jourhaus-mit-lagertor/",
+    "wikidata": "Q1709801",
+    "wikipedia": "de:Jourhaus (KZ Dachau)",
+    "@id": "way/174271930"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4669264,
+       48.2684652
+      ],
+      [
+       11.4670345,
+       48.2684763
+      ],
+      [
+       11.4670499,
+       48.2684102
+      ],
+      [
+       11.4670625,
+       48.2683557
+      ],
+      [
+       11.4670912,
+       48.2682355
+      ],
+      [
+       11.4669833,
+       48.268224
+      ],
+      [
+       11.4669564,
+       48.2683443
+      ],
+      [
+       11.4669264,
+       48.2684652
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/174271937"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.465854,
+      48.2718513
+     ],
+     [
+      11.4658731,
+      48.2717734
+     ],
+     [
+      11.4653952,
+      48.2713051
+     ],
+     [
+      11.4654439,
+      48.2712305
+     ],
+     [
+      11.4660776,
+      48.271284
+     ],
+     [
+      11.4659704,
+      48.2717593
+     ],
+     [
+      11.4659564,
+      48.2718649
+     ],
+     [
+      11.4660452,
+      48.2718753
+     ],
+     [
+      11.4660536,
+      48.2718321
+     ],
+     [
+      11.4661108,
+      48.2718291
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/174271938"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.468736,
+      48.2685007
+     ],
+     [
+      11.4687543,
+      48.2684205
+     ],
+     [
+      11.4687641,
+      48.2683258
+     ],
+     [
+      11.4688487,
+      48.268202
+     ],
+     [
+      11.469431,
+      48.2682644
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "amenity": "place_of_worship",
+    "building": "chapel",
+    "denomination": "russian_orthodox",
+    "image": "https://commons.wikimedia.org/wiki/File:KZ_Dachau_Russisch-Orthodoxe_Kapelle.jpg",
+    "name": "Christi-Auferstehungs-Gedächtniskapelle",
+    "name:en": "Russian Orthodox Chapel",
+    "name:fr": "Chapelle russe orthodoxe de la Résurection du Seigneur",
+    "phone": "+49 89 3515742",
+    "religion": "christian",
+    "start_date": "1995",
+    "website": "https://www.voskresenie.de/",
+    "wheelchair": "no",
+    "wikidata": "Q21661610",
+    "wikimedia_commons": "Category:Christi-Auferstehungs-Kapelle (Dachau)",
+    "@id": "way/174271939"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4658013,
+       48.2713785
+      ],
+      [
+       11.4658367,
+       48.2713731
+      ],
+      [
+       11.4658674,
+       48.271386
+      ],
+      [
+       11.4658755,
+       48.2714096
+      ],
+      [
+       11.4658561,
+       48.27143
+      ],
+      [
+       11.4658207,
+       48.2714354
+      ],
+      [
+       11.46579,
+       48.2714225
+      ],
+      [
+       11.4657819,
+       48.2713989
+      ],
+      [
+       11.4658013,
+       48.2713785
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/174271940"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4686339,
+      48.26849
+     ],
+     [
+      11.4686797,
+      48.2684027
+     ],
+     [
+      11.4686455,
+      48.2683166
+     ],
+     [
+      11.4686961,
+      48.2682639
+     ],
+     [
+      11.4686562,
+      48.2681814
+     ],
+     [
+      11.4681032,
+      48.2681235
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Wachturm",
+    "name:en": "Watchtower",
+    "name:fr": "Mirador",
+    "tower:type": "watchtower",
+    "wikidata": "Q98742515",
+    "@id": "way/190514219"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4676654,
+       48.2726211
+      ],
+      [
+       11.4676678,
+       48.272613
+      ],
+      [
+       11.4676773,
+       48.2725802
+      ],
+      [
+       11.4677051,
+       48.2725838
+      ],
+      [
+       11.4677402,
+       48.2725883
+      ],
+      [
+       11.4677307,
+       48.272621
+      ],
+      [
+       11.4677283,
+       48.2726292
+      ],
+      [
+       11.4676958,
+       48.2726251
+      ],
+      [
+       11.4676654,
+       48.2726211
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "historic": "yes",
+    "man_made": "tower",
+    "name": "Glockenturm",
+    "name:fr": "Clocher",
+    "tower:type": "bell_tower",
+    "@id": "way/190516276"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4677202,
+       48.2719175
+      ],
+      [
+       11.4677238,
+       48.2718931
+      ],
+      [
+       11.4677564,
+       48.2718952
+      ],
+      [
+       11.4677529,
+       48.2719196
+      ],
+      [
+       11.4677202,
+       48.2719175
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/190516278"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4679338,
+      48.2684441
+     ],
+     [
+      11.4679704,
+      48.2683001
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/190516279"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4696118,
+      48.2683237
+     ],
+     [
+      11.4696205,
+      48.2682837
+     ],
+     [
+      11.4696291,
+      48.2682438
+     ],
+     [
+      11.4696483,
+      48.2681554
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "historic": "yes",
+    "man_made": "tower",
+    "name": "Wachturm B",
+    "name:en": "Watchtower B",
+    "name:fr": "Mirador B",
+    "tower:type": "watchtower",
+    "wikimedia_commons": "File:Wachturm KZ Dachau.jpg",
+    "@id": "way/190845757"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.46644,
+       48.2705129
+      ],
+      [
+       11.4664522,
+       48.2704738
+      ],
+      [
+       11.4665082,
+       48.2704816
+      ],
+      [
+       11.4664959,
+       48.2705207
+      ],
+      [
+       11.46644,
+       48.2705129
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Wachturm",
+    "name:en": "Watchtower",
+    "name:fr": "Mirador",
+    "tower:type": "watchtower",
+    "wikidata": "Q98742517",
+    "@id": "way/190845758"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4672218,
+       48.2672769
+      ],
+      [
+       11.4672357,
+       48.2672318
+      ],
+      [
+       11.4673045,
+       48.2672412
+      ],
+      [
+       11.4672906,
+       48.2672863
+      ],
+      [
+       11.4672218,
+       48.2672769
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/239454231"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4681148,
+      48.268079
+     ],
+     [
+      11.4681283,
+      48.2680177
+     ],
+     [
+      11.4694565,
+      48.2681589
+     ],
+     [
+      11.4694417,
+      48.2682222
+     ],
+     [
+      11.4688668,
+      48.2681392
+     ],
+     [
+      11.4686655,
+      48.2681198
+     ],
+     [
+      11.4681148,
+      48.268079
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "retaining_wall",
+    "@id": "way/242792953"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4687211,
+      48.2723057
+     ],
+     [
+      11.4687556,
+      48.272147
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "ditch",
+    "@id": "way/242792954"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4701592,
+      48.2696194
+     ],
+     [
+      11.4704374,
+      48.2680813
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "ditch",
+    "@id": "way/242792955"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4663356,
+      48.2712596
+     ],
+     [
+      11.466203,
+      48.2718413
+     ],
+     [
+      11.4660998,
+      48.2723235
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "retaining_wall",
+    "@id": "way/242792956"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4686629,
+      48.2721373
+     ],
+     [
+      11.4686297,
+      48.2722988
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "fence_type": "barbed_wire",
+    "@id": "way/242792957"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4702135,
+      48.2696253
+     ],
+     [
+      11.4703808,
+      48.2687479
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "source": "Bayern 2m",
+    "@id": "way/294285154"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.468678,
+       48.272896
+      ],
+      [
+       11.4687551,
+       48.2729045
+      ],
+      [
+       11.4687425,
+       48.2729553
+      ],
+      [
+       11.4686653,
+       48.2729468
+      ],
+      [
+       11.468678,
+       48.272896
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "fence_type": "barbed_wire",
+    "@id": "way/476586416"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4703808,
+      48.2687479
+     ],
+     [
+      11.4705123,
+      48.268058
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/768487118"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.465839,
+      48.2718973
+     ],
+     [
+      11.4655257,
+      48.2729895
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "gate",
+    "@id": "way/768487119"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.465854,
+      48.2718513
+     ],
+     [
+      11.4658484,
+      48.2718685
+     ],
+     [
+      11.465839,
+      48.2718973
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/1086026699"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4673373,
+       48.267045
+      ],
+      [
+       11.4673449,
+       48.2670144
+      ],
+      [
+       11.467291,
+       48.2670085
+      ],
+      [
+       11.4672834,
+       48.267039
+      ],
+      [
+       11.4673373,
+       48.267045
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/1086026700"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4675081,
+       48.2671144
+      ],
+      [
+       11.4675187,
+       48.2670626
+      ],
+      [
+       11.4676005,
+       48.2670701
+      ],
+      [
+       11.4675899,
+       48.2671219
+      ],
+      [
+       11.4675081,
+       48.2671144
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "13",
+    "addr:street": "Karl-Riemer-Straße",
+    "building": "semidetached_house",
+    "@id": "way/1086026701"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4676776,
+       48.2672627
+      ],
+      [
+       11.4677655,
+       48.2672722
+      ],
+      [
+       11.4677923,
+       48.2671634
+      ],
+      [
+       11.4677044,
+       48.2671538
+      ],
+      [
+       11.4676964,
+       48.2671852
+      ],
+      [
+       11.4676829,
+       48.2672424
+      ],
+      [
+       11.4676776,
+       48.2672627
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/1086026702"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4675735,
+       48.2672309
+      ],
+      [
+       11.4676829,
+       48.2672424
+      ],
+      [
+       11.4676964,
+       48.2671852
+      ],
+      [
+       11.467587,
+       48.2671738
+      ],
+      [
+       11.4675735,
+       48.2672309
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "15",
+    "addr:street": "Karl-Riemer-Straße",
+    "building": "semidetached_house",
+    "@id": "way/1086026703"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4677655,
+       48.2672722
+      ],
+      [
+       11.4678482,
+       48.2672812
+      ],
+      [
+       11.467875,
+       48.2671724
+      ],
+      [
+       11.4677923,
+       48.2671634
+      ],
+      [
+       11.4677655,
+       48.2672722
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/1086026704"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4678832,
+       48.2672368
+      ],
+      [
+       11.4679689,
+       48.2672459
+      ],
+      [
+       11.4679862,
+       48.2671733
+      ],
+      [
+       11.4679005,
+       48.2671642
+      ],
+      [
+       11.4678832,
+       48.2672368
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "17",
+    "addr:street": "Karl-Riemer-Straße",
+    "building": "semidetached_house",
+    "@id": "way/1086026705"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4679806,
+       48.2672911
+      ],
+      [
+       11.4680698,
+       48.2673009
+      ],
+      [
+       11.4680965,
+       48.2671935
+      ],
+      [
+       11.4680073,
+       48.2671836
+      ],
+      [
+       11.4679806,
+       48.2672911
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "19",
+    "addr:street": "Karl-Riemer-Straße",
+    "building": "semidetached_house",
+    "@id": "way/1086026706"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4680698,
+       48.2673009
+      ],
+      [
+       11.4681526,
+       48.26731
+      ],
+      [
+       11.4681688,
+       48.267245
+      ],
+      [
+       11.4681793,
+       48.2672026
+      ],
+      [
+       11.4680965,
+       48.2671935
+      ],
+      [
+       11.4680698,
+       48.2673009
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/1086026707"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4681688,
+       48.267245
+      ],
+      [
+       11.46827,
+       48.2672561
+      ],
+      [
+       11.4682791,
+       48.2672131
+      ],
+      [
+       11.4682775,
+       48.2672024
+      ],
+      [
+       11.4681821,
+       48.2671919
+      ],
+      [
+       11.4681793,
+       48.2672026
+      ],
+      [
+       11.4681688,
+       48.267245
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "21",
+    "addr:street": "Karl-Riemer-Straße",
+    "building": "semidetached_house",
+    "@id": "way/1086026708"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4682791,
+       48.2672131
+      ],
+      [
+       11.4683673,
+       48.2672214
+      ],
+      [
+       11.4683446,
+       48.267329
+      ],
+      [
+       11.4682564,
+       48.2673207
+      ],
+      [
+       11.46827,
+       48.2672561
+      ],
+      [
+       11.4682791,
+       48.2672131
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "23",
+    "addr:street": "Karl-Riemer-Straße",
+    "building": "semidetached_house",
+    "@id": "way/1086026709"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4683673,
+       48.2672214
+      ],
+      [
+       11.4684517,
+       48.2672293
+      ],
+      [
+       11.4684289,
+       48.2673369
+      ],
+      [
+       11.4683446,
+       48.267329
+      ],
+      [
+       11.4683673,
+       48.2672214
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/1086026710"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4684725,
+       48.2672212
+      ],
+      [
+       11.4685581,
+       48.2672307
+      ],
+      [
+       11.4685443,
+       48.2672856
+      ],
+      [
+       11.4684588,
+       48.2672761
+      ],
+      [
+       11.4684725,
+       48.2672212
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "25",
+    "addr:street": "Karl-Riemer-Straße",
+    "building": "semidetached_house",
+    "@id": "way/1086026711"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4686665,
+       48.2672533
+      ],
+      [
+       11.4685759,
+       48.2672439
+      ],
+      [
+       11.4685509,
+       48.2673499
+      ],
+      [
+       11.4686415,
+       48.2673594
+      ],
+      [
+       11.4686665,
+       48.2672533
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "27",
+    "addr:street": "Karl-Riemer-Straße",
+    "building": "semidetached_house",
+    "@id": "way/1086026712"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4686665,
+       48.2672533
+      ],
+      [
+       11.4687605,
+       48.2672631
+      ],
+      [
+       11.4687355,
+       48.2673692
+      ],
+      [
+       11.4686415,
+       48.2673594
+      ],
+      [
+       11.4686665,
+       48.2672533
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "historic": "ruins",
+    "@id": "way/1498623301"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       11.4668947,
+       48.2678099
+      ],
+      [
+       11.4669041,
+       48.267762
+      ],
+      [
+       11.4669263,
+       48.2677639
+      ],
+      [
+       11.4669163,
+       48.2678117
+      ],
+      [
+       11.4668947,
+       48.2678099
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "fence_type": "wire",
+    "@id": "way/1498623302"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4668488,
+      48.2688768
+     ],
+     [
+      11.4665265,
+      48.2701743
+     ],
+     [
+      11.4662536,
+      48.2712402
+     ],
+     [
+      11.4661108,
+      48.2718291
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/1498623304"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4704614,
+      48.2688062
+     ],
+     [
+      11.4702991,
+      48.2696284
+     ],
+     [
+      11.470086,
+      48.2708857
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/1498623305"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4700737,
+      48.2709375
+     ],
+     [
+      11.4698439,
+      48.2720426
+     ],
+     [
+      11.4696746,
+      48.2728425
+     ],
+     [
+      11.4677307,
+      48.272621
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/1498623306"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      11.4676678,
+      48.272613
+     ],
+     [
+      11.4659721,
+      48.2724216
+     ],
+     [
+      11.4660725,
+      48.2719319
+     ]
+    ]
+   }
+  }
+ ]
+}

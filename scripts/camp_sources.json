@@ -1,0 +1,147 @@
+{
+  "birkenau": {
+    "center": [
+      50.0386,
+      19.1706
+    ],
+    "boundary": "way/53908378",
+    "raw": "data/raw/overpass-export.geojson",
+    "skip_fetch": true
+  },
+  "auschwitz-i": {
+    "center": [
+      50.0268,
+      19.2035
+    ],
+    "search_radius_m": 1200,
+    "boundary": "way/29572443"
+  },
+  "majdanek": {
+    "center": [
+      51.2205,
+      22.6
+    ],
+    "search_radius_m": 1500,
+    "boundary": "way/40050796"
+  },
+  "treblinka": {
+    "center": [
+      52.6313,
+      22.052
+    ],
+    "search_radius_m": 2500,
+    "boundary": "way/303285019"
+  },
+  "sobibor": {
+    "center": [
+      51.447,
+      23.5935
+    ],
+    "search_radius_m": 2000,
+    "boundary": "way/518668033"
+  },
+  "belzec": {
+    "center": [
+      50.3717,
+      23.4573
+    ],
+    "search_radius_m": 1200,
+    "boundary": "way/149827782"
+  },
+  "stutthof": {
+    "center": [
+      54.3283,
+      19.1535
+    ],
+    "search_radius_m": 1500,
+    "boundary": "way/143872002"
+  },
+  "gross-rosen": {
+    "center": [
+      50.9965,
+      16.28
+    ],
+    "search_radius_m": 1500,
+    "boundary": "way/486555330"
+  },
+  "dachau": {
+    "center": [
+      48.27,
+      11.468
+    ],
+    "search_radius_m": 1500,
+    "boundary": "way/25503679"
+  },
+  "buchenwald": {
+    "center": [
+      51.022,
+      11.248
+    ],
+    "search_radius_m": 2000,
+    "boundary": "way/34204630"
+  },
+  "sachsenhausen": {
+    "center": [
+      52.766,
+      13.264
+    ],
+    "search_radius_m": 1500,
+    "boundary": "way/34957261"
+  },
+  "ravensbrueck": {
+    "center": [
+      53.1905,
+      13.17
+    ],
+    "search_radius_m": 1500,
+    "boundary": "way/131552590"
+  },
+  "flossenbuerg": {
+    "center": [
+      49.7353,
+      12.356
+    ],
+    "search_radius_m": 1200,
+    "boundary": "way/150141297"
+  },
+  "neuengamme": {
+    "center": [
+      53.43,
+      10.23
+    ],
+    "search_radius_m": 1500,
+    "boundary": "way/710499969"
+  },
+  "mauthausen": {
+    "center": [
+      48.257,
+      14.501
+    ],
+    "search_radius_m": 1500,
+    "boundary": "way/81178354"
+  },
+  "natzweiler": {
+    "center": [
+      48.455,
+      7.254
+    ],
+    "search_radius_m": 1200,
+    "boundary": "way/59141848"
+  },
+  "mittelbau-dora": {
+    "center": [
+      51.5355,
+      10.7485
+    ],
+    "search_radius_m": 1500,
+    "boundary": "way/27219726"
+  },
+  "westerbork": {
+    "center": [
+      52.9175,
+      6.6075
+    ],
+    "search_radius_m": 1500,
+    "boundary": "way/453544727"
+  }
+}

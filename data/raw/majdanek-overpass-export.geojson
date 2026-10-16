@@ -1,0 +1,9430 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:amenity": "prison_camp",
+    "addr:city": "Lublin",
+    "addr:street": "Droga Męczenników Majdanka",
+    "barrier": "fence",
+    "extermination_camp": "nazism",
+    "historic": "memorial",
+    "name": "Niemiecki nazistowski obóz koncentracyjny Majdanek",
+    "name:en": "German Nazi concentration and extermination camp Majdanek",
+    "name:pl": "Niemiecki nazistowski obóz koncentracyjny Majdanek",
+    "prison_camp": "extermination_camp",
+    "ref:ckkp": "LU00117",
+    "subject:wikidata": "Q2763",
+    "tourism": "museum",
+    "wikidata": "Q160135",
+    "wikipedia": "pl:Lublin (KL)",
+    "@id": "way/40050796"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6069559,
+      51.2222824
+     ],
+     [
+      22.6074708,
+      51.2228723
+     ],
+     [
+      22.6075503,
+      51.2229634
+     ],
+     [
+      22.6078028,
+      51.223253
+     ],
+     [
+      22.607819,
+      51.2232716
+     ],
+     [
+      22.6080812,
+      51.2235719
+     ],
+     [
+      22.6084892,
+      51.2240392
+     ],
+     [
+      22.60897,
+      51.22459
+     ],
+     [
+      22.6070529,
+      51.2252747
+     ],
+     [
+      22.6069934,
+      51.2252966
+     ],
+     [
+      22.606912,
+      51.2253274
+     ],
+     [
+      22.6068967,
+      51.2253324
+     ],
+     [
+      22.6068898,
+      51.2253347
+     ],
+     [
+      22.6068608,
+      51.2253442
+     ],
+     [
+      22.6057414,
+      51.2257447
+     ],
+     [
+      22.6054522,
+      51.2258555
+     ],
+     [
+      22.6051681,
+      51.2259571
+     ],
+     [
+      22.6050214,
+      51.2260107
+     ],
+     [
+      22.6049973,
+      51.2260204
+     ],
+     [
+      22.6049815,
+      51.2260259
+     ],
+     [
+      22.6049327,
+      51.2260444
+     ],
+     [
+      22.6049209,
+      51.2260493
+     ],
+     [
+      22.6048594,
+      51.2260725
+     ],
+     [
+      22.6047952,
+      51.2260968
+     ],
+     [
+      22.6047429,
+      51.2261166
+     ],
+     [
+      22.6046836,
+      51.2261391
+     ],
+     [
+      22.604627,
+      51.226158
+     ],
+     [
+      22.6045741,
+      51.2261772
+     ],
+     [
+      22.604497,
+      51.2262077
+     ],
+     [
+      22.5986679,
+      51.2282932
+     ],
+     [
+      22.597561,
+      51.2271028
+     ],
+     [
+      22.5964003,
+      51.2258615
+     ],
+     [
+      22.5963493,
+      51.225807
+     ],
+     [
+      22.5960663,
+      51.2254963
+     ],
+     [
+      22.5960418,
+      51.2254682
+     ],
+     [
+      22.59532,
+      51.22469
+     ],
+     [
+      22.5933952,
+      51.2226146
+     ],
+     [
+      22.5928629,
+      51.222047
+     ],
+     [
+      22.5916384,
+      51.2207415
+     ],
+     [
+      22.5916406,
+      51.220632
+     ],
+     [
+      22.590554,
+      51.2194827
+     ],
+     [
+      22.5908659,
+      51.2186533
+     ],
+     [
+      22.5909978,
+      51.2183023
+     ],
+     [
+      22.5911038,
+      51.2180387
+     ],
+     [
+      22.5917182,
+      51.217803
+     ],
+     [
+      22.5932732,
+      51.2172131
+     ],
+     [
+      22.5936673,
+      51.2170591
+     ],
+     [
+      22.593326,
+      51.2167129
+     ],
+     [
+      22.5938314,
+      51.2165203
+     ],
+     [
+      22.5940721,
+      51.2164271
+     ],
+     [
+      22.5940685,
+      51.21592
+     ],
+     [
+      22.5941536,
+      51.2157662
+     ],
+     [
+      22.5942126,
+      51.2156809
+     ],
+     [
+      22.5942916,
+      51.2155853
+     ],
+     [
+      22.5943707,
+      51.2155043
+     ],
+     [
+      22.5945776,
+      51.2153465
+     ],
+     [
+      22.5948663,
+      51.2152068
+     ],
+     [
+      22.5951491,
+      51.2151173
+     ],
+     [
+      22.5954313,
+      51.2150739
+     ],
+     [
+      22.5957596,
+      51.2150398
+     ],
+     [
+      22.5960638,
+      51.2150566
+     ],
+     [
+      22.5964136,
+      51.2151076
+     ],
+     [
+      22.5967507,
+      51.2152095
+     ],
+     [
+      22.5969534,
+      51.2152975
+     ],
+     [
+      22.5970972,
+      51.2153853
+     ],
+     [
+      22.5972683,
+      51.2155048
+     ],
+     [
+      22.5974213,
+      51.215649
+     ],
+     [
+      22.5975554,
+      51.2158295
+     ],
+     [
+      22.597615,
+      51.2159583
+     ],
+     [
+      22.5976346,
+      51.2161206
+     ],
+     [
+      22.5976255,
+      51.2162754
+     ],
+     [
+      22.5976066,
+      51.2164235
+     ],
+     [
+      22.597548,
+      51.2165542
+     ],
+     [
+      22.5978718,
+      51.2166123
+     ],
+     [
+      22.5983821,
+      51.2171754
+     ],
+     [
+      22.6016956,
+      51.2208313
+     ],
+     [
+      22.6019945,
+      51.2211612
+     ],
+     [
+      22.6022949,
+      51.2214925
+     ],
+     [
+      22.6026586,
+      51.2218939
+     ],
+     [
+      22.6030268,
+      51.2223
+     ],
+     [
+      22.6034205,
+      51.2227344
+     ],
+     [
+      22.6038471,
+      51.2232051
+     ],
+     [
+      22.6038969,
+      51.22326
+     ],
+     [
+      22.6044913,
+      51.2230448
+     ],
+     [
+      22.6046097,
+      51.223002
+     ],
+     [
+      22.6046945,
+      51.2229714
+     ],
+     [
+      22.6058125,
+      51.2225676
+     ],
+     [
+      22.6067777,
+      51.222219
+     ],
+     [
+      22.6067879,
+      51.2222153
+     ],
+     [
+      22.6068176,
+      51.2222512
+     ],
+     [
+      22.6068402,
+      51.2222785
+     ],
+     [
+      22.6068685,
+      51.2223126
+     ],
+     [
+      22.6069559,
+      51.2222824
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "4",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468082"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5964135,
+       51.2217372
+      ],
+      [
+       22.5962946,
+       51.2217805
+      ],
+      [
+       22.5960028,
+       51.221462
+      ],
+      [
+       22.5961224,
+       51.2214194
+      ],
+      [
+       22.5964135,
+       51.2217372
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "12",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468083"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5947741,
+       51.2213817
+      ],
+      [
+       22.5946539,
+       51.2214238
+      ],
+      [
+       22.5943646,
+       51.2211048
+      ],
+      [
+       22.5944854,
+       51.2210628
+      ],
+      [
+       22.5947741,
+       51.2213817
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "17",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468084"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5964202,
+       51.2207926
+      ],
+      [
+       22.5962987,
+       51.2208363
+      ],
+      [
+       22.5960073,
+       51.2205172
+      ],
+      [
+       22.5961275,
+       51.2204737
+      ],
+      [
+       22.5964202,
+       51.2207926
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "11",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468085"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5987158,
+       51.2209147
+      ],
+      [
+       22.5985954,
+       51.2209572
+      ],
+      [
+       22.5983091,
+       51.2206377
+      ],
+      [
+       22.5984288,
+       51.2205952
+      ],
+      [
+       22.5987158,
+       51.2209147
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "2",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468086"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5957509,
+       51.2219746
+      ],
+      [
+       22.595629,
+       51.2220176
+      ],
+      [
+       22.5953406,
+       51.221697
+      ],
+      [
+       22.5954609,
+       51.2216537
+      ],
+      [
+       22.5957509,
+       51.2219746
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "13",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468087"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5951085,
+       51.2212621
+      ],
+      [
+       22.5949883,
+       51.2213051
+      ],
+      [
+       22.5946993,
+       51.2209862
+      ],
+      [
+       22.594819,
+       51.2209432
+      ],
+      [
+       22.5951085,
+       51.2212621
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "5",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468088"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5967415,
+       51.2216202
+      ],
+      [
+       22.5966217,
+       51.2216641
+      ],
+      [
+       22.5963289,
+       51.2213471
+      ],
+      [
+       22.5964502,
+       51.2213017
+      ],
+      [
+       22.5967415,
+       51.2216202
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "22",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468089"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5980764,
+       51.2202016
+      ],
+      [
+       22.5979564,
+       51.2202459
+      ],
+      [
+       22.5976662,
+       51.2199255
+      ],
+      [
+       22.5977864,
+       51.2198819
+      ],
+      [
+       22.5980764,
+       51.2202016
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "10",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468090"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5983867,
+       51.2210336
+      ],
+      [
+       22.598264,
+       51.2210772
+      ],
+      [
+       22.5979758,
+       51.2207566
+      ],
+      [
+       22.5980979,
+       51.2207136
+      ],
+      [
+       22.5983867,
+       51.2210336
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "3",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468091"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5960823,
+       51.2218563
+      ],
+      [
+       22.59596,
+       51.2219003
+      ],
+      [
+       22.5956697,
+       51.2215797
+      ],
+      [
+       22.5957912,
+       51.2215354
+      ],
+      [
+       22.5960823,
+       51.2218563
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "7",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468092"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5974014,
+       51.2213859
+      ],
+      [
+       22.5972788,
+       51.2214302
+      ],
+      [
+       22.5969883,
+       51.2211094
+      ],
+      [
+       22.5971093,
+       51.2210662
+      ],
+      [
+       22.5974014,
+       51.2213859
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "16",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468093"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5960934,
+       51.2209095
+      ],
+      [
+       22.5959724,
+       51.220954
+      ],
+      [
+       22.5956792,
+       51.2206335
+      ],
+      [
+       22.5958015,
+       51.22059
+      ],
+      [
+       22.5960934,
+       51.2209095
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "19",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468094"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5970796,
+       51.2205569
+      ],
+      [
+       22.5969573,
+       51.2206007
+      ],
+      [
+       22.5966681,
+       51.2202803
+      ],
+      [
+       22.5967881,
+       51.2202364
+      ],
+      [
+       22.5970796,
+       51.2205569
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "6",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468095"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5970694,
+       51.2215026
+      ],
+      [
+       22.5969504,
+       51.2215456
+      ],
+      [
+       22.5966578,
+       51.2212266
+      ],
+      [
+       22.5967775,
+       51.2211833
+      ],
+      [
+       22.5970694,
+       51.2215026
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "21",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468096"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5977417,
+       51.220319
+      ],
+      [
+       22.5976199,
+       51.2203621
+      ],
+      [
+       22.5973303,
+       51.2200419
+      ],
+      [
+       22.597452,
+       51.2199982
+      ],
+      [
+       22.5977417,
+       51.220319
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "name": "Ekspozycja - warunki bytowe",
+    "name:en": "Exhibition \"Living conditions\"",
+    "name:pl": "ekspozycja - warunki bytowe",
+    "ref": "15",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468097"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5957612,
+       51.2210277
+      ],
+      [
+       22.5956415,
+       51.2210706
+      ],
+      [
+       22.5953518,
+       51.2207514
+      ],
+      [
+       22.5954726,
+       51.2207085
+      ],
+      [
+       22.5957612,
+       51.2210277
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "1",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468098"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5954196,
+       51.2220927
+      ],
+      [
+       22.5953006,
+       51.2221363
+      ],
+      [
+       22.5950076,
+       51.2218155
+      ],
+      [
+       22.5951296,
+       51.2217728
+      ],
+      [
+       22.5954196,
+       51.2220927
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "8",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468100"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5977292,
+       51.2212686
+      ],
+      [
+       22.5976079,
+       51.2213119
+      ],
+      [
+       22.597317,
+       51.2209905
+      ],
+      [
+       22.5974386,
+       51.2209473
+      ],
+      [
+       22.5977292,
+       51.2212686
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "18",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468101"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.596748,
+       51.2206752
+      ],
+      [
+       22.5966277,
+       51.2207179
+      ],
+      [
+       22.59634,
+       51.2203982
+      ],
+      [
+       22.5964602,
+       51.2203569
+      ],
+      [
+       22.596748,
+       51.2206752
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "20",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468105"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5974064,
+       51.2204374
+      ],
+      [
+       22.5972868,
+       51.2204819
+      ],
+      [
+       22.596993,
+       51.2201632
+      ],
+      [
+       22.5971138,
+       51.2201188
+      ],
+      [
+       22.5974064,
+       51.2204374
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "name": "Ekspozycja - warunki bytowe",
+    "name:en": "Exhibition \"Living conditions\"",
+    "name:pl": "Ekspozycja - warunki bytowe",
+    "ref": "14",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468107"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5954356,
+       51.2211453
+      ],
+      [
+       22.5953147,
+       51.2211881
+      ],
+      [
+       22.5950267,
+       51.220868
+      ],
+      [
+       22.5951468,
+       51.2208251
+      ],
+      [
+       22.5954356,
+       51.2211453
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "9",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468110"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5980585,
+       51.2211501
+      ],
+      [
+       22.5979386,
+       51.2211931
+      ],
+      [
+       22.5976478,
+       51.2208741
+      ],
+      [
+       22.5977678,
+       51.2208311
+      ],
+      [
+       22.5980585,
+       51.2211501
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "name": "Stare krematorium 1942",
+    "name:en": "The old crematorium 1942",
+    "name:pl": "Stare krematorium 1942",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468112"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5968527,
+       51.223636
+      ],
+      [
+       22.5966988,
+       51.2236904
+      ],
+      [
+       22.5964726,
+       51.2234401
+      ],
+      [
+       22.5966268,
+       51.2233837
+      ],
+      [
+       22.5968527,
+       51.223636
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "name": "Umywalnia",
+    "name:en": "Lavatories",
+    "name:pl": "Umywalnia",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468113"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5987589,
+       51.2199589
+      ],
+      [
+       22.5986371,
+       51.2200019
+      ],
+      [
+       22.5984695,
+       51.2198138
+      ],
+      [
+       22.5980684,
+       51.2199573
+      ],
+      [
+       22.5979806,
+       51.2198591
+      ],
+      [
+       22.5983807,
+       51.2197175
+      ],
+      [
+       22.5983476,
+       51.2196809
+      ],
+      [
+       22.5984687,
+       51.2196377
+      ],
+      [
+       22.5987589,
+       51.2199589
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "historic": "ruins",
+    "name": "Kuchnia obozowa",
+    "name:en": "kitchen barrack",
+    "name:pl": "Kuchnia obozowa",
+    "source": "Bing",
+    "@id": "way/175468120"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5988537,
+       51.2208088
+      ],
+      [
+       22.5987704,
+       51.2207167
+      ],
+      [
+       22.5991686,
+       51.2205755
+      ],
+      [
+       22.5989986,
+       51.2203874
+      ],
+      [
+       22.5991195,
+       51.2203445
+      ],
+      [
+       22.599412,
+       51.220668
+      ],
+      [
+       22.5992896,
+       51.2207115
+      ],
+      [
+       22.5992504,
+       51.2206682
+      ],
+      [
+       22.5988537,
+       51.2208088
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "name": "Łaźnia dla kobiet, komory dezynfekcyjne",
+    "name:en": "baths for women, dessinfection chambers",
+    "name:pl": "Łaźnia dla kobiet, komory dezynfekcyjne",
+    "ref": "42",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468796"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5967087,
+       51.2252185
+      ],
+      [
+       22.5965875,
+       51.2252617
+      ],
+      [
+       22.5962983,
+       51.2249414
+      ],
+      [
+       22.5964195,
+       51.2248983
+      ],
+      [
+       22.5967087,
+       51.2252185
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "name": "Wystawa \"Majdanek – przeszłość i teraźniejszość\"",
+    "ref": "43",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468797"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5963139,
+       51.2247818
+      ],
+      [
+       22.595804,
+       51.2249633
+      ],
+      [
+       22.5957353,
+       51.2248876
+      ],
+      [
+       22.596246,
+       51.2247058
+      ],
+      [
+       22.5963139,
+       51.2247818
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "45",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468798"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5954305,
+       51.2245517
+      ],
+      [
+       22.5959408,
+       51.2243682
+      ],
+      [
+       22.59601,
+       51.224445
+      ],
+      [
+       22.5954991,
+       51.2246275
+      ],
+      [
+       22.5954305,
+       51.2245517
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "51",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468799"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5951123,
+       51.2234606
+      ],
+      [
+       22.5946018,
+       51.223642
+      ],
+      [
+       22.594533,
+       51.223566
+      ],
+      [
+       22.5950431,
+       51.2233855
+      ],
+      [
+       22.5951123,
+       51.2234606
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "museum": "history",
+    "name": "Wystawa historyczna \"Więźniowie Majdanka\"",
+    "name:en": "Historical exhibition \"The Prosoners of Mjdanek\"",
+    "name:pl": "Wystawa historyczna \"Więźniowie Majdanka\"",
+    "ref": "62",
+    "roof:shape": "gabled",
+    "source:addr": "EMUiA (emuia.geoportal.gov.pl)",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "tourism": "museum",
+    "@id": "way/175468800"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.596046,
+       51.2239872
+      ],
+      [
+       22.5958873,
+       51.2240443
+      ],
+      [
+       22.595459,
+       51.2235734
+      ],
+      [
+       22.5956181,
+       51.2235165
+      ],
+      [
+       22.596046,
+       51.2239872
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "name": "Ekspozycja butów ofiar \"Aktion Reinhardt\"",
+    "name:en": "Exhibition of schoes of the \"Aktion Reinhardt\" victims",
+    "name:pl": "Ekspozycja butów ofiar \"Aktion Reinhardt\"",
+    "ref": "52",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468801"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5949583,
+       51.223294
+      ],
+      [
+       22.594449,
+       51.223475
+      ],
+      [
+       22.5943808,
+       51.2233997
+      ],
+      [
+       22.59489,
+       51.2232188
+      ],
+      [
+       22.5949583,
+       51.223294
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "museum": "history",
+    "name": "Wystawa „Przybyli do getta… Odeszli w nieznane…”",
+    "ref": "55",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "tourism": "museum",
+    "@id": "way/175468802"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.59446,
+       51.2227423
+      ],
+      [
+       22.5939494,
+       51.2229236
+      ],
+      [
+       22.5938814,
+       51.2228487
+      ],
+      [
+       22.594391,
+       51.2226671
+      ],
+      [
+       22.59446,
+       51.2227423
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "53",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468804"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5948305,
+       51.2231523
+      ],
+      [
+       22.5948014,
+       51.2231627
+      ],
+      [
+       22.5947754,
+       51.223134
+      ],
+      [
+       22.5943817,
+       51.2232749
+      ],
+      [
+       22.5943965,
+       51.2232912
+      ],
+      [
+       22.5943103,
+       51.2233221
+      ],
+      [
+       22.5942276,
+       51.2232309
+      ],
+      [
+       22.5947366,
+       51.2230489
+      ],
+      [
+       22.5948305,
+       51.2231523
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "49",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468805"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5953968,
+       51.2237741
+      ],
+      [
+       22.5948846,
+       51.2239553
+      ],
+      [
+       22.5948163,
+       51.223879
+      ],
+      [
+       22.5953276,
+       51.2236983
+      ],
+      [
+       22.5953968,
+       51.2237741
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "56",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468806"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5942844,
+       51.2225508
+      ],
+      [
+       22.5939077,
+       51.2226839
+      ],
+      [
+       22.5938374,
+       51.2226048
+      ],
+      [
+       22.5942141,
+       51.2224718
+      ],
+      [
+       22.5942844,
+       51.2225508
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "54",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468807"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5946331,
+       51.2229339
+      ],
+      [
+       22.5941223,
+       51.2231153
+      ],
+      [
+       22.5940535,
+       51.2230398
+      ],
+      [
+       22.5945647,
+       51.222859
+      ],
+      [
+       22.5946331,
+       51.2229339
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "50",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468808"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5952428,
+       51.2236056
+      ],
+      [
+       22.594733,
+       51.2237865
+      ],
+      [
+       22.5946653,
+       51.2237108
+      ],
+      [
+       22.5951748,
+       51.2235302
+      ],
+      [
+       22.5952428,
+       51.2236056
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "name": "Shrine - miejsce pamięci bezimiennej ofiary",
+    "name:en": "Shrine - a memorial to the unknown Vistim",
+    "name:pl": "Shrine - miejsce pamięci bezimiennej ofiary",
+    "ref": "47",
+    "roof:shape": "gabled",
+    "source:addr": "EMUiA (emuia.geoportal.gov.pl)",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468809"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5957019,
+       51.2241093
+      ],
+      [
+       22.595191,
+       51.2242907
+      ],
+      [
+       22.5951228,
+       51.224215
+      ],
+      [
+       22.5956337,
+       51.2240335
+      ],
+      [
+       22.5957019,
+       51.2241093
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "46",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468810"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5958582,
+       51.2242765
+      ],
+      [
+       22.5953512,
+       51.2244584
+      ],
+      [
+       22.5952827,
+       51.2243834
+      ],
+      [
+       22.5957899,
+       51.2242014
+      ],
+      [
+       22.5958582,
+       51.2242765
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "name": "Wystawa \"Lublin w czasie okupacji niemieckiej\"",
+    "name:en": "Exhibition \"Lublin under Occupation\"",
+    "name:pl": "Wystawa \"Lublin w czasie okupacji niemieckiej\"",
+    "ref": "44",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468811"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5961618,
+       51.2246127
+      ],
+      [
+       22.5956517,
+       51.224796
+      ],
+      [
+       22.5955836,
+       51.2247196
+      ],
+      [
+       22.5960927,
+       51.2245362
+      ],
+      [
+       22.5961618,
+       51.2246127
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "name": "Łaźnia dla mężczyzn",
+    "name:en": "baths for men",
+    "name:pl": "Łaźnia dla mężczyzn",
+    "ref": "41",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175468812"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.596603,
+       51.2248317
+      ],
+      [
+       22.596724,
+       51.2247885
+      ],
+      [
+       22.5969298,
+       51.2250168
+      ],
+      [
+       22.5969583,
+       51.2250069
+      ],
+      [
+       22.5969776,
+       51.2250277
+      ],
+      [
+       22.5969488,
+       51.2250378
+      ],
+      [
+       22.5970129,
+       51.225109
+      ],
+      [
+       22.5969521,
+       51.2251304
+      ],
+      [
+       22.5969776,
+       51.2251588
+      ],
+      [
+       22.5968686,
+       51.2251976
+      ],
+      [
+       22.5968423,
+       51.2251688
+      ],
+      [
+       22.5968926,
+       51.2251514
+      ],
+      [
+       22.596603,
+       51.2248317
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "yes",
+    "military": "barracks",
+    "name": "Oddział więźniarski",
+    "name:en": "Prisoners department",
+    "name:pl": "Oddział więźniarski",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175469680"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5994148,
+       51.2247079
+      ],
+      [
+       22.5988796,
+       51.2248932
+      ],
+      [
+       22.5987919,
+       51.2247933
+      ],
+      [
+       22.5993271,
+       51.224608
+      ],
+      [
+       22.5994148,
+       51.2247079
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Lublin",
+    "addr:housenumber": "67",
+    "addr:street": "Droga Męczenników Majdanka",
+    "building": "yes",
+    "building:levels": "1",
+    "military": "barracks",
+    "name": "Barak nadzorczyń",
+    "name:en": "Female overseers barrack",
+    "name:pl": "Barak nadzorczyń",
+    "roof:shape": "gabled",
+    "source:addr": "EMUiA (emuia.geoportal.gov.pl)",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/175469682"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6022758,
+       51.2238305
+      ],
+      [
+       22.602119,
+       51.2238871
+      ],
+      [
+       22.6019949,
+       51.2237518
+      ],
+      [
+       22.6015104,
+       51.2239268
+      ],
+      [
+       22.6014194,
+       51.2238275
+      ],
+      [
+       22.6020607,
+       51.2235958
+      ],
+      [
+       22.6022758,
+       51.2238305
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Lublin",
+    "addr:housenumber": "67",
+    "addr:street": "Droga Męczenników Majdanka",
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "name": "Nowe krematorium 1943",
+    "name:en": "The new crematorium 1943",
+    "name:pl": "Nowe krematorium 1943",
+    "source:addr": "EMUiA (emuia.geoportal.gov.pl)",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "was:amenity": "crematorium",
+    "wikimedia_commons": "Category:Majdanek crematorium",
+    "@id": "way/180110177"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5953065,
+       51.2169017
+      ],
+      [
+       22.5949299,
+       51.2170373
+      ],
+      [
+       22.5948576,
+       51.2169568
+      ],
+      [
+       22.5949841,
+       51.2169128
+      ],
+      [
+       22.5948895,
+       51.2168078
+      ],
+      [
+       22.595016,
+       51.216763
+      ],
+      [
+       22.5950489,
+       51.2167998
+      ],
+      [
+       22.595113,
+       51.2167779
+      ],
+      [
+       22.5951547,
+       51.2168238
+      ],
+      [
+       22.5950916,
+       51.2168469
+      ],
+      [
+       22.5951101,
+       51.2168676
+      ],
+      [
+       22.5951259,
+       51.2168617
+      ],
+      [
+       22.5952352,
+       51.216823
+      ],
+      [
+       22.5953065,
+       51.2169017
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Lublin",
+    "addr:housenumber": "67",
+    "addr:postcode": "20-325",
+    "addr:street": "Droga Męczenników Majdanka",
+    "building": "yes",
+    "fee": "no",
+    "information": "office",
+    "name": "Centrum Obsługi Zwiedzających",
+    "opening_hours": "Apr-Oct Tu-Su 09:00-17:00; Nov-Mar Tu-Su 09:00-16:00",
+    "operator": "Państwowe Muzeum na Majdanku",
+    "source:addr": "EMUiA (emuia.geoportal.gov.pl)",
+    "tourism": "information",
+    "@id": "way/180110181"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6060285,
+       51.2255021
+      ],
+      [
+       22.6059561,
+       51.2254264
+      ],
+      [
+       22.6058973,
+       51.2253645
+      ],
+      [
+       22.6060013,
+       51.2253255
+      ],
+      [
+       22.6059856,
+       51.225309
+      ],
+      [
+       22.6064047,
+       51.2251522
+      ],
+      [
+       22.6064185,
+       51.2251667
+      ],
+      [
+       22.6065204,
+       51.2252736
+      ],
+      [
+       22.6063051,
+       51.2253541
+      ],
+      [
+       22.6062546,
+       51.225373
+      ],
+      [
+       22.6061836,
+       51.2253996
+      ],
+      [
+       22.6061399,
+       51.2254159
+      ],
+      [
+       22.6061712,
+       51.2254487
+      ],
+      [
+       22.6060956,
+       51.225477
+      ],
+      [
+       22.6060285,
+       51.2255021
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "outbuilding",
+    "building:levels": "1",
+    "historic": "building",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/180110182"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5961194,
+       51.2231792
+      ],
+      [
+       22.5960497,
+       51.2232015
+      ],
+      [
+       22.5960047,
+       51.2231475
+      ],
+      [
+       22.5960739,
+       51.223126
+      ],
+      [
+       22.5961194,
+       51.2231792
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "2",
+    "description": "Dom kierownika oddziału więźniarskiego",
+    "description:en": "Prisonres department head's house",
+    "historic": "building",
+    "name": "Biały Domek",
+    "name:en": "Little White House",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "wikimedia_commons": "File:2013 Majdanek concentration camp - 10.jpg",
+    "@id": "way/180169776"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.601473,
+       51.2259138
+      ],
+      [
+       22.6014942,
+       51.2258565
+      ],
+      [
+       22.6015876,
+       51.2258712
+      ],
+      [
+       22.601612,
+       51.2258752
+      ],
+      [
+       22.6016244,
+       51.2258772
+      ],
+      [
+       22.6016179,
+       51.2258931
+      ],
+      [
+       22.6018027,
+       51.225923
+      ],
+      [
+       22.6017868,
+       51.2259649
+      ],
+      [
+       22.6016019,
+       51.2259348
+      ],
+      [
+       22.601473,
+       51.2259138
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/294263035"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6045078,
+      51.2260238
+     ],
+     [
+      22.6044153,
+      51.2259228
+     ],
+     [
+      22.6041737,
+      51.2256591
+     ],
+     [
+      22.6041139,
+      51.2255938
+     ],
+     [
+      22.6042303,
+      51.2255491
+     ],
+     [
+      22.6044655,
+      51.2258192
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/294263036"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6048017,
+      51.2259113
+     ],
+     [
+      22.6044096,
+      51.2254769
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/294263043"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6045481,
+      51.2257907
+     ],
+     [
+      22.6043147,
+      51.2255121
+     ],
+     [
+      22.6044096,
+      51.2254769
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/294263044"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6039123,
+      51.2252228
+     ],
+     [
+      22.6039655,
+      51.2252824
+     ],
+     [
+      22.6037564,
+      51.2254862
+     ],
+     [
+      22.6039264,
+      51.2256447
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/294263046"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6040164,
+      51.2253467
+     ],
+     [
+      22.6040623,
+      51.2254012
+     ],
+     [
+      22.6039351,
+      51.2254486
+     ],
+     [
+      22.6040515,
+      51.2255703
+     ],
+     [
+      22.6041812,
+      51.2255237
+     ],
+     [
+      22.6041631,
+      51.2255019
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/294263049"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6040134,
+      51.225186
+     ],
+     [
+      22.6040699,
+      51.2252459
+     ],
+     [
+      22.6042734,
+      51.2251763
+     ],
+     [
+      22.6044138,
+      51.2253323
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/294263050"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6041038,
+      51.225283
+     ],
+     [
+      22.6041769,
+      51.2253594
+     ],
+     [
+      22.6042698,
+      51.2253257
+     ],
+     [
+      22.6044096,
+      51.2254769
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/294264489"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5915818,
+      51.2184031
+     ],
+     [
+      22.5920929,
+      51.2189613
+     ],
+     [
+      22.592437,
+      51.219333
+     ],
+     [
+      22.592779,
+      51.2197035
+     ],
+     [
+      22.5931793,
+      51.2201517
+     ],
+     [
+      22.5934071,
+      51.2203986
+     ],
+     [
+      22.5938985,
+      51.2209466
+     ],
+     [
+      22.5940627,
+      51.2211249
+     ],
+     [
+      22.5944445,
+      51.2215414
+     ],
+     [
+      22.5946119,
+      51.2217234
+     ],
+     [
+      22.594628,
+      51.2217413
+     ],
+     [
+      22.5950992,
+      51.2222659
+     ],
+     [
+      22.5951265,
+      51.2222963
+     ],
+     [
+      22.595134,
+      51.2223042
+     ],
+     [
+      22.5955581,
+      51.2227742
+     ],
+     [
+      22.5956101,
+      51.2228317
+     ],
+     [
+      22.5956275,
+      51.222851
+     ],
+     [
+      22.5956399,
+      51.2228646
+     ],
+     [
+      22.5961501,
+      51.2234268
+     ],
+     [
+      22.5961761,
+      51.2234555
+     ],
+     [
+      22.5961881,
+      51.2234688
+     ],
+     [
+      22.5965218,
+      51.2238395
+     ],
+     [
+      22.5965302,
+      51.2238488
+     ],
+     [
+      22.5965565,
+      51.2238778
+     ],
+     [
+      22.5969575,
+      51.2243204
+     ],
+     [
+      22.5969715,
+      51.2243358
+     ],
+     [
+      22.5970062,
+      51.2243739
+     ],
+     [
+      22.5976277,
+      51.2250525
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/294264490"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5976277,
+      51.2250525
+     ],
+     [
+      22.6021338,
+      51.2234369
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/294264491"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6021338,
+      51.2234369
+     ],
+     [
+      22.6015719,
+      51.2228121
+     ],
+     [
+      22.6010837,
+      51.2222817
+     ],
+     [
+      22.6007914,
+      51.2219545
+     ],
+     [
+      22.6004261,
+      51.2215541
+     ],
+     [
+      22.5998793,
+      51.220958
+     ],
+     [
+      22.5995225,
+      51.2205601
+     ],
+     [
+      22.599108,
+      51.2201077
+     ],
+     [
+      22.598777,
+      51.2197428
+     ],
+     [
+      22.5985364,
+      51.2194792
+     ],
+     [
+      22.5980361,
+      51.2189285
+     ],
+     [
+      22.5977726,
+      51.2186345
+     ],
+     [
+      22.5975651,
+      51.2184036
+     ],
+     [
+      22.5971617,
+      51.2179607
+     ],
+     [
+      22.5966443,
+      51.2173853
+     ],
+     [
+      22.5962895,
+      51.2170012
+     ],
+     [
+      22.5960908,
+      51.216778
+     ],
+     [
+      22.5960117,
+      51.2167985
+     ],
+     [
+      22.5916011,
+      51.2183416
+     ],
+     [
+      22.5915739,
+      51.218368
+     ],
+     [
+      22.5915818,
+      51.2184031
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/294264492"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5951728,
+      51.2222931
+     ],
+     [
+      22.5996061,
+      51.2207105
+     ],
+     [
+      22.6003919,
+      51.2215788
+     ],
+     [
+      22.6008207,
+      51.2220379
+     ],
+     [
+      22.6014134,
+      51.2226871
+     ],
+     [
+      22.60154,
+      51.2228327
+     ],
+     [
+      22.6020799,
+      51.2234311
+     ],
+     [
+      22.5976476,
+      51.2250104
+     ],
+     [
+      22.597003,
+      51.2243117
+     ],
+     [
+      22.5965664,
+      51.223834
+     ],
+     [
+      22.5962165,
+      51.2234474
+     ],
+     [
+      22.5956576,
+      51.2228398
+     ],
+     [
+      22.5951728,
+      51.2222931
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/294264493"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5960681,
+      51.2168124
+     ],
+     [
+      22.5916293,
+      51.2183684
+     ],
+     [
+      22.5916215,
+      51.21839
+     ],
+     [
+      22.5921327,
+      51.2189495
+     ],
+     [
+      22.5928018,
+      51.2196789
+     ],
+     [
+      22.5940883,
+      51.2210996
+     ],
+     [
+      22.5985206,
+      51.2195168
+     ],
+     [
+      22.5980017,
+      51.2189441
+     ],
+     [
+      22.5976815,
+      51.2185863
+     ],
+     [
+      22.5966067,
+      51.2174056
+     ],
+     [
+      22.5960681,
+      51.2168124
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/294264494"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5941042,
+      51.2211219
+     ],
+     [
+      22.5946432,
+      51.221712
+     ],
+     [
+      22.5951553,
+      51.222276
+     ],
+     [
+      22.5972669,
+      51.2215272
+     ],
+     [
+      22.5995831,
+      51.2206858
+     ],
+     [
+      22.59948,
+      51.2205677
+     ],
+     [
+      22.599237,
+      51.2203038
+     ],
+     [
+      22.59907,
+      51.2201225
+     ],
+     [
+      22.5987443,
+      51.219758
+     ],
+     [
+      22.5985447,
+      51.2195432
+     ],
+     [
+      22.5941042,
+      51.2211219
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/294264575"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5956919,
+      51.2167509
+     ],
+     [
+      22.5953107,
+      51.2168996
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/294264576"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5952824,
+      51.2164081
+     ],
+     [
+      22.5942755,
+      51.2167899
+     ],
+     [
+      22.5945857,
+      51.2171179
+     ],
+     [
+      22.5948176,
+      51.2170403
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/294264577"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5952879,
+      51.2168758
+     ],
+     [
+      22.595646,
+      51.2167374
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/294264748"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6049327,
+      51.2260444
+     ],
+     [
+      22.6049209,
+      51.2260493
+     ],
+     [
+      22.6048594,
+      51.2260725
+     ],
+     [
+      22.6047952,
+      51.2260968
+     ],
+     [
+      22.6047429,
+      51.2261166
+     ],
+     [
+      22.6046836,
+      51.2261391
+     ],
+     [
+      22.604627,
+      51.226158
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "ditch",
+    "@id": "way/294434522"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5954639,
+      51.2162901
+     ],
+     [
+      22.595598,
+      51.2161339
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "ditch",
+    "@id": "way/294434523"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5953711,
+      51.2162683
+     ],
+     [
+      22.5955175,
+      51.2160993
+     ],
+     [
+      22.5955637,
+      51.2160753
+     ],
+     [
+      22.5958889,
+      51.216088
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "ditch",
+    "@id": "way/294434524"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5953015,
+      51.2163198
+     ],
+     [
+      22.5952547,
+      51.216293
+     ],
+     [
+      22.5952622,
+      51.2162502
+     ],
+     [
+      22.5954207,
+      51.2161118
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "ditch",
+    "@id": "way/294434525"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5952222,
+      51.2163134
+     ],
+     [
+      22.5951741,
+      51.2162687
+     ],
+     [
+      22.5952961,
+      51.2161027
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/294434555"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5956031,
+      51.2163788
+     ],
+     [
+      22.595688,
+      51.2163739
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/294434556"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5956156,
+      51.2164131
+     ],
+     [
+      22.595695,
+      51.2164093
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/294434558"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5962444,
+      51.2165455
+     ],
+     [
+      22.5962258,
+      51.2165273
+     ],
+     [
+      22.5962001,
+      51.2165366
+     ],
+     [
+      22.5961752,
+      51.2165156
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/294434559"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5961042,
+      51.2165433
+     ],
+     [
+      22.596124,
+      51.216562
+     ],
+     [
+      22.5960864,
+      51.2165768
+     ],
+     [
+      22.5961082,
+      51.2165992
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/294434603"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5962444,
+      51.2165455
+     ],
+     [
+      22.5962737,
+      51.2165286
+     ],
+     [
+      22.5962933,
+      51.2165082
+     ],
+     [
+      22.5963177,
+      51.2164806
+     ],
+     [
+      22.5963372,
+      51.216447
+     ],
+     [
+      22.5963535,
+      51.2164103
+     ],
+     [
+      22.5963584,
+      51.2163735
+     ],
+     [
+      22.5963519,
+      51.2163378
+     ],
+     [
+      22.5963405,
+      51.2163113
+     ],
+     [
+      22.5963177,
+      51.2162797
+     ],
+     [
+      22.5962933,
+      51.2162522
+     ],
+     [
+      22.5962672,
+      51.2162297
+     ],
+     [
+      22.596233,
+      51.2162093
+     ],
+     [
+      22.5961939,
+      51.2161899
+     ],
+     [
+      22.5961337,
+      51.2161736
+     ],
+     [
+      22.596062,
+      51.2161583
+     ],
+     [
+      22.5960148,
+      51.2161563
+     ],
+     [
+      22.595966,
+      51.2161573
+     ],
+     [
+      22.5959139,
+      51.2161614
+     ],
+     [
+      22.5958683,
+      51.2161675
+     ],
+     [
+      22.595821,
+      51.2161787
+     ],
+     [
+      22.5957755,
+      51.2161991
+     ],
+     [
+      22.595738,
+      51.2162195
+     ],
+     [
+      22.5957103,
+      51.2162369
+     ],
+     [
+      22.5956843,
+      51.2162613
+     ],
+     [
+      22.5956533,
+      51.216294
+     ],
+     [
+      22.5956305,
+      51.2163276
+     ],
+     [
+      22.5956191,
+      51.216348
+     ],
+     [
+      22.5956031,
+      51.2163788
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/294434604"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5961082,
+      51.2165992
+     ],
+     [
+      22.5960998,
+      51.2166025
+     ],
+     [
+      22.5960639,
+      51.2166083
+     ],
+     [
+      22.5960059,
+      51.2166106
+     ],
+     [
+      22.5959565,
+      51.2166072
+     ],
+     [
+      22.5958932,
+      51.2166011
+     ],
+     [
+      22.5958278,
+      51.2165868
+     ],
+     [
+      22.5957806,
+      51.2165695
+     ],
+     [
+      22.5957383,
+      51.2165511
+     ],
+     [
+      22.5956959,
+      51.2165246
+     ],
+     [
+      22.5956617,
+      51.216492
+     ],
+     [
+      22.5956357,
+      51.2164563
+     ],
+     [
+      22.5956194,
+      51.2164236
+     ],
+     [
+      22.5956156,
+      51.2164131
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "artist_name": "Wiktor Tołkin;Janusz Dembek",
+    "building": "yes",
+    "height": "14.5",
+    "historic": "monument",
+    "inscription": "„Los nasz dla was przestrogą”",
+    "name": "Mauzoleum Majdanek",
+    "name:en": "Mausoleum Majdanek",
+    "name:pl": "Mauzoleum Majdanek",
+    "subject:wikidata": "Q2763",
+    "tourism": "attraction",
+    "wikidata": "Q72415556",
+    "wikimedia_commons": "Category:Majdanek Mausoleum",
+    "@id": "way/294434889"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.596171,
+       51.2162784
+      ],
+      [
+       22.5962007,
+       51.2163137
+      ],
+      [
+       22.5962156,
+       51.2163525
+      ],
+      [
+       22.5962149,
+       51.2163924
+      ],
+      [
+       22.5961985,
+       51.2164309
+      ],
+      [
+       22.5961675,
+       51.2164657
+      ],
+      [
+       22.5961238,
+       51.2164947
+      ],
+      [
+       22.59607,
+       51.2165161
+      ],
+      [
+       22.5960095,
+       51.2165285
+      ],
+      [
+       22.595946,
+       51.2165313
+      ],
+      [
+       22.5958834,
+       51.2165241
+      ],
+      [
+       22.5958254,
+       51.2165076
+      ],
+      [
+       22.5957758,
+       51.2164826
+      ],
+      [
+       22.5957375,
+       51.2164507
+      ],
+      [
+       22.5957138,
+       51.216416
+      ],
+      [
+       22.5957037,
+       51.2163788
+      ],
+      [
+       22.5957077,
+       51.2163412
+      ],
+      [
+       22.5957255,
+       51.2163052
+      ],
+      [
+       22.5957563,
+       51.2162728
+      ],
+      [
+       22.5957982,
+       51.2162457
+      ],
+      [
+       22.595849,
+       51.2162255
+      ],
+      [
+       22.595906,
+       51.2162132
+      ],
+      [
+       22.5959659,
+       51.2162096
+      ],
+      [
+       22.5960256,
+       51.2162149
+      ],
+      [
+       22.5960816,
+       51.2162287
+      ],
+      [
+       22.596131,
+       51.2162502
+      ],
+      [
+       22.596171,
+       51.2162784
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "roof",
+    "name": "Brama",
+    "@id": "way/294441405"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6068376,
+       51.2221253
+      ],
+      [
+       22.6068269,
+       51.2221131
+      ],
+      [
+       22.607027,
+       51.2220442
+      ],
+      [
+       22.6070329,
+       51.222051
+      ],
+      [
+       22.6070377,
+       51.2220565
+      ],
+      [
+       22.6068376,
+       51.2221253
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/294448977"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6068282,
+      51.2221196
+     ],
+     [
+      22.6067831,
+      51.2221347
+     ],
+     [
+      22.6038471,
+      51.2232051
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "amenity": "library",
+    "building": "yes",
+    "building:levels": "1",
+    "name": "Biura muzeum, archiwum, biblioteka",
+    "name:en": "museum's offices, archives, library",
+    "name:pl": "Biura muzeum, archiwum, biblioteka",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/294876857"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6054418,
+       51.2231924
+      ],
+      [
+       22.6054068,
+       51.2231546
+      ],
+      [
+       22.6054916,
+       51.2231235
+      ],
+      [
+       22.6054976,
+       51.2231299
+      ],
+      [
+       22.6055934,
+       51.2230948
+      ],
+      [
+       22.6054458,
+       51.222936
+      ],
+      [
+       22.6055782,
+       51.2228874
+      ],
+      [
+       22.6057389,
+       51.2230602
+      ],
+      [
+       22.6057691,
+       51.2230492
+      ],
+      [
+       22.6057671,
+       51.2230473
+      ],
+      [
+       22.6059,
+       51.2229987
+      ],
+      [
+       22.6059017,
+       51.2230006
+      ],
+      [
+       22.6059323,
+       51.2229894
+      ],
+      [
+       22.6057741,
+       51.222817
+      ],
+      [
+       22.6058162,
+       51.2228017
+      ],
+      [
+       22.6058073,
+       51.2227926
+      ],
+      [
+       22.6058761,
+       51.2227674
+      ],
+      [
+       22.6058847,
+       51.2227768
+      ],
+      [
+       22.6059088,
+       51.222768
+      ],
+      [
+       22.6060682,
+       51.2229407
+      ],
+      [
+       22.6060981,
+       51.2229299
+      ],
+      [
+       22.6060963,
+       51.2229279
+      ],
+      [
+       22.6062516,
+       51.2228714
+      ],
+      [
+       22.6062534,
+       51.2228734
+      ],
+      [
+       22.6062841,
+       51.2228622
+      ],
+      [
+       22.6061235,
+       51.2226903
+      ],
+      [
+       22.6062784,
+       51.2226341
+      ],
+      [
+       22.6064585,
+       51.2228276
+      ],
+      [
+       22.6063033,
+       51.222884
+      ],
+      [
+       22.6063015,
+       51.222882
+      ],
+      [
+       22.6062714,
+       51.222893
+      ],
+      [
+       22.6064306,
+       51.2230667
+      ],
+      [
+       22.6062759,
+       51.2231231
+      ],
+      [
+       22.6061166,
+       51.2229512
+      ],
+      [
+       22.6060859,
+       51.2229623
+      ],
+      [
+       22.6060877,
+       51.2229643
+      ],
+      [
+       22.605956,
+       51.2230124
+      ],
+      [
+       22.6059542,
+       51.2230105
+      ],
+      [
+       22.6059223,
+       51.2230221
+      ],
+      [
+       22.6060811,
+       51.2231928
+      ],
+      [
+       22.6059483,
+       51.2232416
+      ],
+      [
+       22.6057882,
+       51.2230692
+      ],
+      [
+       22.6057574,
+       51.2230804
+      ],
+      [
+       22.6057592,
+       51.2230824
+      ],
+      [
+       22.6056274,
+       51.2231306
+      ],
+      [
+       22.6056255,
+       51.2231285
+      ],
+      [
+       22.605595,
+       51.2231398
+      ],
+      [
+       22.6057552,
+       51.2233121
+      ],
+      [
+       22.6056222,
+       51.2233609
+      ],
+      [
+       22.6054596,
+       51.2231859
+      ],
+      [
+       22.6054418,
+       51.2231924
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/352836812"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.590359,
+       51.2189697
+      ],
+      [
+       22.5903749,
+       51.2189314
+      ],
+      [
+       22.5906484,
+       51.2189762
+      ],
+      [
+       22.5906326,
+       51.2190145
+      ],
+      [
+       22.590359,
+       51.2189697
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "watchtower",
+    "@id": "way/518059174"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5950541,
+       51.2223512
+      ],
+      [
+       22.5950966,
+       51.2223355
+      ],
+      [
+       22.5950728,
+       51.2223103
+      ],
+      [
+       22.5950304,
+       51.222326
+      ],
+      [
+       22.5950541,
+       51.2223512
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059177"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5958244,
+      51.2225125
+     ],
+     [
+      22.5955849,
+      51.2222573
+     ],
+     [
+      22.5954206,
+      51.2223178
+     ],
+     [
+      22.5956602,
+      51.222573
+     ],
+     [
+      22.5958244,
+      51.2225125
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059179"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5961765,
+      51.222392
+     ],
+     [
+      22.5959369,
+      51.2221369
+     ],
+     [
+      22.5957727,
+      51.2221973
+     ],
+     [
+      22.5960122,
+      51.2224525
+     ],
+     [
+      22.5961765,
+      51.222392
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059180"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5965017,
+      51.2222762
+     ],
+     [
+      22.5962621,
+      51.222021
+     ],
+     [
+      22.5960979,
+      51.2220815
+     ],
+     [
+      22.5963375,
+      51.2223367
+     ],
+     [
+      22.5965017,
+      51.2222762
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059181"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5968249,
+      51.2221591
+     ],
+     [
+      22.5965853,
+      51.2219039
+     ],
+     [
+      22.5964211,
+      51.2219644
+     ],
+     [
+      22.5966607,
+      51.2222195
+     ],
+     [
+      22.5968249,
+      51.2221591
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059182"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5971542,
+      51.2220407
+     ],
+     [
+      22.5969146,
+      51.2217855
+     ],
+     [
+      22.5967504,
+      51.221846
+     ],
+     [
+      22.59699,
+      51.2221011
+     ],
+     [
+      22.5971542,
+      51.2220407
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059183"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5974916,
+      51.2219235
+     ],
+     [
+      22.5972521,
+      51.2216683
+     ],
+     [
+      22.5970878,
+      51.2217288
+     ],
+     [
+      22.5973274,
+      51.221984
+     ],
+     [
+      22.5974916,
+      51.2219235
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059184"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5978128,
+      51.2218064
+     ],
+     [
+      22.5975733,
+      51.2215512
+     ],
+     [
+      22.597409,
+      51.2216117
+     ],
+     [
+      22.5976486,
+      51.2218669
+     ],
+     [
+      22.5978128,
+      51.2218064
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059185"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5981462,
+      51.2216957
+     ],
+     [
+      22.5979066,
+      51.2214405
+     ],
+     [
+      22.5977424,
+      51.2215009
+     ],
+     [
+      22.5979819,
+      51.2217561
+     ],
+     [
+      22.5981462,
+      51.2216957
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059186"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5984694,
+      51.2215709
+     ],
+     [
+      22.5982298,
+      51.2213157
+     ],
+     [
+      22.5980656,
+      51.2213762
+     ],
+     [
+      22.5983051,
+      51.2216314
+     ],
+     [
+      22.5984694,
+      51.2215709
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059187"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5987924,
+      51.2214465
+     ],
+     [
+      22.5985528,
+      51.2211913
+     ],
+     [
+      22.5983886,
+      51.2212518
+     ],
+     [
+      22.5986281,
+      51.221507
+     ],
+     [
+      22.5987924,
+      51.2214465
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059188"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5991217,
+      51.2213371
+     ],
+     [
+      22.5988821,
+      51.2210819
+     ],
+     [
+      22.5987179,
+      51.2211423
+     ],
+     [
+      22.5989574,
+      51.2213975
+     ],
+     [
+      22.5991217,
+      51.2213371
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059189"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5998901,
+      51.2211828
+     ],
+     [
+      22.5995352,
+      51.2207924
+     ],
+     [
+      22.5993542,
+      51.2208569
+     ],
+     [
+      22.5993874,
+      51.2208934
+     ],
+     [
+      22.5990268,
+      51.221022
+     ],
+     [
+      22.5991256,
+      51.2211308
+     ],
+     [
+      22.5995248,
+      51.2209885
+     ],
+     [
+      22.5997476,
+      51.2212336
+     ],
+     [
+      22.5998901,
+      51.2211828
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059190"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6001566,
+      51.2214811
+     ],
+     [
+      22.6004734,
+      51.2218263
+     ],
+     [
+      22.6002931,
+      51.2218912
+     ],
+     [
+      22.6002598,
+      51.2218549
+     ],
+     [
+      22.5998985,
+      51.221985
+     ],
+     [
+      22.5997963,
+      51.2218736
+     ],
+     [
+      22.6001929,
+      51.2217308
+     ],
+     [
+      22.6000116,
+      51.2215333
+     ],
+     [
+      22.6001566,
+      51.2214811
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059191"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5964532,
+      51.2231829
+     ],
+     [
+      22.5962137,
+      51.2229277
+     ],
+     [
+      22.5960494,
+      51.2229882
+     ],
+     [
+      22.596289,
+      51.2232434
+     ],
+     [
+      22.5964532,
+      51.2231829
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059192"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5967894,
+      51.2230743
+     ],
+     [
+      22.5965499,
+      51.2228191
+     ],
+     [
+      22.5963856,
+      51.2228796
+     ],
+     [
+      22.5966252,
+      51.2231347
+     ],
+     [
+      22.5967894,
+      51.2230743
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059193"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5971363,
+      51.2229601
+     ],
+     [
+      22.5968967,
+      51.2227049
+     ],
+     [
+      22.5967325,
+      51.2227654
+     ],
+     [
+      22.596972,
+      51.2230206
+     ],
+     [
+      22.5971363,
+      51.2229601
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059194"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5974725,
+      51.2228415
+     ],
+     [
+      22.5972329,
+      51.2225863
+     ],
+     [
+      22.5970687,
+      51.2226468
+     ],
+     [
+      22.5973083,
+      51.222902
+     ],
+     [
+      22.5974725,
+      51.2228415
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059195"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5977928,
+      51.222724
+     ],
+     [
+      22.5975532,
+      51.2224689
+     ],
+     [
+      22.597389,
+      51.2225293
+     ],
+     [
+      22.5976286,
+      51.2227845
+     ],
+     [
+      22.5977928,
+      51.222724
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059196"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5981184,
+      51.2226021
+     ],
+     [
+      22.5978789,
+      51.2223469
+     ],
+     [
+      22.5977146,
+      51.2224074
+     ],
+     [
+      22.5979542,
+      51.2226626
+     ],
+     [
+      22.5981184,
+      51.2226021
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059197"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5984546,
+      51.222488
+     ],
+     [
+      22.5982151,
+      51.2222328
+     ],
+     [
+      22.5980508,
+      51.2222933
+     ],
+     [
+      22.5982904,
+      51.2225485
+     ],
+     [
+      22.5984546,
+      51.222488
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059198"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5987732,
+      51.2223771
+     ],
+     [
+      22.5985336,
+      51.222122
+     ],
+     [
+      22.5983694,
+      51.2221824
+     ],
+     [
+      22.5986089,
+      51.2224376
+     ],
+     [
+      22.5987732,
+      51.2223771
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059199"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5991129,
+      51.2222597
+     ],
+     [
+      22.5988734,
+      51.2220045
+     ],
+     [
+      22.5987091,
+      51.222065
+     ],
+     [
+      22.5989487,
+      51.2223201
+     ],
+     [
+      22.5991129,
+      51.2222597
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059200"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5994226,
+      51.2221422
+     ],
+     [
+      22.599183,
+      51.221887
+     ],
+     [
+      22.5990188,
+      51.2219475
+     ],
+     [
+      22.5992584,
+      51.2222027
+     ],
+     [
+      22.5994226,
+      51.2221422
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059201"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5997712,
+      51.2220236
+     ],
+     [
+      22.5995317,
+      51.2217684
+     ],
+     [
+      22.5993674,
+      51.2218289
+     ],
+     [
+      22.599607,
+      51.2220841
+     ],
+     [
+      22.5997712,
+      51.2220236
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059202"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5982273,
+      51.2246178
+     ],
+     [
+      22.5979878,
+      51.2243626
+     ],
+     [
+      22.5978235,
+      51.2244231
+     ],
+     [
+      22.5980631,
+      51.2246782
+     ],
+     [
+      22.5982273,
+      51.2246178
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059203"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5985752,
+      51.2245022
+     ],
+     [
+      22.5983357,
+      51.2242471
+     ],
+     [
+      22.5981714,
+      51.2243075
+     ],
+     [
+      22.598411,
+      51.2245627
+     ],
+     [
+      22.5985752,
+      51.2245022
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059204"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5989068,
+      51.2243838
+     ],
+     [
+      22.5986673,
+      51.2241286
+     ],
+     [
+      22.598503,
+      51.2241891
+     ],
+     [
+      22.5987426,
+      51.2244443
+     ],
+     [
+      22.5989068,
+      51.2243838
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059205"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.599236,
+      51.2242639
+     ],
+     [
+      22.5989965,
+      51.2240087
+     ],
+     [
+      22.5988322,
+      51.2240692
+     ],
+     [
+      22.5990718,
+      51.2243243
+     ],
+     [
+      22.599236,
+      51.2242639
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059206"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5995466,
+      51.2241454
+     ],
+     [
+      22.599307,
+      51.2238902
+     ],
+     [
+      22.5991428,
+      51.2239507
+     ],
+     [
+      22.5993823,
+      51.2242059
+     ],
+     [
+      22.5995466,
+      51.2241454
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059207"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5998712,
+      51.2240372
+     ],
+     [
+      22.5996316,
+      51.223782
+     ],
+     [
+      22.5994674,
+      51.2238425
+     ],
+     [
+      22.5997069,
+      51.2240977
+     ],
+     [
+      22.5998712,
+      51.2240372
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059208"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6002074,
+      51.2239158
+     ],
+     [
+      22.5999678,
+      51.2236606
+     ],
+     [
+      22.5998036,
+      51.2237211
+     ],
+     [
+      22.6000432,
+      51.2239763
+     ],
+     [
+      22.6002074,
+      51.2239158
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059209"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6005506,
+      51.223793
+     ],
+     [
+      22.6003111,
+      51.2235378
+     ],
+     [
+      22.6001468,
+      51.2235983
+     ],
+     [
+      22.6003864,
+      51.2238535
+     ],
+     [
+      22.6005506,
+      51.223793
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059210"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6008799,
+      51.2236789
+     ],
+     [
+      22.6006403,
+      51.2234237
+     ],
+     [
+      22.6004761,
+      51.2234842
+     ],
+     [
+      22.6007156,
+      51.2237394
+     ],
+     [
+      22.6008799,
+      51.2236789
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059211"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6012044,
+      51.2235619
+     ],
+     [
+      22.6009649,
+      51.2233068
+     ],
+     [
+      22.6008006,
+      51.2233672
+     ],
+     [
+      22.6010402,
+      51.2236224
+     ],
+     [
+      22.6012044,
+      51.2235619
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059212"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6005646,
+      51.222879
+     ],
+     [
+      22.6003251,
+      51.2226238
+     ],
+     [
+      22.6001608,
+      51.2226843
+     ],
+     [
+      22.6004004,
+      51.2229395
+     ],
+     [
+      22.6005646,
+      51.222879
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059213"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6002354,
+      51.2229872
+     ],
+     [
+      22.5999959,
+      51.222732
+     ],
+     [
+      22.5998316,
+      51.2227925
+     ],
+     [
+      22.6000712,
+      51.2230477
+     ],
+     [
+      22.6002354,
+      51.2229872
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059214"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5999179,
+      51.223113
+     ],
+     [
+      22.5996783,
+      51.2228578
+     ],
+     [
+      22.5995141,
+      51.2229183
+     ],
+     [
+      22.5997536,
+      51.2231735
+     ],
+     [
+      22.5999179,
+      51.223113
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059215"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5995886,
+      51.22323
+     ],
+     [
+      22.5993491,
+      51.2229748
+     ],
+     [
+      22.5991848,
+      51.2230353
+     ],
+     [
+      22.5994244,
+      51.2232905
+     ],
+     [
+      22.5995886,
+      51.22323
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059216"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5992571,
+      51.2233397
+     ],
+     [
+      22.5990175,
+      51.2230845
+     ],
+     [
+      22.5988532,
+      51.2231449
+     ],
+     [
+      22.5990928,
+      51.2234001
+     ],
+     [
+      22.5992571,
+      51.2233397
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059217"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5989372,
+      51.2234537
+     ],
+     [
+      22.5986976,
+      51.2231985
+     ],
+     [
+      22.5985334,
+      51.223259
+     ],
+     [
+      22.5987729,
+      51.2235142
+     ],
+     [
+      22.5989372,
+      51.2234537
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059218"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5986033,
+      51.2235722
+     ],
+     [
+      22.5983637,
+      51.223317
+     ],
+     [
+      22.5981995,
+      51.2233775
+     ],
+     [
+      22.598439,
+      51.2236327
+     ],
+     [
+      22.5986033,
+      51.2235722
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059219"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5982623,
+      51.2236979
+     ],
+     [
+      22.5980228,
+      51.2234428
+     ],
+     [
+      22.5978585,
+      51.2235032
+     ],
+     [
+      22.5980981,
+      51.2237584
+     ],
+     [
+      22.5982623,
+      51.2236979
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059220"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5979308,
+      51.2238149
+     ],
+     [
+      22.5976912,
+      51.2235597
+     ],
+     [
+      22.597527,
+      51.2236202
+     ],
+     [
+      22.5977665,
+      51.2238754
+     ],
+     [
+      22.5979308,
+      51.2238149
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059221"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5976109,
+      51.2239348
+     ],
+     [
+      22.5973713,
+      51.2236797
+     ],
+     [
+      22.5972071,
+      51.2237401
+     ],
+     [
+      22.5974466,
+      51.2239953
+     ],
+     [
+      22.5976109,
+      51.2239348
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059222"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.601573,
+      51.2230357
+     ],
+     [
+      22.6018898,
+      51.2233809
+     ],
+     [
+      22.6017095,
+      51.2234458
+     ],
+     [
+      22.6016762,
+      51.2234095
+     ],
+     [
+      22.6013149,
+      51.2235396
+     ],
+     [
+      22.6012127,
+      51.2234282
+     ],
+     [
+      22.6016093,
+      51.2232854
+     ],
+     [
+      22.601428,
+      51.2230879
+     ],
+     [
+      22.601573,
+      51.2230357
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518059223"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6012506,
+      51.2226865
+     ],
+     [
+      22.6009567,
+      51.2223575
+     ],
+     [
+      22.6007791,
+      51.2224198
+     ],
+     [
+      22.6008116,
+      51.2224562
+     ],
+     [
+      22.6004469,
+      51.222584
+     ],
+     [
+      22.600547,
+      51.2226961
+     ],
+     [
+      22.6009449,
+      51.2225567
+     ],
+     [
+      22.6011061,
+      51.2227371
+     ],
+     [
+      22.6012506,
+      51.2226865
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059224"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.594229,
+      51.2209735
+     ],
+     [
+      22.594379,
+      51.2209194
+     ],
+     [
+      22.5940753,
+      51.2205892
+     ],
+     [
+      22.5939252,
+      51.2206434
+     ],
+     [
+      22.594229,
+      51.2209735
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059225"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5945669,
+      51.2208526
+     ],
+     [
+      22.5947169,
+      51.2207984
+     ],
+     [
+      22.5944131,
+      51.2204683
+     ],
+     [
+      22.5942631,
+      51.2205224
+     ],
+     [
+      22.5945669,
+      51.2208526
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059226"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.594886,
+      51.2207333
+     ],
+     [
+      22.5950361,
+      51.2206792
+     ],
+     [
+      22.5947323,
+      51.220349
+     ],
+     [
+      22.5945823,
+      51.2204031
+     ],
+     [
+      22.594886,
+      51.2207333
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059227"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5952133,
+      51.2206241
+     ],
+     [
+      22.5953633,
+      51.22057
+     ],
+     [
+      22.5950595,
+      51.2202398
+     ],
+     [
+      22.5949095,
+      51.2202939
+     ],
+     [
+      22.5952133,
+      51.2206241
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059228"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5955405,
+      51.2205048
+     ],
+     [
+      22.5956905,
+      51.2204507
+     ],
+     [
+      22.5953868,
+      51.2201205
+     ],
+     [
+      22.5952367,
+      51.2201747
+     ],
+     [
+      22.5955405,
+      51.2205048
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059229"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5958677,
+      51.2203856
+     ],
+     [
+      22.5960178,
+      51.2203314
+     ],
+     [
+      22.595714,
+      51.2200012
+     ],
+     [
+      22.595564,
+      51.2200554
+     ],
+     [
+      22.5958677,
+      51.2203856
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059230"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.596195,
+      51.2202646
+     ],
+     [
+      22.596345,
+      51.2202105
+     ],
+     [
+      22.5960412,
+      51.2198803
+     ],
+     [
+      22.5958912,
+      51.2199344
+     ],
+     [
+      22.596195,
+      51.2202646
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059231"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5965168,
+      51.2201437
+     ],
+     [
+      22.5966669,
+      51.2200895
+     ],
+     [
+      22.5963631,
+      51.2197593
+     ],
+     [
+      22.5962131,
+      51.2198135
+     ],
+     [
+      22.5965168,
+      51.2201437
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059232"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5968414,
+      51.2200261
+     ],
+     [
+      22.5969914,
+      51.2199719
+     ],
+     [
+      22.5966876,
+      51.2196417
+     ],
+     [
+      22.5965376,
+      51.2196959
+     ],
+     [
+      22.5968414,
+      51.2200261
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059233"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5971954,
+      51.2199034
+     ],
+     [
+      22.5973455,
+      51.2198493
+     ],
+     [
+      22.5970417,
+      51.2195191
+     ],
+     [
+      22.5968917,
+      51.2195732
+     ],
+     [
+      22.5971954,
+      51.2199034
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059234"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5975307,
+      51.2197858
+     ],
+     [
+      22.5976807,
+      51.2197317
+     ],
+     [
+      22.597377,
+      51.2194015
+     ],
+     [
+      22.5972269,
+      51.2194556
+     ],
+     [
+      22.5975307,
+      51.2197858
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059235"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5968843,
+      51.2190853
+     ],
+     [
+      22.5970343,
+      51.2190311
+     ],
+     [
+      22.5967306,
+      51.2187009
+     ],
+     [
+      22.5965805,
+      51.2187551
+     ],
+     [
+      22.5968843,
+      51.2190853
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059236"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5965597,
+      51.2191978
+     ],
+     [
+      22.5967098,
+      51.2191437
+     ],
+     [
+      22.596406,
+      51.2188135
+     ],
+     [
+      22.596256,
+      51.2188677
+     ],
+     [
+      22.5965597,
+      51.2191978
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059237"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5962111,
+      51.2193188
+     ],
+     [
+      22.5963611,
+      51.2192646
+     ],
+     [
+      22.5960573,
+      51.2189345
+     ],
+     [
+      22.5959073,
+      51.2189886
+     ],
+     [
+      22.5962111,
+      51.2193188
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059238"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5958838,
+      51.2194381
+     ],
+     [
+      22.5960339,
+      51.2193839
+     ],
+     [
+      22.5957301,
+      51.2190537
+     ],
+     [
+      22.5955801,
+      51.2191079
+     ],
+     [
+      22.5958838,
+      51.2194381
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059239"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5955378,
+      51.2195456
+     ],
+     [
+      22.5956879,
+      51.2194914
+     ],
+     [
+      22.5953841,
+      51.2191613
+     ],
+     [
+      22.5952341,
+      51.2192154
+     ],
+     [
+      22.5955378,
+      51.2195456
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059240"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.595224,
+      51.2196749
+     ],
+     [
+      22.595374,
+      51.2196208
+     ],
+     [
+      22.5950703,
+      51.2192906
+     ],
+     [
+      22.5949202,
+      51.2193448
+     ],
+     [
+      22.595224,
+      51.2196749
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059241"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5948807,
+      51.2197858
+     ],
+     [
+      22.5950307,
+      51.2197317
+     ],
+     [
+      22.5947269,
+      51.2194015
+     ],
+     [
+      22.5945769,
+      51.2194556
+     ],
+     [
+      22.5948807,
+      51.2197858
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059242"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5945561,
+      51.2198933
+     ],
+     [
+      22.5947062,
+      51.2198392
+     ],
+     [
+      22.5944024,
+      51.219509
+     ],
+     [
+      22.5942524,
+      51.2195632
+     ],
+     [
+      22.5945561,
+      51.2198933
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059243"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.594253,
+      51.2200227
+     ],
+     [
+      22.5944031,
+      51.2199685
+     ],
+     [
+      22.5940993,
+      51.2196384
+     ],
+     [
+      22.5939493,
+      51.2196925
+     ],
+     [
+      22.594253,
+      51.2200227
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059244"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5939204,
+      51.2201336
+     ],
+     [
+      22.5940705,
+      51.2200794
+     ],
+     [
+      22.5937667,
+      51.2197493
+     ],
+     [
+      22.5936167,
+      51.2198034
+     ],
+     [
+      22.5939204,
+      51.2201336
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "@id": "way/518059245"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.593561,
+      51.2202478
+     ],
+     [
+      22.5937111,
+      51.2201937
+     ],
+     [
+      22.5934073,
+      51.2198635
+     ],
+     [
+      22.5932573,
+      51.2199176
+     ],
+     [
+      22.593561,
+      51.2202478
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "roof:shape": "gabled",
+    "source": "Bing",
+    "@id": "way/518059246"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5970006,
+      51.2187587
+     ],
+     [
+      22.5969156,
+      51.2186627
+     ],
+     [
+      22.597308,
+      51.2185264
+     ],
+     [
+      22.5972812,
+      51.2184961
+     ],
+     [
+      22.5974053,
+      51.2184531
+     ],
+     [
+      22.597681,
+      51.2187646
+     ],
+     [
+      22.5975605,
+      51.2188064
+     ],
+     [
+      22.5973965,
+      51.2186212
+     ],
+     [
+      22.5970006,
+      51.2187587
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "roof:shape": "gabled",
+    "source": "Bing",
+    "source:addr": "EMUiA (emuia.geoportal.gov.pl)",
+    "@id": "way/518059247"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5977845,
+      51.2196386
+     ],
+     [
+      22.5977012,
+      51.2195465
+     ],
+     [
+      22.5980994,
+      51.2194052
+     ],
+     [
+      22.5979294,
+      51.2192171
+     ],
+     [
+      22.5980503,
+      51.2191742
+     ],
+     [
+      22.5983428,
+      51.2194978
+     ],
+     [
+      22.5982204,
+      51.2195413
+     ],
+     [
+      22.5981812,
+      51.219498
+     ],
+     [
+      22.5977845,
+      51.2196386
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "watchtower",
+    "@id": "way/518059256"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5971635,
+       51.2179338
+      ],
+      [
+       22.5972033,
+       51.2179197
+      ],
+      [
+       22.5971807,
+       51.2178947
+      ],
+      [
+       22.5971409,
+       51.2179088
+      ],
+      [
+       22.5971635,
+       51.2179338
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "watchtower",
+    "@id": "way/518059258"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5975523,
+       51.2183577
+      ],
+      [
+       22.5975943,
+       51.2183432
+      ],
+      [
+       22.5975685,
+       51.2183139
+      ],
+      [
+       22.5975265,
+       51.2183284
+      ],
+      [
+       22.5975523,
+       51.2183577
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "watchtower",
+    "@id": "way/518059260"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5985847,
+       51.2195223
+      ],
+      [
+       22.5986268,
+       51.2195079
+      ],
+      [
+       22.5986033,
+       51.2194809
+      ],
+      [
+       22.5985612,
+       51.2194952
+      ],
+      [
+       22.5985847,
+       51.2195223
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "watchtower",
+    "@id": "way/518059263"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5996477,
+       51.2206938
+      ],
+      [
+       22.599686,
+       51.2206825
+      ],
+      [
+       22.5996677,
+       51.2206581
+      ],
+      [
+       22.5996294,
+       51.2206693
+      ],
+      [
+       22.5996477,
+       51.2206938
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "watchtower",
+    "@id": "way/518059266"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6007014,
+       51.2218555
+      ],
+      [
+       22.6007432,
+       51.2218415
+      ],
+      [
+       22.600721,
+       51.2218156
+      ],
+      [
+       22.6006792,
+       51.2218296
+      ],
+      [
+       22.6007014,
+       51.2218555
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "watchtower",
+    "@id": "way/518059268"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6010801,
+       51.2222591
+      ],
+      [
+       22.601122,
+       51.222245
+      ],
+      [
+       22.6010998,
+       51.2222192
+      ],
+      [
+       22.6010579,
+       51.2222333
+      ],
+      [
+       22.6010801,
+       51.2222591
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "watchtower",
+    "@id": "way/518059272"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6022017,
+       51.2234535
+      ],
+      [
+       22.6022435,
+       51.2234395
+      ],
+      [
+       22.6022213,
+       51.2234136
+      ],
+      [
+       22.6021795,
+       51.2234276
+      ],
+      [
+       22.6022017,
+       51.2234535
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "historic": "yes",
+    "@id": "way/518059276"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5996592,
+       51.2245329
+      ],
+      [
+       22.5994871,
+       51.2245928
+      ],
+      [
+       22.5995265,
+       51.2246372
+      ],
+      [
+       22.5996986,
+       51.2245772
+      ],
+      [
+       22.5996592,
+       51.2245329
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/518059280"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5999682,
+       51.2244777
+      ],
+      [
+       22.5999172,
+       51.2244957
+      ],
+      [
+       22.5999462,
+       51.2245279
+      ],
+      [
+       22.5999972,
+       51.2245099
+      ],
+      [
+       22.5999682,
+       51.2244777
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/518059282"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.600234,
+       51.2243854
+      ],
+      [
+       22.6001498,
+       51.2244094
+      ],
+      [
+       22.6001798,
+       51.2244507
+      ],
+      [
+       22.600264,
+       51.2244266
+      ],
+      [
+       22.600234,
+       51.2243854
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "wartownia",
+    "name:en": "guard houses",
+    "name:pl": "wartownia",
+    "@id": "way/518059284"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.596918,
+       51.2243865
+      ],
+      [
+       22.5969768,
+       51.2243672
+      ],
+      [
+       22.5969406,
+       51.2243239
+      ],
+      [
+       22.5968818,
+       51.2243432
+      ],
+      [
+       22.596918,
+       51.2243865
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "watchtower",
+    "@id": "way/518059289"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5960701,
+       51.2167561
+      ],
+      [
+       22.5961119,
+       51.216742
+      ],
+      [
+       22.5960897,
+       51.2167161
+      ],
+      [
+       22.5960479,
+       51.2167302
+      ],
+      [
+       22.5960701,
+       51.2167561
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/518059291"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5948308,
+       51.2171672
+      ],
+      [
+       22.5949124,
+       51.2171373
+      ],
+      [
+       22.5949434,
+       51.2171705
+      ],
+      [
+       22.5948619,
+       51.2172004
+      ],
+      [
+       22.5948308,
+       51.2171672
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "watchtower",
+    "@id": "way/518059292"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5937585,
+       51.217534
+      ],
+      [
+       22.5938003,
+       51.2175199
+      ],
+      [
+       22.5937781,
+       51.217494
+      ],
+      [
+       22.5937363,
+       51.2175081
+      ],
+      [
+       22.5937585,
+       51.217534
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "watchtower",
+    "@id": "way/518059293"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5914582,
+       51.2183618
+      ],
+      [
+       22.5915001,
+       51.2183477
+      ],
+      [
+       22.5914779,
+       51.2183218
+      ],
+      [
+       22.591436,
+       51.2183359
+      ],
+      [
+       22.5914582,
+       51.2183618
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "wartownia",
+    "name:en": "guard houses",
+    "name:pl": "wartownia",
+    "@id": "way/518059294"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5919903,
+       51.218959
+      ],
+      [
+       22.5920433,
+       51.2189413
+      ],
+      [
+       22.5920103,
+       51.2189025
+      ],
+      [
+       22.5919573,
+       51.2189202
+      ],
+      [
+       22.5919903,
+       51.218959
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "watchtower",
+    "@id": "way/518059295"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5925537,
+       51.219562
+      ],
+      [
+       22.5925956,
+       51.2195479
+      ],
+      [
+       22.5925734,
+       51.219522
+      ],
+      [
+       22.5925315,
+       51.2195361
+      ],
+      [
+       22.5925537,
+       51.219562
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "watchtower",
+    "@id": "way/518059296"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5929196,
+       51.2199693
+      ],
+      [
+       22.5929615,
+       51.2199552
+      ],
+      [
+       22.5929393,
+       51.2199294
+      ],
+      [
+       22.5928974,
+       51.2199435
+      ],
+      [
+       22.5929196,
+       51.2199693
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "wartownia",
+    "name:en": "guard houses",
+    "name:pl": "wartownia",
+    "@id": "way/518059297"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5934186,
+       51.2205214
+      ],
+      [
+       22.5934778,
+       51.2205008
+      ],
+      [
+       22.5934418,
+       51.2204602
+      ],
+      [
+       22.5933826,
+       51.2204808
+      ],
+      [
+       22.5934186,
+       51.2205214
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "watchtower",
+    "@id": "way/518059298"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5939852,
+       51.2211763
+      ],
+      [
+       22.594027,
+       51.2211622
+      ],
+      [
+       22.5940048,
+       51.2211364
+      ],
+      [
+       22.593963,
+       51.2211505
+      ],
+      [
+       22.5939852,
+       51.2211763
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "name": "wartownia",
+    "name:en": "guard houses",
+    "name:pl": "wartownia",
+    "source:building": "EGiB",
+    "@id": "way/518059299"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5945023,
+       51.2217133
+      ],
+      [
+       22.5944793,
+       51.2216888
+      ],
+      [
+       22.5945338,
+       51.2216686
+      ],
+      [
+       22.5945568,
+       51.2216932
+      ],
+      [
+       22.594567,
+       51.2217041
+      ],
+      [
+       22.5945125,
+       51.2217242
+      ],
+      [
+       22.5945023,
+       51.2217133
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "name": "wartownia",
+    "name:en": "guard houses",
+    "name:pl": "wartownia",
+    "source:building": "EGiB",
+    "@id": "way/518059300"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5955228,
+       51.2228368
+      ],
+      [
+       22.5954938,
+       51.2228053
+      ],
+      [
+       22.5955457,
+       51.2227858
+      ],
+      [
+       22.5955758,
+       51.2228177
+      ],
+      [
+       22.5955845,
+       51.222829
+      ],
+      [
+       22.5955328,
+       51.2228476
+      ],
+      [
+       22.5955228,
+       51.2228368
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "3",
+    "man_made": "tower",
+    "source:building": "EGiB",
+    "tower:type": "watchtower",
+    "@id": "way/518059301"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5961593,
+       51.2234797
+      ],
+      [
+       22.5961032,
+       51.2234995
+      ],
+      [
+       22.5960707,
+       51.2234632
+      ],
+      [
+       22.5961272,
+       51.223444
+      ],
+      [
+       22.5961593,
+       51.2234797
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "tower:type": "watchtower",
+    "@id": "way/518059302"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5964668,
+       51.2238718
+      ],
+      [
+       22.596505,
+       51.2238576
+      ],
+      [
+       22.5964819,
+       51.2238333
+      ],
+      [
+       22.5964437,
+       51.2238475
+      ],
+      [
+       22.5964668,
+       51.2238718
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "@id": "way/518059303"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5975825,
+       51.2251066
+      ],
+      [
+       22.5976214,
+       51.2250926
+      ],
+      [
+       22.5975987,
+       51.2250678
+      ],
+      [
+       22.5975598,
+       51.2250819
+      ],
+      [
+       22.5975825,
+       51.2251066
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "ref": "48",
+    "roof:shape": "gabled",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/518059307"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5955497,
+       51.2239419
+      ],
+      [
+       22.5950389,
+       51.2241219
+      ],
+      [
+       22.5949697,
+       51.2240466
+      ],
+      [
+       22.595481,
+       51.2238662
+      ],
+      [
+       22.5955497,
+       51.2239419
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/518059308"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.59485,
+      51.2170637
+     ],
+     [
+      22.5945866,
+      51.2171579
+     ],
+     [
+      22.5942178,
+      51.2167859
+     ],
+     [
+      22.59527,
+      51.2163796
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "Ekspozycja fragmentu drogi obozowej wykonanej przez więźniów przy użyciu macew",
+    "name:en": "Display of the fragment of historical road made of matzevot by the Majdanek pronsoners",
+    "name:pl": "Ekspozycja fragmentu drogi obozowej wykonanej przez więźniów przy użyciu macew",
+    "@id": "way/518059319"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5940695,
+       51.2222039
+      ],
+      [
+       22.5941102,
+       51.2221884
+      ],
+      [
+       22.5940942,
+       51.2221719
+      ],
+      [
+       22.5940535,
+       51.2221875
+      ],
+      [
+       22.5940695,
+       51.2222039
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "historic": "yes",
+    "man_made": "chimney",
+    "@id": "way/518068348"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5950921,
+       51.2168254
+      ],
+      [
+       22.5951138,
+       51.2168187
+      ],
+      [
+       22.5951014,
+       51.2168029
+      ],
+      [
+       22.5950797,
+       51.2168096
+      ],
+      [
+       22.5950921,
+       51.2168254
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/518093942"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5974727,
+      51.2251686
+     ],
+     [
+      22.597372,
+      51.2251738
+     ],
+     [
+      22.5971715,
+      51.2252523
+     ],
+     [
+      22.5967391,
+      51.2254093
+     ],
+     [
+      22.5966295,
+      51.2254423
+     ],
+     [
+      22.5965437,
+      51.2254579
+     ],
+     [
+      22.5960418,
+      51.2254682
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Dzwon Pokoju",
+    "name:en": "The Bell of Peace",
+    "name:pl": "Dzwon Pokoju",
+    "tower:construction": "metal",
+    "tower:type": "bell_tower",
+    "@id": "way/518441956"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5995052,
+       51.2278921
+      ],
+      [
+       22.5995407,
+       51.2278791
+      ],
+      [
+       22.5995151,
+       51.2278515
+      ],
+      [
+       22.5994796,
+       51.2278645
+      ],
+      [
+       22.5995052,
+       51.2278921
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "yes",
+    "height": "0.1",
+    "@id": "way/518441962"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5977262,
+       51.2233372
+      ],
+      [
+       22.5974916,
+       51.2230941
+      ],
+      [
+       22.5976548,
+       51.2230323
+      ],
+      [
+       22.5978895,
+       51.2232754
+      ],
+      [
+       22.5977262,
+       51.2233372
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:building": "yes",
+    "barrier": "wall",
+    "height": "0.1",
+    "@id": "way/518441963"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5968124,
+      51.2233304
+     ],
+     [
+      22.5969755,
+      51.2232694
+     ],
+     [
+      22.5970964,
+      51.2233963
+     ],
+     [
+      22.5969333,
+      51.2234573
+     ],
+     [
+      22.5968124,
+      51.2233304
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "warehouse",
+    "building:levels": "1",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/518441972"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6072612,
+       51.2229256
+      ],
+      [
+       22.6070311,
+       51.2230101
+      ],
+      [
+       22.606918,
+       51.2228889
+      ],
+      [
+       22.6071482,
+       51.2228043
+      ],
+      [
+       22.6072612,
+       51.2229256
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "warehouse",
+    "building:levels": "1",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/518441974"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6070908,
+       51.2227443
+      ],
+      [
+       22.6068618,
+       51.222828
+      ],
+      [
+       22.6067505,
+       51.2227063
+      ],
+      [
+       22.606979,
+       51.222623
+      ],
+      [
+       22.6070053,
+       51.2226506
+      ],
+      [
+       22.6070707,
+       51.2227223
+      ],
+      [
+       22.6070908,
+       51.2227443
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "warehouse",
+    "building:levels": "1",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/518441975"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6065838,
+       51.2225226
+      ],
+      [
+       22.6068128,
+       51.2224397
+      ],
+      [
+       22.6069233,
+       51.2225596
+      ],
+      [
+       22.6067987,
+       51.2226079
+      ],
+      [
+       22.6066961,
+       51.2226451
+      ],
+      [
+       22.6065838,
+       51.2225226
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "industrial",
+    "building:levels": "1",
+    "power": "substation",
+    "source:building": "EGiB",
+    "substation": "transformer",
+    "@id": "way/518441979"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6068744,
+       51.2223564
+      ],
+      [
+       22.6068135,
+       51.2223795
+      ],
+      [
+       22.6067767,
+       51.2223415
+      ],
+      [
+       22.6068375,
+       51.222318
+      ],
+      [
+       22.6068744,
+       51.2223564
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "embankment": "yes",
+    "man_made": "embankment",
+    "@id": "way/519099495"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6041494,
+      51.2260256
+     ],
+     [
+      22.6041628,
+      51.2259366
+     ],
+     [
+      22.604152,
+      51.2259081
+     ],
+     [
+      22.6040903,
+      51.2258493
+     ],
+     [
+      22.6039133,
+      51.2256897
+     ],
+     [
+      22.6038137,
+      51.2255992
+     ],
+     [
+      22.6037551,
+      51.2255452
+     ],
+     [
+      22.6037315,
+      51.225516
+     ],
+     [
+      22.6037203,
+      51.2254925
+     ],
+     [
+      22.6037295,
+      51.2254619
+     ],
+     [
+      22.603916,
+      51.2252798
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "embankment": "yes",
+    "man_made": "embankment",
+    "@id": "way/519099496"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6040758,
+      51.2252056
+     ],
+     [
+      22.6042484,
+      51.2251622
+     ],
+     [
+      22.6042823,
+      51.2251593
+     ],
+     [
+      22.60431,
+      51.2251672
+     ],
+     [
+      22.6043269,
+      51.2251786
+     ],
+     [
+      22.6044795,
+      51.2253281
+     ],
+     [
+      22.6045149,
+      51.2253686
+     ],
+     [
+      22.6049,
+      51.2258086
+     ],
+     [
+      22.6049339,
+      51.2258346
+     ],
+     [
+      22.6049925,
+      51.225851
+     ],
+     [
+      22.6050864,
+      51.22585
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "embankment": "yes",
+    "man_made": "embankment",
+    "@id": "way/519685007"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5955815,
+      51.2163792
+     ],
+     [
+      22.5955974,
+      51.2163456
+     ],
+     [
+      22.5956104,
+      51.2163247
+     ],
+     [
+      22.5956366,
+      51.2162909
+     ],
+     [
+      22.5956705,
+      51.2162552
+     ],
+     [
+      22.5956967,
+      51.2162292
+     ],
+     [
+      22.5957331,
+      51.2162066
+     ],
+     [
+      22.595766,
+      51.2161906
+     ],
+     [
+      22.5958138,
+      51.2161684
+     ],
+     [
+      22.5958631,
+      51.2161558
+     ],
+     [
+      22.5959118,
+      51.2161494
+     ],
+     [
+      22.5959641,
+      51.2161452
+     ],
+     [
+      22.5960137,
+      51.2161444
+     ],
+     [
+      22.5960633,
+      51.2161461
+     ],
+     [
+      22.5961076,
+      51.2161545
+     ],
+     [
+      22.5961425,
+      51.2161629
+     ],
+     [
+      22.5961746,
+      51.2161721
+     ],
+     [
+      22.5962028,
+      51.2161805
+     ],
+     [
+      22.596243,
+      51.2161982
+     ],
+     [
+      22.5962672,
+      51.2162141
+     ],
+     [
+      22.5962953,
+      51.2162351
+     ],
+     [
+      22.5963249,
+      51.2162603
+     ],
+     [
+      22.5963463,
+      51.2162864
+     ],
+     [
+      22.5963637,
+      51.2163132
+     ],
+     [
+      22.5963745,
+      51.2163385
+     ],
+     [
+      22.5963772,
+      51.2163687
+     ],
+     [
+      22.5963772,
+      51.2163998
+     ],
+     [
+      22.5963637,
+      51.2164342
+     ],
+     [
+      22.5963517,
+      51.2164594
+     ],
+     [
+      22.5963369,
+      51.2164813
+     ],
+     [
+      22.5963235,
+      51.2165023
+     ],
+     [
+      22.5963047,
+      51.2165224
+     ],
+     [
+      22.5962846,
+      51.2165384
+     ],
+     [
+      22.5962529,
+      51.2165555
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "kiosk": "florist",
+    "shop": "florist",
+    "@id": "way/702065488"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6091446,
+       51.224253
+      ],
+      [
+       22.6091093,
+       51.2242657
+      ],
+      [
+       22.6090661,
+       51.2242186
+      ],
+      [
+       22.6091014,
+       51.2242059
+      ],
+      [
+       22.6091446,
+       51.224253
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065489"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6090866,
+       51.2241909
+      ],
+      [
+       22.6090511,
+       51.224204
+      ],
+      [
+       22.6090096,
+       51.22416
+      ],
+      [
+       22.6090451,
+       51.2241469
+      ],
+      [
+       22.6090866,
+       51.2241909
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065490"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6090093,
+       51.2241053
+      ],
+      [
+       22.6089768,
+       51.2241172
+      ],
+      [
+       22.6089319,
+       51.2240693
+      ],
+      [
+       22.6089644,
+       51.2240573
+      ],
+      [
+       22.6090093,
+       51.2241053
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065491"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6089513,
+       51.2240425
+      ],
+      [
+       22.608918,
+       51.2240545
+      ],
+      [
+       22.6088758,
+       51.2240084
+      ],
+      [
+       22.6089091,
+       51.2239965
+      ],
+      [
+       22.6089513,
+       51.2240425
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065492"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6088725,
+       51.2239559
+      ],
+      [
+       22.6088351,
+       51.2239692
+      ],
+      [
+       22.6087938,
+       51.2239237
+      ],
+      [
+       22.6088312,
+       51.2239104
+      ],
+      [
+       22.6088725,
+       51.2239559
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065493"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6088177,
+       51.2238942
+      ],
+      [
+       22.6087828,
+       51.2239072
+      ],
+      [
+       22.6087394,
+       51.2238615
+      ],
+      [
+       22.6087743,
+       51.2238485
+      ],
+      [
+       22.6088177,
+       51.2238942
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065494"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6087376,
+       51.2238088
+      ],
+      [
+       22.6087046,
+       51.2238209
+      ],
+      [
+       22.6086605,
+       51.2237738
+      ],
+      [
+       22.6086934,
+       51.2237617
+      ],
+      [
+       22.6087376,
+       51.2238088
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065495"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6086807,
+       51.2237461
+      ],
+      [
+       22.6086394,
+       51.2236999
+      ],
+      [
+       22.6086048,
+       51.223712
+      ],
+      [
+       22.6086461,
+       51.2237582
+      ],
+      [
+       22.6086807,
+       51.2237461
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065496"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6086022,
+       51.2236611
+      ],
+      [
+       22.6085663,
+       51.2236742
+      ],
+      [
+       22.6085229,
+       51.2236276
+      ],
+      [
+       22.6085588,
+       51.2236145
+      ],
+      [
+       22.6086022,
+       51.2236611
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065497"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6085229,
+       51.223575
+      ],
+      [
+       22.6084855,
+       51.2235885
+      ],
+      [
+       22.6084426,
+       51.2235418
+      ],
+      [
+       22.6084801,
+       51.2235284
+      ],
+      [
+       22.6085229,
+       51.223575
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065498"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.608465,
+       51.2235115
+      ],
+      [
+       22.6084312,
+       51.2235237
+      ],
+      [
+       22.6083897,
+       51.2234785
+      ],
+      [
+       22.6084234,
+       51.2234663
+      ],
+      [
+       22.608465,
+       51.2235115
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065499"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.608388,
+       51.2234276
+      ],
+      [
+       22.6083538,
+       51.2234398
+      ],
+      [
+       22.6083098,
+       51.2233916
+      ],
+      [
+       22.608344,
+       51.2233793
+      ],
+      [
+       22.608388,
+       51.2234276
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065500"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6083292,
+       51.2233641
+      ],
+      [
+       22.6082932,
+       51.2233767
+      ],
+      [
+       22.608252,
+       51.2233306
+      ],
+      [
+       22.608288,
+       51.223318
+      ],
+      [
+       22.6083292,
+       51.2233641
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065501"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6082527,
+       51.2232791
+      ],
+      [
+       22.6082187,
+       51.2232917
+      ],
+      [
+       22.6081735,
+       51.2232439
+      ],
+      [
+       22.6082074,
+       51.2232313
+      ],
+      [
+       22.6082527,
+       51.2232791
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065502"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6081933,
+       51.2232163
+      ],
+      [
+       22.6081579,
+       51.223229
+      ],
+      [
+       22.6081149,
+       51.2231822
+      ],
+      [
+       22.6081503,
+       51.2231694
+      ],
+      [
+       22.6081933,
+       51.2232163
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065503"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6081151,
+       51.2231297
+      ],
+      [
+       22.6080816,
+       51.2231422
+      ],
+      [
+       22.6080367,
+       51.2230946
+      ],
+      [
+       22.6080702,
+       51.2230822
+      ],
+      [
+       22.6081151,
+       51.2231297
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065504"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6080569,
+       51.2230673
+      ],
+      [
+       22.6080247,
+       51.2230792
+      ],
+      [
+       22.6079822,
+       51.223034
+      ],
+      [
+       22.6080144,
+       51.2230221
+      ],
+      [
+       22.6080569,
+       51.2230673
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065505"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6079789,
+       51.2229839
+      ],
+      [
+       22.6079468,
+       51.2229953
+      ],
+      [
+       22.6079042,
+       51.2229482
+      ],
+      [
+       22.6079363,
+       51.2229368
+      ],
+      [
+       22.6079789,
+       51.2229839
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065506"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6079213,
+       51.2229201
+      ],
+      [
+       22.6078883,
+       51.2229321
+      ],
+      [
+       22.607845,
+       51.2228851
+      ],
+      [
+       22.607878,
+       51.2228732
+      ],
+      [
+       22.6079213,
+       51.2229201
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065507"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6078446,
+       51.2228334
+      ],
+      [
+       22.6078102,
+       51.2228461
+      ],
+      [
+       22.6077659,
+       51.2227992
+      ],
+      [
+       22.6078003,
+       51.2227865
+      ],
+      [
+       22.6078446,
+       51.2228334
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065508"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6077856,
+       51.2227721
+      ],
+      [
+       22.6077524,
+       51.2227842
+      ],
+      [
+       22.6077109,
+       51.2227394
+      ],
+      [
+       22.6077442,
+       51.2227274
+      ],
+      [
+       22.6077856,
+       51.2227721
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "shop": "florist",
+    "@id": "way/702065509"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6077176,
+       51.2226933
+      ],
+      [
+       22.6076827,
+       51.2227062
+      ],
+      [
+       22.6076388,
+       51.2226599
+      ],
+      [
+       22.6076736,
+       51.222647
+      ],
+      [
+       22.6077176,
+       51.2226933
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "amenity": "shelter",
+    "building": "yes",
+    "@id": "way/706116145"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6067222,
+       51.2246705
+      ],
+      [
+       22.6066852,
+       51.2246875
+      ],
+      [
+       22.6066613,
+       51.2246985
+      ],
+      [
+       22.6066633,
+       51.2247145
+      ],
+      [
+       22.6066836,
+       51.224724
+      ],
+      [
+       22.6066856,
+       51.2247393
+      ],
+      [
+       22.6067019,
+       51.2247463
+      ],
+      [
+       22.606709,
+       51.2247622
+      ],
+      [
+       22.6067273,
+       51.2247705
+      ],
+      [
+       22.6067293,
+       51.2247858
+      ],
+      [
+       22.6067466,
+       51.224794
+      ],
+      [
+       22.6067497,
+       51.2248087
+      ],
+      [
+       22.60677,
+       51.2248163
+      ],
+      [
+       22.606771,
+       51.2248329
+      ],
+      [
+       22.6067893,
+       51.2248386
+      ],
+      [
+       22.6067924,
+       51.2248564
+      ],
+      [
+       22.6068107,
+       51.2248615
+      ],
+      [
+       22.6068137,
+       51.2248768
+      ],
+      [
+       22.606834,
+       51.2248876
+      ],
+      [
+       22.606833,
+       51.2249048
+      ],
+      [
+       22.6068533,
+       51.2249092
+      ],
+      [
+       22.6068544,
+       51.2249264
+      ],
+      [
+       22.6068818,
+       51.2249334
+      ],
+      [
+       22.6068945,
+       51.224931
+      ],
+      [
+       22.6069499,
+       51.2249181
+      ],
+      [
+       22.6069245,
+       51.2249029
+      ],
+      [
+       22.6069174,
+       51.2248901
+      ],
+      [
+       22.6068981,
+       51.2248806
+      ],
+      [
+       22.606896,
+       51.224866
+      ],
+      [
+       22.6068777,
+       51.2248583
+      ],
+      [
+       22.6068757,
+       51.224843
+      ],
+      [
+       22.6068554,
+       51.2248354
+      ],
+      [
+       22.6068523,
+       51.2248182
+      ],
+      [
+       22.606833,
+       51.2248125
+      ],
+      [
+       22.606831,
+       51.2247966
+      ],
+      [
+       22.6068127,
+       51.2247889
+      ],
+      [
+       22.6068086,
+       51.2247724
+      ],
+      [
+       22.6067903,
+       51.2247647
+      ],
+      [
+       22.6067893,
+       51.2247463
+      ],
+      [
+       22.606772,
+       51.2247406
+      ],
+      [
+       22.606769,
+       51.2247259
+      ],
+      [
+       22.6067456,
+       51.224717
+      ],
+      [
+       22.6067466,
+       51.2246998
+      ],
+      [
+       22.6067232,
+       51.2246922
+      ],
+      [
+       22.6067222,
+       51.2246705
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "alt_name": "Pomnik-Brama",
+    "artist_name": "Wiktor Tołkin;Janusz Dembek",
+    "building:height": "10.8",
+    "historic": "monument",
+    "name": "Pomnik Walki i Męczeństwa",
+    "name:en": "Monument to Struggle and Martymdom - Gate-monument",
+    "name:pl": "Pomnik Walki i Męczeństwa",
+    "official_name": "Pomnik Walki i Męczeństwa Narodu Polskiego i Innych Narodów",
+    "start_date": "1969",
+    "subject:wikidata": "Q36",
+    "tourism": "attraction",
+    "wikidata": "Q11823495",
+    "wikipedia": "pl:Pomnik Walki i Męczeństwa na Majdanku",
+    "@id": "way/738925938"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6042977,
+       51.2253361
+      ],
+      [
+       22.6038696,
+       51.2254926
+      ],
+      [
+       22.6039113,
+       51.2255373
+      ],
+      [
+       22.6043393,
+       51.2253807
+      ],
+      [
+       22.6042977,
+       51.2253361
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "hedge",
+    "@id": "way/1083342496"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6063266,
+      51.2253571
+     ],
+     [
+      22.6066273,
+      51.2252452
+     ],
+     [
+      22.606753,
+      51.2252834
+     ],
+     [
+      22.6068184,
+      51.2252596
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "hedge",
+    "@id": "way/1083342497"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6064495,
+      51.2251598
+     ],
+     [
+      22.6064707,
+      51.2251521
+     ],
+     [
+      22.606407,
+      51.2250828
+     ],
+     [
+      22.6064105,
+      51.2250623
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "hedge",
+    "@id": "way/1083342498"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.6062407,
+      51.2249908
+     ],
+     [
+      22.6063035,
+      51.2249698
+     ],
+     [
+      22.6063477,
+      51.2250174
+     ],
+     [
+      22.6065247,
+      51.2249543
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/1116372961"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5984288,
+      51.2205952
+     ],
+     [
+      22.599237,
+      51.2203038
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "office": "security",
+    "@id": "way/1214388915"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.6067119,
+       51.2220774
+      ],
+      [
+       22.6067679,
+       51.2220563
+      ],
+      [
+       22.6067986,
+       51.2220883
+      ],
+      [
+       22.6067426,
+       51.2221094
+      ],
+      [
+       22.6067119,
+       51.2220774
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/1323471666"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      22.5948895,
+      51.2168078
+     ],
+     [
+      22.5948374,
+      51.2167474
+     ],
+     [
+      22.594962,
+      51.2167041
+     ],
+     [
+      22.595016,
+      51.216763
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "name": "Komory gazowe",
+    "name:en": "gas chambers",
+    "name:pl": "Komory gazowe",
+    "source:building": "BDOT",
+    "source:geometry": "EGiB",
+    "@id": "way/1487981827"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       22.5969125,
+       51.2252454
+      ],
+      [
+       22.5968686,
+       51.2251976
+      ],
+      [
+       22.5969776,
+       51.2251588
+      ],
+      [
+       22.5970529,
+       51.2252429
+      ],
+      [
+       22.5969451,
+       51.225281
+      ],
+      [
+       22.5969361,
+       51.2252711
+      ],
+      [
+       22.5969136,
+       51.2252798
+      ],
+      [
+       22.5968897,
+       51.2252529
+      ],
+      [
+       22.5969125,
+       51.2252454
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

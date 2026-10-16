@@ -2,81 +2,124 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-<meta name="description" content="Place the documented footprint of Auschwitz-Birkenau over any city to understand its physical scale.">
-<title>Size of Pain</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="An educational map that shows the documented footprint of Nazi concentration and extermination camps, at true size, over a place you know.">
+<meta name="theme-color" content="#15130f">
+<meta property="og:title" content="Size of Pain">
+<meta property="og:description" content="An educational map of the physical scale of the Nazi camps.">
+<title>Size of Pain | Understanding the scale of the Nazi camps</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<script>
+  // Old share links were index.html#lat,lng,zoom. Send them to the map.
+  if (/^#-?\d+\.?\d*,-?\d+\.?\d*/.test(location.hash)) {
+    location.replace('map.html?camp=birkenau' + location.hash);
+  }
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
-<link rel="stylesheet" href="src/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/landing.css">
 </head>
 <body>
 
-<div id="map"></div>
-
-<!-- Top bar: search + reset -->
-<header id="topbar">
-  <h1>Size of Pain</h1>
-  <form id="searchForm" autocomplete="off">
-    <label for="searchInput" class="sr-only">Search a place</label>
-    <input id="searchInput" type="text"
-           placeholder="Search a city or address&hellip;"
-           aria-label="Search a city or address"
-           aria-describedby="searchStatus"
-           aria-autocomplete="list"
-           aria-controls="searchResults" />
-    <button type="submit">Go</button>
-  </form>
-  <button id="resetBtn" type="button" title="Reset to actual site">Actual site</button>
-  <div id="searchResults" role="listbox" aria-label="Search results"></div>
-  <div id="searchStatus" role="status" aria-live="polite"></div>
+<header class="site-header">
+  <a class="brand" href="#top">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <span class="brand-name">Size of Pain</span>
+  </a>
+  <nav aria-label="Sections">
+    <a href="#how">How it works</a>
+    <a href="#camps">Camps</a>
+    <a href="#layers">Layers</a>
+    <a href="#about">About</a>
+  </nav>
+  <a class="btn btn-small btn-quiet" href="map.html">Map</a>
 </header>
 
-<!-- Info panel: bottom-left, collapsible -->
-<section id="infoPanel" aria-label="Site information">
-  <div id="infoPeek">
-    <p id="locationLabel" class="accent">Shown here: the actual site, O&#347;wi&#281;cim, Poland</p>
-    <p id="primaryStat">The documented footprint covers approximately 1.69 km&sup2;.</p>
-    <button id="detailsBtn" type="button" aria-expanded="false" aria-controls="infoDetails">
-      Show details
-    </button>
-  </div>
-  <div id="infoDetails" hidden>
-    <div class="stats">
-      <p id="statArea">The documented site footprint covers approximately 1.69 km&sup2;.</p>
-      <p id="statPitches">That is roughly the area of 236 football pitches.</p>
-      <p id="statWalk">Walking the perimeter would take about 67 minutes at a typical pace.</p>
-      <p class="stat-victims">Approximately 1.1 million people were murdered at Auschwitz.</p>
-      <p class="scope-notice">Scale cannot describe the human loss. This map is an educational spatial comparison and cannot represent the lives, suffering, and histories of the people persecuted and murdered by Nazi Germany.</p>
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <p class="kicker">An educational project developed by <a href="https://valencia-hub-global-shapers.github.io/?lang=en" target="_blank" rel="noopener">Global Shapers Valencia</a></p>
+      <h1>Understanding the scale of the camps</h1>
+      <p class="lede">Many people know that the Nazi concentration and extermination camps existed, but few have a sense of their physical size. This map places the documented footprint of a camp, at its true size, over a place you know, such as your own town, so that its scale can be understood in familiar terms.</p>
+      <p class="hero-notice">No map can convey the suffering of the people imprisoned and murdered in these camps. The outlines are offered as an aid to learning and remembrance, alongside the history kept by the memorials at each site.</p>
+      <form class="hero-search" action="map.html" method="get" role="search">
+        <p class="form-label" id="heroFormLabel">Compare with a place you know</p>
+        <label for="heroQ" class="sr-only">Town or address</label>
+        <input id="heroQ" name="q" type="search" placeholder="Town or address" enterkeyhint="go" autocomplete="off">
+        <label for="heroCamp" class="sr-only">Camp</label>
+        <select id="heroCamp" name="camp"><option value="birkenau">Auschwitz II&ndash;Birkenau</option></select>
+        <button class="btn" type="submit">View on the map</button>
+      </form>
+      <p class="hero-sub">Or <a href="map.html">view the camp at its actual location</a>.</p>
     </div>
-    <h2>Map layers</h2>
-    <fieldset id="layerControls">
-      <legend class="sr-only">Map layers</legend>
-      <label class="layer-row"><input type="checkbox" data-layer="all" checked> <span>All documented structures</span></label>
-      <label class="layer-row"><input type="checkbox" data-layer="boundary" checked> <span>Camp boundary</span></label>
-      <label class="layer-row"><input type="checkbox" data-layer="barracks" checked> <span>Barracks</span></label>
-      <label class="layer-row"><input type="checkbox" data-layer="watchtower" checked> <span>Watchtowers</span></label>
-      <label class="layer-row"><input type="checkbox" data-layer="crematoria" checked> <span>Crematoria ruins</span></label>
-      <label class="layer-row"><input type="checkbox" data-layer="railway" checked> <span>Railway and arrival area</span></label>
-      <label class="layer-row"><input type="checkbox" data-layer="other" checked> <span>Other structures</span></label>
-    </fieldset>
-    <h2>How this map was made</h2>
-    <p>The overlay is based on documented site data from OpenStreetMap. Area, walking time, and familiar-unit comparisons are estimates designed to communicate physical scale.</p>
-    <p><strong>Area:</strong> Derived from the documented perimeter of Auschwitz II&ndash;Birkenau. It represents the enclosed area within the BI and BII sectors.</p>
-    <p><strong>Football pitches:</strong> A standard pitch is 105 m &times; 68 m (7,140 m&sup2;).</p>
-    <p><strong>Walking time:</strong> Perimeter divided at 5 km/h.</p>
-    <p><strong>Victim figure:</strong> Based on research by the Auschwitz-Birkenau Memorial and Museum.</p>
-    <footer class="sources">
-      <p>Building, fence, and boundary geometry: &copy; OpenStreetMap contributors, ODbL.</p>
-      <p>Basemap: OpenStreetMap. Geocoding: Nominatim.</p>
-      <p>Historical context: <a href="https://www.auschwitz.org/en/history/auschwitz-ii/" target="_blank" rel="noopener">Auschwitz-Birkenau Memorial and Museum</a>.</p>
-      <p>Developed by the <a href="https://valencia-hub-global-shapers.github.io/?lang=en" target="_blank" rel="noopener">Valencia Hub</a> and Krak&oacute;w Hub, <a href="https://www.globalshapers.org/" target="_blank" rel="noopener">Global Shapers Community</a>.</p>
-    </footer>
-  </div>
-</section>
+    <figure class="hero-figure" aria-labelledby="heroCaption">
+      <svg id="heroSvg" viewBox="0 0 400 400" role="img" aria-label="Outline of Auschwitz II-Birkenau"></svg>
+      <figcaption id="heroCaption">The perimeter of Auschwitz II&ndash;Birkenau, traced from OpenStreetMap.</figcaption>
+    </figure>
+  </section>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-<script type="module" src="src/main.js"></script>
+  <section id="how" class="section">
+    <h2>How it works</h2>
+    <ol class="steps">
+      <li>
+        <span class="step-num" aria-hidden="true">1</span>
+        <h3>Choose a camp</h3>
+        <p>Each camp is drawn from its documented perimeter and the barracks, ruins, railways and watchtowers recorded on OpenStreetMap.</p>
+      </li>
+      <li>
+        <span class="step-num" aria-hidden="true">2</span>
+        <h3>Place it over a familiar location</h3>
+        <p>Search for a town or address, use your location, or move the outline by hand. It is redrawn at its true size wherever it is placed, without distortion from the map projection.</p>
+      </li>
+      <li>
+        <span class="step-num" aria-hidden="true">3</span>
+        <h3>Read about each layer</h3>
+        <p>Structures can be shown or hidden. The <span class="info-inline" aria-hidden="true">i</span> button next to each layer explains what it was and what happened there.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section id="camps" class="section">
+    <div class="section-head">
+      <h2>Camps on the map</h2>
+      <p>The outlines below are drawn at the same scale. Select a camp to view it on the map.</p>
+    </div>
+    <div id="campGrid" class="camp-grid" aria-live="polite"></div>
+    <p class="fineprint">Outlines follow what is mapped today. Where the original perimeter does not survive, the outline is the memorial grounds, which may be smaller than the camp was. Each camp's page says which.</p>
+  </section>
+
+  <section id="layers" class="section">
+    <div class="section-head">
+      <h2>What the layers show</h2>
+      <p>The features of each camp are grouped into the same kinds of layers. On the map, each layer also has a note about its role at that particular camp.</p>
+    </div>
+    <div id="layerGrid" class="layer-grid"></div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="about-text">
+      <h2>Purpose</h2>
+      <p>A figure such as 1.69&nbsp;km&sup2;, or 236 football pitches, is easy to read but hard to picture. Seeing the outline of a camp across streets one knows can make its size, and the scale of the crimes committed there, easier to grasp. The project is intended for education and remembrance, for example in classrooms and in preparation for a visit to a memorial.</p>
+      <p class="scope-notice">Scale cannot describe the human loss. This map is an educational spatial comparison and cannot represent the lives, suffering, and histories of the people persecuted and murdered by Nazi Germany. For the history of each site, please refer to the memorials and museums linked for every camp.</p>
+      <h3>Data and method</h3>
+      <p>Geometry &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>, ODbL. Each shape is stored as metres from the camp's centre and re-projected around wherever you place it, the same idea <a href="https://thetruesize.com" target="_blank" rel="noopener">thetruesize.com</a> uses for countries. Victim figures come from the memorial or museum responsible for each site. The code is open source on <a href="https://github.com/Valencia-Hub-Global-Shapers/Size-of-Pain" target="_blank" rel="noopener">GitHub</a>.</p>
+    </div>
+    <aside class="credit-card" aria-label="Credits">
+      <a href="https://valencia-hub-global-shapers.github.io/?lang=en" target="_blank" rel="noopener" class="logo-link">
+        <img src="assets/valencia-hub-logo-dark.png" width="231" height="200" alt="Global Shapers Community Valencia">
+      </a>
+      <p>Developed by the <a href="https://valencia-hub-global-shapers.github.io/?lang=en" target="_blank" rel="noopener">Valencia Hub</a> in collaboration with the Krak&oacute;w Hub, both part of the World Economic Forum's <a href="https://www.globalshapers.org/" target="_blank" rel="noopener">Global Shapers Community</a>.</p>
+    </aside>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <img src="assets/valencia-hub-logo-dark.png" width="58" height="50" alt="" aria-hidden="true">
+  <p>Size of Pain &middot; Valencia Hub, Global Shapers Community &middot; Map data &copy; OpenStreetMap contributors</p>
+  <a class="btn btn-small btn-quiet" href="map.html">Map</a>
+</footer>
+
+<script type="module" src="src/landing.js"></script>
 </body>
 </html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="Place the documented footprint of a Nazi concentration or extermination camp over any city to understand its physical scale.">
+<meta name="theme-color" content="#15130f">
+<title>Map | Size of Pain</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body class="map-page">
+
+<div id="map" role="application" aria-label="Map. The camp outline can be moved with the drag handle."></div>
+
+<!-- Top bar: brand, camp picker, search -->
+<header id="topbar">
+  <a class="brand" href="index.html" title="Back to the introduction">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <span class="brand-name">Size of Pain</span>
+  </a>
+  <button id="campBtn" class="chip" type="button" aria-haspopup="dialog" aria-controls="campDialog">
+    <span class="chip-label">Camp</span>
+    <span id="campBtnName">Loading&hellip;</span>
+    <svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg>
+  </button>
+  <form id="searchForm" role="search" autocomplete="off">
+    <label for="searchInput" class="sr-only">Search a place</label>
+    <svg class="search-icon" aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M15.5 14h-.8l-.3-.3A6.5 6.5 0 1 0 9.5 16a6.5 6.5 0 0 0 4.2-1.6l.3.3v.8l5 5 1.5-1.5-5-5zm-6 0a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z"/></svg>
+    <input id="searchInput" type="search" enterkeyhint="search"
+           placeholder="Search your city or address"
+           aria-describedby="searchStatus"
+           aria-autocomplete="list"
+           aria-controls="searchResults" />
+    <div id="searchResults" role="listbox" aria-label="Search results"></div>
+    <div id="searchStatus" role="status" aria-live="polite"></div>
+  </form>
+</header>
+
+<!-- Floating map actions -->
+<div id="mapActions" aria-label="Map actions">
+  <button id="placeHereBtn" class="fab fab-primary" type="button" title="Move the camp to the centre of the screen">
+    <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm9 3h-2.1A7 7 0 0 0 13 5.1V3h-2v2.1A7 7 0 0 0 5.1 11H3v2h2.1a7 7 0 0 0 5.9 5.9V21h2v-2.1a7 7 0 0 0 5.9-5.9H21v-2zm-9 6a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/></svg>
+    <span>Place here</span>
+  </button>
+  <button id="locateBtn" class="fab" type="button" title="Place the camp where you are">
+    <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2L4.5 20.3l.7.7L12 18l6.8 3 .7-.7z"/></svg>
+    <span>Near me</span>
+  </button>
+  <button id="resetBtn" class="fab" type="button" title="Return the camp to its actual location">
+    <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 5V2L8 6l4 4V7a5 5 0 1 1-5 5H5a7 7 0 1 0 7-7z"/></svg>
+    <span>Actual site</span>
+  </button>
+</div>
+
+<div id="mapHint" class="map-hint" role="note"></div>
+
+<!-- Info panel: sidebar on desktop, bottom sheet on phones -->
+<section id="panel" aria-label="Camp information" data-state="peek">
+  <button id="sheetGrip" class="sheet-grip" type="button" aria-label="Expand or collapse the information panel" aria-expanded="false" aria-controls="panelBody">
+    <span aria-hidden="true"></span>
+  </button>
+  <div class="panel-head">
+    <p id="locationLabel" class="eyebrow">Loading&hellip;</p>
+    <h2 id="campTitle" class="panel-title"></h2>
+    <p id="primaryStat" class="primary-stat"></p>
+  </div>
+  <div id="panelBody">
+    <div class="tabs" role="tablist" aria-label="Panel sections">
+      <button role="tab" id="tab-overview" aria-controls="pane-overview" aria-selected="true" type="button">Overview</button>
+      <button role="tab" id="tab-layers" aria-controls="pane-layers" aria-selected="false" tabindex="-1" type="button">Layers</button>
+      <button role="tab" id="tab-method" aria-controls="pane-method" aria-selected="false" tabindex="-1" type="button">About the data</button>
+    </div>
+
+    <div id="pane-overview" role="tabpanel" aria-labelledby="tab-overview" class="pane">
+      <dl class="stat-grid">
+        <div><dt>Area</dt><dd id="statArea"></dd></div>
+        <div><dt>Football pitches</dt><dd id="statPitches"></dd></div>
+        <div><dt>Perimeter</dt><dd id="statPerimeter"></dd></div>
+        <div><dt>Walk around it</dt><dd id="statWalk"></dd></div>
+      </dl>
+      <p id="campVictims" class="stat-victims"></p>
+      <p id="campSummary" class="camp-summary"></p>
+      <p id="campBoundaryNote" class="note"></p>
+      <p class="scope-notice">Scale cannot describe the human loss. This map is an educational spatial comparison and cannot represent the lives, suffering, and histories of the people persecuted and murdered by Nazi Germany.</p>
+      <ul id="campSources" class="source-list"></ul>
+    </div>
+
+    <div id="pane-layers" role="tabpanel" aria-labelledby="tab-layers" class="pane" hidden>
+      <p class="pane-intro">Switch layers on and off. Tap <span class="info-inline" aria-hidden="true">i</span> to learn what each one shows at this camp.</p>
+      <fieldset id="layerControls">
+        <legend class="sr-only">Map layers</legend>
+      </fieldset>
+    </div>
+
+    <div id="pane-method" role="tabpanel" aria-labelledby="tab-method" class="pane" hidden>
+      <h3>How this map was made</h3>
+      <p>The outline and structures come from OpenStreetMap, where volunteers and memorial staff have traced the surviving remains, ruins and fences of each site. Every point is stored as a distance in metres from the camp's centre, then redrawn around wherever you place it, so the shape keeps its true size at any latitude instead of being stretched by the map projection.</p>
+      <p><strong>Area and perimeter:</strong> measured from the boundary outline drawn for this camp. Where the historical boundary is not mapped, the outline is the present memorial grounds, which can be smaller or larger than the camp was. Each camp's overview says which one you are looking at.</p>
+      <p><strong>Football pitches:</strong> a standard pitch is 105 m &times; 68 m (7,140 m&sup2;).</p>
+      <p><strong>Walking time:</strong> the perimeter at 5 km/h.</p>
+      <p><strong>Victim figures:</strong> taken from the memorial or museum responsible for each site, or from the scholarly estimates they cite. Many records were destroyed by the perpetrators, so most figures are estimates.</p>
+      <footer class="sources">
+        <p>Geometry &copy; OpenStreetMap contributors, ODbL. Basemap: OpenStreetMap. Geocoding: Nominatim.</p>
+        <p>Developed by the <a href="https://valencia-hub-global-shapers.github.io/?lang=en" target="_blank" rel="noopener">Valencia Hub</a> and Krak&oacute;w Hub, <a href="https://www.globalshapers.org/" target="_blank" rel="noopener">Global Shapers Community</a>.</p>
+      </footer>
+    </div>
+  </div>
+</section>
+
+<!-- Camp picker -->
+<dialog id="campDialog" class="sheet-dialog" aria-labelledby="campDialogTitle">
+  <div class="dialog-head">
+    <h2 id="campDialogTitle">Choose a camp</h2>
+    <button class="icon-btn" type="button" data-close aria-label="Close">&times;</button>
+  </div>
+  <p class="dialog-intro">The outline keeps your current position, so you can compare camps over the same place.</p>
+  <div id="campList" class="camp-list"></div>
+</dialog>
+
+<!-- Layer "learn more" -->
+<dialog id="layerDialog" class="sheet-dialog" aria-labelledby="layerDialogTitle">
+  <div class="dialog-head">
+    <h2 id="layerDialogTitle"></h2>
+    <button class="icon-btn" type="button" data-close aria-label="Close">&times;</button>
+  </div>
+  <div id="layerDialogBody" class="dialog-body"></div>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

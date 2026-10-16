@@ -26,11 +26,18 @@ re-projected around whatever latitude you drop them at, so they stay
 correctly sized instead of stretching the way a naively-dragged map shape
 would.
 
-Currently the site ships with one camp, Auschwitz II–Birkenau — its real
-perimeter, sub-camp fences, barrack and ruin foundations, and
-watchtowers. The data pipeline and layer format were built from the
-start to hold more than one camp; see [Adding another camp](#adding-another-camp)
-below.
+The site currently includes 18 camps: Auschwitz II–Birkenau, Auschwitz I,
+Majdanek, Treblinka II, Sobibór, Bełżec, Stutthof, Gross-Rosen, Dachau,
+Sachsenhausen, Buchenwald, Ravensbrück, Mauthausen, Flossenbürg,
+Neuengamme, Natzweiler-Struthof, Mittelbau-Dora and Westerbork.
+
+The site opens on a landing page that explains the idea and shows every
+camp side by side at the same scale. From there, the map lets you pick a
+camp, drop it over any place, switch its layers (perimeter, sub-camp
+fences, barracks, watchtowers, gas chambers and crematoria, railways,
+memorials) on and off, and open a **Learn more** note on each layer
+explaining what it was at that camp. See [Adding another camp](#adding-another-camp)
+to add more.
 
 ## Quick start
 
@@ -54,127 +61,116 @@ Vercel at the root — nothing to build.
 ## Architecture
 
 ```
-index.html            markup shell only
+index.html             landing page: what the tool is, the camps, the layers, credits
+map.html               the map itself
+assets/                logo (original and dark-background version) and favicon
 src/
-  style.css            all styling
-  geo.js               meters <-> lat/lng conversion (the true-size math)
-  campLayer.js          builds the draggable Leaflet layers from the data
-  geocode.js             search + reverse-geocode via Nominatim
-  main.js                 entry point; wires map, drag, search, reset together
+  landing.js / .css     landing page (same-scale camp outlines, layer glossary)
+  main.js               map page entry point: camp picker, search, drag, sheet, tabs
+  style.css             map page styling (sidebar on desktop, bottom sheet on phones)
+  camps.js              loads data/camps.json and each camp dataset
+  campLayer.js          builds the draggable Leaflet layers from a camp dataset
+  layers.js             layer names and general "Learn more" explanations
+  geo.js                meters <-> lat/lng conversion (the true-size math)
+  geocode.js            search + reverse-geocode via Nominatim
+  storage.js            small localStorage helpers (remembered camp, layers, hint)
 data/
-  birkenau.geojson       the data the site actually loads (generated)
-  raw/
-    overpass-export.geojson   curated source pull from OpenStreetMap
-    OVERPASS_QUERY.md          the query used, and how to extend it
+  camps.json            the list of camps: names, history, sources, per-layer text
+  <camp>.geojson        one true-size dataset per camp (generated)
+  raw/                  filtered OpenStreetMap exports the datasets are built from
 scripts/
-  filter_data.py         raw Overpass export -> camp-relevant features only
-  build_data.py           filtered features -> true-size dataset + stats
+  camp_sources.json     per camp: approximate centre and OSM boundary id(s)
+  fetch_osm.py          Overpass API -> data/raw/<camp>-overpass-export.geojson
+  build_data.py         raw export -> data/<camp>.geojson with stats
+  filter_data.py        the hand-tuned filter used for the original Birkenau export
+  make_dark_logo.py     derives the dark-background logo from the original
+.github/workflows/
+  fetch-camp-data.yml   runs fetch_osm.py on GitHub Actions and commits the result
 ```
 
-`data/birkenau.geojson` is a build artifact, committed so the site works
-with zero build step. If you change `data/raw/overpass-export.geojson`
-(or pull a fresh export), regenerate it:
+### Map page URLs
 
-```
-python3 scripts/filter_data.py data/raw/overpass-export-full.geojson data/raw/overpass-export.geojson
-python3 scripts/build_data.py data/raw/overpass-export.geojson data/birkenau.geojson
-```
+`map.html?camp=<id>` opens a camp at its real location;
+`map.html?camp=<id>#lat,lng,zoom` opens it placed somewhere else (this is
+what the address bar shows as you move it, so it can be shared);
+`map.html?camp=<id>&q=Valencia` searches for a place and drops the camp
+there (used by the landing page search box). Old `index.html#lat,lng,zoom`
+links are redirected to the Birkenau map.
 
-`build_data.py` also writes the area/perimeter/comparison stats into the
-output file under `stats`; `main.js` reads them and populates the stat
-card automatically, so the numbers stay in sync with the data.
+### Controls
+
+- Desktop: drag the outline or its round handle; click anywhere on the map
+  to drop the camp there.
+- Phones: drag the round handle (the outline itself is left alone so that
+  one-finger panning still works), long-press the map to drop the camp
+  there, or use the **Place here** (centre of the screen), **Near me**
+  (your location) and **Real site** buttons. The information panel is a
+  bottom sheet: tap or swipe its header to expand it.
 
 ## Extending
 
-### Add the BIII "Mexico" sector
-
-See `data/raw/OVERPASS_QUERY.md`.
-
 ### The data format
 
-Every camp on this site, whatever its source, ends up as one small
-GeoJSON-like file with the same shape:
+Every camp ends up as one small GeoJSON-like file with the same shape:
 
 ```jsonc
 {
   "origin": [lat, lng],          // the point every feature's [east, north] offset is measured from
-  "stats": {                      // displayed in the stat card (auto-generated by build_data.py)
-    "area_km2": 1.69,
-    "perimeter_km": 5.56,
-    "pitches": 236,
-    "walk_min": 67
-  },
+  "stats": { "area_km2": 1.69, "area_ha": 168.5, "perimeter_km": 5.56, "pitches": 236, "walk_min": 67 },
   "features": [
-    { "k": "boundary",   "n": "name", "t": "polygon", "pts": [[east, north], ...] },
-    { "k": "sector",     "n": "BIIa", "t": "polygon", "pts": [[east, north], ...] },
-    { "k": "watchtower", "n": "",     "t": "polygon", "pts": [[east, north], ...] },
-    { "k": "barracks",   "n": "",     "t": "polygon", "pts": [[east, north], ...] },
-    { "k": "crematoria", "n": "",     "t": "polygon", "pts": [[east, north], ...] },
-    { "k": "railway",    "n": "",     "t": "line",    "pts": [[east, north], ...] },
-    { "k": "other",      "n": "",     "t": "polygon", "pts": [[east, north], ...] }
+    { "k": "boundary", "n": "name", "t": "polygon", "pts": [[east, north], ...] },
+    { "k": "railway",  "n": "",     "t": "line",    "pts": [[east, north], ...] }
   ]
 }
 ```
 
-`pts` are meter offsets, not lat/lng — that's what makes the shape
-reproject correctly at true size anywhere it's dropped. `k` is the kind
-of feature and `t` is the geometry type (`polygon` or `line`). Exactly
-one feature per file should be `k: "boundary"` (the site uses it to fit
-the initial view). Recognised kinds are `boundary`, `sector`,
-`watchtower`, `barracks`, `crematoria`, `railway`, and `other`; add a
-new `case` in `styleFor()` in `src/campLayer.js` if a camp needs a
-feature type these don't cover.
-
-You never write this file by hand — `scripts/build_data.py` generates
-it from a filtered Overpass GeoJSON export (see below).
+`pts` are meter offsets, not lat/lng; that is what makes the shape
+reproject correctly at true size anywhere it is dropped. `k` is the kind
+of feature: `boundary`, `sector`, `fence`, `barracks`, `watchtower`,
+`crematoria`, `railway`, `memorial` or `other`. `t` is `polygon` or
+`line`. At least one feature must be a `boundary` polygon; area and
+perimeter are measured from the boundary polygons. The layer list on the
+map only shows kinds a camp actually has.
 
 ### Adding another camp
 
-Every camp goes through the same three-step pipeline that produced
-`data/birkenau.geojson`. To add, say, Mauthausen or Auschwitz I:
+1. **Find the boundary.** Add the camp to `scripts/camp_sources.json` with
+   its approximate `center`. Run the **Fetch camp data from OpenStreetMap**
+   workflow (Actions tab, or push a change to that file); it writes
+   `data/raw/DISCOVERY.txt` listing named, camp-sized OSM objects near the
+   centre. Pick the one that matches the camp perimeter (or the memorial
+   grounds if the perimeter is not mapped) and put its id in `boundary`,
+   e.g. `"boundary": "way/123456"` (a list is allowed for camps mapped as
+   several parts).
 
-1. **Pull the source geometry from OpenStreetMap.** Write an Overpass
-   query for that camp's bounding box, modeled on
-   `data/raw/OVERPASS_QUERY.md` (which documents the exact query used
-   for Birkenau, including how the box was chosen). Run it at
-   [overpass-turbo.eu](https://overpass-turbo.eu) and export as GeoJSON
-   to `data/raw/<camp>-overpass-export-full.geojson`.
+   Locally, if you can reach the Overpass API, the same works with
+   `python3 scripts/fetch_osm.py discover scripts/camp_sources.json out.txt`.
 
-2. **Filter it down to camp-relevant features.** Raw Overpass exports
-   are dominated by unrelated modern buildings near the site. Copy
-   `scripts/filter_data.py` to a camp-specific version (or add a
-   `--camp` flag) and adjust the `keep()` rules — the current rules
-   are hand-tuned to how Birkenau happens to be tagged in OSM
-   (`historic=*`, `ruins=*`, `building=barrack`, watchtowers,
-   `BI`/`BII` sector fences); another site may use different tags for
-   the same real-world things, so treat these as a starting point, not
-   a universal ruleset. Run it:
+2. **Fetch the features.** Run the workflow again (or
+   `python3 scripts/fetch_osm.py fetch scripts/camp_sources.json <id>`).
+   It downloads everything camp-relevant around the boundary (historic,
+   ruins, buildings, fences, railways, memorials, towers), keeps what lies
+   inside it plus a small buffer, drops obvious modern buildings, and
+   writes `data/raw/<id>-overpass-export.geojson`. Review it: OSM tagging
+   differs from site to site.
 
-   ```
-   python3 scripts/filter_data.py data/raw/<camp>-overpass-export-full.geojson data/raw/<camp>-overpass-export.geojson
-   ```
+3. **Build the dataset.** `python3 scripts/build_data.py --camp <id>` writes
+   `data/<id>.geojson` and prints the stats. Feature kinds are guessed from
+   tags and names (multilingual patterns for crematoria, barracks and
+   watchtowers live at the top of the script).
 
-3. **Build the true-size dataset.** `scripts/build_data.py` picks one
-   feature as the boundary via a hardcoded OSM way id (`BOUNDARY_ID`)
-   — set that constant to the new camp's boundary way, then run:
+4. **Describe it.** Add an entry to `data/camps.json` with the name, place,
+   years, summary, victim figure, sources, a `boundary_note` explaining
+   what the outline represents, and one `layers` text per kind the camp
+   has. Those texts are what the **Learn more** buttons show, above the
+   general explanation from `src/layers.js`. A layer text can also be an
+   object, `{"text": "...", "sources": [{"label": "...", "url": "..."}]}`,
+   when a note needs its own references. Each **Learn more** ends with a
+   References list: the layer's own sources, then the camp's `sources`,
+   then the general sources defined in `src/layers.js`.
 
-   ```
-   python3 scripts/build_data.py data/raw/<camp>-overpass-export.geojson data/<camp>.geojson
-   ```
-
-   This also prints the area/perimeter/comparison stats for the stat
-   card.
-
-That gives you a `data/<camp>.geojson` in the same format Birkenau
-uses. The one piece of application code involved: `src/main.js`
-currently hardcodes `DATA_URL` to `data/birkenau.geojson` and the page
-title/copy in `index.html` are Birkenau-specific. To ship a second
-camp, either point `DATA_URL` at the new file for a single-camp build,
-or — if you want both selectable in one page — add a small picker that
-sets `DATA_URL` before `main()` runs and swap in the matching stat-card
-text; `createCampLayer()` in `src/campLayer.js` already takes the
-dataset as a plain argument, so nothing else in the render/drag/search
-pipeline needs to know how many camps exist.
+Nothing else needs to change: the landing page and the map both read the
+camp list from `data/camps.json`.
 
 ## Data & attribution
 

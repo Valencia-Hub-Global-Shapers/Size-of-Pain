@@ -1,0 +1,4296 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "historic": "memorial",
+    "image": "https://commons.wikimedia.org/wiki/File:Gestaltung_des_Haeftlingslagers.jpg",
+    "name": "KZ-Gedenkstätte Neuengamme",
+    "name:en": "Neuengamme Concentration Camp Memorial",
+    "name:es": "Lugar Conmemorativo del Campo de Concentración de Neuengamme",
+    "name:fr": "Centre de Mémoire de Neuengamme",
+    "name:pl": "Miejsce Pamięci KZ Neuengamme",
+    "name:pt": "Memorial do Campo de Concentração de Neuengamme",
+    "name:ru": "Мемориал концлагеря Нойенгамме",
+    "opening_hours": "Mo-Fr 09:30-16:00; Sa; Su; PH 10:00-17:00",
+    "wheelchair": "yes",
+    "wikidata": "Q1719324",
+    "wikipedia": "de:KZ-Gedenkstätte Neuengamme",
+    "@id": "way/710499969"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2332058,
+       53.4368792
+      ],
+      [
+       10.2340727,
+       53.4366558
+      ],
+      [
+       10.2345507,
+       53.4365979
+      ],
+      [
+       10.2350367,
+       53.4365532
+      ],
+      [
+       10.2354507,
+       53.4365721
+      ],
+      [
+       10.2357707,
+       53.437042
+      ],
+      [
+       10.2367041,
+       53.4367608
+      ],
+      [
+       10.2359257,
+       53.4355924
+      ],
+      [
+       10.2372472,
+       53.4352219
+      ],
+      [
+       10.2374293,
+       53.4353873
+      ],
+      [
+       10.2378909,
+       53.4346148
+      ],
+      [
+       10.2372409,
+       53.4340179
+      ],
+      [
+       10.2376397,
+       53.4335965
+      ],
+      [
+       10.2344076,
+       53.4290627
+      ],
+      [
+       10.2351805,
+       53.4288519
+      ],
+      [
+       10.2315568,
+       53.4237985
+      ],
+      [
+       10.2305072,
+       53.4223703
+      ],
+      [
+       10.2288106,
+       53.4234376
+      ],
+      [
+       10.2280346,
+       53.423923
+      ],
+      [
+       10.2252313,
+       53.4256531
+      ],
+      [
+       10.2300861,
+       53.4324878
+      ],
+      [
+       10.2316449,
+       53.4347073
+      ],
+      [
+       10.2328321,
+       53.4363532
+      ],
+      [
+       10.2332058,
+       53.4368792
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "47",
+    "addr:street": "Jean-Dolidier-Weg",
+    "building": "yes",
+    "dsa:criteria": "Ensembleteil",
+    "heritage": "4",
+    "heritage:operator": "dsa",
+    "image": "http://commons.wikimedia.org/wiki/File:Neuengamme_Ueberblick_Klinkerwerk.jpg",
+    "name": "Ehemaliges Klinkerwerk der DESt",
+    "name:en": "DESt Brickworks",
+    "ref:dsa": "27578",
+    "start_date": "1940",
+    "@id": "way/23314152"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2310992,
+       53.4321725
+      ],
+      [
+       10.232002,
+       53.4334359
+      ],
+      [
+       10.2330399,
+       53.4331727
+      ],
+      [
+       10.2330667,
+       53.4332102
+      ],
+      [
+       10.2335132,
+       53.4330969
+      ],
+      [
+       10.2334907,
+       53.4330655
+      ],
+      [
+       10.2345393,
+       53.4327995
+      ],
+      [
+       10.233634,
+       53.4315326
+      ],
+      [
+       10.2332902,
+       53.4316199
+      ],
+      [
+       10.2332041,
+       53.4316417
+      ],
+      [
+       10.2339098,
+       53.4326293
+      ],
+      [
+       10.2333143,
+       53.4327803
+      ],
+      [
+       10.2326686,
+       53.4318768
+      ],
+      [
+       10.2324909,
+       53.4319218
+      ],
+      [
+       10.232464,
+       53.4319287
+      ],
+      [
+       10.2324462,
+       53.4319332
+      ],
+      [
+       10.2324044,
+       53.4319438
+      ],
+      [
+       10.2323832,
+       53.4319492
+      ],
+      [
+       10.2323536,
+       53.4319567
+      ],
+      [
+       10.2322196,
+       53.4319906
+      ],
+      [
+       10.2328719,
+       53.4329035
+      ],
+      [
+       10.2322418,
+       53.4330633
+      ],
+      [
+       10.2315276,
+       53.4320639
+      ],
+      [
+       10.2310992,
+       53.4321725
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "Ehemaliger SS-Bunker",
+    "@id": "way/23314196"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2303309,
+       53.4299405
+      ],
+      [
+       10.2308314,
+       53.4298128
+      ],
+      [
+       10.2307814,
+       53.4297432
+      ],
+      [
+       10.2308199,
+       53.4297334
+      ],
+      [
+       10.230787,
+       53.4296875
+      ],
+      [
+       10.2306701,
+       53.4297173
+      ],
+      [
+       10.230685,
+       53.429738
+      ],
+      [
+       10.2303009,
+       53.429836
+      ],
+      [
+       10.2302872,
+       53.429817
+      ],
+      [
+       10.230224,
+       53.4298331
+      ],
+      [
+       10.2302715,
+       53.4298993
+      ],
+      [
+       10.2302967,
+       53.4298929
+      ],
+      [
+       10.2303309,
+       53.4299405
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "63",
+    "addr:street": "Jean-Dolidier-Weg",
+    "building": "yes",
+    "dsa:criteria": "Ensembleteil",
+    "heritage": "4",
+    "heritage:operator": "dsa",
+    "name": "Ehemalige SS-Garagen",
+    "ref:dsa": "27576",
+    "start_date": "1940",
+    "@id": "way/23314203"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2312088,
+       53.4294242
+      ],
+      [
+       10.2307912,
+       53.429529
+      ],
+      [
+       10.2308281,
+       53.4295812
+      ],
+      [
+       10.2315108,
+       53.4294098
+      ],
+      [
+       10.2314738,
+       53.4293576
+      ],
+      [
+       10.231421,
+       53.4293709
+      ],
+      [
+       10.2312088,
+       53.4294242
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/23314213"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2310539,
+       53.4272409
+      ],
+      [
+       10.2312288,
+       53.4271947
+      ],
+      [
+       10.2310876,
+       53.427005
+      ],
+      [
+       10.2309127,
+       53.4270513
+      ],
+      [
+       10.2310539,
+       53.4272409
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/23314225"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2313734,
+       53.4271866
+      ],
+      [
+       10.2318955,
+       53.427049
+      ],
+      [
+       10.2318132,
+       53.4269382
+      ],
+      [
+       10.2312911,
+       53.4270757
+      ],
+      [
+       10.2313734,
+       53.4271866
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "Ehemalige Walther-Werke",
+    "@id": "way/23314259"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2315488,
+       53.4266767
+      ],
+      [
+       10.2318654,
+       53.4265935
+      ],
+      [
+       10.2316172,
+       53.426258
+      ],
+      [
+       10.2315753,
+       53.4262014
+      ],
+      [
+       10.2324317,
+       53.4259765
+      ],
+      [
+       10.232341,
+       53.4258539
+      ],
+      [
+       10.2314904,
+       53.4260773
+      ],
+      [
+       10.2313008,
+       53.425821
+      ],
+      [
+       10.2318289,
+       53.4256823
+      ],
+      [
+       10.2317421,
+       53.4255649
+      ],
+      [
+       10.2312172,
+       53.4257028
+      ],
+      [
+       10.2310302,
+       53.42545
+      ],
+      [
+       10.2318761,
+       53.4252278
+      ],
+      [
+       10.2317799,
+       53.4250978
+      ],
+      [
+       10.2309369,
+       53.4253192
+      ],
+      [
+       10.2306344,
+       53.4249104
+      ],
+      [
+       10.2303199,
+       53.424993
+      ],
+      [
+       10.2306242,
+       53.4254044
+      ],
+      [
+       10.2297352,
+       53.425638
+      ],
+      [
+       10.2298275,
+       53.4257627
+      ],
+      [
+       10.2307199,
+       53.4255283
+      ],
+      [
+       10.2309016,
+       53.4257739
+      ],
+      [
+       10.2303277,
+       53.4259247
+      ],
+      [
+       10.2304177,
+       53.4260463
+      ],
+      [
+       10.230992,
+       53.4258955
+      ],
+      [
+       10.231182,
+       53.4261523
+      ],
+      [
+       10.2303013,
+       53.4263836
+      ],
+      [
+       10.2303503,
+       53.4264498
+      ],
+      [
+       10.2303984,
+       53.4265148
+      ],
+      [
+       10.2312614,
+       53.4262881
+      ],
+      [
+       10.2315488,
+       53.4266767
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/23314267"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.232751,
+       53.4268073
+      ],
+      [
+       10.232849,
+       53.4267816
+      ],
+      [
+       10.2328891,
+       53.426836
+      ],
+      [
+       10.2330182,
+       53.4268022
+      ],
+      [
+       10.2328098,
+       53.4265195
+      ],
+      [
+       10.2325827,
+       53.4265789
+      ],
+      [
+       10.232751,
+       53.4268073
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "electricity",
+    "location": "indoor",
+    "power": "switchgear",
+    "@id": "way/23314271"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2328464,
+       53.4271888
+      ],
+      [
+       10.2332129,
+       53.4270981
+      ],
+      [
+       10.2331544,
+       53.4270142
+      ],
+      [
+       10.2327879,
+       53.4271049
+      ],
+      [
+       10.2328464,
+       53.4271888
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/23314275"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2295595,
+       53.4253473
+      ],
+      [
+       10.2297484,
+       53.4252981
+      ],
+      [
+       10.2295472,
+       53.4250241
+      ],
+      [
+       10.2293583,
+       53.4250733
+      ],
+      [
+       10.2295595,
+       53.4253473
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "image": "http://commons.wikimedia.org/wiki/File:Hammerwerkstatt_Neuengamme.jpg",
+    "name": "Ehemaliges Hammerwerk",
+    "name:en": "Foundry",
+    "@id": "way/23314277"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2296442,
+       53.4248023
+      ],
+      [
+       10.2308474,
+       53.4244951
+      ],
+      [
+       10.2307065,
+       53.424299
+      ],
+      [
+       10.2295033,
+       53.4246063
+      ],
+      [
+       10.2296442,
+       53.4248023
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Hamburg",
+    "addr:housenumber": "39",
+    "addr:postcode": "21039",
+    "addr:street": "Jean-Dolidier-Weg",
+    "building": "yes",
+    "description": "Auf weißen Stoffbahnen sind die Namen der Toten des KZ Neuengamme aufgezeichnet. Die Namen sind nach dem Todesdatum aneinander gereiht.",
+    "dsa:criteria": "Ensembleteil",
+    "fee": "no",
+    "heritage": "4",
+    "heritage:operator": "dsa",
+    "historic": "memorial",
+    "image": "https://de.wikipedia.org/wiki/KZ-Gedenkst%C3%A4tte_Neuengamme#/media/Datei:Jean-Dolidier-Weg_39.jpg",
+    "memorial": "building",
+    "memorial:conflict": "holocaust",
+    "name": "Haus des Gedenkens",
+    "name:en": "House of Remembrance",
+    "old_name": "Dokumentenhaus",
+    "ref:dsa": "27988",
+    "start_date": "1981",
+    "website": "https://www.kz-gedenkstaette-neuengamme.de/ausstellungen/neuengamme/haus-des-gedenkens",
+    "wheelchair": "limited",
+    "wheelchair:description": "Bis auf die obere Galerie zugänglich",
+    "wikidata": "Q121085944",
+    "@id": "way/23314489"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2320634,
+       53.4352598
+      ],
+      [
+       10.2323183,
+       53.4351971
+      ],
+      [
+       10.2322131,
+       53.4350453
+      ],
+      [
+       10.2321073,
+       53.4350713
+      ],
+      [
+       10.2320958,
+       53.4350548
+      ],
+      [
+       10.2320701,
+       53.4350611
+      ],
+      [
+       10.2320454,
+       53.4350672
+      ],
+      [
+       10.2320561,
+       53.4350826
+      ],
+      [
+       10.2319575,
+       53.4351068
+      ],
+      [
+       10.2320634,
+       53.4352598
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/23314553"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2317634,
+       53.4318305
+      ],
+      [
+       10.2320319,
+       53.431766
+      ],
+      [
+       10.231918,
+       53.4315978
+      ],
+      [
+       10.2316495,
+       53.4316624
+      ],
+      [
+       10.2317634,
+       53.4318305
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "45",
+    "addr:street": "Jean-Dolidier-Weg",
+    "building": "yes",
+    "dsa:criteria": "Ensembleteil",
+    "heritage": "4",
+    "heritage:operator": "dsa",
+    "name": "Ehemaliges Verwaltungsgebäude DESt",
+    "name:en": "DESt Administration Building",
+    "ref:dsa": "27572",
+    "start_date": "1940",
+    "@id": "way/23314554"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2304574,
+       53.4326837
+      ],
+      [
+       10.2306059,
+       53.4326468
+      ],
+      [
+       10.2304022,
+       53.4323555
+      ],
+      [
+       10.2302537,
+       53.4323923
+      ],
+      [
+       10.2304574,
+       53.4326837
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "Ehemaliger Häftlingsblock 21-24",
+    "name:en": "Prisoner Block 21-24",
+    "source": "Yahoo+survey",
+    "@id": "way/53660757"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2295328,
+       53.4271147
+      ],
+      [
+       10.2297117,
+       53.4270711
+      ],
+      [
+       10.2304737,
+       53.4281802
+      ],
+      [
+       10.2302949,
+       53.4282238
+      ],
+      [
+       10.2299252,
+       53.4276857
+      ],
+      [
+       10.2298631,
+       53.4275954
+      ],
+      [
+       10.2295328,
+       53.4271147
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "75",
+    "addr:street": "Jean-Dolidier-Weg",
+    "building": "yes",
+    "dsa:criteria": "Ensembleteil",
+    "heritage": "4",
+    "heritage:operator": "dsa",
+    "name": "Ehemaliger Häftlingsblock 1-4",
+    "ref:dsa": "27580",
+    "source": "Yahoo+survey",
+    "start_date": "1940",
+    "@id": "way/53660758"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.226993,
+       53.4277591
+      ],
+      [
+       10.2271876,
+       53.4277096
+      ],
+      [
+       10.2272629,
+       53.4278145
+      ],
+      [
+       10.2275976,
+       53.4282775
+      ],
+      [
+       10.2279798,
+       53.4288063
+      ],
+      [
+       10.2277857,
+       53.4288561
+      ],
+      [
+       10.226993,
+       53.4277591
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "Ehemaliges Haftgebäude",
+    "source": "Yahoo+survey",
+    "@id": "way/53660759"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2292553,
+       53.4283105
+      ],
+      [
+       10.2293225,
+       53.4284057
+      ],
+      [
+       10.2295342,
+       53.4283526
+      ],
+      [
+       10.2295493,
+       53.428374
+      ],
+      [
+       10.229755,
+       53.4283224
+      ],
+      [
+       10.2296093,
+       53.4281163
+      ],
+      [
+       10.2295378,
+       53.4281342
+      ],
+      [
+       10.229426,
+       53.4281623
+      ],
+      [
+       10.229478,
+       53.428236
+      ],
+      [
+       10.2294489,
+       53.4282433
+      ],
+      [
+       10.2294601,
+       53.4282592
+      ],
+      [
+       10.2292553,
+       53.4283105
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "61",
+    "addr:street": "Jean-Dolidier-Weg",
+    "building": "yes",
+    "dsa:criteria": "Ensembleteil",
+    "heritage": "4",
+    "heritage:operator": "dsa",
+    "name": "Ehemaliges Kommandantenhaus",
+    "name:en": "Commandant’s House",
+    "ref:dsa": "27577",
+    "source": "Yahoo+survey +dk5",
+    "start_date": "1940",
+    "@id": "way/53662151"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2329907,
+       53.4290448
+      ],
+      [
+       10.2331716,
+       53.428998
+      ],
+      [
+       10.2332151,
+       53.4290577
+      ],
+      [
+       10.2331976,
+       53.4290623
+      ],
+      [
+       10.2332098,
+       53.429079
+      ],
+      [
+       10.2331217,
+       53.4291018
+      ],
+      [
+       10.2331134,
+       53.4290904
+      ],
+      [
+       10.2330381,
+       53.4291099
+      ],
+      [
+       10.2329907,
+       53.4290448
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "historic": "memorial",
+    "name": "Plattenhaus",
+    "@id": "way/163175163"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2311418,
+       53.433645
+      ],
+      [
+       10.2310806,
+       53.4335519
+      ],
+      [
+       10.2310036,
+       53.4335699
+      ],
+      [
+       10.2310647,
+       53.433663
+      ],
+      [
+       10.2311418,
+       53.433645
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "107",
+    "addr:street": "Jean-Dolidier-Weg",
+    "building": "yes",
+    "dsa:criteria": "Ensembleteil",
+    "heritage": "4",
+    "heritage:operator": "dsa",
+    "ref:dsa": "27575",
+    "start_date": "1940",
+    "@id": "way/201200659"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2286987,
+       53.4242252
+      ],
+      [
+       10.2288078,
+       53.4241972
+      ],
+      [
+       10.2285589,
+       53.4238522
+      ],
+      [
+       10.2284499,
+       53.4238802
+      ],
+      [
+       10.2286987,
+       53.4242252
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Block 17-18",
+    "wall": "gabion",
+    "@id": "way/201200693"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2297622,
+       53.4281359
+      ],
+      [
+       10.2297127,
+       53.4281482
+      ],
+      [
+       10.2291495,
+       53.4273473
+      ],
+      [
+       10.2290091,
+       53.4273824
+      ],
+      [
+       10.2295378,
+       53.4281342
+      ],
+      [
+       10.2296093,
+       53.4281163
+      ],
+      [
+       10.229755,
+       53.4283224
+      ],
+      [
+       10.2298748,
+       53.4282925
+      ],
+      [
+       10.2297622,
+       53.4281359
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Block 7-8",
+    "wall": "gabion",
+    "@id": "way/201200698"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2283345,
+       53.4286752
+      ],
+      [
+       10.2284406,
+       53.4286482
+      ],
+      [
+       10.2277604,
+       53.4276997
+      ],
+      [
+       10.2276542,
+       53.4277267
+      ],
+      [
+       10.2283345,
+       53.4286752
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Block 11-12",
+    "wall": "gabion",
+    "@id": "way/201200699"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.228876,
+       53.4285374
+      ],
+      [
+       10.2289821,
+       53.4285103
+      ],
+      [
+       10.2283018,
+       53.4275618
+      ],
+      [
+       10.2281957,
+       53.4275888
+      ],
+      [
+       10.228876,
+       53.4285374
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "historic": "archaeological_site",
+    "@id": "way/201200703"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2279809,
+       53.4282613
+      ],
+      [
+       10.2281784,
+       53.4282109
+      ],
+      [
+       10.2280761,
+       53.4280684
+      ],
+      [
+       10.2278785,
+       53.4281188
+      ],
+      [
+       10.2279809,
+       53.4282613
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Block 13-14",
+    "wall": "gabion",
+    "@id": "way/201200704"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2291629,
+       53.4284571
+      ],
+      [
+       10.229269,
+       53.4284301
+      ],
+      [
+       10.2285887,
+       53.4274816
+      ],
+      [
+       10.2284826,
+       53.4275086
+      ],
+      [
+       10.2291629,
+       53.4284571
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Block 15-16",
+    "wall": "gabion",
+    "@id": "way/201200705"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2292953,
+       53.4282911
+      ],
+      [
+       10.2294106,
+       53.4282626
+      ],
+      [
+       10.2288277,
+       53.4274257
+      ],
+      [
+       10.2287124,
+       53.4274542
+      ],
+      [
+       10.2292953,
+       53.4282911
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Block 9-10",
+    "wall": "gabion",
+    "@id": "way/201200706"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2286094,
+       53.4286008
+      ],
+      [
+       10.2287156,
+       53.4285738
+      ],
+      [
+       10.2280353,
+       53.4276252
+      ],
+      [
+       10.2279292,
+       53.4276523
+      ],
+      [
+       10.2286094,
+       53.4286008
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Block 5-6",
+    "wall": "gabion",
+    "@id": "way/201200707"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2280817,
+       53.4287378
+      ],
+      [
+       10.2281878,
+       53.4287108
+      ],
+      [
+       10.2275076,
+       53.4277622
+      ],
+      [
+       10.2274014,
+       53.4277893
+      ],
+      [
+       10.2280817,
+       53.4287378
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Ehemaliges Vorratslager und Kantine",
+    "wall": "gabion",
+    "@id": "way/201200708"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2300771,
+       53.4282375
+      ],
+      [
+       10.2301832,
+       53.4282105
+      ],
+      [
+       10.2295029,
+       53.4272619
+      ],
+      [
+       10.2293968,
+       53.4272889
+      ],
+      [
+       10.2300771,
+       53.4282375
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "Ehemalige Lagergärtnerei",
+    "ruins": "yes",
+    "@id": "way/201205174"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2349142,
+       53.4364013
+      ],
+      [
+       10.2346128,
+       53.4359769
+      ],
+      [
+       10.2347427,
+       53.4359442
+      ],
+      [
+       10.2350441,
+       53.4363686
+      ],
+      [
+       10.2349142,
+       53.4364013
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "historic": "memorial",
+    "image": "http://commons.wikimedia.org/wiki/File:Arrestzellen_Neuengamme.jpg",
+    "name": "Ehemaliger Arrestbunker",
+    "name:en": "Detention Bunker",
+    "ruins": "yes",
+    "@id": "way/201206088"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.228835,
+       53.4265609
+      ],
+      [
+       10.2287745,
+       53.426473
+      ],
+      [
+       10.2288781,
+       53.4264477
+      ],
+      [
+       10.2289386,
+       53.4265356
+      ],
+      [
+       10.228835,
+       53.4265609
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/201206089"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2266838,
+       53.4274968
+      ],
+      [
+       10.2266449,
+       53.4274409
+      ],
+      [
+       10.2265372,
+       53.4274675
+      ],
+      [
+       10.2265761,
+       53.4275235
+      ],
+      [
+       10.2266838,
+       53.4274968
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Ehemalige Krankenbaracke 3",
+    "wall": "gabion",
+    "@id": "way/201206092"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2281895,
+       53.4270075
+      ],
+      [
+       10.2287587,
+       53.4268696
+      ],
+      [
+       10.2286923,
+       53.4267723
+      ],
+      [
+       10.2281231,
+       53.4269101
+      ],
+      [
+       10.2281895,
+       53.4270075
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Ehemaliges Effektenlager",
+    "wall": "gabion",
+    "@id": "way/201206093"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2265987,
+       53.4271298
+      ],
+      [
+       10.2265504,
+       53.4270637
+      ],
+      [
+       10.2273059,
+       53.4268677
+      ],
+      [
+       10.2273542,
+       53.4269338
+      ],
+      [
+       10.2265987,
+       53.4271298
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Ehemalige Prominentenbaracken",
+    "wall": "gabion",
+    "@id": "way/201206094"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.226184,
+       53.4268389
+      ],
+      [
+       10.2259846,
+       53.4265658
+      ],
+      [
+       10.2261164,
+       53.4265316
+      ],
+      [
+       10.2263158,
+       53.4268047
+      ],
+      [
+       10.226184,
+       53.4268389
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Ehemalige Krankenbaracke 4",
+    "wall": "gabion",
+    "@id": "way/201206095"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2274038,
+       53.4269135
+      ],
+      [
+       10.2273223,
+       53.4268014
+      ],
+      [
+       10.2280157,
+       53.4266224
+      ],
+      [
+       10.2280972,
+       53.4267346
+      ],
+      [
+       10.2274038,
+       53.4269135
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "wall": "gabion",
+    "@id": "way/201206096"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2291283,
+       53.4271664
+      ],
+      [
+       10.2289412,
+       53.4268956
+      ],
+      [
+       10.2288337,
+       53.42674
+      ],
+      [
+       10.2290402,
+       53.4266894
+      ],
+      [
+       10.2293348,
+       53.4271158
+      ],
+      [
+       10.2292981,
+       53.4271248
+      ],
+      [
+       10.2291283,
+       53.4271664
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Ehemaliges Lagerbordell",
+    "wall": "gabion",
+    "@id": "way/201206097"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2273866,
+       53.4265307
+      ],
+      [
+       10.2271911,
+       53.4262629
+      ],
+      [
+       10.2273642,
+       53.426218
+      ],
+      [
+       10.2275597,
+       53.4264858
+      ],
+      [
+       10.2273866,
+       53.4265307
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Ehemalige Krankenbaracke 1",
+    "wall": "gabion",
+    "@id": "way/201206098"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.226747,
+       53.4273716
+      ],
+      [
+       10.2273135,
+       53.4272258
+      ],
+      [
+       10.227238,
+       53.4271216
+      ],
+      [
+       10.2266715,
+       53.4272674
+      ],
+      [
+       10.226747,
+       53.4273716
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Ehemaliges Effektenlager",
+    "wall": "gabion",
+    "@id": "way/201206099"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2265132,
+       53.4270124
+      ],
+      [
+       10.2264661,
+       53.4269493
+      ],
+      [
+       10.2272172,
+       53.4267502
+      ],
+      [
+       10.2272643,
+       53.4268133
+      ],
+      [
+       10.2265132,
+       53.4270124
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Ehemalige Prominentenbaracken",
+    "wall": "gabion",
+    "@id": "way/201206100"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2266098,
+       53.4267361
+      ],
+      [
+       10.2264103,
+       53.4264631
+      ],
+      [
+       10.2265421,
+       53.4264289
+      ],
+      [
+       10.2267416,
+       53.426702
+      ],
+      [
+       10.2266098,
+       53.4267361
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Ehemaliger Wachturm",
+    "wall": "gabion",
+    "@id": "way/201206101"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2274722,
+       53.4266407
+      ],
+      [
+       10.2274387,
+       53.4265949
+      ],
+      [
+       10.2275102,
+       53.4265764
+      ],
+      [
+       10.2275437,
+       53.4266222
+      ],
+      [
+       10.2274722,
+       53.4266407
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Ehemaliger Wachturm",
+    "wall": "gabion",
+    "@id": "way/201206102"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2289323,
+       53.4262868
+      ],
+      [
+       10.2288922,
+       53.4262346
+      ],
+      [
+       10.2289792,
+       53.4262109
+      ],
+      [
+       10.2290193,
+       53.4262632
+      ],
+      [
+       10.2289323,
+       53.4262868
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Ehemalige Krankenbaracke 2",
+    "wall": "gabion",
+    "@id": "way/201206103"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2274755,
+       53.4271828
+      ],
+      [
+       10.2280447,
+       53.427045
+      ],
+      [
+       10.2279783,
+       53.4269476
+      ],
+      [
+       10.2274091,
+       53.4270855
+      ],
+      [
+       10.2274755,
+       53.4271828
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "wall": "gabion",
+    "@id": "way/201206104"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2280536,
+       53.4265785
+      ],
+      [
+       10.2280056,
+       53.4265108
+      ],
+      [
+       10.228191,
+       53.4264641
+      ],
+      [
+       10.2281999,
+       53.4264767
+      ],
+      [
+       10.228845,
+       53.4263143
+      ],
+      [
+       10.2289027,
+       53.4263956
+      ],
+      [
+       10.2282536,
+       53.426559
+      ],
+      [
+       10.2282351,
+       53.4265328
+      ],
+      [
+       10.2280536,
+       53.4265785
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/201301537"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.2318543,
+      53.4346939
+     ],
+     [
+      10.2331401,
+      53.4343641
+     ],
+     [
+      10.2331999,
+      53.4344528
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "Ehemaliger Wachturm der JVA",
+    "@id": "way/201309394"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2334962,
+       53.4307408
+      ],
+      [
+       10.2335551,
+       53.4307252
+      ],
+      [
+       10.23354,
+       53.430705
+      ],
+      [
+       10.2335253,
+       53.4306852
+      ],
+      [
+       10.2334664,
+       53.4307008
+      ],
+      [
+       10.2334792,
+       53.4307181
+      ],
+      [
+       10.2334962,
+       53.4307408
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "disused": "yes",
+    "disused:railway": "narrow_gauge",
+    "gauge": "500",
+    "railway": "disused",
+    "@id": "way/201309395"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.2311386,
+      53.4313845
+     ],
+     [
+      10.2318223,
+      53.4312
+     ],
+     [
+      10.2319219,
+      53.4311733
+     ],
+     [
+      10.2325234,
+      53.4310173
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "Rampe",
+    "@id": "way/201309396"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2323017,
+       53.4316627
+      ],
+      [
+       10.2322345,
+       53.4316806
+      ],
+      [
+       10.2321593,
+       53.4317007
+      ],
+      [
+       10.2322859,
+       53.4318694
+      ],
+      [
+       10.2324283,
+       53.4318314
+      ],
+      [
+       10.2323017,
+       53.4316627
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/201309399"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.2334792,
+      53.4307181
+     ],
+     [
+      10.232991,
+      53.430848
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/201309400"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.23354,
+      53.430705
+     ],
+     [
+      10.2336192,
+      53.4306832
+     ],
+     [
+      10.2335174,
+      53.4305405
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "bridge": "yes",
+    "building": "yes",
+    "layer": "1",
+    "@id": "way/201309401"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2323536,
+       53.4319567
+      ],
+      [
+       10.2322859,
+       53.4318694
+      ],
+      [
+       10.2324283,
+       53.4318314
+      ],
+      [
+       10.2324909,
+       53.4319218
+      ],
+      [
+       10.232464,
+       53.4319287
+      ],
+      [
+       10.2324462,
+       53.4319332
+      ],
+      [
+       10.2324044,
+       53.4319438
+      ],
+      [
+       10.2323832,
+       53.4319492
+      ],
+      [
+       10.2323536,
+       53.4319567
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "disused": "yes",
+    "disused:railway": "narrow_gauge",
+    "gauge": "500",
+    "railway": "disused",
+    "@id": "way/201320979"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.231879,
+      53.4312735
+     ],
+     [
+      10.2319227,
+      53.4312975
+     ],
+     [
+      10.2324044,
+      53.4319438
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "disused": "yes",
+    "disused:railway": "narrow_gauge",
+    "gauge": "500",
+    "railway": "disused",
+    "@id": "way/201320980"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.231979,
+      53.4312505
+     ],
+     [
+      10.231975,
+      53.4312838
+     ],
+     [
+      10.2324462,
+      53.4319332
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "disused": "yes",
+    "disused:railway": "narrow_gauge",
+    "gauge": "500",
+    "railway": "disused",
+    "@id": "way/201320981"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.231155,
+      53.4314089
+     ],
+     [
+      10.2318407,
+      53.4312238
+     ],
+     [
+      10.2319397,
+      53.4311973
+     ],
+     [
+      10.2325374,
+      53.4310403
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "disused": "yes",
+    "disused:railway": "narrow_gauge",
+    "gauge": "500",
+    "railway": "disused",
+    "@id": "way/201320982"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.2319219,
+      53.4311733
+     ],
+     [
+      10.2319397,
+      53.4311973
+     ],
+     [
+      10.231979,
+      53.4312505
+     ],
+     [
+      10.232464,
+      53.4319287
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "disused": "yes",
+    "disused:railway": "narrow_gauge",
+    "gauge": "500",
+    "railway": "disused",
+    "@id": "way/201320983"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.2323832,
+      53.4319492
+     ],
+     [
+      10.231879,
+      53.4312735
+     ],
+     [
+      10.2318407,
+      53.4312238
+     ],
+     [
+      10.2318223,
+      53.4312
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "disused": "yes",
+    "disused:railway": "narrow_gauge",
+    "gauge": "500",
+    "railway": "disused",
+    "@id": "way/201320984"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.2328667,
+      53.4316786
+     ],
+     [
+      10.2327931,
+      53.4317244
+     ],
+     [
+      10.2327636,
+      53.4317761
+     ],
+     [
+      10.2327522,
+      53.4318375
+     ],
+     [
+      10.2327669,
+      53.4318989
+     ],
+     [
+      10.2328127,
+      53.4319633
+     ],
+     [
+      10.2329911,
+      53.4322118
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "historic": "archaeological_site",
+    "name": "Ausgrabungen Appellplatz",
+    "@id": "way/201326486"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.227653,
+       53.4275829
+      ],
+      [
+       10.2277333,
+       53.4276947
+      ],
+      [
+       10.2291242,
+       53.4273405
+      ],
+      [
+       10.2290437,
+       53.4272284
+      ],
+      [
+       10.227653,
+       53.4275829
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "Ehemalige Hauptwache",
+    "@id": "way/201326487"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2277413,
+       53.4291708
+      ],
+      [
+       10.2278418,
+       53.4291445
+      ],
+      [
+       10.2276978,
+       53.4289495
+      ],
+      [
+       10.2275973,
+       53.4289759
+      ],
+      [
+       10.2277413,
+       53.4291708
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "Ehemaliger SS-Bunker",
+    "@id": "way/201326489"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2311192,
+       53.4297444
+      ],
+      [
+       10.2316009,
+       53.4296179
+      ],
+      [
+       10.2315665,
+       53.4295714
+      ],
+      [
+       10.2316011,
+       53.4295623
+      ],
+      [
+       10.2315529,
+       53.4294971
+      ],
+      [
+       10.2314949,
+       53.4295124
+      ],
+      [
+       10.2315088,
+       53.4295312
+      ],
+      [
+       10.2311348,
+       53.4296294
+      ],
+      [
+       10.2311189,
+       53.4296079
+      ],
+      [
+       10.2309907,
+       53.4296416
+      ],
+      [
+       10.2310223,
+       53.4296842
+      ],
+      [
+       10.2310661,
+       53.4296727
+      ],
+      [
+       10.2311192,
+       53.4297444
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "historic": "memorial",
+    "name": "Ehemaliger Schießstand",
+    "name:en": "Shooting Range",
+    "ruins": "yes",
+    "@id": "way/201326490"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2276551,
+       53.4244902
+      ],
+      [
+       10.2277468,
+       53.424461
+      ],
+      [
+       10.2276944,
+       53.4244044
+      ],
+      [
+       10.2275995,
+       53.4244356
+      ],
+      [
+       10.2276551,
+       53.4244902
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "historic": "memorial",
+    "image": "http://commons.wikimedia.org/wiki/File:Neuengamme_Krematorium.jpg",
+    "memorial": "stone",
+    "name": "Ehemaliges Krematorium",
+    "name:en": "Crematorium",
+    "ruins": "yes",
+    "@id": "way/201326491"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2285929,
+       53.4256857
+      ],
+      [
+       10.2287084,
+       53.4256549
+      ],
+      [
+       10.2286233,
+       53.4255418
+      ],
+      [
+       10.2285078,
+       53.4255726
+      ],
+      [
+       10.2285929,
+       53.4256857
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "disused:railway": "rail",
+    "gauge": "1435",
+    "railway": "disused",
+    "@id": "way/201326492"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.2257082,
+      53.4254579
+     ],
+     [
+      10.225973,
+      53.4252956
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "disused:railway": "rail",
+    "gauge": "1435",
+    "railway": "disused",
+    "@id": "way/201326493"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.2275395,
+      53.4251013
+     ],
+     [
+      10.2262027,
+      53.425296
+     ],
+     [
+      10.22606,
+      53.4253295
+     ],
+     [
+      10.2259272,
+      53.4253734
+     ],
+     [
+      10.2257082,
+      53.4254579
+     ],
+     [
+      10.2256467,
+      53.4254955
+     ],
+     [
+      10.2253099,
+      53.425702
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/201326494"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2307746,
+       53.4293657
+      ],
+      [
+       10.2308821,
+       53.4293377
+      ],
+      [
+       10.2308567,
+       53.4293032
+      ],
+      [
+       10.2308141,
+       53.4293143
+      ],
+      [
+       10.2308046,
+       53.4293013
+      ],
+      [
+       10.2307397,
+       53.4293182
+      ],
+      [
+       10.2307746,
+       53.4293657
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/201326500"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.2275789,
+      53.4289337
+     ],
+     [
+      10.2275036,
+      53.4288294
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Hamburg",
+    "addr:housenumber": "75",
+    "addr:postcode": "21039",
+    "addr:street": "Jean-Dolidier-Weg",
+    "building": "yes",
+    "information": "office",
+    "name": "KZ-Gedenkstätte Neuengamme",
+    "opening_hours": "Mo-Fr 09:30-16:00; Sa; Su; PH 10:00-17:00",
+    "tourism": "information",
+    "website": "https://www.kz-gedenkstaette-neuengamme.de/",
+    "wheelchair": "yes",
+    "@id": "way/201326502"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2267338,
+       53.4277431
+      ],
+      [
+       10.2268413,
+       53.427716
+      ],
+      [
+       10.2267249,
+       53.4275523
+      ],
+      [
+       10.2266175,
+       53.4275794
+      ],
+      [
+       10.2267338,
+       53.4277431
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "wall": "gabion",
+    "@id": "way/201326503"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.226847,
+       53.4279247
+      ],
+      [
+       10.2269253,
+       53.4279054
+      ],
+      [
+       10.2268907,
+       53.4278556
+      ],
+      [
+       10.2268124,
+       53.4278749
+      ],
+      [
+       10.226847,
+       53.4279247
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Ehemaliger Wachturm",
+    "wall": "gabion",
+    "@id": "way/201333559"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2291644,
+       53.4286352
+      ],
+      [
+       10.2291242,
+       53.4285803
+      ],
+      [
+       10.229212,
+       53.4285575
+      ],
+      [
+       10.2292522,
+       53.4286124
+      ],
+      [
+       10.2291644,
+       53.4286352
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "name": "Block 19-20",
+    "wall": "gabion",
+    "@id": "way/201335319"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2298748,
+       53.4282925
+      ],
+      [
+       10.2300314,
+       53.4282534
+      ],
+      [
+       10.2293579,
+       53.4272955
+      ],
+      [
+       10.2292504,
+       53.4273224
+      ],
+      [
+       10.2298134,
+       53.4281231
+      ],
+      [
+       10.2297622,
+       53.4281359
+      ],
+      [
+       10.2298748,
+       53.4282925
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "hedge",
+    "@id": "way/201337508"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.2331067,
+      53.4293172
+     ],
+     [
+      10.2330045,
+      53.4293438
+     ],
+     [
+      10.2326394,
+      53.4288457
+     ],
+     [
+      10.2333506,
+      53.4286606
+     ],
+     [
+      10.2337144,
+      53.4291567
+     ],
+     [
+      10.2331699,
+      53.4292984
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "139",
+    "addr:street": "Neuengammer Hausdeich",
+    "building": "yes",
+    "@id": "way/227901414"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2367124,
+       53.4362812
+      ],
+      [
+       10.2368576,
+       53.4363418
+      ],
+      [
+       10.2369522,
+       53.4362613
+      ],
+      [
+       10.236807,
+       53.4362007
+      ],
+      [
+       10.2367124,
+       53.4362812
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "127",
+    "addr:street": "Neuengammer Hausdeich",
+    "building": "yes",
+    "@id": "way/227901424"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2376985,
+       53.4340566
+      ],
+      [
+       10.2376135,
+       53.4340958
+      ],
+      [
+       10.2377217,
+       53.4341791
+      ],
+      [
+       10.2378027,
+       53.4341417
+      ],
+      [
+       10.2378398,
+       53.4341702
+      ],
+      [
+       10.2380493,
+       53.4343314
+      ],
+      [
+       10.2382652,
+       53.4342319
+      ],
+      [
+       10.2380593,
+       53.4340734
+      ],
+      [
+       10.2380076,
+       53.4340973
+      ],
+      [
+       10.2379636,
+       53.4340634
+      ],
+      [
+       10.2379161,
+       53.4340853
+      ],
+      [
+       10.2378741,
+       53.434053
+      ],
+      [
+       10.237842,
+       53.4340678
+      ],
+      [
+       10.2377909,
+       53.4340285
+      ],
+      [
+       10.2378927,
+       53.4339816
+      ],
+      [
+       10.237792,
+       53.4339041
+      ],
+      [
+       10.2376096,
+       53.4339883
+      ],
+      [
+       10.2376985,
+       53.4340566
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "143",
+    "addr:street": "Neuengammer Hausdeich",
+    "building": "yes",
+    "@id": "way/227901455"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2366049,
+       53.4371044
+      ],
+      [
+       10.2367925,
+       53.4369615
+      ],
+      [
+       10.2366673,
+       53.4369032
+      ],
+      [
+       10.2365415,
+       53.4369989
+      ],
+      [
+       10.2365965,
+       53.4370246
+      ],
+      [
+       10.2365346,
+       53.4370716
+      ],
+      [
+       10.2366049,
+       53.4371044
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "141",
+    "addr:street": "Neuengammer Hausdeich",
+    "building": "yes",
+    "@id": "way/227901466"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2368148,
+       53.4366128
+      ],
+      [
+       10.2369456,
+       53.4366226
+      ],
+      [
+       10.2369687,
+       53.4365138
+      ],
+      [
+       10.2368379,
+       53.4365039
+      ],
+      [
+       10.2368148,
+       53.4366128
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/227901487"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.236154,
+       53.4345531
+      ],
+      [
+       10.2364323,
+       53.4344865
+      ],
+      [
+       10.2363727,
+       53.434398
+      ],
+      [
+       10.2360943,
+       53.4344645
+      ],
+      [
+       10.236154,
+       53.4345531
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/233562492"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2306865,
+       53.4323404
+      ],
+      [
+       10.2306507,
+       53.4322881
+      ],
+      [
+       10.2307085,
+       53.432274
+      ],
+      [
+       10.2307443,
+       53.4323264
+      ],
+      [
+       10.2306865,
+       53.4323404
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/233562493"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2329214,
+       53.4290581
+      ],
+      [
+       10.2329563,
+       53.4291066
+      ],
+      [
+       10.2330032,
+       53.4290946
+      ],
+      [
+       10.2329684,
+       53.4290461
+      ],
+      [
+       10.2329214,
+       53.4290581
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/233562494"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2306892,
+       53.429382
+      ],
+      [
+       10.2306664,
+       53.4293491
+      ],
+      [
+       10.2307186,
+       53.4293363
+      ],
+      [
+       10.2307413,
+       53.4293692
+      ],
+      [
+       10.2306892,
+       53.429382
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/233562495"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2330019,
+       53.4293044
+      ],
+      [
+       10.2330747,
+       53.4292837
+      ],
+      [
+       10.2330939,
+       53.4293077
+      ],
+      [
+       10.2330211,
+       53.4293284
+      ],
+      [
+       10.2330019,
+       53.4293044
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/233562505"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.2353293,
+      53.4364885
+     ],
+     [
+      10.2352144,
+      53.4363267
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/264862841"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2358989,
+       53.4347713
+      ],
+      [
+       10.2359626,
+       53.434757
+      ],
+      [
+       10.2359104,
+       53.4346747
+      ],
+      [
+       10.2358467,
+       53.434689
+      ],
+      [
+       10.2358989,
+       53.4347713
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/264862853"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2357745,
+       53.4350674
+      ],
+      [
+       10.2358811,
+       53.4350424
+      ],
+      [
+       10.2358579,
+       53.4350074
+      ],
+      [
+       10.2357513,
+       53.4350325
+      ],
+      [
+       10.2357745,
+       53.4350674
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/264862870"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2356367,
+       53.435048
+      ],
+      [
+       10.2356882,
+       53.4350366
+      ],
+      [
+       10.235637,
+       53.4349546
+      ],
+      [
+       10.2355855,
+       53.434966
+      ],
+      [
+       10.2356367,
+       53.435048
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/264862873"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2372653,
+       53.4355591
+      ],
+      [
+       10.2373484,
+       53.4355399
+      ],
+      [
+       10.2373122,
+       53.4354842
+      ],
+      [
+       10.2372292,
+       53.4355033
+      ],
+      [
+       10.2372653,
+       53.4355591
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/264862874"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2364791,
+       53.4345024
+      ],
+      [
+       10.2366447,
+       53.4344601
+      ],
+      [
+       10.2363476,
+       53.4340466
+      ],
+      [
+       10.236182,
+       53.4340889
+      ],
+      [
+       10.2364791,
+       53.4345024
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/264862886"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2366103,
+       53.4364662
+      ],
+      [
+       10.2366895,
+       53.4364439
+      ],
+      [
+       10.2365902,
+       53.4363186
+      ],
+      [
+       10.2365538,
+       53.4363288
+      ],
+      [
+       10.2365245,
+       53.4362919
+      ],
+      [
+       10.2364539,
+       53.4363117
+      ],
+      [
+       10.2365176,
+       53.4363921
+      ],
+      [
+       10.2365454,
+       53.4363843
+      ],
+      [
+       10.2366103,
+       53.4364662
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "133",
+    "addr:street": "Neuengammer Hausdeich",
+    "building": "yes",
+    "@id": "way/264862901"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2371448,
+       53.4354281
+      ],
+      [
+       10.2372527,
+       53.4354015
+      ],
+      [
+       10.2371898,
+       53.4353109
+      ],
+      [
+       10.237082,
+       53.4353374
+      ],
+      [
+       10.2371448,
+       53.4354281
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "137",
+    "addr:street": "Neuengammer Hausdeich",
+    "building": "yes",
+    "@id": "way/264862903"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2361797,
+       53.4349226
+      ],
+      [
+       10.2362751,
+       53.4349
+      ],
+      [
+       10.2361722,
+       53.4347457
+      ],
+      [
+       10.2360768,
+       53.4347683
+      ],
+      [
+       10.2361797,
+       53.4349226
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "137a",
+    "addr:street": "Neuengammer Hausdeich",
+    "building": "yes",
+    "@id": "way/264862904"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2359296,
+       53.4349988
+      ],
+      [
+       10.2360233,
+       53.4349773
+      ],
+      [
+       10.2359526,
+       53.4348684
+      ],
+      [
+       10.235859,
+       53.43489
+      ],
+      [
+       10.2359296,
+       53.4349988
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "143a",
+    "addr:street": "Neuengammer Hausdeich",
+    "building": "yes",
+    "@id": "way/264862907"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.236337,
+       53.4372046
+      ],
+      [
+       10.2364136,
+       53.4371462
+      ],
+      [
+       10.2363099,
+       53.4370979
+      ],
+      [
+       10.2362333,
+       53.4371563
+      ],
+      [
+       10.236337,
+       53.4372046
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "15a",
+    "addr:street": "Klinkerweg",
+    "building": "yes",
+    "@id": "way/264862922"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.235385,
+       53.4372079
+      ],
+      [
+       10.2355446,
+       53.4371917
+      ],
+      [
+       10.2355205,
+       53.4371072
+      ],
+      [
+       10.2353608,
+       53.4371233
+      ],
+      [
+       10.235385,
+       53.4372079
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "2",
+    "addr:street": "Klinkerweg",
+    "building": "yes",
+    "@id": "way/264862944"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2335705,
+       53.4369472
+      ],
+      [
+       10.2335266,
+       53.4368919
+      ],
+      [
+       10.2334151,
+       53.4369233
+      ],
+      [
+       10.233459,
+       53.4369786
+      ],
+      [
+       10.2335705,
+       53.4369472
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "22",
+    "addr:street": "Klinkerweg",
+    "building": "yes",
+    "@id": "way/264862953"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2353825,
+       53.4369801
+      ],
+      [
+       10.2353658,
+       53.4369161
+      ],
+      [
+       10.2352506,
+       53.4369268
+      ],
+      [
+       10.2352672,
+       53.4369908
+      ],
+      [
+       10.2353825,
+       53.4369801
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "24",
+    "addr:street": "Klinkerweg",
+    "building": "yes",
+    "@id": "way/264862965"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2352672,
+       53.4369908
+      ],
+      [
+       10.2352829,
+       53.437051
+      ],
+      [
+       10.2353981,
+       53.4370404
+      ],
+      [
+       10.2353825,
+       53.4369801
+      ],
+      [
+       10.2352672,
+       53.4369908
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "4",
+    "addr:street": "Klinkerweg",
+    "building": "yes",
+    "@id": "way/264862988"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.233459,
+       53.4369786
+      ],
+      [
+       10.2335054,
+       53.437037
+      ],
+      [
+       10.2336169,
+       53.4370056
+      ],
+      [
+       10.2335705,
+       53.4369472
+      ],
+      [
+       10.233459,
+       53.4369786
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "65",
+    "addr:street": "Jean-Dolidier-Weg",
+    "building": "yes",
+    "dsa:criteria": "Ensembleteil",
+    "heritage": "4",
+    "heritage:operator": "dsa",
+    "name": "Ehemalige SS-Garagen",
+    "ref:dsa": "27581",
+    "start_date": "1940",
+    "@id": "way/271457324"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.231421,
+       53.4293709
+      ],
+      [
+       10.2311053,
+       53.4289246
+      ],
+      [
+       10.2308825,
+       53.4289805
+      ],
+      [
+       10.2309646,
+       53.4290967
+      ],
+      [
+       10.2309752,
+       53.429094
+      ],
+      [
+       10.2312088,
+       53.4294242
+      ],
+      [
+       10.231421,
+       53.4293709
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "109",
+    "addr:street": "Jean-Dolidier-Weg",
+    "building": "yes",
+    "@id": "way/271457329"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2256241,
+       53.4250468
+      ],
+      [
+       10.2258775,
+       53.424981
+      ],
+      [
+       10.2258273,
+       53.4249124
+      ],
+      [
+       10.2255739,
+       53.4249782
+      ],
+      [
+       10.2256241,
+       53.4250468
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:housenumber": "111",
+    "addr:street": "Jean-Dolidier-Weg",
+    "building": "yes",
+    "@id": "way/271457330"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2250823,
+       53.4254738
+      ],
+      [
+       10.2252135,
+       53.4254419
+      ],
+      [
+       10.2251028,
+       53.4252801
+      ],
+      [
+       10.2249716,
+       53.425312
+      ],
+      [
+       10.2250823,
+       53.4254738
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/517231845"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.235884,
+       53.4370877
+      ],
+      [
+       10.2359565,
+       53.4371769
+      ],
+      [
+       10.2358754,
+       53.4372003
+      ],
+      [
+       10.2358029,
+       53.4371111
+      ],
+      [
+       10.235884,
+       53.4370877
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/517231846"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2352635,
+       53.4368358
+      ],
+      [
+       10.235429,
+       53.4368192
+      ],
+      [
+       10.2354083,
+       53.4367459
+      ],
+      [
+       10.2352428,
+       53.4367625
+      ],
+      [
+       10.2352635,
+       53.4368358
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.3",
+    "@id": "way/1457576756"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.226339,
+      53.4270396
+     ],
+     [
+      10.2263222,
+      53.4270164
+     ],
+     [
+      10.2263758,
+      53.4269868
+     ],
+     [
+      10.2264523,
+      53.426986
+     ],
+     [
+      10.226469,
+      53.4270088
+     ],
+     [
+      10.2264141,
+      53.4270384
+     ],
+     [
+      10.226339,
+      53.4270396
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "barrier": "wall",
+    "wall": "gabion",
+    "@id": "way/1457576757"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.2265372,
+       53.4274675
+      ],
+      [
+       10.2264675,
+       53.4273676
+      ],
+      [
+       10.2265752,
+       53.427341
+      ],
+      [
+       10.2266449,
+       53.4274409
+      ],
+      [
+       10.2265372,
+       53.4274675
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}
