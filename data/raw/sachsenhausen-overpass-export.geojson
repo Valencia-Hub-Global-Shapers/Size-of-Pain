@@ -1,0 +1,6937 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:amenity": "prison_camp",
+    "addr:city": "Oranienburg",
+    "addr:country": "DE",
+    "addr:housenumber": "22",
+    "addr:postcode": "16515",
+    "addr:street": "Straße der Nationen",
+    "check_date:opening_hours": "2026-09-25",
+    "concentration_camp": "nazism",
+    "fee": "no",
+    "historic": "monument",
+    "name": "Gedenkstätte und Museum Sachsenhausen",
+    "name:en": "Memorial Sachsenhausen",
+    "opening_hours": "Mo-Su 08:30-17:00",
+    "prison_camp": "concentration_camp",
+    "tourism": "museum",
+    "website": "https://www.sachsenhausen-sbg.de",
+    "wheelchair": "yes",
+    "wikidata": "Q154498",
+    "wikipedia": "de:KZ Sachsenhausen",
+    "@id": "way/34957261"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2609412,
+       52.7636733
+      ],
+      [
+       13.2614001,
+       52.7631816
+      ],
+      [
+       13.2614442,
+       52.7629724
+      ],
+      [
+       13.2614996,
+       52.7629363
+      ],
+      [
+       13.2615195,
+       52.7629239
+      ],
+      [
+       13.2615666,
+       52.7628945
+      ],
+      [
+       13.2626893,
+       52.7635129
+      ],
+      [
+       13.2641168,
+       52.7643009
+      ],
+      [
+       13.2651293,
+       52.7648613
+      ],
+      [
+       13.2654633,
+       52.765053
+      ],
+      [
+       13.2657036,
+       52.7651932
+      ],
+      [
+       13.2655597,
+       52.7652801
+      ],
+      [
+       13.2661946,
+       52.7656242
+      ],
+      [
+       13.2662498,
+       52.765659
+      ],
+      [
+       13.2689871,
+       52.7672166
+      ],
+      [
+       13.2674126,
+       52.7675351
+      ],
+      [
+       13.2674227,
+       52.7675547
+      ],
+      [
+       13.2673477,
+       52.7675689
+      ],
+      [
+       13.2673374,
+       52.7675516
+      ],
+      [
+       13.2648546,
+       52.768049
+      ],
+      [
+       13.2648627,
+       52.7680649
+      ],
+      [
+       13.2648059,
+       52.7680767
+      ],
+      [
+       13.2647961,
+       52.7680605
+      ],
+      [
+       13.262908,
+       52.7684394
+      ],
+      [
+       13.2629016,
+       52.7684252
+      ],
+      [
+       13.2628437,
+       52.768436
+      ],
+      [
+       13.262852,
+       52.7684543
+      ],
+      [
+       13.2628589,
+       52.7684691
+      ],
+      [
+       13.2630747,
+       52.7689352
+      ],
+      [
+       13.263382,
+       52.7696185
+      ],
+      [
+       13.2597907,
+       52.7703658
+      ],
+      [
+       13.2583799,
+       52.770645
+      ],
+      [
+       13.2580194,
+       52.7700062
+      ],
+      [
+       13.2592052,
+       52.7697564
+      ],
+      [
+       13.2591544,
+       52.7696797
+      ],
+      [
+       13.2591187,
+       52.769621
+      ],
+      [
+       13.2589872,
+       52.76939
+      ],
+      [
+       13.258898,
+       52.7694017
+      ],
+      [
+       13.2587441,
+       52.7691264
+      ],
+      [
+       13.2591718,
+       52.769044
+      ],
+      [
+       13.2595344,
+       52.7682079
+      ],
+      [
+       13.2580042,
+       52.76799
+      ],
+      [
+       13.2583272,
+       52.767162
+      ],
+      [
+       13.2581089,
+       52.7671014
+      ],
+      [
+       13.2581059,
+       52.7669291
+      ],
+      [
+       13.2580089,
+       52.7669015
+      ],
+      [
+       13.2586147,
+       52.7654482
+      ],
+      [
+       13.2592198,
+       52.7648791
+      ],
+      [
+       13.260098,
+       52.76415
+      ],
+      [
+       13.260202,
+       52.7639771
+      ],
+      [
+       13.2603797,
+       52.7639417
+      ],
+      [
+       13.260473,
+       52.7639201
+      ],
+      [
+       13.2606233,
+       52.7638731
+      ],
+      [
+       13.2608526,
+       52.7636466
+      ],
+      [
+       13.2609412,
+       52.7636733
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "name": "Häftlingswäscherei/Veranstaltungsraum",
+    "roof:shape": "gabled",
+    "@id": "way/28733039"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2616896,
+       52.7670283
+      ],
+      [
+       13.2623022,
+       52.766722
+      ],
+      [
+       13.2624304,
+       52.7668158
+      ],
+      [
+       13.2618178,
+       52.7671221
+      ],
+      [
+       13.2616896,
+       52.7670283
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "name": "Häftlingsküche",
+    "roof:shape": "gabled",
+    "@id": "way/28733043"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2623503,
+       52.7674206
+      ],
+      [
+       13.2627958,
+       52.7670261
+      ],
+      [
+       13.2629665,
+       52.7670967
+      ],
+      [
+       13.2628525,
+       52.7671976
+      ],
+      [
+       13.2626588,
+       52.7673677
+      ],
+      [
+       13.2625199,
+       52.7674907
+      ],
+      [
+       13.2623503,
+       52.7674206
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/28733060"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2659711,
+      52.767746
+     ],
+     [
+      13.2655046,
+      52.7672282
+     ],
+     [
+      13.2659787,
+      52.7669059
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "fence_type": "barbed_wire",
+    "@id": "way/28733065"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2670866,
+      52.7675392
+     ],
+     [
+      13.266042,
+      52.767742
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "name": "Zellenbau",
+    "@id": "way/28733071"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2663938,
+       52.7671922
+      ],
+      [
+       13.2662822,
+       52.7672649
+      ],
+      [
+       13.2659005,
+       52.7670501
+      ],
+      [
+       13.2660121,
+       52.7669775
+      ],
+      [
+       13.2663938,
+       52.7671922
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "2",
+    "name": "Turm A",
+    "roof:shape": "hipped",
+    "@id": "way/28733084"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2642374,
+       52.7657154
+      ],
+      [
+       13.2642715,
+       52.7657375
+      ],
+      [
+       13.2643749,
+       52.7657942
+      ],
+      [
+       13.2645135,
+       52.7658705
+      ],
+      [
+       13.2644915,
+       52.7658859
+      ],
+      [
+       13.2644364,
+       52.7659214
+      ],
+      [
+       13.2642994,
+       52.7658439
+      ],
+      [
+       13.264159,
+       52.7657645
+      ],
+      [
+       13.2642374,
+       52.7657154
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "source": "Yahoo! Aerial Imagery",
+    "@id": "way/34506171"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2621492,
+       52.7629676
+      ],
+      [
+       13.2620038,
+       52.7630617
+      ],
+      [
+       13.2613156,
+       52.7626726
+      ],
+      [
+       13.2614609,
+       52.7625785
+      ],
+      [
+       13.2621492,
+       52.7629676
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "@id": "way/34506194"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2602251,
+       52.7642101
+      ],
+      [
+       13.2593453,
+       52.7649356
+      ],
+      [
+       13.2595031,
+       52.765004
+      ],
+      [
+       13.2603813,
+       52.7642749
+      ],
+      [
+       13.2602251,
+       52.7642101
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "@id": "way/34506198"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2593489,
+       52.7662073
+      ],
+      [
+       13.2591108,
+       52.7661715
+      ],
+      [
+       13.2592775,
+       52.7657655
+      ],
+      [
+       13.2595156,
+       52.7658013
+      ],
+      [
+       13.2593489,
+       52.7662073
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/34956496"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2603979,
+       52.7641605
+      ],
+      [
+       13.2603171,
+       52.7640179
+      ],
+      [
+       13.2604064,
+       52.7639992
+      ],
+      [
+       13.260381,
+       52.7639575
+      ],
+      [
+       13.2602099,
+       52.7639936
+      ],
+      [
+       13.2603159,
+       52.7641793
+      ],
+      [
+       13.2603979,
+       52.7641605
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "Kommandantenhaus",
+    "@id": "way/34956585"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2646334,
+       52.7650546
+      ],
+      [
+       13.2647279,
+       52.764994
+      ],
+      [
+       13.2648586,
+       52.764909
+      ],
+      [
+       13.2647601,
+       52.7648532
+      ],
+      [
+       13.2647467,
+       52.7648619
+      ],
+      [
+       13.2645349,
+       52.7649988
+      ],
+      [
+       13.2646334,
+       52.7650546
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "retaining_wall",
+    "@id": "way/34957089"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2594557,
+      52.7677342
+     ],
+     [
+      13.2594815,
+      52.7678565
+     ],
+     [
+      13.25946,
+      52.7680189
+     ],
+     [
+      13.2595366,
+      52.7680295
+     ],
+     [
+      13.259619,
+      52.767872
+     ],
+     [
+      13.2596062,
+      52.7678386
+     ],
+     [
+      13.2595512,
+      52.7678297
+     ],
+     [
+      13.2594851,
+      52.7676373
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "@id": "way/34957194"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2600637,
+       52.7668188
+      ],
+      [
+       13.260116,
+       52.766699
+      ],
+      [
+       13.260316,
+       52.7662414
+      ],
+      [
+       13.2604749,
+       52.7658776
+      ],
+      [
+       13.2604981,
+       52.7658244
+      ],
+      [
+       13.260338,
+       52.7657988
+      ],
+      [
+       13.2603109,
+       52.7658608
+      ],
+      [
+       13.2599035,
+       52.7667932
+      ],
+      [
+       13.2600637,
+       52.7668188
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "@id": "way/34957197"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.260022,
+       52.7657479
+      ],
+      [
+       13.2600754,
+       52.7656265
+      ],
+      [
+       13.2605512,
+       52.765703
+      ],
+      [
+       13.2604981,
+       52.7658244
+      ],
+      [
+       13.260338,
+       52.7657988
+      ],
+      [
+       13.260022,
+       52.7657479
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "@id": "way/34957210"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2599628,
+       52.7656206
+      ],
+      [
+       13.2594912,
+       52.765546
+      ],
+      [
+       13.2594849,
+       52.7655589
+      ],
+      [
+       13.2590255,
+       52.7654879
+      ],
+      [
+       13.2583497,
+       52.7670892
+      ],
+      [
+       13.2585787,
+       52.7671267
+      ],
+      [
+       13.2592013,
+       52.7656644
+      ],
+      [
+       13.2596072,
+       52.7657307
+      ],
+      [
+       13.2596259,
+       52.7656932
+      ],
+      [
+       13.2599166,
+       52.7657376
+      ],
+      [
+       13.2599628,
+       52.7656206
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "@id": "way/34957222"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2592976,
+       52.7662724
+      ],
+      [
+       13.2590916,
+       52.7662413
+      ],
+      [
+       13.2587998,
+       52.7669476
+      ],
+      [
+       13.2590058,
+       52.7669787
+      ],
+      [
+       13.2592976,
+       52.7662724
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Turm E",
+    "tower:type": "watchtower",
+    "@id": "way/34957286"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2592358,
+       52.76911
+      ],
+      [
+       13.2592697,
+       52.7691271
+      ],
+      [
+       13.2592699,
+       52.7691533
+      ],
+      [
+       13.2592137,
+       52.7691876
+      ],
+      [
+       13.2591389,
+       52.7691502
+      ],
+      [
+       13.2591934,
+       52.7691117
+      ],
+      [
+       13.2592358,
+       52.76911
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/34957323"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2593928,
+      52.7691496
+     ],
+     [
+      13.2606398,
+      52.7688975
+     ],
+     [
+      13.262852,
+      52.7684543
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/34957324"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2674126,
+      52.7675351
+     ],
+     [
+      13.2689871,
+      52.7672166
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "name": "Museum \"Sowjetisches Speziallager\"",
+    "name:es": "Sachsenhausen",
+    "opening_hours": "Tu-Su 08:30-16:30",
+    "tourism": "museum",
+    "wheelchair": "yes",
+    "wikidata": "Q141490434",
+    "wikipedia": "de:Speziallager Nr. 7 Sachsenhausen",
+    "@id": "way/34957346"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2591429,
+       52.7696171
+      ],
+      [
+       13.2589878,
+       52.7693345
+      ],
+      [
+       13.2592688,
+       52.7692782
+      ],
+      [
+       13.2594236,
+       52.7695606
+      ],
+      [
+       13.2591429,
+       52.7696171
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/34957410"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2592052,
+      52.7697564
+     ],
+     [
+      13.2594514,
+      52.7697076
+     ],
+     [
+      13.2597907,
+      52.7703658
+     ],
+     [
+      13.263382,
+      52.7696185
+     ],
+     [
+      13.2630421,
+      52.7689456
+     ],
+     [
+      13.2628589,
+      52.7684691
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/34957423"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2591187,
+      52.769621
+     ],
+     [
+      13.2589872,
+      52.76939
+     ],
+     [
+      13.258898,
+      52.7694017
+     ],
+     [
+      13.2587845,
+      52.769194
+     ],
+     [
+      13.2591496,
+      52.7691213
+     ],
+     [
+      13.259573,
+      52.768127
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/34957734"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2689871,
+      52.7672166
+     ],
+     [
+      13.2662498,
+      52.765659
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/34957840"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2652559,
+      52.7651607
+     ],
+     [
+      13.2652644,
+      52.7651433
+     ],
+     [
+      13.2652667,
+      52.7651307
+     ],
+     [
+      13.2652652,
+      52.7651194
+     ],
+     [
+      13.2652636,
+      52.765111
+     ],
+     [
+      13.2652476,
+      52.7650977
+     ],
+     [
+      13.2639956,
+      52.7643671
+     ],
+     [
+      13.2636102,
+      52.7641783
+     ],
+     [
+      13.2635586,
+      52.7641469
+     ],
+     [
+      13.2626093,
+      52.7636133
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/34957895"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2615666,
+      52.7628945
+     ],
+     [
+      13.2626893,
+      52.7635129
+     ],
+     [
+      13.2641168,
+      52.7643009
+     ],
+     [
+      13.2651293,
+      52.7648613
+     ],
+     [
+      13.2654633,
+      52.765053
+     ],
+     [
+      13.2657036,
+      52.7651932
+     ],
+     [
+      13.2655597,
+      52.7652801
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/40102488"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2660135,
+      52.766888
+     ],
+     [
+      13.2660391,
+      52.7668706
+     ],
+     [
+      13.267158,
+      52.7675179
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "Bibliothek",
+    "source": "Bing",
+    "@id": "way/203267478"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2630015,
+       52.7636317
+      ],
+      [
+       13.2632364,
+       52.7634806
+      ],
+      [
+       13.2622993,
+       52.7629474
+      ],
+      [
+       13.2620645,
+       52.7630985
+      ],
+      [
+       13.2630015,
+       52.7636317
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Oranienburg",
+    "addr:country": "DE",
+    "addr:housenumber": "22",
+    "addr:postcode": "16515",
+    "addr:street": "Straße der Nationen",
+    "building": "yes",
+    "building:levels": "1",
+    "information": "office",
+    "name": "Gedenkstätte KZ Sachsenhausen",
+    "name:ca": "Centre de visitants",
+    "opening_hours": "Tu-Su 08:30-16:30",
+    "roof:levels": "1",
+    "roof:shape": "hipped",
+    "tourism": "information",
+    "wheelchair": "yes",
+    "@id": "way/213922192"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2621168,
+       52.7634503
+      ],
+      [
+       13.2619271,
+       52.7633423
+      ],
+      [
+       13.2618659,
+       52.7633816
+      ],
+      [
+       13.2617752,
+       52.76344
+      ],
+      [
+       13.2617264,
+       52.7634714
+      ],
+      [
+       13.2615979,
+       52.763554
+      ],
+      [
+       13.2617875,
+       52.763662
+      ],
+      [
+       13.2621168,
+       52.7634503
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "height": "40",
+    "historic": "memorial",
+    "image": "http://commons.wikimedia.org/wiki/File:Sachsenhausen-memorial.jpg",
+    "man_made": "obelisk",
+    "name": "Mahnmal der \"Nationalen Mahn- und Gedenkstätte\"",
+    "start_date": "1961",
+    "@id": "way/213922193"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2605862,
+       52.7682155
+      ],
+      [
+       13.260615,
+       52.7681238
+      ],
+      [
+       13.2607408,
+       52.7681981
+      ],
+      [
+       13.2605862,
+       52.7682155
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "roof:shape": "gabled",
+    "@id": "way/213922194"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2612872,
+       52.7699078
+      ],
+      [
+       13.2612205,
+       52.7697855
+      ],
+      [
+       13.2613375,
+       52.7697622
+      ],
+      [
+       13.2614042,
+       52.7698844
+      ],
+      [
+       13.2612872,
+       52.7699078
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "roof:shape": "gabled",
+    "@id": "way/213922195"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2603382,
+       52.7700993
+      ],
+      [
+       13.2602728,
+       52.769976
+      ],
+      [
+       13.2603925,
+       52.7699528
+      ],
+      [
+       13.2604579,
+       52.7700761
+      ],
+      [
+       13.2603382,
+       52.7700993
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/213922196"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2607565,
+       52.7643491
+      ],
+      [
+       13.2609648,
+       52.7643811
+      ],
+      [
+       13.261015,
+       52.7642613
+      ],
+      [
+       13.2608067,
+       52.7642293
+      ],
+      [
+       13.2607565,
+       52.7643491
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "roof:shape": "gabled",
+    "@id": "way/213922197"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2601655,
+       52.7697842
+      ],
+      [
+       13.2600986,
+       52.7696633
+      ],
+      [
+       13.2602177,
+       52.7696391
+      ],
+      [
+       13.2602847,
+       52.7697601
+      ],
+      [
+       13.2601655,
+       52.7697842
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "roof:shape": "gabled",
+    "@id": "way/213922198"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2630105,
+       52.7692074
+      ],
+      [
+       13.2629431,
+       52.7690867
+      ],
+      [
+       13.2630606,
+       52.7690627
+      ],
+      [
+       13.263128,
+       52.7691834
+      ],
+      [
+       13.2630105,
+       52.7692074
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "roof:shape": "gabled",
+    "@id": "way/213922199"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2628658,
+       52.7695894
+      ],
+      [
+       13.2628011,
+       52.7694687
+      ],
+      [
+       13.2629194,
+       52.7694455
+      ],
+      [
+       13.2629841,
+       52.7695662
+      ],
+      [
+       13.2628658,
+       52.7695894
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "roof:shape": "gabled",
+    "@id": "way/213922200"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2598466,
+       52.7698475
+      ],
+      [
+       13.2597797,
+       52.7697265
+      ],
+      [
+       13.2598987,
+       52.7697025
+      ],
+      [
+       13.2599655,
+       52.7698235
+      ],
+      [
+       13.2598466,
+       52.7698475
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/213922201"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.265969,
+       52.7656923
+      ],
+      [
+       13.2660664,
+       52.765632
+      ],
+      [
+       13.2658932,
+       52.7655295
+      ],
+      [
+       13.2657958,
+       52.7655898
+      ],
+      [
+       13.265969,
+       52.7656923
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "roof:shape": "gabled",
+    "@id": "way/213922202"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2626898,
+       52.7692702
+      ],
+      [
+       13.2626234,
+       52.7691483
+      ],
+      [
+       13.262741,
+       52.7691249
+      ],
+      [
+       13.2628074,
+       52.7692468
+      ],
+      [
+       13.2626898,
+       52.7692702
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "roof:shape": "gabled",
+    "@id": "way/213922203"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2620622,
+       52.7693989
+      ],
+      [
+       13.2619964,
+       52.7692777
+      ],
+      [
+       13.262113,
+       52.7692545
+      ],
+      [
+       13.2621788,
+       52.7693758
+      ],
+      [
+       13.2620622,
+       52.7693989
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "roof:shape": "gabled",
+    "@id": "way/213922204"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2611103,
+       52.769592
+      ],
+      [
+       13.2610448,
+       52.7694725
+      ],
+      [
+       13.2611631,
+       52.7694487
+      ],
+      [
+       13.2612287,
+       52.7695682
+      ],
+      [
+       13.2611103,
+       52.769592
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "roof:shape": "gabled",
+    "@id": "way/213922205"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.261916,
+       52.7697793
+      ],
+      [
+       13.2618508,
+       52.7696601
+      ],
+      [
+       13.2619665,
+       52.769637
+      ],
+      [
+       13.2620317,
+       52.7697562
+      ],
+      [
+       13.261916,
+       52.7697793
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "roof:shape": "gabled",
+    "@id": "way/213922206"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2607909,
+       52.769655
+      ],
+      [
+       13.260725,
+       52.7695334
+      ],
+      [
+       13.2608425,
+       52.7695101
+      ],
+      [
+       13.2609085,
+       52.7696317
+      ],
+      [
+       13.2607909,
+       52.769655
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/213922207"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2620312,
+       52.7635826
+      ],
+      [
+       13.2621266,
+       52.7635216
+      ],
+      [
+       13.2623956,
+       52.7636759
+      ],
+      [
+       13.2623002,
+       52.7637368
+      ],
+      [
+       13.2620312,
+       52.7635826
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "roof:shape": "gabled",
+    "@id": "way/213922208"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.262237,
+       52.7697157
+      ],
+      [
+       13.2621712,
+       52.7695951
+      ],
+      [
+       13.2622887,
+       52.7695716
+      ],
+      [
+       13.2623545,
+       52.7696922
+      ],
+      [
+       13.262237,
+       52.7697157
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "roof:shape": "gabled",
+    "@id": "way/213922209"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2609665,
+       52.7699723
+      ],
+      [
+       13.2609002,
+       52.7698518
+      ],
+      [
+       13.261018,
+       52.7698281
+      ],
+      [
+       13.2610843,
+       52.7699486
+      ],
+      [
+       13.2609665,
+       52.7699723
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "roof:shape": "gabled",
+    "@id": "way/213922210"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2617406,
+       52.7694643
+      ],
+      [
+       13.2616739,
+       52.7693432
+      ],
+      [
+       13.261791,
+       52.7693196
+      ],
+      [
+       13.2618577,
+       52.7694407
+      ],
+      [
+       13.2617406,
+       52.7694643
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "roof:shape": "gabled",
+    "@id": "way/213922211"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2600189,
+       52.7701625
+      ],
+      [
+       13.2599533,
+       52.7700411
+      ],
+      [
+       13.2600722,
+       52.7700176
+      ],
+      [
+       13.2601378,
+       52.770139
+      ],
+      [
+       13.2600189,
+       52.7701625
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "name": "Pathologie",
+    "name:en": "Morgue",
+    "roof:shape": "gabled",
+    "@id": "way/213922212"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2613149,
+       52.7646519
+      ],
+      [
+       13.2614669,
+       52.7647112
+      ],
+      [
+       13.2615472,
+       52.7646357
+      ],
+      [
+       13.2615139,
+       52.7646227
+      ],
+      [
+       13.2615661,
+       52.7645719
+      ],
+      [
+       13.261448,
+       52.764527
+      ],
+      [
+       13.2613149,
+       52.7646519
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922229"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2615704,
+      52.7632709
+     ],
+     [
+      13.2616101,
+      52.7632376
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922230"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2612338,
+      52.7640008
+     ],
+     [
+      13.2611774,
+      52.7639698
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922231"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2603628,
+      52.7662639
+     ],
+     [
+      13.2601794,
+      52.766693
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922232"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2618481,
+      52.7631837
+     ],
+     [
+      13.2619037,
+      52.7632151
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922233"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2609852,
+      52.763864
+     ],
+     [
+      13.2609252,
+      52.763831
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922234"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2613109,
+      52.7634883
+     ],
+     [
+      13.2613486,
+      52.7634567
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922235"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2617656,
+      52.7631372
+     ],
+     [
+      13.2618255,
+      52.7631709
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922236"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2611048,
+      52.7636609
+     ],
+     [
+      13.2611499,
+      52.7636231
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/213922237"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2626093,
+      52.7636133
+     ],
+     [
+      13.2616794,
+      52.7642143
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922238"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2622592,
+      52.7634158
+     ],
+     [
+      13.262313,
+      52.7634462
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922239"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2616346,
+      52.7632171
+     ],
+     [
+      13.2616772,
+      52.7631814
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922240"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2611557,
+      52.7639579
+     ],
+     [
+      13.2610871,
+      52.7639201
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922241"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2619348,
+      52.7632327
+     ],
+     [
+      13.2619881,
+      52.7632628
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922242"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2613691,
+      52.7634395
+     ],
+     [
+      13.2614132,
+      52.7634026
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922243"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2611736,
+      52.7636033
+     ],
+     [
+      13.261218,
+      52.7635661
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922244"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.262342,
+      52.7634625
+     ],
+     [
+      13.2623936,
+      52.7634916
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922245"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2616973,
+      52.7631645
+     ],
+     [
+      13.2617443,
+      52.7631251
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922246"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2620154,
+      52.7632781
+     ],
+     [
+      13.2620693,
+      52.7633086
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922247"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2614356,
+      52.7633838
+     ],
+     [
+      13.2614835,
+      52.7633437
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922248"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2624202,
+      52.7635067
+     ],
+     [
+      13.2624725,
+      52.7635362
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922249"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.262101,
+      52.7633265
+     ],
+     [
+      13.2621503,
+      52.7633543
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922250"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2616794,
+      52.7642143
+     ],
+     [
+      13.2613073,
+      52.7640498
+     ],
+     [
+      13.2612002,
+      52.7640845
+     ],
+     [
+      13.2611284,
+      52.7641077
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/213922251"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2615308,
+      52.763304
+     ],
+     [
+      13.2617752,
+      52.76344
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922252"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2610688,
+      52.76391
+     ],
+     [
+      13.26101,
+      52.7638777
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922253"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2625026,
+      52.7635532
+     ],
+     [
+      13.2625547,
+      52.7635826
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922254"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2612384,
+      52.763549
+     ],
+     [
+      13.2612846,
+      52.7635103
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922255"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2600846,
+      52.7668898
+     ],
+     [
+      13.2599211,
+      52.7672936
+     ],
+     [
+      13.2597532,
+      52.7676736
+     ],
+     [
+      13.2595905,
+      52.7680893
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922256"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2609774,
+      52.7637677
+     ],
+     [
+      13.2610261,
+      52.7637269
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922257"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2610445,
+      52.7637115
+     ],
+     [
+      13.2610879,
+      52.7636751
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922258"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2616794,
+      52.7642143
+     ],
+     [
+      13.2642374,
+      52.7657154
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922259"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2621757,
+      52.7633687
+     ],
+     [
+      13.2622325,
+      52.7634007
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922260"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2609111,
+      52.7638232
+     ],
+     [
+      13.260963,
+      52.7637798
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922261"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2661386,
+      52.7656568
+     ],
+     [
+      13.2652378,
+      52.766262
+     ],
+     [
+      13.2645135,
+      52.7658705
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922262"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2615134,
+      52.7633186
+     ],
+     [
+      13.2615308,
+      52.763304
+     ],
+     [
+      13.2615424,
+      52.7632943
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/213922264"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2606116,
+      52.7656476
+     ],
+     [
+      13.2612239,
+      52.7642352
+     ],
+     [
+      13.2611284,
+      52.7641077
+     ],
+     [
+      13.2609885,
+      52.7640755
+     ],
+     [
+      13.2607715,
+      52.7640255
+     ],
+     [
+      13.2608002,
+      52.7639862
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "name": "Baracke 41",
+    "surface": "gravel",
+    "@id": "way/282085029"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2673508,
+       52.7667207
+      ],
+      [
+       13.2667729,
+       52.7663948
+      ],
+      [
+       13.2666857,
+       52.7664514
+      ],
+      [
+       13.2672637,
+       52.7667773
+      ],
+      [
+       13.2673508,
+       52.7667207
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085030"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2657963,
+       52.7669155
+      ],
+      [
+       13.2653314,
+       52.7665528
+      ],
+      [
+       13.2652296,
+       52.7666006
+      ],
+      [
+       13.2656944,
+       52.7669633
+      ],
+      [
+       13.2657963,
+       52.7669155
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085031"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2667132,
+       52.7663523
+      ],
+      [
+       13.2661345,
+       52.766026
+      ],
+      [
+       13.2660466,
+       52.766083
+      ],
+      [
+       13.2666253,
+       52.7664094
+      ],
+      [
+       13.2667132,
+       52.7663523
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085032"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2621985,
+       52.7680341
+      ],
+      [
+       13.2626062,
+       52.7676159
+      ],
+      [
+       13.2624995,
+       52.7675778
+      ],
+      [
+       13.2620917,
+       52.767996
+      ],
+      [
+       13.2621985,
+       52.7680341
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "name": "Baracke 40",
+    "surface": "gravel",
+    "@id": "way/282085033"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2672228,
+       52.7668051
+      ],
+      [
+       13.2666441,
+       52.7664788
+      ],
+      [
+       13.2665562,
+       52.7665358
+      ],
+      [
+       13.2671349,
+       52.7668622
+      ],
+      [
+       13.2672228,
+       52.7668051
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085034"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2642331,
+       52.7680754
+      ],
+      [
+       13.2645881,
+       52.7680016
+      ],
+      [
+       13.2645639,
+       52.7679591
+      ],
+      [
+       13.264209,
+       52.7680329
+      ],
+      [
+       13.2642331,
+       52.7680754
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085035"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2654691,
+       52.7676771
+      ],
+      [
+       13.2652059,
+       52.7672296
+      ],
+      [
+       13.2650952,
+       52.7672535
+      ],
+      [
+       13.2653584,
+       52.7677009
+      ],
+      [
+       13.2654691,
+       52.7676771
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085036"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2672547,
+       52.7674234
+      ],
+      [
+       13.2667998,
+       52.7671657
+      ],
+      [
+       13.2667121,
+       52.7672223
+      ],
+      [
+       13.267167,
+       52.76748
+      ],
+      [
+       13.2672547,
+       52.7674234
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085037"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2631497,
+       52.7676839
+      ],
+      [
+       13.2634412,
+       52.7672401
+      ],
+      [
+       13.2633243,
+       52.767212
+      ],
+      [
+       13.2630328,
+       52.7676558
+      ],
+      [
+       13.2631497,
+       52.7676839
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085038"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2617795,
+       52.7685419
+      ],
+      [
+       13.2621833,
+       52.7681193
+      ],
+      [
+       13.2620745,
+       52.7680812
+      ],
+      [
+       13.2616707,
+       52.7685039
+      ],
+      [
+       13.2617795,
+       52.7685419
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "name": "Baracke 38",
+    "@id": "way/282085039"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2669224,
+       52.7670014
+      ],
+      [
+       13.2663409,
+       52.7666735
+      ],
+      [
+       13.2662505,
+       52.7667323
+      ],
+      [
+       13.2668319,
+       52.7670601
+      ],
+      [
+       13.2669224,
+       52.7670014
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085040"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2674835,
+       52.7673357
+      ],
+      [
+       13.266982,
+       52.7670501
+      ],
+      [
+       13.2668935,
+       52.767107
+      ],
+      [
+       13.267395,
+       52.7673926
+      ],
+      [
+       13.2674835,
+       52.7673357
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085041"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2629692,
+       52.7672477
+      ],
+      [
+       13.2628525,
+       52.7671976
+      ],
+      [
+       13.2626588,
+       52.7673677
+      ],
+      [
+       13.2627717,
+       52.7674162
+      ],
+      [
+       13.2629692,
+       52.7672477
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085042"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.266098,
+       52.7667546
+      ],
+      [
+       13.265512,
+       52.7664242
+      ],
+      [
+       13.2654172,
+       52.7664857
+      ],
+      [
+       13.2660033,
+       52.7668161
+      ],
+      [
+       13.266098,
+       52.7667546
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085043"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2634139,
+       52.7677357
+      ],
+      [
+       13.2636443,
+       52.7672785
+      ],
+      [
+       13.2635201,
+       52.7672556
+      ],
+      [
+       13.2632897,
+       52.7677128
+      ],
+      [
+       13.2634139,
+       52.7677357
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085044"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.26478,
+       52.7672162
+      ],
+      [
+       13.2646486,
+       52.766756
+      ],
+      [
+       13.2645237,
+       52.766769
+      ],
+      [
+       13.2646551,
+       52.7672293
+      ],
+      [
+       13.26478,
+       52.7672162
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "name": "Baracke 37",
+    "surface": "gravel",
+    "@id": "way/282085045"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2667487,
+       52.7671263
+      ],
+      [
+       13.2661638,
+       52.7667965
+      ],
+      [
+       13.2660701,
+       52.7668573
+      ],
+      [
+       13.266655,
+       52.7671871
+      ],
+      [
+       13.2667487,
+       52.7671263
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085046"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2630033,
+       52.7670059
+      ],
+      [
+       13.2634479,
+       52.7666278
+      ],
+      [
+       13.2633472,
+       52.7665845
+      ],
+      [
+       13.2629026,
+       52.7669625
+      ],
+      [
+       13.2630033,
+       52.7670059
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085048"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2640312,
+       52.7672332
+      ],
+      [
+       13.2641424,
+       52.7667788
+      ],
+      [
+       13.264015,
+       52.7667674
+      ],
+      [
+       13.2639038,
+       52.7672218
+      ],
+      [
+       13.2640312,
+       52.7672332
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085049"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2649415,
+       52.7677714
+      ],
+      [
+       13.2648052,
+       52.7673007
+      ],
+      [
+       13.2646792,
+       52.7673141
+      ],
+      [
+       13.2648155,
+       52.7677848
+      ],
+      [
+       13.2649415,
+       52.7677714
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085050"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2644474,
+       52.7678098
+      ],
+      [
+       13.2644325,
+       52.7673302
+      ],
+      [
+       13.2643064,
+       52.7673316
+      ],
+      [
+       13.2643214,
+       52.7678112
+      ],
+      [
+       13.2644474,
+       52.7678098
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085051"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.261642,
+       52.7678023
+      ],
+      [
+       13.2621523,
+       52.7674286
+      ],
+      [
+       13.2620607,
+       52.7673828
+      ],
+      [
+       13.2615504,
+       52.7677566
+      ],
+      [
+       13.261642,
+       52.7678023
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085052"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2681769,
+       52.7669771
+      ],
+      [
+       13.2663115,
+       52.7659149
+      ],
+      [
+       13.2662217,
+       52.7659726
+      ],
+      [
+       13.2680871,
+       52.7670348
+      ],
+      [
+       13.2681769,
+       52.7669771
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085053"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2615537,
+       52.7684601
+      ],
+      [
+       13.2619925,
+       52.7680532
+      ],
+      [
+       13.2618859,
+       52.7680111
+      ],
+      [
+       13.2614472,
+       52.7684181
+      ],
+      [
+       13.2615537,
+       52.7684601
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085054"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2612929,
+       52.768351
+      ],
+      [
+       13.2617741,
+       52.7679624
+      ],
+      [
+       13.261668,
+       52.7679143
+      ],
+      [
+       13.2611868,
+       52.7683029
+      ],
+      [
+       13.2612929,
+       52.768351
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085055"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2662674,
+       52.7666411
+      ],
+      [
+       13.2656865,
+       52.7663136
+      ],
+      [
+       13.2655966,
+       52.766372
+      ],
+      [
+       13.2661775,
+       52.7666995
+      ],
+      [
+       13.2662674,
+       52.7666411
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "name": "Baracke 39",
+    "@id": "way/282085056"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2670405,
+       52.7669187
+      ],
+      [
+       13.2664617,
+       52.7665924
+      ],
+      [
+       13.2663738,
+       52.7666494
+      ],
+      [
+       13.2669525,
+       52.7669758
+      ],
+      [
+       13.2670405,
+       52.7669187
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085057"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2619342,
+       52.7679333
+      ],
+      [
+       13.2623833,
+       52.7675372
+      ],
+      [
+       13.2622775,
+       52.7674933
+      ],
+      [
+       13.2618284,
+       52.7678893
+      ],
+      [
+       13.2619342,
+       52.7679333
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085058"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2641697,
+       52.7678055
+      ],
+      [
+       13.2642239,
+       52.7673267
+      ],
+      [
+       13.2640992,
+       52.7673216
+      ],
+      [
+       13.2640449,
+       52.7678003
+      ],
+      [
+       13.2641697,
+       52.7678055
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085060"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2640093,
+       52.7679096
+      ],
+      [
+       13.263239,
+       52.7678179
+      ],
+      [
+       13.2632156,
+       52.76789
+      ],
+      [
+       13.2639859,
+       52.7679816
+      ],
+      [
+       13.2640093,
+       52.7679096
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085061"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.265154,
+       52.7671439
+      ],
+      [
+       13.2648969,
+       52.7667092
+      ],
+      [
+       13.2647798,
+       52.7667346
+      ],
+      [
+       13.265037,
+       52.7671692
+      ],
+      [
+       13.265154,
+       52.7671439
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085062"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2628027,
+       52.7682082
+      ],
+      [
+       13.263088,
+       52.7677632
+      ],
+      [
+       13.2629733,
+       52.7677363
+      ],
+      [
+       13.262688,
+       52.7681813
+      ],
+      [
+       13.2628027,
+       52.7682082
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085063"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2663971,
+       52.7665535
+      ],
+      [
+       13.265818,
+       52.766227
+      ],
+      [
+       13.2657297,
+       52.7662843
+      ],
+      [
+       13.2663088,
+       52.7666108
+      ],
+      [
+       13.2663971,
+       52.7665535
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085064"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2610485,
+       52.7682316
+      ],
+      [
+       13.2615621,
+       52.7678678
+      ],
+      [
+       13.2614647,
+       52.7678175
+      ],
+      [
+       13.2609511,
+       52.7681813
+      ],
+      [
+       13.2610485,
+       52.7682316
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085065"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.264432,
+       52.7672405
+      ],
+      [
+       13.2644184,
+       52.7667853
+      ],
+      [
+       13.2642829,
+       52.7667868
+      ],
+      [
+       13.2642965,
+       52.767242
+      ],
+      [
+       13.264432,
+       52.7672405
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085066"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2679961,
+       52.7670907
+      ],
+      [
+       13.2674193,
+       52.7667655
+      ],
+      [
+       13.2673332,
+       52.7668214
+      ],
+      [
+       13.26791,
+       52.7671466
+      ],
+      [
+       13.2679961,
+       52.7670907
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085067"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.26769,
+       52.7672936
+      ],
+      [
+       13.2671136,
+       52.7669686
+      ],
+      [
+       13.2670278,
+       52.7670243
+      ],
+      [
+       13.2676042,
+       52.7673493
+      ],
+      [
+       13.26769,
+       52.7672936
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085068"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2654715,
+       52.7670496
+      ],
+      [
+       13.2651108,
+       52.7666443
+      ],
+      [
+       13.2649962,
+       52.7666816
+      ],
+      [
+       13.2653569,
+       52.7670869
+      ],
+      [
+       13.2654715,
+       52.7670496
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085069"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2628965,
+       52.7676173
+      ],
+      [
+       13.2632499,
+       52.7671862
+      ],
+      [
+       13.2631376,
+       52.7671525
+      ],
+      [
+       13.2627842,
+       52.7675836
+      ],
+      [
+       13.2628965,
+       52.7676173
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085070"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2636871,
+       52.7671899
+      ],
+      [
+       13.2639137,
+       52.7667564
+      ],
+      [
+       13.2637908,
+       52.7667329
+      ],
+      [
+       13.2635642,
+       52.7671664
+      ],
+      [
+       13.2636871,
+       52.7671899
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085071"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2624783,
+       52.7681255
+      ],
+      [
+       13.2628326,
+       52.7676939
+      ],
+      [
+       13.2627198,
+       52.76766
+      ],
+      [
+       13.2623655,
+       52.7680916
+      ],
+      [
+       13.2624783,
+       52.7681255
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085072"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2636563,
+       52.7666963
+      ],
+      [
+       13.2635457,
+       52.7666631
+      ],
+      [
+       13.2632011,
+       52.767083
+      ],
+      [
+       13.2633117,
+       52.7671162
+      ],
+      [
+       13.2636563,
+       52.7666963
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085073"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2665723,
+       52.7664416
+      ],
+      [
+       13.2659978,
+       52.7661177
+      ],
+      [
+       13.2659139,
+       52.7661722
+      ],
+      [
+       13.2664884,
+       52.7664961
+      ],
+      [
+       13.2665723,
+       52.7664416
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085074"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2678596,
+       52.7671816
+      ],
+      [
+       13.2672825,
+       52.7668562
+      ],
+      [
+       13.2671961,
+       52.7669123
+      ],
+      [
+       13.2677732,
+       52.7672377
+      ],
+      [
+       13.2678596,
+       52.7671816
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085075"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2632012,
+       52.7679494
+      ],
+      [
+       13.2631776,
+       52.7680238
+      ],
+      [
+       13.2633431,
+       52.768043
+      ],
+      [
+       13.2633027,
+       52.7681702
+      ],
+      [
+       13.2635138,
+       52.7681948
+      ],
+      [
+       13.263644,
+       52.7681685
+      ],
+      [
+       13.2636712,
+       52.768083
+      ],
+      [
+       13.2639438,
+       52.7681147
+      ],
+      [
+       13.263968,
+       52.7680386
+      ],
+      [
+       13.2632012,
+       52.7679494
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282085076"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2638936,
+       52.7677965
+      ],
+      [
+       13.2640129,
+       52.7673179
+      ],
+      [
+       13.2638873,
+       52.7673065
+      ],
+      [
+       13.2637681,
+       52.767785
+      ],
+      [
+       13.2638936,
+       52.7677965
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096580"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2594347,
+       52.7690439
+      ],
+      [
+       13.2601404,
+       52.768588
+      ],
+      [
+       13.260049,
+       52.7685362
+      ],
+      [
+       13.2593433,
+       52.7689921
+      ],
+      [
+       13.2594347,
+       52.7690439
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096584"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2601093,
+       52.7685391
+      ],
+      [
+       13.2604599,
+       52.7683162
+      ],
+      [
+       13.2603858,
+       52.7682735
+      ],
+      [
+       13.2600352,
+       52.7684964
+      ],
+      [
+       13.2601093,
+       52.7685391
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096587"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2592226,
+       52.7677297
+      ],
+      [
+       13.258639,
+       52.7676399
+      ],
+      [
+       13.2586009,
+       52.7677306
+      ],
+      [
+       13.2591845,
+       52.7678203
+      ],
+      [
+       13.2592226,
+       52.7677297
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096589"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2615236,
+       52.7668692
+      ],
+      [
+       13.2622002,
+       52.766626
+      ],
+      [
+       13.2621353,
+       52.76656
+      ],
+      [
+       13.2614587,
+       52.7668031
+      ],
+      [
+       13.2615236,
+       52.7668692
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096592"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2607169,
+       52.7671579
+      ],
+      [
+       13.2613962,
+       52.7669138
+      ],
+      [
+       13.2613297,
+       52.7668461
+      ],
+      [
+       13.2606505,
+       52.7670902
+      ],
+      [
+       13.2607169,
+       52.7671579
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096593"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2611834,
+       52.765246
+      ],
+      [
+       13.2611484,
+       52.7653212
+      ],
+      [
+       13.261981,
+       52.765463
+      ],
+      [
+       13.2627775,
+       52.7655987
+      ],
+      [
+       13.2628125,
+       52.7655236
+      ],
+      [
+       13.2611834,
+       52.765246
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096596"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2619828,
+       52.7659241
+      ],
+      [
+       13.2627347,
+       52.7659043
+      ],
+      [
+       13.2627291,
+       52.7658265
+      ],
+      [
+       13.2619772,
+       52.7658464
+      ],
+      [
+       13.2619828,
+       52.7659241
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096597"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2612367,
+       52.7676795
+      ],
+      [
+       13.2611527,
+       52.7676274
+      ],
+      [
+       13.2605778,
+       52.7679667
+      ],
+      [
+       13.2606618,
+       52.7680189
+      ],
+      [
+       13.2612367,
+       52.7676795
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096599"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2623267,
+       52.7665804
+      ],
+      [
+       13.2629787,
+       52.7663498
+      ],
+      [
+       13.262911,
+       52.7662797
+      ],
+      [
+       13.262259,
+       52.7665103
+      ],
+      [
+       13.2623267,
+       52.7665804
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096601"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2620445,
+       52.7664382
+      ],
+      [
+       13.2613334,
+       52.7666502
+      ],
+      [
+       13.261392,
+       52.7667222
+      ],
+      [
+       13.2621032,
+       52.7665102
+      ],
+      [
+       13.2620445,
+       52.7664382
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096603"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2611944,
+       52.7666918
+      ],
+      [
+       13.2604875,
+       52.7669026
+      ],
+      [
+       13.260544,
+       52.766972
+      ],
+      [
+       13.261251,
+       52.7667612
+      ],
+      [
+       13.2611944,
+       52.7666918
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096604"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2608923,
+       52.7673117
+      ],
+      [
+       13.2615417,
+       52.767042
+      ],
+      [
+       13.2614712,
+       52.7669798
+      ],
+      [
+       13.2608217,
+       52.7672496
+      ],
+      [
+       13.2608923,
+       52.7673117
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096606"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2600903,
+       52.7676039
+      ],
+      [
+       13.2607527,
+       52.7673276
+      ],
+      [
+       13.2606797,
+       52.7672635
+      ],
+      [
+       13.2600172,
+       52.7675398
+      ],
+      [
+       13.2600903,
+       52.7676039
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096607"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2618281,
+       52.7659297
+      ],
+      [
+       13.2618234,
+       52.7658534
+      ],
+      [
+       13.2610416,
+       52.7658709
+      ],
+      [
+       13.2610463,
+       52.7659471
+      ],
+      [
+       13.2618281,
+       52.7659297
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096608"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2610909,
+       52.7674642
+      ],
+      [
+       13.261696,
+       52.76716
+      ],
+      [
+       13.2616195,
+       52.7671043
+      ],
+      [
+       13.2610144,
+       52.7674085
+      ],
+      [
+       13.2610909,
+       52.7674642
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096609"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2621514,
+       52.7663609
+      ],
+      [
+       13.2628619,
+       52.7662061
+      ],
+      [
+       13.262816,
+       52.7661289
+      ],
+      [
+       13.2621055,
+       52.7662837
+      ],
+      [
+       13.2621514,
+       52.7663609
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096610"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2613295,
+       52.7676232
+      ],
+      [
+       13.2618892,
+       52.7672917
+      ],
+      [
+       13.2618095,
+       52.7672425
+      ],
+      [
+       13.2612499,
+       52.767574
+      ],
+      [
+       13.2613295,
+       52.7676232
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096611"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2610671,
+       52.7679869
+      ],
+      [
+       13.2613845,
+       52.7677768
+      ],
+      [
+       13.2612948,
+       52.7677271
+      ],
+      [
+       13.2609773,
+       52.7679373
+      ],
+      [
+       13.2610671,
+       52.7679869
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096613"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2627479,
+       52.7656847
+      ],
+      [
+       13.2610674,
+       52.7655727
+      ],
+      [
+       13.2610534,
+       52.7656493
+      ],
+      [
+       13.2627339,
+       52.7657613
+      ],
+      [
+       13.2627479,
+       52.7656847
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096614"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2620131,
+       52.766398
+      ],
+      [
+       13.2619646,
+       52.7663219
+      ],
+      [
+       13.2612301,
+       52.7664932
+      ],
+      [
+       13.2612786,
+       52.7665693
+      ],
+      [
+       13.2620131,
+       52.766398
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096616"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2604452,
+       52.7678798
+      ],
+      [
+       13.2610551,
+       52.7675627
+      ],
+      [
+       13.260973,
+       52.7675049
+      ],
+      [
+       13.2603631,
+       52.767822
+      ],
+      [
+       13.2604452,
+       52.7678798
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096618"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2618393,
+       52.7659802
+      ],
+      [
+       13.261058,
+       52.766038
+      ],
+      [
+       13.2610733,
+       52.7661141
+      ],
+      [
+       13.2618546,
+       52.7660563
+      ],
+      [
+       13.2618393,
+       52.7659802
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096619"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2608896,
+       52.766643
+      ],
+      [
+       13.2606745,
+       52.7661855
+      ],
+      [
+       13.2605556,
+       52.766206
+      ],
+      [
+       13.2607707,
+       52.7666634
+      ],
+      [
+       13.2608896,
+       52.766643
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096621"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2599578,
+       52.7687698
+      ],
+      [
+       13.2601751,
+       52.7688867
+      ],
+      [
+       13.2606338,
+       52.7687942
+      ],
+      [
+       13.2605828,
+       52.7686968
+      ],
+      [
+       13.2601751,
+       52.7687812
+      ],
+      [
+       13.260041,
+       52.7687098
+      ],
+      [
+       13.2599578,
+       52.7687698
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096623"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2625404,
+       52.7667482
+      ],
+      [
+       13.263126,
+       52.766463
+      ],
+      [
+       13.2630436,
+       52.7664011
+      ],
+      [
+       13.262458,
+       52.7666863
+      ],
+      [
+       13.2625404,
+       52.7667482
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096625"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2611124,
+       52.7666027
+      ],
+      [
+       13.2608967,
+       52.7661439
+      ],
+      [
+       13.2607756,
+       52.7661648
+      ],
+      [
+       13.2609914,
+       52.7666235
+      ],
+      [
+       13.2611124,
+       52.7666027
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096628"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2602061,
+       52.7685942
+      ],
+      [
+       13.2605446,
+       52.7683692
+      ],
+      [
+       13.2604713,
+       52.7683288
+      ],
+      [
+       13.2601329,
+       52.7685539
+      ],
+      [
+       13.2602061,
+       52.7685942
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096630"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2602433,
+       52.7677319
+      ],
+      [
+       13.2608809,
+       52.7674376
+      ],
+      [
+       13.2608067,
+       52.7673787
+      ],
+      [
+       13.2601691,
+       52.767673
+      ],
+      [
+       13.2602433,
+       52.7677319
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096632"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2620379,
+       52.766165
+      ],
+      [
+       13.2627861,
+       52.7660664
+      ],
+      [
+       13.262757,
+       52.7659855
+      ],
+      [
+       13.2620088,
+       52.7660842
+      ],
+      [
+       13.2620379,
+       52.766165
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282096635"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2618691,
+       52.7661048
+      ],
+      [
+       13.2610988,
+       52.7662041
+      ],
+      [
+       13.2611264,
+       52.7662824
+      ],
+      [
+       13.2618967,
+       52.7661831
+      ],
+      [
+       13.2618691,
+       52.7661048
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282125998"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2612348,
+       52.7648291
+      ],
+      [
+       13.26098,
+       52.7651569
+      ],
+      [
+       13.2608593,
+       52.7654572
+      ],
+      [
+       13.2609773,
+       52.765475
+      ],
+      [
+       13.261098,
+       52.7651797
+      ],
+      [
+       13.2613501,
+       52.7648583
+      ],
+      [
+       13.2612348,
+       52.7648291
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "name": "Krankenrevierbaracke",
+    "name:en": "Infirmary",
+    "roof:shape": "gabled",
+    "@id": "way/282125999"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.263029,
+       52.7652524
+      ],
+      [
+       13.2616404,
+       52.7646867
+      ],
+      [
+       13.2615648,
+       52.7647547
+      ],
+      [
+       13.2629534,
+       52.7653203
+      ],
+      [
+       13.263029,
+       52.7652524
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "dirt",
+    "@id": "way/282126000"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2669211,
+       52.7674907
+      ],
+      [
+       13.2663938,
+       52.7671922
+      ],
+      [
+       13.2662822,
+       52.7672649
+      ],
+      [
+       13.2662745,
+       52.7672779
+      ],
+      [
+       13.2658965,
+       52.7675345
+      ],
+      [
+       13.2660064,
+       52.7675994
+      ],
+      [
+       13.26639,
+       52.7673463
+      ],
+      [
+       13.2664436,
+       52.7673479
+      ],
+      [
+       13.2668111,
+       52.7675589
+      ],
+      [
+       13.2669211,
+       52.7674907
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barrack",
+    "building:levels": "1",
+    "name": "Krankenrevierbaracke",
+    "name:en": "Infirmary",
+    "roof:shape": "gabled",
+    "@id": "way/282126001"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2628198,
+       52.7654641
+      ],
+      [
+       13.2628784,
+       52.7653861
+      ],
+      [
+       13.2613505,
+       52.7649652
+      ],
+      [
+       13.2612918,
+       52.7650433
+      ],
+      [
+       13.2628198,
+       52.7654641
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned": "yes",
+    "historic": "building",
+    "historic:building": "barrack",
+    "surface": "gravel",
+    "@id": "way/282126003"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2617594,
+       52.7643858
+      ],
+      [
+       13.2615661,
+       52.7645719
+      ],
+      [
+       13.261448,
+       52.764527
+      ],
+      [
+       13.2614061,
+       52.7645111
+      ],
+      [
+       13.2615994,
+       52.7643249
+      ],
+      [
+       13.2617594,
+       52.7643858
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "3",
+    "man_made": "tower",
+    "name": "Turm H",
+    "tower:type": "watchtower",
+    "@id": "way/459390646"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2673477,
+       52.7675689
+      ],
+      [
+       13.2674227,
+       52.7675547
+      ],
+      [
+       13.2674126,
+       52.7675351
+      ],
+      [
+       13.2674031,
+       52.7675213
+      ],
+      [
+       13.2673739,
+       52.7675083
+      ],
+      [
+       13.2673402,
+       52.7675163
+      ],
+      [
+       13.2673285,
+       52.767533
+      ],
+      [
+       13.2673374,
+       52.7675516
+      ],
+      [
+       13.2673477,
+       52.7675689
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "3",
+    "man_made": "tower",
+    "name": "Turm F",
+    "tower:type": "watchtower",
+    "@id": "way/459390647"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2628437,
+       52.768436
+      ],
+      [
+       13.262852,
+       52.7684543
+      ],
+      [
+       13.2628589,
+       52.7684691
+      ],
+      [
+       13.262916,
+       52.7684585
+      ],
+      [
+       13.262908,
+       52.7684394
+      ],
+      [
+       13.2629016,
+       52.7684252
+      ],
+      [
+       13.2628437,
+       52.768436
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/459391252"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2647467,
+       52.7648619
+      ],
+      [
+       13.2647601,
+       52.7648532
+      ],
+      [
+       13.2647773,
+       52.7648421
+      ],
+      [
+       13.2646466,
+       52.7647682
+      ],
+      [
+       13.2646161,
+       52.7647879
+      ],
+      [
+       13.2647467,
+       52.7648619
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Turm D",
+    "tower:type": "watchtower",
+    "@id": "way/478162276"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2600488,
+       52.7668837
+      ],
+      [
+       13.2600846,
+       52.7668898
+      ],
+      [
+       13.2601212,
+       52.7668961
+      ],
+      [
+       13.2601407,
+       52.7668543
+      ],
+      [
+       13.2601052,
+       52.7668482
+      ],
+      [
+       13.2600682,
+       52.7668419
+      ],
+      [
+       13.2600488,
+       52.7668837
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Turm C",
+    "tower:type": "watchtower",
+    "@id": "way/478162277"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2605575,
+       52.7656838
+      ],
+      [
+       13.2605897,
+       52.7656893
+      ],
+      [
+       13.2606299,
+       52.7656961
+      ],
+      [
+       13.2606496,
+       52.7656541
+      ],
+      [
+       13.2606116,
+       52.7656476
+      ],
+      [
+       13.2605771,
+       52.7656417
+      ],
+      [
+       13.2605575,
+       52.7656838
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "FIXME": "name? Turm G already exists on the north wall.",
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Turm G",
+    "tower:type": "watchtower",
+    "@id": "way/478162278"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2661386,
+       52.7656568
+      ],
+      [
+       13.2661938,
+       52.7656915
+      ],
+      [
+       13.2662498,
+       52.765659
+      ],
+      [
+       13.2661946,
+       52.7656242
+      ],
+      [
+       13.2661386,
+       52.7656568
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "3",
+    "man_made": "tower",
+    "name": "Turm G",
+    "tower:type": "watchtower",
+    "@id": "way/478162279"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2647881,
+       52.7680444
+      ],
+      [
+       13.2647961,
+       52.7680605
+      ],
+      [
+       13.2648059,
+       52.7680767
+      ],
+      [
+       13.2648627,
+       52.7680649
+      ],
+      [
+       13.2648546,
+       52.768049
+      ],
+      [
+       13.2648464,
+       52.7680335
+      ],
+      [
+       13.2647881,
+       52.7680444
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/478163469"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2597907,
+      52.7703658
+     ],
+     [
+      13.2583799,
+      52.770645
+     ],
+     [
+      13.2580194,
+      52.7700062
+     ],
+     [
+      13.2579464,
+      52.7698693
+     ],
+     [
+      13.2591187,
+      52.769621
+     ],
+     [
+      13.2591544,
+      52.7696797
+     ],
+     [
+      13.2592052,
+      52.7697564
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/478163728"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2599758,
+      52.7676955
+     ],
+     [
+      13.2599818,
+      52.7676757
+     ],
+     [
+      13.2603607,
+      52.7677485
+     ],
+     [
+      13.2606778,
+      52.7678438
+     ],
+     [
+      13.2606497,
+      52.7678736
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Oranienburg",
+    "addr:housenumber": "21",
+    "addr:postcode": "16515",
+    "addr:street": "Straße der Nationen",
+    "addr:suburb": "Sachsenhausen",
+    "building": "yes",
+    "@id": "way/521309725"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2606795,
+       52.7635697
+      ],
+      [
+       13.2608367,
+       52.763614
+      ],
+      [
+       13.2608873,
+       52.763544
+      ],
+      [
+       13.2607331,
+       52.7635
+      ],
+      [
+       13.2606795,
+       52.7635697
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "3",
+    "man_made": "tower",
+    "roof:shape": "pyramidal",
+    "tower:type": "watchtower",
+    "@id": "way/590606629"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2635582,
+       52.7642083
+      ],
+      [
+       13.2636102,
+       52.7641783
+      ],
+      [
+       13.2635586,
+       52.7641469
+      ],
+      [
+       13.2635067,
+       52.7641769
+      ],
+      [
+       13.2635582,
+       52.7642083
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/590606630"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2661946,
+      52.7656242
+     ],
+     [
+      13.2655597,
+      52.7652801
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/590606631"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2648546,
+      52.768049
+     ],
+     [
+      13.2673374,
+      52.7675516
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/590606632"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.262908,
+      52.7684394
+     ],
+     [
+      13.2647961,
+      52.7680605
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "source": "bing",
+    "@id": "way/590606633"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2607715,
+      52.7640255
+     ],
+     [
+      13.2607193,
+      52.7640838
+     ],
+     [
+      13.2605892,
+      52.7641009
+     ],
+     [
+      13.260473,
+      52.7639201
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "3",
+    "man_made": "tower",
+    "name": "Turm B",
+    "roof:shape": "pyramidal",
+    "tower:type": "watchtower",
+    "@id": "way/590606634"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2612567,
+       52.7641261
+      ],
+      [
+       13.2613153,
+       52.7641402
+      ],
+      [
+       13.2613649,
+       52.7641166
+      ],
+      [
+       13.2613558,
+       52.7640788
+      ],
+      [
+       13.2612972,
+       52.7640646
+      ],
+      [
+       13.2612476,
+       52.7640883
+      ],
+      [
+       13.2612567,
+       52.7641261
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "fence_type": "barbed_wire",
+    "source": "survey",
+    "@id": "way/590606636"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2641512,
+      52.7657239
+     ],
+     [
+      13.2632527,
+      52.7652029
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "fence_type": "barbed_wire",
+    "source": "survey",
+    "@id": "way/590606637"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2652026,
+      52.7662854
+     ],
+     [
+      13.2645133,
+      52.7659137
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/601831819"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.2601658,
+      52.7667215
+     ],
+     [
+      13.2601052,
+      52.7668482
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/601831820"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      13.260378,
+      52.7662364
+     ],
+     [
+      13.2605897,
+      52.7656893
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Oranienburg",
+    "addr:housenumber": "42",
+    "addr:postcode": "16515",
+    "addr:street": "Hans-von-Dohnanyi-Straße",
+    "addr:suburb": "Sachsenhausen",
+    "building": "yes",
+    "@id": "way/661121216"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2611822,
+       52.7629169
+      ],
+      [
+       13.2610507,
+       52.7628659
+      ],
+      [
+       13.2609666,
+       52.7629443
+      ],
+      [
+       13.2610958,
+       52.7629984
+      ],
+      [
+       13.2611822,
+       52.7629169
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Oranienburg",
+    "addr:housenumber": "44",
+    "addr:postcode": "16515",
+    "addr:street": "Hans-von-Dohnanyi-Straße",
+    "addr:suburb": "Sachsenhausen",
+    "building": "yes",
+    "@id": "way/661121217"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2612982,
+       52.7629653
+      ],
+      [
+       13.2611822,
+       52.7629169
+      ],
+      [
+       13.2610958,
+       52.7629984
+      ],
+      [
+       13.2612011,
+       52.7630454
+      ],
+      [
+       13.2612982,
+       52.7629653
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/712410767"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2601608,
+       52.7645804
+      ],
+      [
+       13.2601968,
+       52.7645528
+      ],
+      [
+       13.2601562,
+       52.7645334
+      ],
+      [
+       13.2601202,
+       52.7645611
+      ],
+      [
+       13.2601608,
+       52.7645804
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/712410768"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2596154,
+       52.7650688
+      ],
+      [
+       13.2596514,
+       52.7650412
+      ],
+      [
+       13.2596108,
+       52.7650218
+      ],
+      [
+       13.2595748,
+       52.7650494
+      ],
+      [
+       13.2596154,
+       52.7650688
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/1288580523"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2605983,
+       52.7635401
+      ],
+      [
+       13.2606517,
+       52.7635543
+      ],
+      [
+       13.2607288,
+       52.7634509
+      ],
+      [
+       13.2606808,
+       52.7634383
+      ],
+      [
+       13.2606654,
+       52.7634559
+      ],
+      [
+       13.2605983,
+       52.7635401
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/1288580524"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2607288,
+       52.7634509
+      ],
+      [
+       13.2607369,
+       52.763441
+      ],
+      [
+       13.2607811,
+       52.7633867
+      ],
+      [
+       13.2608336,
+       52.7633224
+      ],
+      [
+       13.2607787,
+       52.7633074
+      ],
+      [
+       13.2606762,
+       52.7634362
+      ],
+      [
+       13.2606808,
+       52.7634383
+      ],
+      [
+       13.2607288,
+       52.7634509
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/1288580525"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2607369,
+       52.763441
+      ],
+      [
+       13.2607793,
+       52.7634533
+      ],
+      [
+       13.2608217,
+       52.7633995
+      ],
+      [
+       13.2607811,
+       52.7633867
+      ],
+      [
+       13.2607369,
+       52.763441
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/1288580526"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2613463,
+       52.7631143
+      ],
+      [
+       13.2613798,
+       52.7631566
+      ],
+      [
+       13.2613594,
+       52.7631812
+      ],
+      [
+       13.2614002,
+       52.7631964
+      ],
+      [
+       13.2613678,
+       52.7632357
+      ],
+      [
+       13.2613188,
+       52.7632212
+      ],
+      [
+       13.2613241,
+       52.7632124
+      ],
+      [
+       13.2612749,
+       52.7631949
+      ],
+      [
+       13.2613463,
+       52.7631143
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "name": "Neues Museum",
+    "opening_hours": "Tu-Su 08:30-16:30",
+    "tourism": "museum",
+    "type": "multipolygon",
+    "wheelchair": "yes",
+    "@id": "relation/54874"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2647651,
+       52.7656843
+      ],
+      [
+       13.2654345,
+       52.7660546
+      ],
+      [
+       13.2656523,
+       52.7659105
+      ],
+      [
+       13.2658333,
+       52.7657907
+      ],
+      [
+       13.2651639,
+       52.7654204
+      ],
+      [
+       13.2647651,
+       52.7656843
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "name": "Gedenkort \"Station Z\" für die KZ-Opfer",
+    "type": "multipolygon",
+    "wikidata": "Q119855541",
+    "@id": "relation/2848822"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       13.2597532,
+       52.7676736
+      ],
+      [
+       13.2598882,
+       52.7673372
+      ],
+      [
+       13.2593122,
+       52.7672526
+      ],
+      [
+       13.259238,
+       52.7674376
+      ],
+      [
+       13.2591772,
+       52.767589
+      ],
+      [
+       13.2594278,
+       52.7676258
+      ],
+      [
+       13.2597532,
+       52.7676736
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,2052 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:amenity": "prison_camp",
+    "addr:city": "Flossenbürg",
+    "addr:housenumber": "5",
+    "addr:postcode": "92696",
+    "addr:street": "Gedächtnisallee",
+    "concentration_camp": "nazism",
+    "contact:email": "information@gedenkstaette-flossenbuerg.de",
+    "contact:phone": "+49 9603 90390-0",
+    "contact:website": "https://www.gedenkstaette-flossenbuerg.de/",
+    "fee": "no",
+    "historic": "memorial",
+    "image": "http://commons.wikimedia.org/wiki/File:Flossenburg.jpg",
+    "memorial": "war_memorial",
+    "name": "KZ-Gedenkstätte Flossenbürg",
+    "name:en": "Flossenbürg Concentration Camp Memorial Site",
+    "opening_hours": "Mar-Nov 09:00-17:00; Dec-Feb 09:00-16:00",
+    "prison_camp": "concentration_camp",
+    "wheelchair": "yes",
+    "wikidata": "Q29014738",
+    "wikipedia": "de:KZ Flossenbürg",
+    "@id": "way/150141297"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3547574,
+       49.7372419
+      ],
+      [
+       12.3557836,
+       49.7370119
+      ],
+      [
+       12.3556127,
+       49.7366508
+      ],
+      [
+       12.3563934,
+       49.7364787
+      ],
+      [
+       12.3565126,
+       49.7364273
+      ],
+      [
+       12.3574507,
+       49.7362455
+      ],
+      [
+       12.3578296,
+       49.736162
+      ],
+      [
+       12.3583305,
+       49.7361117
+      ],
+      [
+       12.3592477,
+       49.7358768
+      ],
+      [
+       12.3593646,
+       49.735963
+      ],
+      [
+       12.3598583,
+       49.735814
+      ],
+      [
+       12.3596035,
+       49.7351881
+      ],
+      [
+       12.3591503,
+       49.734436
+      ],
+      [
+       12.3590937,
+       49.7336543
+      ],
+      [
+       12.3590202,
+       49.733488
+      ],
+      [
+       12.3583472,
+       49.7335732
+      ],
+      [
+       12.3576649,
+       49.7338097
+      ],
+      [
+       12.3572101,
+       49.7340791
+      ],
+      [
+       12.3553498,
+       49.7345865
+      ],
+      [
+       12.3555757,
+       49.7351342
+      ],
+      [
+       12.3549044,
+       49.7352933
+      ],
+      [
+       12.3551519,
+       49.7357784
+      ],
+      [
+       12.3550865,
+       49.7358615
+      ],
+      [
+       12.3540247,
+       49.7364544
+      ],
+      [
+       12.3544648,
+       49.7367358
+      ],
+      [
+       12.354536,
+       49.7368424
+      ],
+      [
+       12.3547355,
+       49.7367989
+      ],
+      [
+       12.3547946,
+       49.7369104
+      ],
+      [
+       12.3545971,
+       49.73696
+      ],
+      [
+       12.3547574,
+       49.7372419
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Flossenbürg",
+    "addr:housenumber": "11",
+    "addr:postcode": "92696",
+    "addr:street": "Sudetenstraße",
+    "building": "yes",
+    "@id": "way/29264421"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3566923,
+       49.7365933
+      ],
+      [
+       12.3568417,
+       49.7365594
+      ],
+      [
+       12.3567918,
+       49.7364674
+      ],
+      [
+       12.3566424,
+       49.7365013
+      ],
+      [
+       12.3566923,
+       49.7365933
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Flossenbürg",
+    "addr:housenumber": "3",
+    "addr:postcode": "92696",
+    "addr:street": "Schlesierweg",
+    "building": "yes",
+    "@id": "way/29264430"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3574679,
+       49.7364318
+      ],
+      [
+       12.3576269,
+       49.7363943
+      ],
+      [
+       12.3575699,
+       49.7362936
+      ],
+      [
+       12.3574109,
+       49.7363311
+      ],
+      [
+       12.3574679,
+       49.7364318
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Flossenbürg",
+    "addr:housenumber": "42",
+    "addr:postcode": "92696",
+    "addr:street": "Silberhüttenstraße",
+    "building": "yes",
+    "description": "ehem. SS-Casino",
+    "historic": "building",
+    "@id": "way/29264609"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3549606,
+       49.737245
+      ],
+      [
+       12.3551027,
+       49.737212
+      ],
+      [
+       12.3556336,
+       49.7370868
+      ],
+      [
+       12.3556891,
+       49.737185
+      ],
+      [
+       12.3552132,
+       49.7372973
+      ],
+      [
+       12.3550151,
+       49.7373432
+      ],
+      [
+       12.3549606,
+       49.737245
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Flossenbürg",
+    "addr:housenumber": "6",
+    "addr:postcode": "92696",
+    "addr:street": "Sudetenstraße",
+    "building": "yes",
+    "@id": "way/29264610"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3560816,
+       49.7371719
+      ],
+      [
+       12.3562314,
+       49.7371388
+      ],
+      [
+       12.3562151,
+       49.737108
+      ],
+      [
+       12.3562185,
+       49.7371072
+      ],
+      [
+       12.3561795,
+       49.7370336
+      ],
+      [
+       12.3560263,
+       49.7370675
+      ],
+      [
+       12.3560663,
+       49.737143
+      ],
+      [
+       12.3560816,
+       49.7371719
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Flossenbürg",
+    "addr:housenumber": "12",
+    "addr:postcode": "92696",
+    "addr:street": "Sudetenstraße",
+    "building": "yes",
+    "@id": "way/29264787"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3558587,
+       49.7368155
+      ],
+      [
+       12.3559664,
+       49.7367895
+      ],
+      [
+       12.3559497,
+       49.7367606
+      ],
+      [
+       12.3560033,
+       49.7367477
+      ],
+      [
+       12.3559593,
+       49.7366715
+      ],
+      [
+       12.355798,
+       49.7367104
+      ],
+      [
+       12.3558587,
+       49.7368155
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Flossenbürg",
+    "addr:housenumber": "14",
+    "addr:postcode": "92696",
+    "addr:street": "Sudetenstraße",
+    "building": "yes",
+    "@id": "way/29264788"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3561396,
+       49.7367395
+      ],
+      [
+       12.3562988,
+       49.7367013
+      ],
+      [
+       12.3562285,
+       49.7365788
+      ],
+      [
+       12.3561395,
+       49.7366001
+      ],
+      [
+       12.3561543,
+       49.736626
+      ],
+      [
+       12.3560841,
+       49.7366428
+      ],
+      [
+       12.3561396,
+       49.7367395
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Flossenbürg",
+    "addr:housenumber": "9",
+    "addr:postcode": "92696",
+    "addr:street": "Gedächtnisallee",
+    "building": "yes",
+    "description": "ehem. Lagerküche",
+    "description:cs": "táborová kuchyně",
+    "description:en": "former Camp kitchen",
+    "historic": "building",
+    "@id": "way/29264789"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.357289,
+       49.7361884
+      ],
+      [
+       12.3573923,
+       49.7361636
+      ],
+      [
+       12.3579733,
+       49.736024
+      ],
+      [
+       12.357931,
+       49.7359504
+      ],
+      [
+       12.3578945,
+       49.735887
+      ],
+      [
+       12.3572102,
+       49.7360514
+      ],
+      [
+       12.357289,
+       49.7361884
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "description": "ehem. Wäscherei",
+    "description:cs": "Prádelna",
+    "description:en": "former laundry",
+    "historic": "building",
+    "wikidata": "Q98678693",
+    "@id": "way/29264790"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3569423,
+       49.7355934
+      ],
+      [
+       12.3576236,
+       49.7354308
+      ],
+      [
+       12.3575405,
+       49.7352854
+      ],
+      [
+       12.3568592,
+       49.7354479
+      ],
+      [
+       12.3569423,
+       49.7355934
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Flossenbürg",
+    "addr:housenumber": "12",
+    "addr:postcode": "92696",
+    "addr:street": "Gedächtnisallee",
+    "amenity": "place_of_worship",
+    "building": "chapel",
+    "name:cs": "kaple",
+    "name:en": "chapel",
+    "religion": "christian",
+    "wikidata": "Q98678699",
+    "@id": "way/29264792"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3591525,
+       49.7350069
+      ],
+      [
+       12.3592764,
+       49.734946
+      ],
+      [
+       12.3591377,
+       49.7348281
+      ],
+      [
+       12.3590931,
+       49.73485
+      ],
+      [
+       12.3590697,
+       49.7348301
+      ],
+      [
+       12.3590174,
+       49.7348558
+      ],
+      [
+       12.3590408,
+       49.7348757
+      ],
+      [
+       12.3590138,
+       49.734889
+      ],
+      [
+       12.3591525,
+       49.7350069
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "source": "DOP_LVA_BY_01",
+    "@id": "way/29880745"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3546014,
+       49.7369388
+      ],
+      [
+       12.3547796,
+       49.7368969
+      ],
+      [
+       12.3547316,
+       49.7368119
+      ],
+      [
+       12.3545505,
+       49.7368489
+      ],
+      [
+       12.3546014,
+       49.7369388
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Flossenbürg",
+    "addr:housenumber": "27",
+    "addr:postcode": "92696",
+    "addr:street": "Birkenstraße",
+    "building": "yes",
+    "@id": "way/29880746"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.354023,
+       49.7368596
+      ],
+      [
+       12.3542329,
+       49.7367869
+      ],
+      [
+       12.3541568,
+       49.7366951
+      ],
+      [
+       12.3539468,
+       49.7367678
+      ],
+      [
+       12.354023,
+       49.7368596
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Flossenbürg",
+    "addr:country": "DE",
+    "addr:housenumber": "5",
+    "addr:postcode": "92696",
+    "addr:street": "Gedächtnisallee",
+    "building": "yes",
+    "building:levels": "2",
+    "building:material": "brick",
+    "description": "ehem. SS-Kommandantur",
+    "heritage": "4",
+    "heritage:operator": "BLfD",
+    "historic": "building",
+    "image": "https://commons.wikimedia.org/wiki/File:110428a_Flossenb%C3%BCrg.JPG",
+    "ref:BLfD": "D-3-74-122-55",
+    "roof:colour": "#ab363a",
+    "roof:levels": "1",
+    "wikidata": "Q98671750",
+    "@id": "way/29880748"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3552468,
+       49.7364287
+      ],
+      [
+       12.3554156,
+       49.7363884
+      ],
+      [
+       12.3553333,
+       49.7362443
+      ],
+      [
+       12.3552467,
+       49.7360927
+      ],
+      [
+       12.3550779,
+       49.736133
+      ],
+      [
+       12.3551624,
+       49.736281
+      ],
+      [
+       12.3552468,
+       49.7364287
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/29880749"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.354203,
+       49.7361034
+      ],
+      [
+       12.3547249,
+       49.7358993
+      ],
+      [
+       12.3547382,
+       49.7359136
+      ],
+      [
+       12.3548738,
+       49.7358605
+      ],
+      [
+       12.3547191,
+       49.7356953
+      ],
+      [
+       12.3540616,
+       49.7359524
+      ],
+      [
+       12.354203,
+       49.7361034
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/29880750"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3544641,
+       49.7354602
+      ],
+      [
+       12.3546659,
+       49.7354296
+      ],
+      [
+       12.3546389,
+       49.7353553
+      ],
+      [
+       12.3544372,
+       49.7353859
+      ],
+      [
+       12.3544641,
+       49.7354602
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/143017952"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      12.3582424,
+      49.7360836
+     ],
+     [
+      12.3583299,
+      49.7361042
+     ],
+     [
+      12.3588225,
+      49.7359664
+     ],
+     [
+      12.3589321,
+      49.735936
+     ],
+     [
+      12.3592802,
+      49.7358159
+     ],
+     [
+      12.3594179,
+      49.7357217
+     ],
+     [
+      12.3594106,
+      49.735397
+     ],
+     [
+      12.3595935,
+      49.7351871
+     ],
+     [
+      12.359142,
+      49.7344371
+     ],
+     [
+      12.3591263,
+      49.7342725
+     ],
+     [
+      12.3590794,
+      49.7336497
+     ],
+     [
+      12.3590121,
+      49.7334924
+     ],
+     [
+      12.3583474,
+      49.733582
+     ],
+     [
+      12.3576706,
+      49.7338159
+     ],
+     [
+      12.3572158,
+      49.7340821
+     ],
+     [
+      12.3570757,
+      49.7341202
+     ],
+     [
+      12.3561924,
+      49.7343604
+     ],
+     [
+      12.3553564,
+      49.7345878
+     ],
+     [
+      12.3555823,
+      49.7351368
+     ],
+     [
+      12.3549166,
+      49.7352953
+     ],
+     [
+      12.3552023,
+      49.7358578
+     ],
+     [
+      12.3552995,
+      49.7359251
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:material": "brick",
+    "man_made": "tower",
+    "name": "Wachtturm",
+    "name:cs": "Strážní věž",
+    "name:en": "Guard tower",
+    "tower:type": "observation",
+    "@id": "way/143030928"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3596889,
+       49.7357778
+      ],
+      [
+       12.3597325,
+       49.7357334
+      ],
+      [
+       12.3597947,
+       49.7357589
+      ],
+      [
+       12.3597512,
+       49.7358033
+      ],
+      [
+       12.3596889,
+       49.7357778
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/342502091"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3562998,
+       49.736701
+      ],
+      [
+       12.3564999,
+       49.7366546
+      ],
+      [
+       12.3564629,
+       49.736588
+      ],
+      [
+       12.3562629,
+       49.7366344
+      ],
+      [
+       12.3562998,
+       49.736701
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/342502094"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3547504,
+       49.7353417
+      ],
+      [
+       12.3548053,
+       49.7354273
+      ],
+      [
+       12.3548835,
+       49.7354073
+      ],
+      [
+       12.3548286,
+       49.7353218
+      ],
+      [
+       12.3547504,
+       49.7353417
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/342502100"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3549655,
+       49.7357267
+      ],
+      [
+       12.3550061,
+       49.7358072
+      ],
+      [
+       12.3550861,
+       49.7357903
+      ],
+      [
+       12.3550455,
+       49.7357098
+      ],
+      [
+       12.3549655,
+       49.7357267
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "description": "ehem. Arrestbau",
+    "description:cs": "vezeni",
+    "description:en": "formrr detention barrack",
+    "@id": "way/342503019"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3556582,
+       49.734943
+      ],
+      [
+       12.3558988,
+       49.7348827
+      ],
+      [
+       12.3558605,
+       49.734819
+      ],
+      [
+       12.35562,
+       49.7348794
+      ],
+      [
+       12.3556582,
+       49.734943
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/342503024"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3589593,
+       49.7356052
+      ],
+      [
+       12.3591124,
+       49.7356235
+      ],
+      [
+       12.3591678,
+       49.7354295
+      ],
+      [
+       12.3590147,
+       49.7354112
+      ],
+      [
+       12.3589593,
+       49.7356052
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/342503028"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3591514,
+       49.7350711
+      ],
+      [
+       12.3591948,
+       49.7350514
+      ],
+      [
+       12.359172,
+       49.7350304
+      ],
+      [
+       12.3591286,
+       49.73505
+      ],
+      [
+       12.3591514,
+       49.7350711
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Jüdische Gedenkstätte",
+    "name:en": "Jewish memorial",
+    "religion": "jewish",
+    "@id": "way/342503032"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3585142,
+       49.7352719
+      ],
+      [
+       12.3586326,
+       49.7353544
+      ],
+      [
+       12.3587053,
+       49.7353107
+      ],
+      [
+       12.3585869,
+       49.7352282
+      ],
+      [
+       12.3585574,
+       49.7352459
+      ],
+      [
+       12.3585142,
+       49.7352719
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/342503037"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3592018,
+       49.7350555
+      ],
+      [
+       12.3593114,
+       49.7350019
+      ],
+      [
+       12.3592581,
+       49.7349563
+      ],
+      [
+       12.3591484,
+       49.7350099
+      ],
+      [
+       12.3592018,
+       49.7350555
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Wachturm",
+    "name:cs": "Strážní věž",
+    "name:en": "guard tower",
+    "tower:type": "observation",
+    "@id": "way/342503041"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3590898,
+       49.7350994
+      ],
+      [
+       12.3591502,
+       49.7350716
+      ],
+      [
+       12.3591081,
+       49.7350334
+      ],
+      [
+       12.3590476,
+       49.7350612
+      ],
+      [
+       12.3590898,
+       49.7350994
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Flossenbürg",
+    "addr:housenumber": "7",
+    "addr:postcode": "92696",
+    "addr:street": "Gedächtnisallee",
+    "building": "yes",
+    "@id": "way/342503045"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3588653,
+       49.7357096
+      ],
+      [
+       12.3590733,
+       49.7357338
+      ],
+      [
+       12.3591109,
+       49.735625
+      ],
+      [
+       12.358903,
+       49.7356008
+      ],
+      [
+       12.3588653,
+       49.7357096
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Flossenbürg",
+    "addr:housenumber": "5",
+    "addr:postcode": "92696",
+    "addr:street": "Schlesierweg",
+    "building": "yes",
+    "@id": "way/342510652"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3577521,
+       49.7363548
+      ],
+      [
+       12.3579085,
+       49.736318
+      ],
+      [
+       12.3578564,
+       49.7362252
+      ],
+      [
+       12.3576999,
+       49.7362619
+      ],
+      [
+       12.3577521,
+       49.7363548
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/342510661"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3581467,
+       49.7364149
+      ],
+      [
+       12.3582712,
+       49.7363864
+      ],
+      [
+       12.358237,
+       49.7363242
+      ],
+      [
+       12.3581126,
+       49.7363527
+      ],
+      [
+       12.3581467,
+       49.7364149
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/342510665"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3567709,
+       49.736663
+      ],
+      [
+       12.3568749,
+       49.7366394
+      ],
+      [
+       12.3568605,
+       49.7366128
+      ],
+      [
+       12.3567565,
+       49.7366364
+      ],
+      [
+       12.3567709,
+       49.736663
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Flossenbürg",
+    "addr:housenumber": "1",
+    "addr:postcode": "92696",
+    "addr:street": "Schlesierweg",
+    "building": "yes",
+    "@id": "way/342510676"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3570581,
+       49.7364991
+      ],
+      [
+       12.3572072,
+       49.7364647
+      ],
+      [
+       12.3571565,
+       49.7363729
+      ],
+      [
+       12.3570074,
+       49.7364073
+      ],
+      [
+       12.3570581,
+       49.7364991
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/342510737"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3580645,
+       49.7362765
+      ],
+      [
+       12.3581351,
+       49.7362327
+      ],
+      [
+       12.3581068,
+       49.7362117
+      ],
+      [
+       12.3580336,
+       49.7362555
+      ],
+      [
+       12.3580645,
+       49.7362765
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/342515447"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3536256,
+       49.7365609
+      ],
+      [
+       12.3535926,
+       49.7365272
+      ],
+      [
+       12.3537003,
+       49.7364827
+      ],
+      [
+       12.3537337,
+       49.7365167
+      ],
+      [
+       12.3536256,
+       49.7365609
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/342515453"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3542611,
+       49.7369395
+      ],
+      [
+       12.3543857,
+       49.7368951
+      ],
+      [
+       12.3542839,
+       49.7367763
+      ],
+      [
+       12.3541606,
+       49.7368204
+      ],
+      [
+       12.3542048,
+       49.7368721
+      ],
+      [
+       12.3542611,
+       49.7369395
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/342515456"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3541429,
+       49.7369815
+      ],
+      [
+       12.3542611,
+       49.7369395
+      ],
+      [
+       12.3542048,
+       49.7368721
+      ],
+      [
+       12.3540859,
+       49.7369142
+      ],
+      [
+       12.3541429,
+       49.7369815
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "man_made": "tower",
+    "name": "Wachturm",
+    "name:en": "guard tower",
+    "tower:type": "observation",
+    "@id": "way/524494643"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3577998,
+       49.7339875
+      ],
+      [
+       12.3578233,
+       49.7339385
+      ],
+      [
+       12.3578801,
+       49.7339499
+      ],
+      [
+       12.3578566,
+       49.7339989
+      ],
+      [
+       12.3577998,
+       49.7339875
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/596307007"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      12.3589321,
+      49.735936
+     ],
+     [
+      12.3585579,
+      49.7357312
+     ],
+     [
+      12.3584135,
+      49.7354565
+     ],
+     [
+      12.3588443,
+      49.7353394
+     ],
+     [
+      12.3589528,
+      49.7353504
+     ],
+     [
+      12.3594106,
+      49.735397
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "ruins",
+    "name": "Lagertor",
+    "@id": "way/607654773"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3560213,
+       49.7360056
+      ],
+      [
+       12.3560754,
+       49.7360987
+      ],
+      [
+       12.3562173,
+       49.7360642
+      ],
+      [
+       12.3561631,
+       49.7359711
+      ],
+      [
+       12.3560213,
+       49.7360056
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "historic": "memorial",
+    "memorial": "sculpture",
+    "name": "Aschenpyramide",
+    "name:en": "Pytamid of Ashes",
+    "@id": "way/607654776"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3585782,
+       49.7341191
+      ],
+      [
+       12.3585293,
+       49.7340507
+      ],
+      [
+       12.3586428,
+       49.7340168
+      ],
+      [
+       12.3586916,
+       49.7340852
+      ],
+      [
+       12.3585782,
+       49.7341191
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "historic": "building",
+    "@id": "way/607654777"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3582135,
+       49.7337568
+      ],
+      [
+       12.3583072,
+       49.7337203
+      ],
+      [
+       12.3583655,
+       49.7337828
+      ],
+      [
+       12.3583166,
+       49.7338018
+      ],
+      [
+       12.3583046,
+       49.733789
+      ],
+      [
+       12.3582598,
+       49.7338064
+      ],
+      [
+       12.3582135,
+       49.7337568
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "area": "yes",
+    "description": "ehem. Arrestbau",
+    "description:cs": "vezeni",
+    "description:en": "former detention barrack",
+    "historic": "ruins",
+    "ruins": "building",
+    "@id": "way/607654778"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3556661,
+       49.7349547
+      ],
+      [
+       12.3556582,
+       49.734943
+      ],
+      [
+       12.35562,
+       49.7348794
+      ],
+      [
+       12.3558605,
+       49.734819
+      ],
+      [
+       12.3570371,
+       49.73452
+      ],
+      [
+       12.3570898,
+       49.7345067
+      ],
+      [
+       12.3571354,
+       49.7345817
+      ],
+      [
+       12.3564077,
+       49.7347664
+      ],
+      [
+       12.3556661,
+       49.7349547
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/1271239409"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3560183,
+       49.7371536
+      ],
+      [
+       12.3560336,
+       49.7371825
+      ],
+      [
+       12.3560816,
+       49.7371719
+      ],
+      [
+       12.3560663,
+       49.737143
+      ],
+      [
+       12.3560183,
+       49.7371536
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "ruins",
+    "name": "Lagertor",
+    "@id": "way/1271247573"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3559525,
+       49.7358779
+      ],
+      [
+       12.3560066,
+       49.7359709
+      ],
+      [
+       12.3561484,
+       49.7359365
+      ],
+      [
+       12.3560943,
+       49.7358434
+      ],
+      [
+       12.3559525,
+       49.7358779
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Flossenbürg",
+    "addr:housenumber": "1",
+    "addr:postcode": "92696",
+    "addr:street": "Oberer Plattenberg",
+    "building": "yes",
+    "@id": "way/1271393996"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.3546005,
+       49.7353004
+      ],
+      [
+       12.3547953,
+       49.7352651
+      ],
+      [
+       12.3547637,
+       49.7351921
+      ],
+      [
+       12.3545689,
+       49.7352274
+      ],
+      [
+       12.3546005,
+       49.7353004
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/1290666635"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      12.3556582,
+      49.734943
+     ],
+     [
+      12.3556661,
+      49.7349547
+     ],
+     [
+      12.3556817,
+      49.7349802
+     ],
+     [
+      12.3557073,
+      49.7350221
+     ],
+     [
+      12.3559988,
+      49.7349483
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/1290666636"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      12.3570371,
+      49.73452
+     ],
+     [
+      12.3570898,
+      49.7345067
+     ],
+     [
+      12.3571354,
+      49.7345817
+     ],
+     [
+      12.3571813,
+      49.7346599
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "retaining_wall",
+    "@id": "way/1290668315"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      12.3578746,
+      49.7339059
+     ],
+     [
+      12.3581824,
+      49.7343987
+     ],
+     [
+      12.3582765,
+      49.7345441
+     ],
+     [
+      12.3583615,
+      49.7346154
+     ],
+     [
+      12.3586738,
+      49.7348736
+     ],
+     [
+      12.3589218,
+      49.7347697
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/1377800541"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       12.355098,
+       49.737497
+      ],
+      [
+       12.3552592,
+       49.7374612
+      ],
+      [
+       12.3552066,
+       49.737362
+      ],
+      [
+       12.3552433,
+       49.7373539
+      ],
+      [
+       12.3552132,
+       49.7372973
+      ],
+      [
+       12.3550151,
+       49.7373432
+      ],
+      [
+       12.355098,
+       49.737497
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

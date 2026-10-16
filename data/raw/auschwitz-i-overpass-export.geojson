@@ -1,0 +1,3309 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:amenity": "prison_camp",
+    "alt_name": "Auschwitz I",
+    "barrier": "fence",
+    "concentration_camp": "nazism",
+    "fence_type": "barbed_wire",
+    "height": "3.5",
+    "heritage": "1",
+    "historic": "prison_camp",
+    "name": "Niemiecki nazistowski obóz koncentracyjny Auschwitz I",
+    "name:de": "Konzentrationslager Auschwitz (Auschwitz I)",
+    "name:en": "German Nazi Concentration Camp Auschwitz (Auschwitz I)",
+    "name:fr": "Camp de concentration(Auschwitz I)",
+    "name:hu": "Auschwitzi Koncentrációs Tábor (Auschwitz I.)",
+    "name:it": "Campo di Concentramento Auschwitz (Auschwitz I)",
+    "name:ru": "Немецкий концлагерь Аушвиц 1",
+    "old_name": "Auschwitz",
+    "opening_hours": "Jan: Mo-Su 07:30-15:00; Feb: Mo-Su 07:30-16:00; Mar: Mo-Su 07:30-17:00; Apr-May: Mo-Su 07:30-18:00; Jun-Aug: Mo-Su 07:30-19:00; Sep: Mo-Su 07:30-18:00; Oct: Mo-Su 07:30-17:00; Nov: Mo-Su 07:30-15:00; Dec: Mo-Su 07:30-14:00",
+    "operator": "Państwowe Muzeum Auschwitz-Birkenau",
+    "prison_camp": "concentration_camp",
+    "tourism": "museum",
+    "wikidata": "Q7341",
+    "wikipedia": "pl:Auschwitz-Birkenau",
+    "@id": "way/29572443"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2038755,
+      50.0247654
+     ],
+     [
+      19.2015501,
+      50.0258835
+     ],
+     [
+      19.2028541,
+      50.0270062
+     ],
+     [
+      19.2033494,
+      50.0274371
+     ],
+     [
+      19.2033675,
+      50.0274518
+     ],
+     [
+      19.2033865,
+      50.0274681
+     ],
+     [
+      19.2040508,
+      50.0280381
+     ],
+     [
+      19.2047128,
+      50.0277078
+     ],
+     [
+      19.2048785,
+      50.0276252
+     ],
+     [
+      19.2054447,
+      50.0273613
+     ],
+     [
+      19.2063054,
+      50.0269539
+     ],
+     [
+      19.2063777,
+      50.0269197
+     ],
+     [
+      19.2039348,
+      50.0248165
+     ],
+     [
+      19.2038755,
+      50.0247654
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "fence_type": "barbed_wire",
+    "@id": "way/29945483"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2047442,
+      50.0276712
+     ],
+     [
+      19.2047202,
+      50.02765
+     ],
+     [
+      19.2042811,
+      50.0272624
+     ],
+     [
+      19.204194,
+      50.0273015
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 25",
+    "name:de": "Block 25",
+    "name:en": "Block 25",
+    "name:hu": "25. blokk",
+    "name:it": "Blocco 25",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945493"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2028146,
+       50.0264136
+      ],
+      [
+       19.2028183,
+       50.0264308
+      ],
+      [
+       19.2028017,
+       50.0264384
+      ],
+      [
+       19.2027726,
+       50.026432
+      ],
+      [
+       19.2025416,
+       50.026543
+      ],
+      [
+       19.2024244,
+       50.0264475
+      ],
+      [
+       19.2024692,
+       50.0264248
+      ],
+      [
+       19.2029282,
+       50.0262048
+      ],
+      [
+       19.2030416,
+       50.0263052
+      ],
+      [
+       19.2028146,
+       50.0264136
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 26",
+    "name:de": "Block 26",
+    "name:en": "Block 26",
+    "name:hu": "26. blokk",
+    "name:it": "Blocco 26",
+    "roof:colour": "grey",
+    "roof:shape": "flat",
+    "@id": "way/29945498"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2023688,
+       50.0263378
+      ],
+      [
+       19.2023229,
+       50.0263579
+      ],
+      [
+       19.2022125,
+       50.0262618
+      ],
+      [
+       19.2024452,
+       50.0261507
+      ],
+      [
+       19.2024411,
+       50.0261335
+      ],
+      [
+       19.2024617,
+       50.0261235
+      ],
+      [
+       19.2024849,
+       50.0261308
+      ],
+      [
+       19.2027141,
+       50.0260201
+      ],
+      [
+       19.2028279,
+       50.0261179
+      ],
+      [
+       19.2023688,
+       50.0263378
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:colour": "dimgrey",
+    "building:levels": "1",
+    "building:material": "wood",
+    "historic": "building",
+    "name": "Barak pocztowy",
+    "name:be": "Паштовы барак",
+    "name:de": "Postbaracke",
+    "name:en": "Postal barracks",
+    "name:hu": "Postabarak",
+    "roof:colour": "grey",
+    "roof:shape": "gabled",
+    "@id": "way/29945503"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2024692,
+       50.0264248
+      ],
+      [
+       19.2023688,
+       50.0263378
+      ],
+      [
+       19.2028279,
+       50.0261179
+      ],
+      [
+       19.2029282,
+       50.0262048
+      ],
+      [
+       19.2024692,
+       50.0264248
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:colour": "dimgrey",
+    "building:levels": "1",
+    "building:material": "wood",
+    "historic": "building",
+    "name": "Pralnia SS",
+    "name:be": "Пральня СС",
+    "name:de": "Wascherei die SS",
+    "name:en": "SS Laundry",
+    "name:hu": "SS mosdó",
+    "name:it": "Lavanderia SS",
+    "roof:shape": "gabled",
+    "@id": "way/29945507"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2026435,
+       50.0256342
+      ],
+      [
+       19.2025381,
+       50.0255434
+      ],
+      [
+       19.2030106,
+       50.0253173
+      ],
+      [
+       19.2031159,
+       50.0254081
+      ],
+      [
+       19.2026435,
+       50.0256342
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:colour": "dimgrey",
+    "building:levels": "2",
+    "building:material": "wood",
+    "historic": "building",
+    "name": "Wartownia",
+    "name:be": "Вартоўня",
+    "name:de": "Wachhäuschen / Blockfuhrerstube",
+    "name:en": "Guardhouse",
+    "name:hu": "Őrház / blokkparancsnoki helyiség",
+    "roof:colour": "grey",
+    "roof:material": "roof_tiles",
+    "roof:shape": "gabled",
+    "@id": "way/29945509"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2032265,
+       50.0275615
+      ],
+      [
+       19.2032674,
+       50.0275416
+      ],
+      [
+       19.2033005,
+       50.0275254
+      ],
+      [
+       19.2033362,
+       50.027508
+      ],
+      [
+       19.2033887,
+       50.0274824
+      ],
+      [
+       19.2034231,
+       50.0275116
+      ],
+      [
+       19.2033707,
+       50.0275372
+      ],
+      [
+       19.2035696,
+       50.0277055
+      ],
+      [
+       19.2034599,
+       50.027759
+      ],
+      [
+       19.2032265,
+       50.0275615
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 22",
+    "name:de": "Block 22",
+    "name:en": "Block 22",
+    "name:hu": "22. blokk",
+    "name:it": "Blocco 22",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945514"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2041122,
+       50.0279098
+      ],
+      [
+       19.2039989,
+       50.0278111
+      ],
+      [
+       19.2045048,
+       50.0275703
+      ],
+      [
+       19.2045618,
+       50.02762
+      ],
+      [
+       19.204618,
+       50.0276691
+      ],
+      [
+       19.2041122,
+       50.0279098
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "hospital",
+    "building:colour": "wheat",
+    "building:levels": "2",
+    "building:material": "plaster",
+    "description": "SS infirmary",
+    "height": "12",
+    "historic": "building",
+    "name": "Szpitalik SS",
+    "name:be": "Шпіталь СС",
+    "name:de": "SS-Krankenrevier",
+    "name:en": "SS infirmary",
+    "name:hu": "SS gyengélkedő",
+    "name:it": "Infermeria SS",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "hipped",
+    "@id": "way/29945518"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2043338,
+       50.0281004
+      ],
+      [
+       19.2042183,
+       50.0279992
+      ],
+      [
+       19.2047271,
+       50.0277582
+      ],
+      [
+       19.204787,
+       50.0278107
+      ],
+      [
+       19.2048426,
+       50.0278595
+      ],
+      [
+       19.2043338,
+       50.0281004
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 23",
+    "name:de": "Block 23",
+    "name:en": "Block 23",
+    "name:hu": "23. blokk",
+    "name:it": "Blocco 23",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945521"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2039001,
+       50.0277285
+      ],
+      [
+       19.2037881,
+       50.0276312
+      ],
+      [
+       19.2042923,
+       50.0273903
+      ],
+      [
+       19.2043482,
+       50.0274389
+      ],
+      [
+       19.2044043,
+       50.0274876
+      ],
+      [
+       19.2039001,
+       50.0277285
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 24 \"Dom lalek\"",
+    "name:be": "\"Дом лялек\"",
+    "name:en": "Block 24 \"House of Dolls\"",
+    "name:hu": "24. blokk („babaház”)",
+    "name:it": "Blocco 24 \"Casa delle bambole\"",
+    "ref": "Block 24",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "wikidata": "Q81940001",
+    "@id": "way/29945525"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2036903,
+       50.0275452
+      ],
+      [
+       19.2035761,
+       50.027448
+      ],
+      [
+       19.2038088,
+       50.0273345
+      ],
+      [
+       19.2038074,
+       50.0273216
+      ],
+      [
+       19.20383,
+       50.0273112
+      ],
+      [
+       19.2038523,
+       50.0273169
+      ],
+      [
+       19.2040823,
+       50.0272056
+      ],
+      [
+       19.204194,
+       50.0273015
+      ],
+      [
+       19.2036903,
+       50.0275452
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 27",
+    "name:be": "Блок \"Кніга імён\"",
+    "name:de": "Block 27",
+    "name:en": "Block 27",
+    "name:hu": "27. blokk",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "hipped",
+    "@id": "way/29945530"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2023395,
+       50.0260601
+      ],
+      [
+       19.202367,
+       50.026066
+      ],
+      [
+       19.202386,
+       50.0260543
+      ],
+      [
+       19.2023784,
+       50.0260371
+      ],
+      [
+       19.2026103,
+       50.0259286
+      ],
+      [
+       19.2025047,
+       50.0258363
+      ],
+      [
+       19.2019973,
+       50.0260737
+      ],
+      [
+       19.2021097,
+       50.0261729
+      ],
+      [
+       19.2023395,
+       50.0260601
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "description:en": "Deadly injections performed here",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 28 Budynek szpitala obozowego",
+    "name:be": "Блок шпітальны",
+    "name:de": "Block 28 (Krankenbau)",
+    "name:en": "Block 28 Camp Hospital Building (CHB)",
+    "name:hu": "28. blokk (kórházépület)",
+    "name:it": "Blocco 28 Edificio dell'ospedale di campo",
+    "old_name:de": "Block 20",
+    "old_name:en": "Block 20",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945536"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2018945,
+       50.0259887
+      ],
+      [
+       19.2017816,
+       50.0258934
+      ],
+      [
+       19.2020184,
+       50.0257771
+      ],
+      [
+       19.2020142,
+       50.0257658
+      ],
+      [
+       19.2020351,
+       50.0257556
+      ],
+      [
+       19.202057,
+       50.0257609
+      ],
+      [
+       19.2022867,
+       50.0256482
+      ],
+      [
+       19.2023974,
+       50.0257419
+      ],
+      [
+       19.2018945,
+       50.0259887
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 21 Budynek szpitala obozowego (HKB)",
+    "name:be": "Блок шпітальны",
+    "name:de": "Häftlingskrankenbau (HKB) block 21",
+    "name:en": "Prisoner Hospital Building (PHB)",
+    "name:hu": "21. blokk (fogolykórház)",
+    "name:it": "Blocco 21 Edificio dell'ospedale per i prigionieri",
+    "old_name:de": "Block 16",
+    "old_name:en": "Block 16",
+    "ref": "Blok 21",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945541"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2028426,
+       50.0258174
+      ],
+      [
+       19.2027318,
+       50.0257207
+      ],
+      [
+       19.2032271,
+       50.0254852
+      ],
+      [
+       19.2032827,
+       50.0255338
+      ],
+      [
+       19.2033379,
+       50.0255819
+      ],
+      [
+       19.2028426,
+       50.0258174
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "description:en": "Deadly injections performed here",
+    "description:hu": "Foglyok meggyilkolása fenolinjekcióval",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 20 Budynek szpitala obozowego (HKB)",
+    "name:be": "Газавая камера/Крэматорый",
+    "name:de": "Block 20 Tötung von Häftlingen mit Phenolinjektionen (HKB)",
+    "name:en": "Block 20 Camp Hospital Building (CHB)",
+    "name:hu": "20. blokk (fogolykórház)",
+    "name:it": "Blocco 20 Edificio dell'ospedale di campo",
+    "note": "Zabijanie więźniów zastrzykiem z fenolu",
+    "old_name:de": "Block 15",
+    "old_name:en": "Block 15",
+    "ref": "Block 20",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945546"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2030575,
+       50.0260065
+      ],
+      [
+       19.2029422,
+       50.0259064
+      ],
+      [
+       19.2034399,
+       50.0256683
+      ],
+      [
+       19.2034969,
+       50.0257177
+      ],
+      [
+       19.2035552,
+       50.0257682
+      ],
+      [
+       19.2030575,
+       50.0260065
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 8",
+    "name:de": "Block 8",
+    "name:en": "Block 8",
+    "name:hu": "8. blokk",
+    "name:it": "Blocco 8",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945555"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2042246,
+       50.0257346
+      ],
+      [
+       19.2042243,
+       50.025747
+      ],
+      [
+       19.2042021,
+       50.0257586
+      ],
+      [
+       19.2041827,
+       50.0257547
+      ],
+      [
+       19.2039484,
+       50.0258666
+      ],
+      [
+       19.2038931,
+       50.0258187
+      ],
+      [
+       19.2038347,
+       50.0257675
+      ],
+      [
+       19.2043409,
+       50.0255244
+      ],
+      [
+       19.2044554,
+       50.0256236
+      ],
+      [
+       19.2042246,
+       50.0257346
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 9 Budynek szpitala obozowego (HKB)",
+    "name:be": "Блок шпітальны",
+    "name:de": "Block 9 Häftlingskrankenbau (HKB)",
+    "name:en": "Block 9 Camp Hospital Building (CHB)",
+    "name:hu": "9. blokk (fogolykórház)",
+    "name:it": "Blocco 9 Edificio dell'ospedale di campo",
+    "ref": "Block 9",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945559"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.203735,
+       50.0256805
+      ],
+      [
+       19.2036807,
+       50.0256338
+      ],
+      [
+       19.2036201,
+       50.0255816
+      ],
+      [
+       19.2041262,
+       50.0253389
+      ],
+      [
+       19.2042411,
+       50.0254378
+      ],
+      [
+       19.203735,
+       50.0256805
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 10 Eksperymenty \"medyczne\"",
+    "name:be": "Блок эксперыментаў",
+    "name:de": "Block 10 Versuchsstation für \"medizinische\" Forschungen",
+    "name:en": "Block 10 Medical \"Experiments\"",
+    "name:hu": "10. blokk („orvostudományi kísérletek”)",
+    "name:it": "Blocco 10 \"esperimenti\" medici",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "wikidata": "Q3005436",
+    "wikimedia_commons": "Category:Auschwitz I - Block 10",
+    "@id": "way/29945564"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2035202,
+       50.0254932
+      ],
+      [
+       19.2034631,
+       50.0254438
+      ],
+      [
+       19.2034061,
+       50.0253966
+      ],
+      [
+       19.2039115,
+       50.0251545
+      ],
+      [
+       19.2040245,
+       50.0252524
+      ],
+      [
+       19.2035202,
+       50.0254932
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "alt_name:de": "Todesblock",
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 11 Wewnętrzne więzienie \"Blok śmierci\"",
+    "name:be": "Блок смерці",
+    "name:de": "Block 11 Strafbunker Lagergefangnis \"Todesblock\"",
+    "name:en": "Block 11 Inner prison \"Block of death\"",
+    "name:hu": "11. blokk (büntetőbunker, „halálblokk”)",
+    "ref": "12",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "hipped",
+    "wikidata": "Q2606188",
+    "wikimedia_commons": "Category:Auschwitz I - Block 11",
+    "wikipedia": "de:Block 11 (KZ Auschwitz)",
+    "@id": "way/29945569"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2033089,
+       50.0253112
+      ],
+      [
+       19.2032555,
+       50.0252638
+      ],
+      [
+       19.2031973,
+       50.0252132
+      ],
+      [
+       19.2034267,
+       50.0251002
+      ],
+      [
+       19.2034195,
+       50.0250838
+      ],
+      [
+       19.2034407,
+       50.0250739
+      ],
+      [
+       19.2034631,
+       50.0250828
+      ],
+      [
+       19.2036943,
+       50.0249707
+      ],
+      [
+       19.2038088,
+       50.0250687
+      ],
+      [
+       19.2035803,
+       50.0251795
+      ],
+      [
+       19.2033089,
+       50.0253112
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 7",
+    "name:de": "Block 7",
+    "name:en": "Block 7",
+    "name:hu": "7. blokk",
+    "name:it": "Blocco 7",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945580"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2041657,
+       50.0260519
+      ],
+      [
+       19.2041135,
+       50.0260071
+      ],
+      [
+       19.2040482,
+       50.025951
+      ],
+      [
+       19.2045533,
+       50.0257086
+      ],
+      [
+       19.2046707,
+       50.0258096
+      ],
+      [
+       19.2041657,
+       50.0260519
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 6",
+    "name:de": "Block 6",
+    "name:en": "Block 6",
+    "name:hu": "6. blokk",
+    "name:it": "Blocco 6",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945586"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2043782,
+       50.0262377
+      ],
+      [
+       19.2043231,
+       50.0261901
+      ],
+      [
+       19.2042613,
+       50.0261367
+      ],
+      [
+       19.2047691,
+       50.0258943
+      ],
+      [
+       19.2048859,
+       50.0259953
+      ],
+      [
+       19.2043782,
+       50.0262377
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 5",
+    "name:de": "Block 5",
+    "name:en": "Block 5",
+    "name:hu": "5. blokk",
+    "name:it": "Blocco 5",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945592"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2046798,
+       50.0264938
+      ],
+      [
+       19.2046223,
+       50.0264453
+      ],
+      [
+       19.2045632,
+       50.0263953
+      ],
+      [
+       19.2048144,
+       50.0262722
+      ],
+      [
+       19.2050631,
+       50.0261502
+      ],
+      [
+       19.2051795,
+       50.0262489
+      ],
+      [
+       19.2046798,
+       50.0264938
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 4",
+    "name:de": "Block 4",
+    "name:en": "Block 4",
+    "name:hu": "4. blokk",
+    "name:it": "Blocco 4",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945598"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2048963,
+       50.02668
+      ],
+      [
+       19.2048382,
+       50.0266301
+      ],
+      [
+       19.2047798,
+       50.02658
+      ],
+      [
+       19.2052778,
+       50.0263392
+      ],
+      [
+       19.2053944,
+       50.0264394
+      ],
+      [
+       19.2048963,
+       50.02668
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 1",
+    "name:de": "Block 1",
+    "name:en": "Block 1",
+    "name:hu": "1. blokk",
+    "name:it": "Blocco 1",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945604"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2055352,
+       50.0272344
+      ],
+      [
+       19.2054786,
+       50.027186
+      ],
+      [
+       19.2054218,
+       50.0271373
+      ],
+      [
+       19.2059248,
+       50.0268948
+      ],
+      [
+       19.2060382,
+       50.0269919
+      ],
+      [
+       19.2055352,
+       50.0272344
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 2",
+    "name:de": "Block 2",
+    "name:en": "Block 2",
+    "name:hu": "2. blokk",
+    "name:it": "Blocco 2",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945608"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2053163,
+       50.027043
+      ],
+      [
+       19.2052615,
+       50.0269951
+      ],
+      [
+       19.2052086,
+       50.0269488
+      ],
+      [
+       19.2057088,
+       50.0267129
+      ],
+      [
+       19.2058165,
+       50.0268071
+      ],
+      [
+       19.2053163,
+       50.027043
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 3",
+    "name:de": "Block 3",
+    "name:en": "Block 3",
+    "name:hu": "3. blokk",
+    "name:it": "Blocco 3",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945615"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2051001,
+       50.0268575
+      ],
+      [
+       19.205049,
+       50.0268123
+      ],
+      [
+       19.2049985,
+       50.0267675
+      ],
+      [
+       19.2052273,
+       50.0266557
+      ],
+      [
+       19.2052255,
+       50.0266407
+      ],
+      [
+       19.2052473,
+       50.0266302
+      ],
+      [
+       19.2052651,
+       50.0266377
+      ],
+      [
+       19.2055001,
+       50.0265243
+      ],
+      [
+       19.2056045,
+       50.0266142
+      ],
+      [
+       19.2051001,
+       50.0268575
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 12",
+    "name:de": "Block 12",
+    "name:en": "Block 12",
+    "name:hu": "12. blokk",
+    "name:it": "Blocco 12",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945619"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2048491,
+       50.0275626
+      ],
+      [
+       19.2047345,
+       50.0274648
+      ],
+      [
+       19.2052362,
+       50.0272223
+      ],
+      [
+       19.2052941,
+       50.0272718
+      ],
+      [
+       19.2053507,
+       50.0273202
+      ],
+      [
+       19.2048491,
+       50.0275626
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 13",
+    "name:de": "Block 13 (Roma und Sinti Ausstellung)",
+    "name:en": "Block 13 (Roma exhibition)",
+    "name:hu": "13. blokk (Cigány kiállítás)",
+    "name:it": "Blocco 13 (Esposizione sinti e Roma)",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945623"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.204638,
+       50.0273799
+      ],
+      [
+       19.2045772,
+       50.0273274
+      ],
+      [
+       19.2045223,
+       50.02728
+      ],
+      [
+       19.2050271,
+       50.0270387
+      ],
+      [
+       19.2050849,
+       50.0270886
+      ],
+      [
+       19.2051428,
+       50.0271386
+      ],
+      [
+       19.204638,
+       50.0273799
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 14",
+    "name:de": "Block 14",
+    "name:en": "Block 14",
+    "name:hu": "14. blokk",
+    "name:it": "Blocco 14",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945630"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2044227,
+       50.0271941
+      ],
+      [
+       19.204305,
+       50.0270921
+      ],
+      [
+       19.204809,
+       50.0268521
+      ],
+      [
+       19.2048682,
+       50.0269035
+      ],
+      [
+       19.2049266,
+       50.0269541
+      ],
+      [
+       19.2044227,
+       50.0271941
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 17",
+    "name:de": "Block 17",
+    "name:en": "Block 17",
+    "name:hu": "17. blokk",
+    "name:it": "Blocco 17",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945645"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2036971,
+       50.0265635
+      ],
+      [
+       19.2035803,
+       50.0264642
+      ],
+      [
+       19.2040774,
+       50.0262227
+      ],
+      [
+       19.2041361,
+       50.0262726
+      ],
+      [
+       19.2041942,
+       50.026322
+      ],
+      [
+       19.2036971,
+       50.0265635
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 18",
+    "name:de": "Block 18",
+    "name:en": "Block 18",
+    "name:hu": "18. blokk",
+    "name:it": "Blocco 18",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/29945650"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2034827,
+       50.0263793
+      ],
+      [
+       19.203367,
+       50.0262808
+      ],
+      [
+       19.2038651,
+       50.0260394
+      ],
+      [
+       19.2039236,
+       50.0260892
+      ],
+      [
+       19.2039808,
+       50.0261379
+      ],
+      [
+       19.2034827,
+       50.0263793
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "material": "brick",
+    "wall": "brick",
+    "@id": "way/93663283"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2033089,
+      50.0253112
+     ],
+     [
+      19.2033507,
+      50.025355
+     ],
+     [
+      19.2034061,
+      50.0253966
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:colour": "indianred",
+    "building:levels": "1",
+    "building:material": "brick",
+    "description": "SS garages",
+    "historic": "building",
+    "roof:colour": "grey",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "gabled",
+    "@id": "way/202522660"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2032596,
+       50.0279875
+      ],
+      [
+       19.2033351,
+       50.0279116
+      ],
+      [
+       19.2040139,
+       50.0281869
+      ],
+      [
+       19.2039977,
+       50.0282036
+      ],
+      [
+       19.2040862,
+       50.0282394
+      ],
+      [
+       19.2040314,
+       50.0282954
+      ],
+      [
+       19.2039414,
+       50.028259
+      ],
+      [
+       19.2039378,
+       50.0282629
+      ],
+      [
+       19.2032596,
+       50.0279875
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:levels": "1",
+    "historic": "building",
+    "name": "Kuchnia obozowa",
+    "name:be": "Канцлагерная кухня",
+    "name:de": "Haftlingsküche",
+    "name:hu": "Foglyok konyhája",
+    "roof:material": "roof_tiles",
+    "@id": "way/202522665"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2028627,
+       50.0265568
+      ],
+      [
+       19.2027361,
+       50.0266168
+      ],
+      [
+       19.2035273,
+       50.0273059
+      ],
+      [
+       19.2036439,
+       50.0272507
+      ],
+      [
+       19.2035771,
+       50.0271926
+      ],
+      [
+       19.2039,
+       50.0270397
+      ],
+      [
+       19.2037663,
+       50.0269232
+      ],
+      [
+       19.2037468,
+       50.0269324
+      ],
+      [
+       19.2035791,
+       50.0267864
+      ],
+      [
+       19.2034631,
+       50.0268414
+      ],
+      [
+       19.2036302,
+       50.0269869
+      ],
+      [
+       19.2034445,
+       50.0270749
+      ],
+      [
+       19.2030547,
+       50.0267354
+      ],
+      [
+       19.2032394,
+       50.0266479
+      ],
+      [
+       19.2034057,
+       50.0267928
+      ],
+      [
+       19.2035228,
+       50.0267374
+      ],
+      [
+       19.2033536,
+       50.0265901
+      ],
+      [
+       19.2033734,
+       50.0265807
+      ],
+      [
+       19.2032413,
+       50.0264656
+      ],
+      [
+       19.2029265,
+       50.0266147
+      ],
+      [
+       19.2029024,
+       50.0265938
+      ],
+      [
+       19.2029588,
+       50.026567
+      ],
+      [
+       19.2029174,
+       50.0265309
+      ],
+      [
+       19.2028627,
+       50.0265568
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Oświęcim",
+    "addr:city:simc": "0924997",
+    "addr:housenumber": "15",
+    "addr:postcode": "32-600",
+    "addr:street": "Stanisławy Leszczyńskiej",
+    "building": "warehouse",
+    "building:colour": "indianred",
+    "building:levels": "4",
+    "building:material": "brick",
+    "description": "Budynek w okresie funkcjonowania obozu pełnił funkcję magazynu Cyklonu B",
+    "description:de": "Former Zyklon B warehouse when Auschwitz was functional",
+    "historic": "building",
+    "name": "Stary teatr",
+    "name:be": "\"Стары тэатр\"",
+    "name:de": "\"Altes Theater\"",
+    "name:en": "\"Old theater\"",
+    "name:hu": "„Régi színház”",
+    "name:it": "\"Teatro vecchio\"",
+    "old_name": "Theater",
+    "roof:colour": "#c58f79",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "gabled",
+    "source:addr": "gugik.gov.pl",
+    "website": "https://www.auschwitz.org/en/museum/preservation/projects-eu/adaptation-of-the-old-theatre/",
+    "@id": "way/202526077"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2024863,
+       50.025325
+      ],
+      [
+       19.2023912,
+       50.0253712
+      ],
+      [
+       19.2021702,
+       50.0251834
+      ],
+      [
+       19.2021631,
+       50.025189
+      ],
+      [
+       19.202081,
+       50.0251194
+      ],
+      [
+       19.2024647,
+       50.0249327
+      ],
+      [
+       19.2025696,
+       50.0250217
+      ],
+      [
+       19.2025457,
+       50.0250333
+      ],
+      [
+       19.2027402,
+       50.0251984
+      ],
+      [
+       19.2026525,
+       50.0252411
+      ],
+      [
+       19.2027019,
+       50.0252829
+      ],
+      [
+       19.2025333,
+       50.0253649
+      ],
+      [
+       19.2024863,
+       50.025325
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "description": "Camp administration",
+    "height": "12",
+    "historic": "building",
+    "name": "Verwaltung",
+    "name:be": "Адміністрацыя",
+    "name:de": "Verwaltung",
+    "name:en": "Camp administration",
+    "name:hu": "Táborigazgatóság",
+    "name:it": "Amministrazione del campo",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/202526081"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2050654,
+       50.0277467
+      ],
+      [
+       19.2050172,
+       50.0277047
+      ],
+      [
+       19.2049512,
+       50.0276494
+      ],
+      [
+       19.205447,
+       50.0274077
+      ],
+      [
+       19.2055613,
+       50.027505
+      ],
+      [
+       19.205188,
+       50.0276869
+      ],
+      [
+       19.2050654,
+       50.0277467
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "description": "Commandant's office",
+    "height": "12",
+    "historic": "building",
+    "name": "Lagerkommandantur",
+    "name:be": "Камендант канцлагера",
+    "name:de": "Lagerkommandantur",
+    "name:en": "Camp commandant's office",
+    "name:hu": "Táborparancsnokság",
+    "name:it": "Ufficio del comandante del campo",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/202526084"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.20602,
+       50.0272898
+      ],
+      [
+       19.2060239,
+       50.0273071
+      ],
+      [
+       19.2060026,
+       50.0273178
+      ],
+      [
+       19.2059818,
+       50.0273111
+      ],
+      [
+       19.2057514,
+       50.0274192
+      ],
+      [
+       19.2056383,
+       50.0273226
+      ],
+      [
+       19.2061394,
+       50.0270802
+      ],
+      [
+       19.2062537,
+       50.0271775
+      ],
+      [
+       19.20602,
+       50.0272898
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 15",
+    "name:de": "Block 15",
+    "name:en": "Block 15",
+    "name:hu": "15. blokk",
+    "name:it": "Blocco 15",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/202526245"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.204205,
+       50.0270097
+      ],
+      [
+       19.2040889,
+       50.0269087
+      ],
+      [
+       19.2045981,
+       50.0266673
+      ],
+      [
+       19.2046633,
+       50.026724
+      ],
+      [
+       19.2047142,
+       50.0267683
+      ],
+      [
+       19.204205,
+       50.0270097
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 19 Budynek szpitala obozowego (HKB)",
+    "name:be": "Блок шпітальны",
+    "name:de": "Häftlingskrankenbau (HKB) block 19",
+    "name:en": "Block 19 Camp Hospital Building (CHB)",
+    "name:hu": "19. blokk (fogolykórház)",
+    "name:it": "Blocco 19 Edificio dell'ospedale di campo",
+    "old_name:de": "Block 14",
+    "old_name:en": "Block 14",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/202526246"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2032725,
+       50.0261884
+      ],
+      [
+       19.2031594,
+       50.0260904
+      ],
+      [
+       19.2036553,
+       50.0258528
+      ],
+      [
+       19.2037118,
+       50.0259017
+      ],
+      [
+       19.2037684,
+       50.0259507
+      ],
+      [
+       19.2032725,
+       50.0261884
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "indianred",
+    "building:levels": "2",
+    "building:material": "brick",
+    "height": "12",
+    "historic": "building",
+    "name": "Blok 16",
+    "name:de": "Block 16",
+    "name:en": "Block 16",
+    "name:hu": "16. blokk",
+    "name:it": "Blocco 16",
+    "roof:colour": "#c58f79",
+    "roof:height": "5",
+    "roof:levels": "1",
+    "roof:material": "roof_tiles",
+    "roof:shape": "half-hipped",
+    "@id": "way/202526247"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.203997,
+       50.0268246
+      ],
+      [
+       19.2038824,
+       50.026724
+      ],
+      [
+       19.2041365,
+       50.0266045
+      ],
+      [
+       19.2043851,
+       50.0264877
+      ],
+      [
+       19.2044429,
+       50.0265384
+      ],
+      [
+       19.2044996,
+       50.0265882
+      ],
+      [
+       19.203997,
+       50.0268246
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:colour": "black",
+    "height": "14",
+    "man_made": "tower",
+    "roof:colour": "grey",
+    "roof:height": "2",
+    "roof:shape": "pyramidal",
+    "tower:type": "watchtower",
+    "@id": "way/363860239"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2015787,
+       50.0259376
+      ],
+      [
+       19.2015405,
+       50.0259053
+      ],
+      [
+       19.2014897,
+       50.02593
+      ],
+      [
+       19.2015279,
+       50.0259623
+      ],
+      [
+       19.2015787,
+       50.0259376
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:colour": "black",
+    "building:material": "wood",
+    "height": "14",
+    "man_made": "tower",
+    "roof:colour": "grey",
+    "roof:height": "2",
+    "roof:shape": "pyramidal",
+    "tower:type": "watchtower",
+    "@id": "way/363860241"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2039671,
+       50.0247634
+      ],
+      [
+       19.204018,
+       50.0247399
+      ],
+      [
+       19.2039805,
+       50.0247065
+      ],
+      [
+       19.2039297,
+       50.02473
+      ],
+      [
+       19.2039671,
+       50.0247634
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:colour": "black",
+    "height": "14",
+    "man_made": "tower",
+    "roof:colour": "grey",
+    "roof:height": "2",
+    "roof:shape": "pyramidal",
+    "tower:type": "watchtower",
+    "@id": "way/363860242"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2064866,
+       50.026903
+      ],
+      [
+       19.2065337,
+       50.0268812
+      ],
+      [
+       19.2064993,
+       50.0268505
+      ],
+      [
+       19.2064522,
+       50.0268723
+      ],
+      [
+       19.2064866,
+       50.026903
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "dimgrey",
+    "building:levels": "3",
+    "building:material": "wood",
+    "man_made": "tower",
+    "roof:colour": "dimgrey",
+    "roof:material": "metal",
+    "roof:shape": "pyramidal",
+    "tower:type": "watchtower",
+    "@id": "way/508544715"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2039018,
+       50.0281215
+      ],
+      [
+       19.2039388,
+       50.0280845
+      ],
+      [
+       19.2039945,
+       50.0281074
+      ],
+      [
+       19.2039575,
+       50.0281445
+      ],
+      [
+       19.2039018,
+       50.0281215
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "brown",
+    "building:levels": "2",
+    "building:material": "wood",
+    "man_made": "tower",
+    "roof:colour": "indianred",
+    "roof:material": "roof_tiles",
+    "roof:shape": "pyramidal",
+    "tower:type": "watchtower",
+    "@id": "way/508544716"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.204799,
+       50.0276955
+      ],
+      [
+       19.2048326,
+       50.0276798
+      ],
+      [
+       19.2048593,
+       50.0277032
+      ],
+      [
+       19.2048257,
+       50.027719
+      ],
+      [
+       19.204799,
+       50.0276955
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "fence_type": "barbed_wire",
+    "historic": "fence",
+    "@id": "way/508544717"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2040591,
+      50.0279986
+     ],
+     [
+      19.204697,
+      50.0276937
+     ],
+     [
+      19.2047442,
+      50.0276712
+     ],
+     [
+      19.2048645,
+      50.0276106
+     ],
+     [
+      19.2063177,
+      50.0269164
+     ],
+     [
+      19.203864,
+      50.0248055
+     ],
+     [
+      19.2016111,
+      50.0258916
+     ],
+     [
+      19.2033871,
+      50.0274202
+     ],
+     [
+      19.2034041,
+      50.0274349
+     ],
+     [
+      19.2034244,
+      50.0274524
+     ],
+     [
+      19.2040591,
+      50.0279986
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "historic": "wall",
+    "name:de": "Sichtschutzwand",
+    "@id": "way/508544718"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2030067,
+      50.025152
+     ],
+     [
+      19.2035991,
+      50.0248673
+     ],
+     [
+      19.2039765,
+      50.0246866
+     ],
+     [
+      19.2040652,
+      50.0247481
+     ],
+     [
+      19.2044903,
+      50.0250428
+     ],
+     [
+      19.2048103,
+      50.0252805
+     ],
+     [
+      19.2052087,
+      50.0256028
+     ],
+     [
+      19.2054839,
+      50.0258404
+     ],
+     [
+      19.2067287,
+      50.0269178
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "historic": "yes",
+    "name": "Obóz dla radzieckich jeńców wojennych",
+    "name:de": "Russisches Kriegsgefangen Arbeitslager",
+    "name:hu": "Orosz hadifoglyok munkatábora",
+    "@id": "way/518216074"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2034961,
+       50.0274376
+      ],
+      [
+       19.2040685,
+       50.027938
+      ],
+      [
+       19.2060915,
+       50.0269828
+      ],
+      [
+       19.2055191,
+       50.0264825
+      ],
+      [
+       19.2034961,
+       50.0274376
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:colour": "black",
+    "building:levels": "2",
+    "building:material": "wood",
+    "man_made": "tower",
+    "roof:colour": "grey",
+    "roof:shape": "pyramidal",
+    "tower:type": "watchtower",
+    "@id": "way/518216076"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2053403,
+       50.025917
+      ],
+      [
+       19.205371,
+       50.025902
+      ],
+      [
+       19.2053454,
+       50.0258803
+      ],
+      [
+       19.2053147,
+       50.0258953
+      ],
+      [
+       19.2053403,
+       50.025917
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:colour": "black",
+    "building:levels": "2",
+    "building:material": "wood",
+    "man_made": "tower",
+    "roof:colour": "maroon",
+    "roof:material": "roof_tiles",
+    "roof:shape": "pyramidal",
+    "tower:type": "watchtower",
+    "@id": "way/518216078"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2029867,
+       50.0251795
+      ],
+      [
+       19.2030198,
+       50.0251627
+      ],
+      [
+       19.2030067,
+       50.025152
+      ],
+      [
+       19.2029903,
+       50.0251387
+      ],
+      [
+       19.2029572,
+       50.0251555
+      ],
+      [
+       19.2029729,
+       50.0251683
+      ],
+      [
+       19.2029867,
+       50.0251795
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "material": "brick",
+    "wall": "brick",
+    "@id": "way/518216083"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2038088,
+      50.0250687
+     ],
+     [
+      19.2038524,
+      50.0251063
+     ],
+     [
+      19.2039115,
+      50.0251545
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "service",
+    "frequency": "50",
+    "operator": "Tauron",
+    "operator:wikidata": "Q2397198",
+    "power": "substation",
+    "ref": "BBW 50759",
+    "substation": "minor_distribution",
+    "substation:name": "Oświęcim ZK Leszczyńskiej",
+    "voltage": "15000",
+    "@id": "way/1301774189"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2016465,
+       50.0257699
+      ],
+      [
+       19.2016589,
+       50.0257729
+      ],
+      [
+       19.2016629,
+       50.0257739
+      ],
+      [
+       19.2016552,
+       50.0257873
+      ],
+      [
+       19.2016387,
+       50.0257834
+      ],
+      [
+       19.2016465,
+       50.0257699
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "service",
+    "building:levels": "1",
+    "frequency": "50",
+    "operator": "Tauron",
+    "operator:wikidata": "Q2397198",
+    "power": "substation",
+    "substation": "minor_distribution",
+    "voltage": "15000;400",
+    "@id": "way/1301774190"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2020348,
+       50.0253565
+      ],
+      [
+       19.2020586,
+       50.0253771
+      ],
+      [
+       19.2020081,
+       50.0254012
+      ],
+      [
+       19.2019842,
+       50.0253805
+      ],
+      [
+       19.2019923,
+       50.0253767
+      ],
+      [
+       19.2020348,
+       50.0253565
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "fence_type": "railing",
+    "@id": "way/1346446177"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2039699,
+      50.0246537
+     ],
+     [
+      19.2040171,
+      50.0246227
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "fence_type": "railing",
+    "@id": "way/1346446178"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2039892,
+      50.0246761
+     ],
+     [
+      19.2040272,
+      50.0246509
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "historic": "gallows",
+    "material": "steel",
+    "@id": "way/1422709136"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2034765,
+      50.0266429
+     ],
+     [
+      19.2035219,
+      50.0266824
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "source": "Geoportal 2",
+    "@id": "way/1427585291"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2061394,
+      50.0270802
+     ],
+     [
+      19.2063949,
+      50.026957
+     ],
+     [
+      19.2064805,
+      50.0270336
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "source": "Geoportal 2",
+    "@id": "way/1427585292"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2065842,
+      50.0272014
+     ],
+     [
+      19.206524,
+      50.0271444
+     ],
+     [
+      19.2064244,
+      50.0270598
+     ],
+     [
+      19.2064805,
+      50.0270336
+     ],
+     [
+      19.2067287,
+      50.0269178
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "barracks",
+    "building:colour": "black",
+    "building:material": "wood",
+    "man_made": "tower",
+    "roof:colour": "maroon",
+    "roof:material": "roof_tiles",
+    "roof:shape": "pyramidal",
+    "source": "Geoportal 2",
+    "tower:type": "watchtower",
+    "@id": "way/1427593535"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.202414,
+       50.0266516
+      ],
+      [
+       19.2024398,
+       50.0266717
+      ],
+      [
+       19.2024078,
+       50.0266887
+      ],
+      [
+       19.2023819,
+       50.0266686
+      ],
+      [
+       19.202414,
+       50.0266516
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "historic": "wall",
+    "name:de": "Sichtschutzwand",
+    "@id": "way/1427671765"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2017425,
+      50.0261581
+     ],
+     [
+      19.2015371,
+      50.0259945
+     ],
+     [
+      19.2014777,
+      50.0259455
+     ],
+     [
+      19.2015301,
+      50.0258605
+     ],
+     [
+      19.2016241,
+      50.0258166
+     ],
+     [
+      19.2029729,
+      50.0251683
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/1427671769"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2033379,
+      50.0255819
+     ],
+     [
+      19.2034399,
+      50.0256683
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/1427671770"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2028426,
+      50.0258174
+     ],
+     [
+      19.2029422,
+      50.0259064
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/1427671772"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2033494,
+      50.0274371
+     ],
+     [
+      19.2033871,
+      50.0274202
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "@id": "way/1427671773"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      19.2034244,
+      50.0274524
+     ],
+     [
+      19.2033865,
+      50.0274681
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building:levels": "4",
+    "building:part": "yes",
+    "man_made": "tower",
+    "roof:shape": "pyramidal",
+    "tower:type": "watchtower",
+    "@id": "way/1427671775"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2033005,
+       50.0275254
+      ],
+      [
+       19.203325,
+       50.0275462
+      ],
+      [
+       19.2032919,
+       50.0275623
+      ],
+      [
+       19.2032674,
+       50.0275416
+      ],
+      [
+       19.2033005,
+       50.0275254
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "@id": "way/1444316367"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       19.2036564,
+       50.026771
+      ],
+      [
+       19.2036453,
+       50.0267617
+      ],
+      [
+       19.2036626,
+       50.0267532
+      ],
+      [
+       19.2036737,
+       50.0267625
+      ],
+      [
+       19.2036564,
+       50.026771
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

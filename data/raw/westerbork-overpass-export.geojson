@@ -1,0 +1,1690 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:amenity": "prison_camp",
+    "alt_name": "De Schattenberg",
+    "contact:website": "https://kampwesterbork.nl/",
+    "ehl:inscription_date": "2013",
+    "heritage": "1",
+    "heritage:operator": "ehl",
+    "heritage:website": "https://ec.europa.eu/culture/cultural-heritage/initiatives-and-success-stories/european-heritage-label/european-heritage-label-sites/camp-westerbork-the-netherlands",
+    "historic": "yes",
+    "name": "Kamp Westerbork",
+    "old_name": "Kamp Zwiggelte",
+    "prison_camp": "concentration_camp",
+    "start_date": "1939-09",
+    "wikidata": "Q323420",
+    "@id": "way/453544727"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.6041247,
+       52.9186256
+      ],
+      [
+       6.603215,
+       52.9145247
+      ],
+      [
+       6.6031621,
+       52.914294
+      ],
+      [
+       6.6116908,
+       52.9139506
+      ],
+      [
+       6.6113046,
+       52.9183011
+      ],
+      [
+       6.6041247,
+       52.9186256
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "antenna": "AOAD/M_T DUTD",
+    "building": "yes",
+    "ele": "86",
+    "iers_domes_number": "13506M005",
+    "man_made": "monitoring_station",
+    "monitoring:gps": "yes",
+    "name": "Westerbork Synthesis Radio Telescope",
+    "receiver": "AOA SNR-12 ACT",
+    "ref:bag": "1731100000006031",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "source:url": "http://www.astron.nl/radio-observatory/public/public-0",
+    "start_date": "1968",
+    "@id": "way/271911136"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.6037163,
+       52.9148488
+      ],
+      [
+       6.6037165,
+       52.9148142
+      ],
+      [
+       6.6042993,
+       52.9148155
+      ],
+      [
+       6.604299,
+       52.9146223
+      ],
+      [
+       6.6041131,
+       52.9146224
+      ],
+      [
+       6.6041131,
+       52.9146669
+      ],
+      [
+       6.6035271,
+       52.9146662
+      ],
+      [
+       6.6033487,
+       52.9146663
+      ],
+      [
+       6.603349,
+       52.9147787
+      ],
+      [
+       6.6035273,
+       52.9147785
+      ],
+      [
+       6.6036428,
+       52.9147787
+      ],
+      [
+       6.6036427,
+       52.9147996
+      ],
+      [
+       6.6036091,
+       52.9148113
+      ],
+      [
+       6.6036089,
+       52.9148488
+      ],
+      [
+       6.6036622,
+       52.9148676
+      ],
+      [
+       6.6037163,
+       52.9148488
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "ref:bag": "1731100000032311",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "start_date": "1975",
+    "@id": "way/271911248"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.6046455,
+       52.9147016
+      ],
+      [
+       6.6046372,
+       52.9146637
+      ],
+      [
+       6.6044918,
+       52.9146753
+      ],
+      [
+       6.6045001,
+       52.9147132
+      ],
+      [
+       6.6046455,
+       52.9147016
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "ref:bag": "1731100000006032",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "start_date": "1978",
+    "@id": "way/271911285"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.6043824,
+       52.9153637
+      ],
+      [
+       6.6043223,
+       52.9153637
+      ],
+      [
+       6.6043221,
+       52.9153908
+      ],
+      [
+       6.6043823,
+       52.9153909
+      ],
+      [
+       6.6043824,
+       52.9153637
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "ref:bag": "1731100000006034",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "start_date": "1978",
+    "@id": "way/271911361"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.6108058,
+       52.915363
+      ],
+      [
+       6.6107456,
+       52.915363
+      ],
+      [
+       6.6107456,
+       52.9153902
+      ],
+      [
+       6.6108058,
+       52.9153902
+      ],
+      [
+       6.6108058,
+       52.915363
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "ref:bag": "1731100000006033",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "start_date": "1978",
+    "@id": "way/271911404"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.6065234,
+       52.9153636
+      ],
+      [
+       6.6064632,
+       52.9153636
+      ],
+      [
+       6.6064633,
+       52.9153908
+      ],
+      [
+       6.6065235,
+       52.9153907
+      ],
+      [
+       6.6065234,
+       52.9153636
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "ref:bag": "1731100000032271",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "start_date": "2004",
+    "@id": "way/271911425"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.6043046,
+       52.9144857
+      ],
+      [
+       6.6041286,
+       52.9144851
+      ],
+      [
+       6.6041281,
+       52.9145431
+      ],
+      [
+       6.604304,
+       52.9145437
+      ],
+      [
+       6.6043046,
+       52.9144857
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "heritage": "2",
+    "heritage:operator": "rce",
+    "historic": "yes",
+    "military": "bunker",
+    "ref:bag": "1731100000006035",
+    "ref:rce": "478335",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "start_date": "1968",
+    "@id": "way/271911481"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.6030886,
+       52.9155694
+      ],
+      [
+       6.6029877,
+       52.9155691
+      ],
+      [
+       6.6029872,
+       52.9156515
+      ],
+      [
+       6.603088,
+       52.9156518
+      ],
+      [
+       6.6030886,
+       52.9155694
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "ref:bag": "1731100000032737",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "start_date": "1978",
+    "@id": "way/271911759"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.6086692,
+       52.9153616
+      ],
+      [
+       6.6086083,
+       52.9153618
+      ],
+      [
+       6.6086086,
+       52.9153895
+      ],
+      [
+       6.6086695,
+       52.9153892
+      ],
+      [
+       6.6086692,
+       52.9153616
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "ref:bag": "1731100000039222",
+    "source": "BAG",
+    "source:date": "2014-03-24",
+    "start_date": "1975",
+    "@id": "way/271911769"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.6045428,
+       52.9146381
+      ],
+      [
+       6.6045495,
+       52.9146614
+      ],
+      [
+       6.6046296,
+       52.9146531
+      ],
+      [
+       6.6046229,
+       52.9146297
+      ],
+      [
+       6.6045428,
+       52.9146381
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "building": "yes",
+    "building:material": "wood",
+    "historic": "building",
+    "name": "Barak 56",
+    "wikidata": "Q26960632",
+    "wikipedia": "nl:Barak 56",
+    "@id": "way/357893122"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.6095581,
+       52.9167256
+      ],
+      [
+       6.6097355,
+       52.9167314
+      ],
+      [
+       6.6098039,
+       52.9159749
+      ],
+      [
+       6.6096264,
+       52.915969
+      ],
+      [
+       6.6095581,
+       52.9167256
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "historic": "yes",
+    "@id": "way/359537572"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.6111859,
+      52.9163063
+     ],
+     [
+      6.61119,
+      52.916194
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "disused:railway": "rail",
+    "gauge": "1435",
+    "railway": "disused",
+    "@id": "way/453544014"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.606339,
+      52.916851
+     ],
+     [
+      6.6070536,
+      52.9167994
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "height": "0.1",
+    "historic": "ruins",
+    "name": "Grote zaal",
+    "ruins": "barrack",
+    "@id": "way/529267208"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.6047026,
+      52.9165417
+     ],
+     [
+      6.6046412,
+      52.9163232
+     ],
+     [
+      6.6044215,
+      52.9163456
+     ],
+     [
+      6.604389,
+      52.9162299
+     ],
+     [
+      6.6048884,
+      52.9161789
+     ],
+     [
+      6.6049261,
+      52.9163132
+     ],
+     [
+      6.6048044,
+      52.9163256
+     ],
+     [
+      6.6048605,
+      52.9165255
+     ],
+     [
+      6.6047026,
+      52.9165417
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "building:material": "earth",
+    "height": "0.1",
+    "historic": "ruins",
+    "name": "Keuken",
+    "ruins": "barrack",
+    "@id": "way/529267304"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.6048479,
+      52.9169046
+     ],
+     [
+      6.604819,
+      52.9167849
+     ],
+     [
+      6.6060488,
+      52.916677
+     ],
+     [
+      6.6060777,
+      52.9167966
+     ],
+     [
+      6.6048479,
+      52.9169046
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "building:material": "earth",
+    "height": "0.1",
+    "historic": "ruins",
+    "name": "Badhuis",
+    "ruins": "barrack",
+    "@id": "way/529267638"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.6063088,
+      52.9167241
+     ],
+     [
+      6.6062981,
+      52.9166804
+     ],
+     [
+      6.6069134,
+      52.9166261
+     ],
+     [
+      6.606924,
+      52.9166699
+     ],
+     [
+      6.6063088,
+      52.9167241
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "building:material": "earth",
+    "height": "0.1",
+    "historic": "ruins",
+    "name": "Ketelhuis",
+    "ruins": "barrack",
+    "@id": "way/529269482"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.6075705,
+      52.9166823
+     ],
+     [
+      6.6075436,
+      52.91657
+     ],
+     [
+      6.6078401,
+      52.9165442
+     ],
+     [
+      6.607867,
+      52.9166565
+     ],
+     [
+      6.6075705,
+      52.9166823
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "building:material": "earth",
+    "height": "0.1",
+    "historic": "ruins",
+    "name": "Kazerne",
+    "ruins": "barrack",
+    "@id": "way/529269483"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.6077438,
+      52.9163937
+     ],
+     [
+      6.6075846,
+      52.9157613
+     ],
+     [
+      6.6077022,
+      52.9157505
+     ],
+     [
+      6.6078613,
+      52.9163829
+     ],
+     [
+      6.6077438,
+      52.9163937
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "building:material": "earth",
+    "height": "0.1",
+    "historic": "ruins",
+    "name": "Ziekenhuis",
+    "ruins": "barrack",
+    "@id": "way/529269484"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.6041568,
+      52.9158704
+     ],
+     [
+      6.604138,
+      52.9157976
+     ],
+     [
+      6.6051168,
+      52.9157101
+     ],
+     [
+      6.6051327,
+      52.9157855
+     ],
+     [
+      6.6041568,
+      52.9158704
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "building:material": "earth",
+    "height": "0.1",
+    "historic": "ruins",
+    "ruins": "barrack",
+    "@id": "way/529269486"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.6042802,
+      52.9178413
+     ],
+     [
+      6.6041737,
+      52.9177879
+     ],
+     [
+      6.6049221,
+      52.9171896
+     ],
+     [
+      6.6050339,
+      52.917243
+     ],
+     [
+      6.6042802,
+      52.9178413
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "building:material": "earth",
+    "height": "0.1",
+    "historic": "ruins",
+    "name": "woonbarak",
+    "ruins": "barrack",
+    "@id": "way/529269488"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.605943,
+      52.9182407
+     ],
+     [
+      6.6059271,
+      52.9181419
+     ],
+     [
+      6.607162,
+      52.9180698
+     ],
+     [
+      6.6071779,
+      52.9181686
+     ],
+     [
+      6.605943,
+      52.9182407
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "building:material": "earth",
+    "height": "0.1",
+    "historic": "ruins",
+    "name": "Meisjesbarak",
+    "ruins": "barrack",
+    "@id": "way/529269489"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.6058729,
+      52.9179737
+     ],
+     [
+      6.605844,
+      52.9178767
+     ],
+     [
+      6.6070845,
+      52.9177655
+     ],
+     [
+      6.6071027,
+      52.9178657
+     ],
+     [
+      6.6058729,
+      52.9179737
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "building:material": "earth",
+    "height": "0.1",
+    "historic": "ruins",
+    "name": "strafbarak 65",
+    "ruins": "barrack",
+    "@id": "way/529269490"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.6088638,
+      52.9180271
+     ],
+     [
+      6.608843,
+      52.9179324
+     ],
+     [
+      6.6093818,
+      52.9178892
+     ],
+     [
+      6.6094026,
+      52.9179839
+     ],
+     [
+      6.6088638,
+      52.9180271
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "building:material": "earth",
+    "height": "0.1",
+    "historic": "ruins",
+    "name": "strafbarak 66",
+    "ruins": "barrack",
+    "@id": "way/529269491"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.6089008,
+      52.9182174
+     ],
+     [
+      6.6088819,
+      52.9181239
+     ],
+     [
+      6.6095301,
+      52.9180763
+     ],
+     [
+      6.609549,
+      52.9181697
+     ],
+     [
+      6.6089008,
+      52.9182174
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "building:material": "earth",
+    "height": "0.1",
+    "historic": "ruins",
+    "name": "school",
+    "ruins": "barrack",
+    "@id": "way/529269493"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.6110855,
+      52.9177576
+     ],
+     [
+      6.6110023,
+      52.917753
+     ],
+     [
+      6.6110427,
+      52.9174864
+     ],
+     [
+      6.6111259,
+      52.917491
+     ],
+     [
+      6.6110855,
+      52.9177576
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "building:material": "earth",
+    "height": "0.1",
+    "historic": "ruins",
+    "name": "vliegtuigdemontagehal",
+    "ruins": "barrack",
+    "@id": "way/529269495"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.611286,
+      52.9167655
+     ],
+     [
+      6.6111427,
+      52.91676
+     ],
+     [
+      6.6112218,
+      52.916009
+     ],
+     [
+      6.6113651,
+      52.9160145
+     ],
+     [
+      6.611286,
+      52.9167655
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "fence",
+    "fence_type": "metal",
+    "@id": "way/529269496"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.6036261,
+      52.9156887
+     ],
+     [
+      6.6114448,
+      52.9156936
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "building:material": "earth",
+    "height": "0.1",
+    "historic": "ruins",
+    "name": "Barak 57",
+    "ruins": "barrack",
+    "@id": "way/529272128"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.609993,
+      52.916741
+     ],
+     [
+      6.6098497,
+      52.9167355
+     ],
+     [
+      6.6099288,
+      52.9159845
+     ],
+     [
+      6.6100721,
+      52.91599
+     ],
+     [
+      6.609993,
+      52.916741
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "building:material": "earth",
+    "historic": "ruins",
+    "name": "strafbarak 67",
+    "ruins": "barrack",
+    "@id": "way/529272129"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      6.6088889,
+      52.9183179
+     ],
+     [
+      6.6101563,
+      52.9182626
+     ],
+     [
+      6.6101643,
+      52.9183295
+     ],
+     [
+      6.6088969,
+      52.9183848
+     ],
+     [
+      6.6088889,
+      52.9183179
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "man_made": "telescope",
+    "operator": "Astron",
+    "start_date": "1968",
+    "telescope:diameter": "25",
+    "telescope:spectrum": "120-8300 GHz",
+    "telescope:type": "radio",
+    "tower:construction": "dish",
+    "website": "https://www.astron.nl/telescopes/wsrt-apertif/",
+    "@id": "way/653474149"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.6113853,
+       52.9152298
+      ],
+      [
+       6.6113684,
+       52.9152613
+      ],
+      [
+       6.611367,
+       52.9152944
+      ],
+      [
+       6.6113811,
+       52.9153264
+      ],
+      [
+       6.6114095,
+       52.9153547
+      ],
+      [
+       6.61145,
+       52.915377
+      ],
+      [
+       6.6114994,
+       52.9153916
+      ],
+      [
+       6.6115535,
+       52.9153971
+      ],
+      [
+       6.611608,
+       52.9153933
+      ],
+      [
+       6.6116586,
+       52.9153803
+      ],
+      [
+       6.611701,
+       52.9153593
+      ],
+      [
+       6.6117319,
+       52.9153319
+      ],
+      [
+       6.6117487,
+       52.9153004
+      ],
+      [
+       6.6117502,
+       52.9152673
+      ],
+      [
+       6.6117361,
+       52.9152353
+      ],
+      [
+       6.6117076,
+       52.915207
+      ],
+      [
+       6.6116671,
+       52.9151847
+      ],
+      [
+       6.6116178,
+       52.9151701
+      ],
+      [
+       6.6115636,
+       52.9151646
+      ],
+      [
+       6.6115091,
+       52.9151684
+      ],
+      [
+       6.6114586,
+       52.9151814
+      ],
+      [
+       6.6114162,
+       52.9152024
+      ],
+      [
+       6.6113853,
+       52.9152298
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "man_made": "telescope",
+    "operator": "Astron",
+    "start_date": "1968",
+    "telescope:diameter": "25",
+    "telescope:spectrum": "120-8300 GHz",
+    "telescope:type": "radio",
+    "tower:construction": "dish",
+    "website": "https://www.astron.nl/telescopes/wsrt-apertif/",
+    "@id": "way/653474152"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.6108394,
+       52.9152322
+      ],
+      [
+       6.6108225,
+       52.9152637
+      ],
+      [
+       6.6108211,
+       52.9152968
+      ],
+      [
+       6.6108352,
+       52.9153288
+      ],
+      [
+       6.6108636,
+       52.9153571
+      ],
+      [
+       6.6109041,
+       52.9153794
+      ],
+      [
+       6.6109535,
+       52.915394
+      ],
+      [
+       6.6110076,
+       52.9153995
+      ],
+      [
+       6.6110621,
+       52.9153957
+      ],
+      [
+       6.6111127,
+       52.9153827
+      ],
+      [
+       6.6111551,
+       52.9153617
+      ],
+      [
+       6.611186,
+       52.9153343
+      ],
+      [
+       6.6112028,
+       52.9153028
+      ],
+      [
+       6.6112043,
+       52.9152697
+      ],
+      [
+       6.6111902,
+       52.9152377
+      ],
+      [
+       6.6111617,
+       52.9152094
+      ],
+      [
+       6.6111212,
+       52.9151871
+      ],
+      [
+       6.6110719,
+       52.9151725
+      ],
+      [
+       6.6110177,
+       52.915167
+      ],
+      [
+       6.6109632,
+       52.9151708
+      ],
+      [
+       6.6109127,
+       52.9151838
+      ],
+      [
+       6.6108702,
+       52.9152048
+      ],
+      [
+       6.6108394,
+       52.9152322
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "man_made": "telescope",
+    "operator": "Astron",
+    "start_date": "1968",
+    "telescope:diameter": "25",
+    "telescope:spectrum": "120-8300 GHz",
+    "telescope:type": "radio",
+    "tower:construction": "dish",
+    "website": "https://www.astron.nl/telescopes/wsrt-apertif/",
+    "@id": "way/653474156"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.6087636,
+       52.91523
+      ],
+      [
+       6.6087467,
+       52.9152615
+      ],
+      [
+       6.6087453,
+       52.9152946
+      ],
+      [
+       6.6087594,
+       52.9153266
+      ],
+      [
+       6.6087879,
+       52.9153549
+      ],
+      [
+       6.6088284,
+       52.9153773
+      ],
+      [
+       6.6088778,
+       52.9153918
+      ],
+      [
+       6.6089319,
+       52.9153974
+      ],
+      [
+       6.6089864,
+       52.9153935
+      ],
+      [
+       6.6090369,
+       52.9153805
+      ],
+      [
+       6.6090794,
+       52.9153595
+      ],
+      [
+       6.6091102,
+       52.9153321
+      ],
+      [
+       6.6091271,
+       52.9153006
+      ],
+      [
+       6.6091285,
+       52.9152675
+      ],
+      [
+       6.6091144,
+       52.9152355
+      ],
+      [
+       6.6090859,
+       52.9152072
+      ],
+      [
+       6.6090454,
+       52.9151849
+      ],
+      [
+       6.6089961,
+       52.9151704
+      ],
+      [
+       6.6089419,
+       52.9151648
+      ],
+      [
+       6.6088874,
+       52.9151686
+      ],
+      [
+       6.6088369,
+       52.9151816
+      ],
+      [
+       6.6087945,
+       52.9152026
+      ],
+      [
+       6.6087636,
+       52.91523
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "man_made": "telescope",
+    "operator": "Astron",
+    "start_date": "1968",
+    "telescope:diameter": "25",
+    "telescope:spectrum": "120-8300 GHz",
+    "telescope:type": "radio",
+    "tower:construction": "dish",
+    "website": "https://www.astron.nl/telescopes/wsrt-apertif/",
+    "@id": "way/653474159"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.6065839,
+       52.9152308
+      ],
+      [
+       6.6065671,
+       52.9152623
+      ],
+      [
+       6.6065657,
+       52.9152954
+      ],
+      [
+       6.6065798,
+       52.9153274
+      ],
+      [
+       6.6066082,
+       52.9153557
+      ],
+      [
+       6.6066488,
+       52.9153781
+      ],
+      [
+       6.6066981,
+       52.9153926
+      ],
+      [
+       6.6067522,
+       52.9153982
+      ],
+      [
+       6.6068068,
+       52.9153943
+      ],
+      [
+       6.6068573,
+       52.9153813
+      ],
+      [
+       6.6068997,
+       52.9153603
+      ],
+      [
+       6.6069306,
+       52.9153329
+      ],
+      [
+       6.6069474,
+       52.9153014
+      ],
+      [
+       6.6069489,
+       52.9152683
+      ],
+      [
+       6.6069348,
+       52.9152363
+      ],
+      [
+       6.6069063,
+       52.915208
+      ],
+      [
+       6.6068657,
+       52.9151857
+      ],
+      [
+       6.6068164,
+       52.9151712
+      ],
+      [
+       6.6067623,
+       52.9151656
+      ],
+      [
+       6.6067078,
+       52.9151695
+      ],
+      [
+       6.6066572,
+       52.9151824
+      ],
+      [
+       6.6066148,
+       52.9152034
+      ],
+      [
+       6.6065839,
+       52.9152308
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "man_made": "telescope",
+    "operator": "Astron",
+    "start_date": "1968",
+    "telescope:diameter": "25",
+    "telescope:spectrum": "120-8300 GHz",
+    "telescope:type": "radio",
+    "tower:construction": "dish",
+    "website": "https://www.astron.nl/telescopes/wsrt-apertif/",
+    "@id": "way/653474163"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       6.604422,
+       52.9152308
+      ],
+      [
+       6.6044051,
+       52.9152623
+      ],
+      [
+       6.6044036,
+       52.9152954
+      ],
+      [
+       6.6044177,
+       52.9153274
+      ],
+      [
+       6.6044462,
+       52.9153557
+      ],
+      [
+       6.6044867,
+       52.9153781
+      ],
+      [
+       6.604536,
+       52.9153926
+      ],
+      [
+       6.6045901,
+       52.9153982
+      ],
+      [
+       6.6046447,
+       52.9153944
+      ],
+      [
+       6.6046952,
+       52.9153814
+      ],
+      [
+       6.6047376,
+       52.9153604
+      ],
+      [
+       6.6047685,
+       52.915333
+      ],
+      [
+       6.6047854,
+       52.9153015
+      ],
+      [
+       6.6047868,
+       52.9152684
+      ],
+      [
+       6.6047728,
+       52.9152364
+      ],
+      [
+       6.6047443,
+       52.9152081
+      ],
+      [
+       6.6047038,
+       52.9151858
+      ],
+      [
+       6.6046545,
+       52.9151712
+      ],
+      [
+       6.6046004,
+       52.9151656
+      ],
+      [
+       6.6045458,
+       52.9151695
+      ],
+      [
+       6.6044953,
+       52.9151824
+      ],
+      [
+       6.6044529,
+       52.9152034
+      ],
+      [
+       6.604422,
+       52.9152308
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

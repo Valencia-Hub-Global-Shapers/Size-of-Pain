@@ -1,0 +1,300 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "abandoned:amenity": "prison_camp",
+    "barrier": "fence",
+    "concentration_camp": "nazism",
+    "historic": "memorial",
+    "name": "Obóz zagłady w Bełżcu",
+    "name:de": "Vernichtungslager Belzec",
+    "name:en": "Belzec extermination camp",
+    "prison_camp": "concentration_camp",
+    "subject:wikidata": "Q2763",
+    "wikidata": "Q160143",
+    "wikipedia": "pl:Obóz zagłady w Bełżcu",
+    "@id": "way/149827782"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      23.456478,
+      50.37284
+     ],
+     [
+      23.4565144,
+      50.3728109
+     ],
+     [
+      23.4576894,
+      50.3718905
+     ],
+     [
+      23.4582405,
+      50.3716648
+     ],
+     [
+      23.4587658,
+      50.3720537
+     ],
+     [
+      23.4586309,
+      50.3721262
+     ],
+     [
+      23.460441,
+      50.3734803
+     ],
+     [
+      23.460623,
+      50.3736164
+     ],
+     [
+      23.4582559,
+      50.3748516
+     ],
+     [
+      23.4580147,
+      50.3748017
+     ],
+     [
+      23.4577084,
+      50.374969
+     ],
+     [
+      23.4572731,
+      50.3746408
+     ],
+     [
+      23.4556825,
+      50.3734616
+     ],
+     [
+      23.456449,
+      50.3728608
+     ],
+     [
+      23.456478,
+      50.37284
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "ditch",
+    "@id": "way/33023524"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      23.458023,
+      50.3748642
+     ],
+     [
+      23.4588978,
+      50.3751297
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "addr:city": "Bełżec",
+    "addr:city:simc": "0885599",
+    "addr:housenumber": "4",
+    "addr:postcode": "22-670",
+    "addr:street": "Ofiar Obozu Zagłady",
+    "addr:street:sym_ul": "28908",
+    "building": "yes",
+    "fee": "no",
+    "museum": "history",
+    "name": "Muzeum Miejsce Pamięci w Bełżcu",
+    "name:en": "Belzec Memorial Museum",
+    "opening_hours": "Apr-Oct: Tu-Su 09:00-17:00; Nov-Mar: Tu-Su 09:00-17:00",
+    "phone": "+48 84 665 2510",
+    "source:addr": "belzec.e-mapa.net",
+    "tourism": "museum",
+    "website": "https://www.belzec.eu/en",
+    "wikidata": "Q59280811",
+    "wikipedia": "pl:Muzeum – Miejsce Pamięci w Bełżcu",
+    "@id": "way/207113986"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       23.4571637,
+       50.3728403
+      ],
+      [
+       23.4570646,
+       50.372767
+      ],
+      [
+       23.4583983,
+       50.3720324
+      ],
+      [
+       23.4584977,
+       50.3721057
+      ],
+      [
+       23.4571637,
+       50.3728403
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/429474789"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      23.4558457,
+      50.3734357
+     ],
+     [
+      23.4566609,
+      50.3729837
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/429474791"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      23.4566865,
+      50.3729697
+     ],
+     [
+      23.4570646,
+      50.372767
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "barrier": "wall",
+    "@id": "way/429474881"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      23.4588155,
+      50.3742689
+     ],
+     [
+      23.4595545,
+      50.3738644
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "electrified": "no",
+    "embankment": "yes",
+    "gauge": "1435",
+    "operator": "PKP Polskie Linie Kolejowe",
+    "operator:short": "PKP PLK",
+    "operator:wikidata": "Q1344677",
+    "railway": "disused",
+    "service": "spur",
+    "@id": "way/884169222"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      23.4564016,
+      50.3724889
+     ],
+     [
+      23.4567671,
+      50.3722609
+     ],
+     [
+      23.4571038,
+      50.3720332
+     ],
+     [
+      23.457595,
+      50.3717324
+     ],
+     [
+      23.4579526,
+      50.3715517
+     ],
+     [
+      23.4581635,
+      50.3714612
+     ],
+     [
+      23.4587823,
+      50.371228
+     ],
+     [
+      23.4594668,
+      50.3710036
+     ],
+     [
+      23.4601249,
+      50.3707949
+     ],
+     [
+      23.4606856,
+      50.3706186
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "electrified": "no",
+    "gauge": "1435",
+    "railway": "disused",
+    "service": "spur",
+    "@id": "way/1472427857"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      23.456601,
+      50.3723412
+     ],
+     [
+      23.4564016,
+      50.3724889
+     ]
+    ]
+   }
+  }
+ ]
+}
