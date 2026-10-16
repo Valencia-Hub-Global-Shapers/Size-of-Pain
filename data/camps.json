@@ -1,0 +1,31 @@
+{
+  "camps": [
+    {
+      "id": "birkenau",
+      "name": "Auschwitz II–Birkenau",
+      "short": "Birkenau",
+      "place": "Oświęcim (Brzezinka), Poland",
+      "years": "1941–1945",
+      "type": "Concentration and extermination camp",
+      "data": "data/birkenau.geojson",
+      "summary": "Built by Nazi Germany in occupied Poland, Birkenau became the largest of the Auschwitz camps and the main site of the murder of Europe's Jews. Most deportees were sent straight from the trains to the gas chambers; others were forced into slave labour in conditions designed to kill.",
+      "victims": "At least 1.1 million people were murdered at Auschwitz, about 1 million of them Jews, most of them here at Birkenau. Poles, Roma and Sinti, Soviet prisoners of war and people of other nationalities were also killed.",
+      "victims_short": "At least 1.1 million murdered at Auschwitz",
+      "boundary_note": "Outline: the fenced perimeter of sectors BI and BII. The unfinished BIII sector (“Mexico”) to the west would make the camp larger still.",
+      "sources": [
+        {"label": "Auschwitz-Birkenau Memorial and Museum: Auschwitz II-Birkenau", "url": "https://www.auschwitz.org/en/history/auschwitz-ii/"},
+        {"label": "Auschwitz-Birkenau Memorial and Museum: number of victims", "url": "https://www.auschwitz.org/en/history/the-number-of-victims/"}
+      ],
+      "layers": {
+        "boundary": "The perimeter of sectors BI and BII, the built-up core of Birkenau, enclosed by electrified barbed wire. The SS planned an even larger camp: the third sector, BIII, was under construction when the camp was evacuated and is not drawn here.",
+        "sector": "Birkenau was split into fenced sub-camps. BIa and BIb held men at first and later became the women's camp. In BII: BIIa was the quarantine camp, BIIb the “family camp” for Jews from Theresienstadt, BIIc a camp for Hungarian Jewish women, BIId the men's camp, BIIe the camp for Roma and Sinti families, and BIIf the prisoners' hospital.",
+        "barracks": "Most prisoners lived in wooden barracks based on a standard army horse-stable design, each crowded with several hundred people, or in brick blocks in sector BI with three-tier bunks. Many wooden barracks were taken down after the war; often only chimneys and foundations remain.",
+        "watchtower": "Wooden watchtowers lined the perimeter and the internal fences. Guards could see and shoot anyone approaching the wire.",
+        "crematoria": "Four large gas chamber and crematorium buildings (II to V) operated from 1943. Before them, two converted farmhouses were used as gas chambers. In late 1944 and January 1945 the SS blew the crematoria up to destroy the evidence; their ruins are preserved as they were left.",
+        "railway": "In spring 1944 the railway line was extended through the main gate to a ramp inside the camp, between sectors BI and BII and close to crematoria II and III. Hundreds of thousands of Hungarian Jews deported that year arrived here, where SS doctors selected the few judged fit for work. The rest were sent directly to the gas chambers.",
+        "other": "Buildings that kept the camp running: the “Sauna” where new arrivals were shaved, disinfected and registered, the “Kanada” warehouses where stolen belongings were sorted, kitchens, latrines, washrooms and guard buildings.",
+        "memorial": "The International Monument to the Victims of the camp, unveiled in 1967, stands at the end of the railway ramp between the ruins of crematoria II and III."
+      }
+    }
+  ]
+}

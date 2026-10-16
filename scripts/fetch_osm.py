@@ -65,6 +65,8 @@ def bbox_area_m2(bounds):
 def discover(sources, out_path):
     lines = []
     for camp_id, cfg in sources.items():
+        if cfg.get('boundary'):
+            continue
         lat, lon = cfg['center']
         radius = cfg.get('search_radius_m', 2500)
         q = f"""[out:json][timeout:120];
@@ -215,7 +217,7 @@ def fetch(sources, only):
         if only and camp_id not in only:
             continue
         boundary_ids = cfg.get('boundary')
-        if not boundary_ids:
+        if not boundary_ids or cfg.get('skip_fetch'):
             continue
         if isinstance(boundary_ids, str):
             boundary_ids = [boundary_ids]
