@@ -70,7 +70,7 @@ async function main() {
 
   function showRealSiteLabel() {
     labelRequest += 1;
-    locationLabel.textContent = `Real location: ${entry.place}`;
+    locationLabel.textContent = `Actual location: ${entry.place}`;
   }
 
   function moveTo(lat, lng, { fly = false } = {}) {
@@ -350,8 +350,8 @@ async function main() {
     const el = $('mapHint');
     const seen = load('hintSeen', false);
     el.innerHTML = isTouch
-      ? 'Drag the <span class="hint-dot" aria-hidden="true"></span> handle to move the camp, long-press the map to drop it there, or search your city.'
-      : 'Drag the outline or its <span class="hint-dot" aria-hidden="true"></span> handle, click anywhere to drop the camp there, or search your city.';
+      ? 'Drag the <span class="hint-dot" aria-hidden="true"></span> handle to move the camp, long-press the map to place it there, or search for a town.'
+      : 'Drag the outline or its <span class="hint-dot" aria-hidden="true"></span> handle, click the map to place the camp there, or search for a town.';
     el.hidden = seen;
     const close = document.createElement('button');
     close.type = 'button';

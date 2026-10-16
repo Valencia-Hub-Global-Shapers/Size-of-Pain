@@ -123,7 +123,7 @@ async function renderCamps() {
     stats.innerHTML = `<strong>${s.area_km2} km²</strong> · ${s.pitches.toLocaleString('en')} pitches · ${s.walk_min} min walk around`;
     body.appendChild(stats);
     if (c.victims_short) body.appendChild(el('p', { class: 'camp-victims' }, c.victims_short));
-    body.appendChild(el('span', { class: 'camp-cta' }, 'Open on the map →'));
+    body.appendChild(el('span', { class: 'camp-cta' }, 'View on the map'));
     card.appendChild(body);
     grid.appendChild(card);
   });

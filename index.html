@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta name="description" content="Size of Pain places the real, surveyed footprint of Nazi concentration and extermination camps over your own city, so their scale is felt rather than just stated.">
+<meta name="description" content="An educational map that shows the documented footprint of Nazi concentration and extermination camps, at true size, over a place you know.">
 <meta name="theme-color" content="#15130f">
 <meta property="og:title" content="Size of Pain">
-<meta property="og:description" content="See the true size of Nazi camps over the places you know.">
-<title>Size of Pain | The true scale of the camps, over your city</title>
+<meta property="og:description" content="An educational map of the physical scale of the Nazi camps.">
+<title>Size of Pain | Understanding the scale of the Nazi camps</title>
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <script>
   // Old share links were index.html#lat,lng,zoom. Send them to the map.
@@ -33,23 +33,25 @@
     <a href="#layers">Layers</a>
     <a href="#about">About</a>
   </nav>
-  <a class="btn btn-small" href="map.html">Open the map</a>
+  <a class="btn btn-small btn-quiet" href="map.html">Map</a>
 </header>
 
 <main id="top">
   <section class="hero">
     <div class="hero-text">
-      <p class="kicker">An educational map by the Global Shapers Community</p>
-      <h1>Numbers don&rsquo;t land.<br><em>Places do.</em></h1>
-      <p class="lede">Almost everyone knows the camps existed. Very few have any real sense of how big they were. Size of Pain takes the real, surveyed footprint of a Nazi camp and lays it, at true physical size, over a place you already know: your city, your neighbourhood, the street you grew up on.</p>
+      <p class="kicker">An educational project of the Global Shapers Community</p>
+      <h1>Understanding the scale of the camps</h1>
+      <p class="lede">Many people know that the Nazi concentration and extermination camps existed, but few have a sense of their physical size. This map places the documented footprint of a camp, at its true size, over a place you know, such as your own town, so that its scale can be understood in familiar terms.</p>
+      <p class="hero-notice">No map can convey the suffering of the people imprisoned and murdered in these camps. The outlines are offered as an aid to learning and remembrance, alongside the history kept by the memorials at each site.</p>
       <form class="hero-search" action="map.html" method="get" role="search">
-        <label for="heroQ" class="sr-only">Your city or address</label>
-        <input id="heroQ" name="q" type="search" placeholder="Type your city, e.g. Valencia" enterkeyhint="go" autocomplete="off">
+        <p class="form-label" id="heroFormLabel">Compare with a place you know</p>
+        <label for="heroQ" class="sr-only">Town or address</label>
+        <input id="heroQ" name="q" type="search" placeholder="Town or address" enterkeyhint="go" autocomplete="off">
         <label for="heroCamp" class="sr-only">Camp</label>
         <select id="heroCamp" name="camp"><option value="birkenau">Auschwitz II&ndash;Birkenau</option></select>
-        <button class="btn" type="submit">Show it here</button>
+        <button class="btn" type="submit">View on the map</button>
       </form>
-      <p class="hero-sub">Or <a href="map.html">open the map at the real site</a> and drag it anywhere.</p>
+      <p class="hero-sub">Or <a href="map.html">view the camp at its actual location</a>.</p>
     </div>
     <figure class="hero-figure" aria-labelledby="heroCaption">
       <svg id="heroSvg" viewBox="0 0 400 400" role="img" aria-label="Outline of Auschwitz II-Birkenau"></svg>
@@ -63,25 +65,25 @@
       <li>
         <span class="step-num" aria-hidden="true">1</span>
         <h3>Choose a camp</h3>
-        <p>Each camp is drawn from its documented perimeter, barracks, ruins, railways and watchtowers as mapped on OpenStreetMap.</p>
+        <p>Each camp is drawn from its documented perimeter and the barracks, ruins, railways and watchtowers recorded on OpenStreetMap.</p>
       </li>
       <li>
         <span class="step-num" aria-hidden="true">2</span>
-        <h3>Drop it somewhere you know</h3>
-        <p>Search a city, use your location, or drag the outline. It is redrawn at its true size wherever it lands, never stretched by the map projection.</p>
+        <h3>Place it over a familiar location</h3>
+        <p>Search for a town or address, use your location, or move the outline by hand. It is redrawn at its true size wherever it is placed, without distortion from the map projection.</p>
       </li>
       <li>
         <span class="step-num" aria-hidden="true">3</span>
-        <h3>Explore the layers</h3>
-        <p>Switch structures on and off and open <span class="info-inline" aria-hidden="true">i</span> <em>Learn more</em> on each layer to understand what it was and what happened there.</p>
+        <h3>Read about each layer</h3>
+        <p>Structures can be shown or hidden. The <span class="info-inline" aria-hidden="true">i</span> button next to each layer explains what it was and what happened there.</p>
       </li>
     </ol>
   </section>
 
   <section id="camps" class="section">
     <div class="section-head">
-      <h2>The camps</h2>
-      <p>Every outline below is drawn to the same scale, so you can compare them directly. Choose one to open it on the map.</p>
+      <h2>Camps on the map</h2>
+      <p>The outlines below are drawn at the same scale. Select a camp to view it on the map.</p>
     </div>
     <div id="campGrid" class="camp-grid" aria-live="polite"></div>
     <p class="fineprint">Outlines follow what is mapped today. Where the original perimeter does not survive, the outline is the memorial grounds, which may be smaller than the camp was. Each camp's page says which.</p>
@@ -90,16 +92,16 @@
   <section id="layers" class="section">
     <div class="section-head">
       <h2>What the layers show</h2>
-      <p>Every camp is split into the same kinds of structures. On the map, each layer has its own <em>Learn more</em> with what it meant at that particular camp.</p>
+      <p>The features of each camp are grouped into the same kinds of layers. On the map, each layer also has a note about its role at that particular camp.</p>
     </div>
     <div id="layerGrid" class="layer-grid"></div>
   </section>
 
   <section id="about" class="section about">
     <div class="about-text">
-      <h2>Why this exists</h2>
-      <p>&ldquo;1.69&nbsp;km&sup2;&rdquo; or &ldquo;the size of 236 football pitches&rdquo; is a fact you can read and immediately forget. It does not land, because it has nothing to compare itself to inside your own head. This project tries to close that gap: not a lack of awareness that it happened, but a lack of <em>tools</em> to make the scale of it felt rather than just stated.</p>
-      <p class="scope-notice">Scale cannot describe the human loss. This map is an educational spatial comparison and cannot represent the lives, suffering, and histories of the people persecuted and murdered by Nazi Germany. For the history of each site, please visit the memorials linked on every camp.</p>
+      <h2>Purpose</h2>
+      <p>A figure such as 1.69&nbsp;km&sup2;, or 236 football pitches, is easy to read but hard to picture. Seeing the outline of a camp across streets one knows can make its size, and the scale of the crimes committed there, easier to grasp. The project is intended for education and remembrance, for example in classrooms and in preparation for a visit to a memorial.</p>
+      <p class="scope-notice">Scale cannot describe the human loss. This map is an educational spatial comparison and cannot represent the lives, suffering, and histories of the people persecuted and murdered by Nazi Germany. For the history of each site, please refer to the memorials and museums linked for every camp.</p>
       <h3>Data and method</h3>
       <p>Geometry &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>, ODbL. Each shape is stored as metres from the camp's centre and re-projected around wherever you place it, the same idea <a href="https://thetruesize.com" target="_blank" rel="noopener">thetruesize.com</a> uses for countries. Victim figures come from the memorial or museum responsible for each site. The code is open source on <a href="https://github.com/Valencia-Hub-Global-Shapers/Size-of-Pain" target="_blank" rel="noopener">GitHub</a>.</p>
     </div>
@@ -115,7 +117,7 @@
 <footer class="site-footer">
   <img src="assets/valencia-hub-logo.png" width="58" height="50" alt="" aria-hidden="true">
   <p>Size of Pain &middot; Valencia Hub, Global Shapers Community &middot; Map data &copy; OpenStreetMap contributors</p>
-  <a class="btn btn-small" href="map.html">Open the map</a>
+  <a class="btn btn-small btn-quiet" href="map.html">Map</a>
 </footer>
 
 <script type="module" src="src/landing.js"></script>
