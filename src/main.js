@@ -192,7 +192,9 @@ async function main() {
 
   function openLayerInfo(kind) {
     const info = LAYER_INFO[kind];
-    const specific = entry.layers && entry.layers[kind];
+    // A camp's layer note is either plain text or { text, sources }.
+    const raw = entry.layers && entry.layers[kind];
+    const specific = raw && typeof raw === 'object' ? raw.text : raw;
     const count = camp.getCounts()[kind] || 0;
     $('layerDialogTitle').innerHTML = `${swatch(kind)} ${escapeHtml(info.label)}`;
     let html = '';
@@ -202,6 +204,18 @@ async function main() {
     html += `<h3>${specific ? 'In general' : 'What this layer shows'}</h3><p>${escapeHtml(info.general)}</p>`;
     if (kind !== 'boundary') {
       html += `<p class="note">${count} mapped ${count === 1 ? 'feature' : 'features'} in this layer. Hover or tap a shape on the map to see its name, where one is recorded.</p>`;
+    }
+    const refs = [
+      ...((raw && typeof raw === 'object' && raw.sources) || []),
+      ...(specific ? entry.sources || [] : []),
+      ...(info.sources || []),
+    ].filter((src, i, all) => all.findIndex((o) => o.url === src.url) === i);
+    if (refs.length) {
+      html += '<h3>References</h3><ol class="ref-list">';
+      html += refs
+        .map((src) => `<li><a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">${escapeHtml(src.label)}</a></li>`)
+        .join('');
+      html += '</ol>';
     }
     $('layerDialogBody').innerHTML = html;
     openDialog($('layerDialog'));

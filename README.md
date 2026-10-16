@@ -63,7 +63,7 @@ Vercel at the root — nothing to build.
 ```
 index.html             landing page: what the tool is, the camps, the layers, credits
 map.html               the map itself
-assets/                logo and favicon
+assets/                logo (original and dark-background version) and favicon
 src/
   landing.js / .css     landing page (same-scale camp outlines, layer glossary)
   main.js               map page entry point: camp picker, search, drag, sheet, tabs
@@ -83,6 +83,7 @@ scripts/
   fetch_osm.py          Overpass API -> data/raw/<camp>-overpass-export.geojson
   build_data.py         raw export -> data/<camp>.geojson with stats
   filter_data.py        the hand-tuned filter used for the original Birkenau export
+  make_dark_logo.py     derives the dark-background logo from the original
 .github/workflows/
   fetch-camp-data.yml   runs fetch_osm.py on GitHub Actions and commits the result
 ```
@@ -162,7 +163,11 @@ map only shows kinds a camp actually has.
    years, summary, victim figure, sources, a `boundary_note` explaining
    what the outline represents, and one `layers` text per kind the camp
    has. Those texts are what the **Learn more** buttons show, above the
-   general explanation from `src/layers.js`.
+   general explanation from `src/layers.js`. A layer text can also be an
+   object, `{"text": "...", "sources": [{"label": "...", "url": "..."}]}`,
+   when a note needs its own references. Each **Learn more** ends with a
+   References list: the layer's own sources, then the camp's `sources`,
+   then the general sources defined in `src/layers.js`.
 
 Nothing else needs to change: the landing page and the map both read the
 camp list from `data/camps.json`.

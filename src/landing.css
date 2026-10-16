@@ -163,10 +163,10 @@ a:hover { color: var(--ink); }
 .about p { color: var(--ink-dim); }
 .about h3 { margin: 24px 0 8px; font-size: 16px; }
 .scope-notice { padding: 14px 16px; background: var(--raise); border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0; font-size: 15px; }
-.credit-card { padding: 24px; background: #fff; color: #2b2b2b; border-radius: 18px; text-align: center; }
+.credit-card { padding: 24px; background: var(--raise); border: 1px solid var(--border); border-radius: 18px; text-align: center; }
 .credit-card img { display: block; width: 180px; max-width: 100%; height: auto; margin: 0 auto 14px; }
-.credit-card p { margin: 0; color: #444; font-size: 14px; }
-.credit-card a { color: #1e4fa0; }
+.credit-card p { margin: 0; color: var(--ink-dim); font-size: 14px; }
+.credit-card a { color: var(--accent-hover); }
 .logo-link { display: inline-block; }
 
 /* Footer */
@@ -181,7 +181,7 @@ a:hover { color: var(--ink); }
   font-size: 13px;
   color: var(--ink-muted);
 }
-.site-footer img { padding: 4px; background: #fff; border-radius: 8px; }
+.site-footer img { display: block; }
 .site-footer p { flex: 1; margin: 0; }
 
 /* Phones */
